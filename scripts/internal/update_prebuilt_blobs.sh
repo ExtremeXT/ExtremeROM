@@ -64,7 +64,7 @@ fi
 
 case "$1" in
     "prebuilts/samsung/e2sxxx")
-        FIRMWARE="SM-S926B/EUX/351232091234561"
+        FIRMWARE="SM-S926B/EUX/352737401234563"
         ;;
     "prebuilts/samsung/pa3qzcx")
         FIRMWARE="SM-S9380/CHC/355534491000674"
