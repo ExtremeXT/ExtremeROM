@@ -61,6 +61,7 @@ subsystem vfio
 # these should not be world writable
 /dev/uhid                 0660   uhid       uhid
 /dev/uinput               0660   uhid       uhid
+/dev/power_on_alarm       0220   system     radio 
 /dev/rtc0                 0640   system     system
 /dev/tty0                 0660   root       system
 /dev/ttySAC0              0660   root       radio
