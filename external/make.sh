@@ -116,12 +116,6 @@ IS_WSL()
 }
 # ]
 
-if [ "$#" -gt 0 ]; then
-    echo "Usage: $(basename "$0" | sed 's/build_dependencies.sh/build_dependencies/')" >&2
-    echo "This cmd does not accepts any arguments." >&2
-    exit 1
-fi
-
 SRC_DIR="$(GET_SRC_DIR)"
 if [ ! "$SRC_DIR" ]; then
     echo "Couldn't locate the top of the tree. Try setting SRC_DIR." >&2
@@ -178,6 +172,24 @@ OMCDECODER_EXEC=(
     "cscdecoder"
 )
 CHECK_TOOLS "${OMCDECODER_EXEC[@]}" && OMCDECODER=false
+
+if [[ "$1" == "--check-tools" ]]; then
+    if ! $ANDROID_TOOLS && \
+            ! $APKTOOL && \
+            ! $EROFS_UTILS && \
+            ! $IMG2SDAT && \
+            ! $SAMFIRM && \
+            ! $SIGNAPK && \
+            ! $SMALI; then
+        exit 0
+    else
+        exit 1
+    fi
+elif [ "$1" ]; then
+    echo "Usage: $(basename "$0" | sed 's/build_dependencies.sh/build_dependencies/')" >&2
+    echo "This script does not accept any arguments." >&2
+    exit 1
+fi
 
 if $ANDROID_TOOLS; then
     ANDROID_TOOLS_CMDS=(
