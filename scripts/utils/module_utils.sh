@@ -210,6 +210,7 @@ ADD_TO_WORK_DIR()
 
     if [ ! -e "$SOURCE_FILE" ] && [ ! -L "$SOURCE_FILE" ]; then
         if [ -e "$SOURCE_FILE.00" ]; then
+            LOG "- Adding ${TARGET_FILE//$WORK_DIR/} from ${SOURCE//$SRC_DIR\//}"
             mkdir -p "$(dirname "$TARGET_FILE")"
             cat "$SOURCE_FILE.0"* > "$TARGET_FILE"
         elif [ -e "$SOURCE_FILE.000" ]; then
@@ -220,6 +221,7 @@ ADD_TO_WORK_DIR()
             return 1
         fi
     else
+        LOG "- Adding ${TARGET_FILE//$WORK_DIR/} from ${SOURCE//$SRC_DIR\//}"
         if [ ! -d "$SOURCE_FILE" ]; then
             mkdir -p "$(dirname "$TARGET_FILE")"
         else
@@ -481,7 +483,7 @@ HEX_PATCH()
         return 1
     fi
 
-    echo "Patching \"$FROM\" to \"$TO\" in ${FILE//$WORK_DIR/}"
+    LOG "- Patching \"$FROM\" to \"$TO\" in ${FILE//$WORK_DIR/}"
     xxd -p "$FILE" | tr -d "\n" | tr -d " " | sed "s/$FROM/$TO/" | xxd -r -p > "$FILE.tmp"
     mv "$FILE.tmp" "$FILE"
 
@@ -507,14 +509,14 @@ SET_FLOATING_FEATURE_CONFIG()
 
     if grep -q "$CONFIG" "$FILE"; then
         if [[ "$VALUE" == "-d" ]] || [[ "$VALUE" == "--delete" ]]; then
-            echo "Deleting \"$CONFIG\" config in /system/system/etc/floating_feature.xml"
+            LOG "- Deleting \"$CONFIG\" config in /system/system/etc/floating_feature.xml"
             sed -i "/$CONFIG/d" "$FILE"
         else
-            echo "Replacing \"$CONFIG\" config with \"$VALUE\" in /system/system/etc/floating_feature.xml"
+            LOG "- Replacing \"$CONFIG\" config with \"$VALUE\" in /system/system/etc/floating_feature.xml"
             sed -i "$(sed -n "/<${CONFIG}>/=" "$FILE") c\ \ \ \ <${CONFIG}>${VALUE}</${CONFIG}>" "$FILE"
         fi
     elif [[ "$VALUE" != "-d" ]] && [[ "$VALUE" != "--delete" ]]; then
-        echo "Adding \"$CONFIG\" config with \"$VALUE\" in /system/system/etc/floating_feature.xml"
+        LOG "- Adding \"$CONFIG\" config with \"$VALUE\" in /system/system/etc/floating_feature.xml"
         sed -i "/<\/SecFloatingFeatureSet>/d" "$FILE"
         if ! grep -q "Added by scripts" "$FILE"; then
             echo "    <!-- Added by scripts/utils/module_utils.sh -->" >> "$FILE"
@@ -554,6 +556,8 @@ SET_METADATA()
     done
 
     [ "$PARTITION" != "system" ] && [[ "$ENTRY" != "$PARTITION/"* ]] && ENTRY="$PARTITION/$ENTRY"
+
+    LOG "- Adding metadata for /$PARTITION/$ENTRY (uid:$USER gid:$GROUP mode:$MODE selabel:$LABEL)"
 
     local PATTERN
     PATTERN="${ENTRY//\//\\/}"
@@ -604,10 +608,10 @@ SET_PROP()
         # shellcheck disable=SC2116
         for f in $(echo "$FILES"); do
             if [[ "$VALUE" == "-d" ]] || [[ "$VALUE" == "--delete" ]]; then
-                echo "Deleting \"$PROP\" prop in ${f//$WORK_DIR/}"
+                LOG "- Deleting \"$PROP\" prop in ${f//$WORK_DIR/}"
                 sed -i "/^$PROP\b/d" "$f"
             else
-                echo "Replacing \"$PROP\" prop with \"$VALUE\" in ${f//$WORK_DIR/}"
+                LOG "- Replacing \"$PROP\" prop with \"$VALUE\" in ${f//$WORK_DIR/}"
 
                 local LINES
                 LINES="$(sed -n "/^${PROP}\b/=" "$f")"
@@ -655,7 +659,7 @@ SET_PROP()
             return 0
         fi
 
-        echo "Adding \"$PROP\" prop with \"$VALUE\" in ${FILE//$WORK_DIR/}"
+        LOG "- Adding \"$PROP\" prop with \"$VALUE\" in ${FILE//$WORK_DIR/}"
         if ! grep -q "Added by scripts" "$FILE"; then
             echo "# Added by scripts/utils/module_utils.sh" >> "$FILE"
         fi
