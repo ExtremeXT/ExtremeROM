@@ -2,51 +2,44 @@
   <img loading="lazy" src="readme-res/banner.png"/>
 </h1>
 <p align="center">
-  <a href="https://github.com/salvogiangri/UN1CA/blob/fourteen/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/salvogiangri/UN1CA?style=for-the-badge&logo=github"/></a>
-  <a href="https://github.com/salvogiangri/UN1CA/commits/fourteen"><img loading="lazy" src="https://img.shields.io/github/last-commit/salvogiangri/UN1CA/fourteen?style=for-the-badge"/></a>
-  <a href="https://github.com/salvogiangri/UN1CA/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/salvogiangri/UN1CA?style=for-the-badge"/></a>
-  <a href="https://github.com/salvogiangri/UN1CA/graphs/contributors"><img loading="lazy" src="https://img.shields.io/github/contributors/salvogiangri/UN1CA?style=for-the-badge"/></a>
-  <a href="https://github.com/salvogiangri/UN1CA/actions/workflows/build.yml"><img loading="lazy" src="https://img.shields.io/github/actions/workflow/status/salvogiangri/UN1CA/build.yml?style=for-the-badge"/></a>
-  <a href="https://crowdin.com/project/UN1CA"><img loading="lazy" src="https://img.shields.io/badge/Crowdin-263238?style=for-the-badge&logo=crowdin"/></a>
+  <a href="https://github.com/ExtremeXT/UN1CA/blob/fourteen/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/ExtremeXT/UN1CA?style=for-the-badge&logo=github"/></a>
+  <a href="https://github.com/ExtremeXT/UN1CA/commits/fourteen"><img loading="lazy" src="https://img.shields.io/github/last-commit/ExtremeXT/UN1CA/fourteen?style=for-the-badge"/></a>
+  <a href="https://github.com/ExtremeXT/UN1CA/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/ExtremeXT/UN1CA?style=for-the-badge"/></a>
+  <a href="https://github.com/ExtremeXT/UN1CA/graphs/contributors"><img loading="lazy" src="https://img.shields.io/github/contributors/ExtremeXT/UN1CA?style=for-the-badge"/></a>
 </p>
-<p align="center">UN1CA <i>(/ˈu.ni.ka/)</i> is a work-in-progress custom firmware for Samsung Galaxy devices.</p>
+<p align="center">ExtremeROM Nexus is a work-in-progress custom firmware for Samsung Galaxy devices.</p>
 
 <p align="center">
-  <a href="https://github.com/salvogiangri/UN1CA/discussions">🚀 Discussions</a>
-  •
-  <a href="https://t.me/unicarom">💬 Telegram</a>
+  <a href="https://t.me/extremerom">💬 Telegram</a>
 </p>
 
-# What is UN1CA?
-UN1CA is a work-in-progress custom firmware for Samsung Galaxy devices. It's based on the latest and greatest iteration of Samsung's UX and it also includes additional features and tweaks to ensure the best possible experience out of the box.
-Its build system allows to automatically download/extract the firmware, apply the required patches and generates a flashable zip/tar package for the specified device.
+# What is ExtremeROM Nexus?
+ExtremeROM Nexus is a work-in-progress custom firmware for Samsung Galaxy devices. It's based on the latest and greatest iteration of Samsung's UX and it also includes additional features and tweaks to ensure the best possible experience out of the box.
+It is based on the UN1CA build system which allows automatic downloading/extraction of the firmware, applying the required patches and generating a flashable zip/tar package for the specified target device.
+ExtremeROM Nexus supports devices using the the Exynos 9820 and Exynos 990 SoCs
 
 Any form of contribution, suggestions, bug report or feature request for the project will be welcome.
 
 # Features
-- Based on the latest stable Galaxy S25 firmware
-- Galaxy AI support
+- Based on the latest stable OneUI 7 Galaxy S25 Ultra firmware
+- All software features from S25 Ultra
+- Slightly Debloated
+- Partially DeKnoxed
+- Full SELinux Support
+- Full Galaxy AI support
+- Completely upstreamed kernels 4.14 and 4.19 kernels for 9820 respectively 990
 - High end animations
 - Native/live blur support
-- AOD clock transition support
 - Adaptive color tone support
-- Adaptive refresh rate support
-- Extra brightness support
-- Object, shadow and reflection eraser support
-- Image clipper support
-- Smart Suggestions widget
-- Multi user support
-- Samsung DeX support
-- Camera privacy toggle support
+- Custom ExtremeROM Ringtones
 - Debloated from useless system services/additional apps
 - [BluetoothLibraryPatcher](https://github.com/3arthur6/BluetoothLibraryPatcher) included
-- [FrameworkPatch](https://github.com/chiteroman/FrameworkPatch) implemented in system frameworks
 - [KnoxPatch](https://github.com/salvogiangri/KnoxPatch) implemented in system frameworks
-- Chinese Device Care app included(Smart Manager)
-- [Patched GoodLock](https://github.com/corsicanu/goodlock_dump) app included
-- Unlimited backup storage on Google Photos
-- Extra mods (Live blur toggle, FOD animation style, secure screenshot toggle, app downgrade toggle, Dual Messenger on all apps)
-- Extra CSC features (Call recording, Hiya, Network speed in status bar, AltZLife)
+- Extra mods (Disable Secure Flag, OutDoor mode, more coming soon)
+- Extra CSC features (Call recording, Network speed in status bar)
+
+# Bugs
+See the <a href="https://github.com/ExtremeXT/UN1CA/issues">⚠ Issues</a> tab
 
 # Licensing
 This project is licensed under the terms of the [GNU General Public License v3.0](LICENSE). External dependencies might be distributed under a different license, such as:
@@ -58,7 +51,24 @@ This project is licensed under the terms of the [GNU General Public License v3.0
 - [smali](https://github.com/google/smali), [multiple licenses](https://github.com/google/smali/blob/main/third_party/NOTICE)
 
 # Credits
-A big thanks goes to the following for their invaluable contributions in no particular order:
+A big thanks goes to the following for their invaluable contributions in no particular order (MORE INFO AND PEOPLE: TO BE WRITTEN)
+- **[salvo_giangri](https://github.com/salvo_giangri)** for the UN1CA build system, OneUI patches, and general help and support while developing
+- Ocin4Ever
+- Emad
+- Duhan
+- Anan
+- PeterKnetch87
+- tsn
+- Nguyen Long
+- AlexFurina
+- Luphaestus
+- AnanJaser2100
+- Yagzie
+- Fred
+- Saad
+- @april865 (TG) for banner
+
+Original UN1CA credits:
 - **[ShaDisNX255](https://github.com/ShaDisNX255)** for his help, time and for his [NcX ROM](https://github.com/ShaDisNX255/NcX_Stock) which inspired this project
 - **[DavidArsene](https://github.com/DavidArsene)** for his help and time
 - **[paulowesll](https://github.com/paulowesll)** for his help and support
@@ -69,4 +79,4 @@ A big thanks goes to the following for their invaluable contributions in no part
 - *All the UN1CA project contributors and testers ❤️*
 
 # Stargazers over time
-[![Stargazers over time](https://starchart.cc/salvogiangri/UN1CA.svg)](https://starchart.cc/salvogiangri/UN1CA)
+[![Stargazers over time](https://starchart.cc/ExtremeXT/UN1CA.svg)](https://starchart.cc/ExtremeXT/UN1CA)
