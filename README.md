@@ -53,6 +53,7 @@ This project is licensed under the terms of the [GNU General Public License v3.0
 # Credits
 A big thanks goes to the following for their invaluable contributions in no particular order (MORE INFO AND PEOPLE: TO BE WRITTEN)
 - **[salvo_giangri](https://github.com/salvo_giangri)** for the UN1CA build system, OneUI patches, and general help and support while developing
+- **[BotchedRPR](http://github.com/BotchedRPR)**
 - Ocin4Ever
 - Emad
 - Duhan
