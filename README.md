@@ -70,7 +70,7 @@ This project is licensed under the terms of the [GNU General Public License v3.0
 
 # Credits
 A big thanks goes to the following for their invaluable contributions in no particular order (MORE INFO AND PEOPLE: TO BE WRITTEN)
-- **[salvo_giangri](https://github.com/salvo_giangri)** for the UN1CA build system, OneUI patches, and general help and support while developing
+- **[salvo_giangri](https://github.com/salvogiangri)** for the UN1CA build system, OneUI patches, and general help and support while developing
 - **[Ocin4Ever](https://github.com/Ocin4Ever)** for a lot of help especially on smali, advice and emotional support :D
 - **[Igor](https://github.com/BotchedRPR)** for getting me into porting, teaching me the basics, and emotional support down the road
 - **[Halal Beef](https://github.com/halal-beef)** for lk3rd, testing and misc help
