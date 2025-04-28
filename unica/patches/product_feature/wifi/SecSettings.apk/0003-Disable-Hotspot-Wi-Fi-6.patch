@@ -1,0 +1,25 @@
+From d858f664da7b88b370170f6a61632b81379845ab Mon Sep 17 00:00:00 2001
+From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date: Mon, 28 Apr 2025 00:40:22 +0300
+Subject: [PATCH] Disable Hotspot Wi-Fi 6
+
+---
+ .../configure/WifiApConfigureSupportWifi6Controller.smali       | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/smali_classes3/com/samsung/android/settings/wifi/mobileap/configure/WifiApConfigureSupportWifi6Controller.smali b/smali_classes3/com/samsung/android/settings/wifi/mobileap/configure/WifiApConfigureSupportWifi6Controller.smali
+index 7151c6185..eec27ca5c 100644
+--- a/smali_classes3/com/samsung/android/settings/wifi/mobileap/configure/WifiApConfigureSupportWifi6Controller.smali
++++ b/smali_classes3/com/samsung/android/settings/wifi/mobileap/configure/WifiApConfigureSupportWifi6Controller.smali
+@@ -110,7 +110,7 @@
+ .method public getAvailabilityStatus()I
+     .locals 0
+ 
+-    const/4 p0, 0x0
++    const/4 p0, 0x3
+ 
+     return p0
+ .end method
+-- 
+2.45.2
+

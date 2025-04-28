@@ -24,6 +24,15 @@ elif [[ "$TARGET_CODENAME" == "r8s" ]]; then
     ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "product" "priv-app/HotwordEnrollmentXGoogleEx2CORTEXM4/HotwordEnrollmentXGoogleEx2CORTEXM4.apk" 0 0 644 "u:object_r:system_file:s0"
 fi
 
+# Add S-Pen permission XMLs and Air Command APK for C1S/C2S targets
+if [[ "$MODEL" == "c2s" || "$MODEL" == "c1s" ]]; then
+    echo "Adding S-Pen permission XMLs"
+    ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/etc/permissions/com.samsung.android.spensdk.framework-v1.xml" 0 0 644 "u:object_r:system_file:s0"
+    ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/etc/permissions/com.sec.feature.spen_usp_level40.xml" 0 0 644 "u:object_r:system_file:s0"
+    ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/etc/permissions/com.sec.feature.spen_usp_level60.xml" 0 0 644 "u:object_r:system_file:s0"
+    ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/etc/permissions/com.sec.feature.spen_usp_level70.xml" 0 0 644 "u:object_r:system_file:s0"
+fi
+
 echo "Downgrading VaultKeeper JNI"
 ADD_TO_WORK_DIR "dm3qxxx" "system" "system/lib64/libvkjni.so" 0 0 644 "u:object_r:system_lib_file:s0"
 ADD_TO_WORK_DIR "dm3qxxx" "system" "system/lib64/libvkmanager.so" 0 0 644 "u:object_r:system_lib_file:s0"

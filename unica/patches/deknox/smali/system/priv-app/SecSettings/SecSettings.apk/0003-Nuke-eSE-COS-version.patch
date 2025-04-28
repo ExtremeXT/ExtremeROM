@@ -1,0 +1,25 @@
+From 10ae49395d01cecec7792199bc22ac90d74a3737 Mon Sep 17 00:00:00 2001
+From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date: Sun, 27 Apr 2025 23:08:47 +0300
+Subject: [PATCH] Nuke eSE COS version
+
+---
+ .../SecuritySoftwareVersionPreferenceController.smali           | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/smali_classes4/com/samsung/android/settings/deviceinfo/softwareinfo/SecuritySoftwareVersionPreferenceController.smali b/smali_classes4/com/samsung/android/settings/deviceinfo/softwareinfo/SecuritySoftwareVersionPreferenceController.smali
+index 969e7599c..a76ee6572 100644
+--- a/smali_classes4/com/samsung/android/settings/deviceinfo/softwareinfo/SecuritySoftwareVersionPreferenceController.smali
++++ b/smali_classes4/com/samsung/android/settings/deviceinfo/softwareinfo/SecuritySoftwareVersionPreferenceController.smali
+@@ -619,6 +619,8 @@
+ 
+     move-result-object v0
+ 
++    goto :cond_5
++
+     invoke-direct {p0}, Lcom/samsung/android/settings/deviceinfo/softwareinfo/SecuritySoftwareVersionPreferenceController;->getESECOSValue()Ljava/lang/String;
+ 
+     move-result-object v1
+-- 
+2.45.2
+

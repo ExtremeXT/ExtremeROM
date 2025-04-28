@@ -1,0 +1,71 @@
+From 8a6b0fca7d7fab617907c57a1f2e5b17fd3ab536 Mon Sep 17 00:00:00 2001
+From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date: Sun, 27 Apr 2025 20:26:29 +0300
+Subject: [PATCH] Disable DualAP support
+
+---
+ .../wifi/ap/SemSoftApConfiguration.smali      | 46 +------------------
+ 1 file changed, 2 insertions(+), 44 deletions(-)
+
+diff --git a/smali/com/samsung/android/server/wifi/ap/SemSoftApConfiguration.smali b/smali/com/samsung/android/server/wifi/ap/SemSoftApConfiguration.smali
+index d143f21e..242d8c8a 100644
+--- a/smali/com/samsung/android/server/wifi/ap/SemSoftApConfiguration.smali
++++ b/smali/com/samsung/android/server/wifi/ap/SemSoftApConfiguration.smali
+@@ -2421,52 +2421,10 @@
+ .end method
+ 
+ .method public isWifiApEnabledWithDualBand()Z
+-    .locals 2
+-
+-    iget-object p0, p0, Lcom/samsung/android/server/wifi/ap/SemSoftApConfiguration;->mWifiApServiceImpl:Lcom/samsung/android/server/wifi/ap/SemWifiApServiceImpl;
+-
+-    invoke-virtual {p0}, Lcom/samsung/android/server/wifi/ap/SemWifiApServiceImpl;->getSoftApConfiguration()Landroid/net/wifi/SoftApConfiguration;
+-
+-    move-result-object p0
+-
+-    invoke-virtual {p0}, Landroid/net/wifi/SoftApConfiguration;->getChannels()Landroid/util/SparseIntArray;
+-
+-    move-result-object p0
+-
+-    invoke-virtual {p0}, Landroid/util/SparseIntArray;->size()I
+-
+-    move-result p0
+-
+-    const/4 v0, 0x1
+-
+-    if-le p0, v0, :cond_0
+-
+-    invoke-static {}, Lcom/samsung/android/server/wifi/SemWifiInjector;->getInstance()Lcom/samsung/android/server/wifi/SemWifiInjector;
+-
+-    move-result-object p0
+-
+-    invoke-virtual {p0}, Lcom/samsung/android/server/wifi/SemWifiInjector;->getSoftApManager()Lcom/samsung/android/server/wifi/ap/SemSoftApManager;
+-
+-    move-result-object p0
+-
+-    invoke-virtual {p0}, Lcom/samsung/android/server/wifi/ap/SemSoftApManager;->checkDualBandHostapd()Z
+-
+-    move-result p0
+-
+-    if-eqz p0, :cond_0
+-
+-    goto :goto_0
++    .locals 1
+ 
+-    :cond_0
+     const/4 v0, 0x0
+-
+-    :goto_0
+-    const-string p0, "isWifiApEnabledWithDualBand API:"
+-
+-    const-string v1, "SemSoftApConfiguration"
+-
+-    invoke-static {p0, v1, v0}, Lcom/samsung/android/server/wifi/SemCellularStateManager$1$$ExternalSyntheticOutline0;->m(Ljava/lang/String;Ljava/lang/String;Z)V
+-
++    
+     return v0
+ .end method
+ 
+-- 
+2.45.2
+

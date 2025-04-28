@@ -222,3 +222,41 @@ if [ ! -f "$FW_DIR/${MODEL}_${REGION}/vendor/etc/permissions/android.hardware.st
     echo "Applying strongbox patches"
     APPLY_PATCH "system/framework/framework.jar" "strongbox/framework.jar/0001-Disable-StrongBox-in-DevRootKeyATCmd.patch"
 fi
+
+if $SOURCE_SUPPORT_WIFI_7; then
+    if ! $TARGET_SUPPORT_WIFI_7; then
+        echo "Applying Wi-Fi 7 patches"
+        APPLY_PATCH "system/framework/semwifi-service.jar" "wifi/semwifi-service.jar/0001-Disable-Wi-Fi-7-support.patch"
+        APPLY_PATCH "system/priv-app/SecSettings/SecSettings.apk" "wifi/SecSettings.apk/0001-Disable-Wi-Fi-7-support.patch"
+    fi
+fi
+
+if $SOURCE_SUPPORT_HOTSPOT_DUALAP; then
+    if ! $TARGET_SUPPORT_HOTSPOT_DUALAP; then
+        echo "Applying Hotspot DualAP patches"
+        APPLY_PATCH "system/framework/semwifi-service.jar" "wifi/semwifi-service.jar/0002-Disable-DualAP-support.patch"
+        APPLY_PATCH "system/priv-app/SecSettings/SecSettings.apk" "wifi/SecSettings.apk/0002-Disable-DualAP-support.patch"
+    fi
+fi
+
+if $SOURCE_SUPPORT_HOTSPOT_WPA3; then
+    if ! $TARGET_SUPPORT_HOTSPOT_WPA3; then
+        echo "Applying Hotspot WPA3 patches"
+        APPLY_PATCH "system/framework/semwifi-service.jar" "wifi/semwifi-service.jar/0003-Disable-Hotspot-WPA3-support.patch"
+    fi
+fi
+
+if $SOURCE_SUPPORT_HOTSPOT_6GHZ; then
+    if ! $TARGET_SUPPORT_HOTSPOT_6GHZ; then
+        echo "Applying Hotspot 6GHz patches"
+        APPLY_PATCH "system/framework/semwifi-service.jar" "wifi/semwifi-service.jar/0004-Disable-Hotspot-6GHz-support.patch"
+    fi
+fi
+
+if $SOURCE_SUPPORT_HOTSPOT_WIFI_6; then
+    if ! $TARGET_SUPPORT_HOTSPOT_WIFI_6; then
+        echo "Applying Hotspot Wi-Fi 6 patches"
+        APPLY_PATCH "system/framework/semwifi-service.jar" "wifi/semwifi-service.jar/0004-Disable-Hotspot-6GHz-support.patch"
+        APPLY_PATCH "system/priv-app/SecSettings/SecSettings.apk" "wifi/SecSettings.apk/0003-Disable-Hotspot-Wi-Fi-6.patch"
+    fi
+fi

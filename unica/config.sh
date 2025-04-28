@@ -16,7 +16,7 @@
 #
 
 # UN1CA configuration file
-ROM_VERSION="1.0.0"
+ROM_VERSION="1.0.0-nxt"
 ROM_VERSION+="-$(git rev-parse --short HEAD)"
 ROM_CODENAME="Nexus"
 
@@ -46,6 +46,11 @@ case "$TARGET_SINGLE_SYSTEM_IMAGE" in
         SOURCE_IS_ESIM_SUPPORTED=true
         SOURCE_MDNIE_SUPPORTED_MODES="65303"
         SOURCE_SUPPORT_CUTOUT_PROTECTION=false
+        SOURCE_SUPPORT_WIFI_7=true
+        SOURCE_SUPPORT_HOTSPOT_DUALAP=true
+        SOURCE_SUPPORT_HOTSPOT_WPA3=true
+        SOURCE_SUPPORT_HOTSPOT_6GHZ=true
+        SOURCE_SUPPORT_HOTSPOT_WIFI_6=true
         ;;
     *)
         echo "\"$TARGET_SINGLE_SYSTEM_IMAGE\" is not a valid system image."

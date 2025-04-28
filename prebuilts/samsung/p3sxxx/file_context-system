@@ -3,6 +3,7 @@
 /system/bin/remotedisplay u:object_r:remotedisplay_exec:s0
 /system/lib u:object_r:system_lib_file:s0
 /system/lib/android\.hardware\.graphics\.common-V4-ndk\.so u:object_r:system_lib_file:s0
+/system/lib/android\.hardware\.graphics\.common-V5-ndk\.so u:object_r:system_lib_file:s0
 /system/lib/android\.hardware\.graphics\.composer3-V1-ndk\.so u:object_r:system_lib_file:s0
 /system/lib/android\.hardware\.graphics\.extension\.composer3-V1-ndk\.so u:object_r:system_lib_file:s0
 /system/lib/libhdcp2\.so u:object_r:system_lib_file:s0
@@ -15,6 +16,7 @@
 /system/lib/libtsmux\.so u:object_r:system_lib_file:s0
 /system/lib/vendor\.samsung\.hardware\.security\.hdcp\.wifidisplay-V2-ndk\.so u:object_r:system_lib_file:s0
 /system/lib/vendor\.samsung_slsi\.hardware\.ExynosHWCServiceTW@1\.0\.so u:object_r:system_lib_file:s0
+/system/lib/wfd_log\.so u:object_r:system_lib_file:s0
 /system/lib64 u:object_r:system_lib_file:s0
 /system/lib64/libmidas_core\.camera\.samsung\.so u:object_r:system_lib_file:s0
 /system/lib64/libmidas_DNNInterface\.camera\.samsung\.so u:object_r:system_lib_file:s0
