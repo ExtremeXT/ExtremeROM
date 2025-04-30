@@ -30,3 +30,4 @@ target/a73xq/patches/wpss/vendor/firmware/** binary
 target/*/patches/china/vendor/firmware/** binary
 target/m52xq/patches/vendor/vendor/firmware/** binary
 platform/exynos9820/patches/vendor/vendor/** binary
+platform/exynos9825/patches/vendor/vendor/** binary
