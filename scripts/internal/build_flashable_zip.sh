@@ -601,7 +601,7 @@ echo "Creating zip"
 [ -f "$OUT_DIR/$FILE_NAME.zip" ] && rm -f "$OUT_DIR/$FILE_NAME.zip"
 cd "$TMP_DIR" ; zip -rq ../$FILE_NAME.zip ./* ; cd - &> /dev/null
 
-echo "Deleting tmp dir"
-rm -rf "$TMP_DIR"
+# echo "Deleting tmp dir"
+# rm -rf "$TMP_DIR"
 
 exit 0
