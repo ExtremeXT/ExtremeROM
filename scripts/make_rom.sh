@@ -103,10 +103,22 @@ if $BUILD_ROM; then
     echo -e "\n- Applying ROM mods..."
     bash "$SRC_DIR/scripts/internal/apply_modules.sh" "$SRC_DIR/unica/mods"
 
-    echo -e "\n- Recompiling APKs/JARs..."
-    while read -r i; do
-        bash "$SRC_DIR/scripts/apktool.sh" b "$i"
-    done <<< "$(find "$OUT_DIR/apktool" -type d \( -name "*.apk" -o -name "*.jar" \) -printf "%p\n" | sed "s.$OUT_DIR/apktool..")"
+    # echo -e "\n- Recompiling APKs/JARs..."
+    # while read -r i; do
+    #     bash "$SRC_DIR/scripts/apktool.sh" b "$i"
+    # done <<< "$(find "$OUT_DIR/apktool" -type d \( -name "*.apk" -o -name "*.jar" \) -printf "%p\n" | sed "s.$OUT_DIR/apktool..")"
+    # done <<< "$(find "$OUT_DIR/apktool" -type d \( -name "*.apk" -o -name "*.jar" \) -printf "%p\n" | sed "s|$OUT_DIR/apktool||")"
+
+    echo "- Recompiling APKs/JARs..."
+    find "$OUT_DIR/apktool" -type d \( -name "*.apk" -o -name "*.jar" \) | while read -r full_path; do
+    # Remove the OUT_DIR/apktool prefix safely
+    rel_path="${full_path#$OUT_DIR/apktool}"
+    # Remove leading slash if it exists (e.g., /system → system)
+    rel_path="${rel_path#/}"
+
+    echo "→ Recompiling /$rel_path"
+    bash "$SRC_DIR/scripts/apktool.sh" b "$rel_path"
+done
 
     echo ""
     echo -n "$WORK_DIR_HASH" > "$WORK_DIR/.completed"
