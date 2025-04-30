@@ -28,6 +28,26 @@ PRINT_USAGE()
     echo "- Recompiled apk will be copied back to its original directory"
 }
 
+# REMOVE_FROM_WORK_DIR()
+# {
+#     local FILE_PATH="$1"
+
+#     if [ -e "$FILE_PATH" ]; then
+#         local FILE
+#         local PARTITION
+#         FILE="$(echo -n "$FILE_PATH" | sed "s.$WORK_DIR/..")"
+#         PARTITION="$(echo -n "$FILE" | cut -d "/" -f 1)"
+
+#         echo "Debloating /$FILE"
+#         rm -rf "$FILE_PATH"
+
+#         FILE="$(echo -n "$FILE" | sed 's/\//\\\//g')"
+#         sed -i "/$FILE/d" "$WORK_DIR/configs/fs_config-$PARTITION"
+
+#         FILE="$(echo -n "$FILE" | sed 's/\./\\./g')"
+#         sed -i "/$FILE/d" "$WORK_DIR/configs/file_context-$PARTITION"
+#     fi
+# }
 REMOVE_FROM_WORK_DIR()
 {
     local FILE_PATH="$1"
@@ -41,10 +61,11 @@ REMOVE_FROM_WORK_DIR()
         echo "Debloating /$FILE"
         rm -rf "$FILE_PATH"
 
-        FILE="$(echo -n "$FILE" | sed 's/\//\\\//g')"
+        # Escape sed metacharacters in $FILE for the 'delete' command
+        FILE="$(echo "$FILE" | sed 's/[\/&.]/\\&/g')" 
         sed -i "/$FILE/d" "$WORK_DIR/configs/fs_config-$PARTITION"
 
-        FILE="$(echo -n "$FILE" | sed 's/\./\\./g')"
+        # No need to escape again, $FILE is already escaped
         sed -i "/$FILE/d" "$WORK_DIR/configs/file_context-$PARTITION"
     fi
 }
