@@ -185,14 +185,104 @@ DO_DECOMPILE()
     fi
 }
 
+# DO_RECOMPILE()
+# {
+#     local IN_DIR="$1"
+#     local APK_PATH
+#     local APK_NAME
+#     local DEX_FILENAME
+
+#     [[ "$IN_DIR" != "/"* ]] && IN_DIR="/$IN_DIR"
+#     echo "[INF] DO_RECOMPILE $IN_DIR"
+
+#     case "$IN_DIR" in
+#         "/system/system_ext/"*)
+#             if $TARGET_HAS_SYSTEM_EXT; then
+#                 APK_PATH="$WORK_DIR$(echo "$IN_DIR" | sed 's/\/system\/system_ext/\/system_ext/')"
+#             else
+#                 APK_PATH="$WORK_DIR/system$IN_DIR"
+#             fi
+#             IN_DIR="$(echo "$IN_DIR" | sed 's/\/system\/system_ext/\/system_ext/')"
+#         ;;
+#         "/system_ext/"*)
+#             if $TARGET_HAS_SYSTEM_EXT; then
+#                 APK_PATH="$WORK_DIR$IN_DIR"
+#             else
+#                 APK_PATH="$WORK_DIR/system/system$IN_DIR"
+#             fi
+#             ;;
+#         "/system/system/"*)
+#             APK_PATH="$WORK_DIR$IN_DIR"
+#             IN_DIR="$(echo "$IN_DIR" | sed 's/\/system\/system/\/system/')"
+#             ;;
+#         "/system/"*)
+#             APK_PATH="$WORK_DIR/system$IN_DIR"
+#             ;;
+#         "/odm/"* | "/product/"* | "/system_dlkm/"* | "/vendor/"* | "/vendor_dlkm/"*)
+#             APK_PATH="$WORK_DIR$IN_DIR"
+#             ;;
+#         *)
+#             echo "Unvalid path: $IN_DIR"
+#             return 1
+#             ;;
+#     esac
+
+#     if [ ! -d "$APKTOOL_DIR$IN_DIR" ]; then
+#         echo "Folder not found: $IN_DIR"
+#         return 1
+#     fi
+
+#     APK_NAME="$(basename "$APK_PATH")"
+
+#     echo "Recompiling $IN_DIR"
+
+#     for f in "$APKTOOL_DIR$IN_DIR/"*
+#     do
+#         [[ "$f" != *"smali"* ]] && continue
+
+#         if [[ "$f" == *"smali" ]]; then
+#             DEX_FILENAME="classes.dex"
+#         else
+#             DEX_FILENAME="$(basename "${f/smali_//}").dex"
+#         fi
+
+#         smali a -a "$(cat "$APKTOOL_DIR$IN_DIR/../dex_api_version")" -o "$APKTOOL_DIR$IN_DIR/$DEX_FILENAME" "$f"
+#     done
+
+#     mkdir -p "$APKTOOL_DIR$IN_DIR/build/apk"
+#     cp -a --preserve=all "$APKTOOL_DIR$IN_DIR/original/META-INF" "$APKTOOL_DIR$IN_DIR/build/apk/META-INF"
+#     apktool -q b -p "$FRAMEWORK_DIR" -srp "$APKTOOL_DIR$IN_DIR"
+#     [[ -f "$APKTOOL_DIR$IN_DIR/classes.dex" ]] && rm "$APKTOOL_DIR$IN_DIR/"*.dex
+
+#     echo "Zipaligning $IN_DIR"
+#     zipalign -p 4 "$APKTOOL_DIR$IN_DIR/dist/$APK_NAME" "$APKTOOL_DIR$IN_DIR/dist/temp" \
+#         && mv -f "$APKTOOL_DIR$IN_DIR/dist/temp" "$APKTOOL_DIR$IN_DIR/dist/$APK_NAME"
+
+#     mv -f "$APKTOOL_DIR$IN_DIR/dist/$APK_NAME" "$APK_PATH"
+#     rm -rf "$APKTOOL_DIR$IN_DIR/build" && rm -rf "$APKTOOL_DIR$IN_DIR/dist"
+
+#     if [ -d "${APK_PATH%/*}/oat" ]; then
+#         REMOVE_FROM_WORK_DIR "${APK_PATH%/*}/oat"
+#     fi
+#     if [ -f "${APK_PATH%/*}/$APK_NAME.prof" ]; then
+#         REMOVE_FROM_WORK_DIR "${APK_PATH%/*}/$APK_NAME.prof"
+#     fi
+#     if [ -f "${APK_PATH%/*}/$APK_NAME.bprof" ]; then
+#         REMOVE_FROM_WORK_DIR "${APK_PATH%/*}/$APK_NAME.bprof"
+#     fi
+# }
 DO_RECOMPILE()
 {
     local IN_DIR="$1"
     local APK_PATH
     local APK_NAME
     local DEX_FILENAME
+    local OAT_DIR
+    local PROF_FILE
+    local BPROF_FILE
 
     [[ "$IN_DIR" != "/"* ]] && IN_DIR="/$IN_DIR"
+    echo "[INF] DO_RECOMPILE $IN_DIR"
 
     case "$IN_DIR" in
         "/system/system_ext/"*)
@@ -260,14 +350,23 @@ DO_RECOMPILE()
     mv -f "$APKTOOL_DIR$IN_DIR/dist/$APK_NAME" "$APK_PATH"
     rm -rf "$APKTOOL_DIR$IN_DIR/build" && rm -rf "$APKTOOL_DIR$IN_DIR/dist"
 
+    OAT_DIR="${APK_PATH%/*}/oat"
+    PROF_FILE="${APK_PATH%/*}/$APK_NAME.prof"
+    BPROF_FILE="${APK_PATH%/*}/$APK_NAME.bprof"
+
+    # Escape the paths before calling REMOVE_FROM_WORK_DIR
+    OAT_DIR="$(echo "$OAT_DIR" | sed 's/[\/&.]/\\&/g')"
+    PROF_FILE="$(echo "$PROF_FILE" | sed 's/[\/&.]/\\&/g')"
+    BPROF_FILE="$(echo "$BPROF_FILE" | sed 's/[\/&.]/\\&/g')"
+
     if [ -d "${APK_PATH%/*}/oat" ]; then
-        REMOVE_FROM_WORK_DIR "${APK_PATH%/*}/oat"
+        REMOVE_FROM_WORK_DIR "$OAT_DIR"
     fi
     if [ -f "${APK_PATH%/*}/$APK_NAME.prof" ]; then
-        REMOVE_FROM_WORK_DIR "${APK_PATH%/*}/$APK_NAME.prof"
+        REMOVE_FROM_WORK_DIR "$PROF_FILE"
     fi
     if [ -f "${APK_PATH%/*}/$APK_NAME.bprof" ]; then
-        REMOVE_FROM_WORK_DIR "${APK_PATH%/*}/$APK_NAME.bprof"
+        REMOVE_FROM_WORK_DIR "$BPROF_FILE"
     fi
 }
 
