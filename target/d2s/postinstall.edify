@@ -1,5 +1,5 @@
 
-# target/beyond2lte/postinstall.edify
+# target/d2s/postinstall.edify
 ui_print("Expanding partitions...");
 run_program("/bin/e2fsck", "-f ", "/dev/block/by-name/system");
 run_program("/bin/resize2fs", "/dev/block/by-name/system");
