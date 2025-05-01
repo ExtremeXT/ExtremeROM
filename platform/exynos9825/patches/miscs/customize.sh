@@ -1,13 +1,13 @@
 echo "Disabling UFFD GC"
 SET_PROP "product" "ro.dalvik.vm.enable_uffd_gc" "false"
 
-echo "Disabling encryption"
-# Encryption
-LINE=$(sed -n "/^\/dev\/block\/by-name\/userdata/=" "$WORK_DIR/vendor/etc/fstab.exynos9825")
-sed -i "${LINE}s/,fileencryption=ice//g" "$WORK_DIR/vendor/etc/fstab.exynos9825"
+# echo "Disabling encryption"
+# # Encryption
+# LINE=$(sed -n "/^\/dev\/block\/by-name\/userdata/=" "$WORK_DIR/vendor/etc/fstab.exynos9825")
+# sed -i "${LINE}s/,fileencryption=ice//g" "$WORK_DIR/vendor/etc/fstab.exynos9825"
 
-# ODE
-sed -i -e "/ODE/d" -e "/keydata/d" -e "/keyrefuge/d" "$WORK_DIR/vendor/etc/fstab.exynos9825"
+# # ODE
+# sed -i -e "/ODE/d" -e "/keydata/d" -e "/keyrefuge/d" "$WORK_DIR/vendor/etc/fstab.exynos9825"
 
 echo "Enabling updateable APEX images"
 SET_PROP "vendor" "ro.apex.updatable" "true"
