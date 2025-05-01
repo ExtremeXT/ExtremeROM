@@ -172,6 +172,7 @@ if [[ $TARGET_SINGLE_SYSTEM_IMAGE == "essi" || $TARGET_SINGLE_SYSTEM_IMAGE == "e
     system/lib64/libeden_nn_on_system.so
     system/lib64/libeden_rt_stub.edensdk.samsung.so
     system/lib64/libgui.so
+    system/lib64/libui.so
     system/lib64/libhdcp2.so
     system/lib64/libhdcp_client_aidl.so
     system/lib64/libhidl_comm_mpos_tui_client.so

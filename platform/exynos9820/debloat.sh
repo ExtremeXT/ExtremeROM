@@ -39,3 +39,10 @@ system/priv-app/SCameraSDKService
 system/priv-app/sec_camerax_service
 system/priv-app/VideoScan
 "
+
+# Wi-Fi Hotspot Overlays
+PRODUCT_DEBLOAT+="
+overlay/SoftapOverlay6GHz
+overlay/SoftapOverlayDualAp
+overlay/SoftapOverlayOWE
+"

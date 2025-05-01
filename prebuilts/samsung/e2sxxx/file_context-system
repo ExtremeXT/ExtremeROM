@@ -65,6 +65,7 @@
 /system/lib64/libnfc-nci_flags\.so u:object_r:system_lib_file:s0
 /system/lib64/libstatslog_nfc\.so u:object_r:system_lib_file:s0
 /system/lib64/libgui\.so u:object_r:system_lib_file:s0
+/system/lib64/libui\.so u:object_r:system_lib_file:s0
 /system/lib64/libhdcp2\.so u:object_r:system_lib_file:s0
 /system/lib64/libhdcp_client_aidl\.so u:object_r:system_lib_file:s0
 /system/lib64/libhidl_comm_mpos_tui_client\.so u:object_r:system_lib_file:s0

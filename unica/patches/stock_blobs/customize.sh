@@ -12,6 +12,10 @@ ADD_TO_WORK_DIR "$SOURCE_FIRMWARE_PATH" "system" "system/saiv/textrecognition" 0
 echo "Replacing cameradata blobs with stock"
 DELETE_FROM_WORK_DIR "system" "system/cameradata"
 ADD_TO_WORK_DIR "$TARGET_FIRMWARE_PATH" "system" "system/cameradata" 0 0 755 "u:object_r:system_file:s0"
+DELETE_FROM_WORK_DIR "system" "system/cameradata/preloadfilters"
+ADD_TO_WORK_DIR "$SOURCE_FIRMWARE_PATH" "system" "system/cameradata/preloadfilters" 0 0 755 "u:object_r:system_file:s0"
+DELETE_FROM_WORK_DIR "system" "system/cameradata/myfilter"
+ADD_TO_WORK_DIR "$SOURCE_FIRMWARE_PATH" "system" "system/cameradata/myfilter" 0 0 755 "u:object_r:system_file:s0"
 
 if [ -f "$TARGET_FIRMWARE_PATH/system/system/usr/share/alsa/alsa.conf" ]; then
     echo "Add stock alsa.conf"

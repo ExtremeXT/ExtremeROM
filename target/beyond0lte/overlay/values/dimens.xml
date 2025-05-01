@@ -11,10 +11,10 @@
     <dimen name="cover_clear_view_right">348.0dip</dimen>
     <dimen name="cover_clear_view_rounded_corner">52.0dip</dimen>
     <dimen name="cover_clear_view_top">11.0dip</dimen>
-    <dimen name="physical_power_button_center_screen_location_y">420.0px</dimen>
-    <dimen name="rounded_corner_radius_bottom">40.0dip</dimen>
+    <dimen name="physical_power_button_center_screen_location_y">380.0px</dimen>
+    <dimen name="rounded_corner_radius_bottom">32.0dip</dimen>
     <dimen name="rounded_corner_radius_for_letterbox">2.0mm</dimen>
-    <dimen name="rounded_corner_radius_top">40.0dip</dimen>
+    <dimen name="rounded_corner_radius_top">32.0dip</dimen>
     <dimen name="status_bar_camera_side_padding">2.1166382mm</dimen>
     <dimen name="status_bar_camera_top_margin">1.7638855mm</dimen>
     <dimen name="status_bar_height_portrait">6.701935mm</dimen>

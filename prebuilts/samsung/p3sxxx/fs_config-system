@@ -1,6 +1,9 @@
 system 0 0 755 capabilities=0x0
 system/bin 0 2000 0751 capabilities=0x0
 system/bin/remotedisplay 0 2000 0755 capabilities=0x0
+system/etc 0 0 755 capabilities=0x0
+system/etc/permissions 0 0 755 capabilities=0x0
+system/etc/permissions/privapp-permissions-com.sec.android.cover.ledcover.xml 0 0 644 capabilities=0x0
 system/lib 0 0 755 capabilities=0x0
 system/lib/android.hardware.graphics.common-V4-ndk.so 0 0 644 capabilities=0x0
 system/lib/android.hardware.graphics.common-V5-ndk.so 0 0 644 capabilities=0x0
@@ -35,3 +38,5 @@ system/lib64/vendor.samsung.hardware.snap-V2-ndk.so 0 0 644 capabilities=0x0
 system/priv-app 0 0 755 capabilities=0x0
 system/priv-app/PhotoRemasterService 0 0 755 capabilities=0x0
 system/priv-app/PhotoRemasterService/PhotoRemasterService.apk 0 0 644 capabilities=0x0
+system/priv-app/LedCoverService 0 0 755 capabilities=0x0
+system/priv-app/LedCoverService/LedCoverService.apk 0 0 644 capabilities=0x0
