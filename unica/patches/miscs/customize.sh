@@ -2,7 +2,7 @@ TARGET_FIRMWARE_PATH="$FW_DIR/$(echo -n "$TARGET_FIRMWARE" | sed 's./._.g' | rev
 
 # Set build ID
 VALUE="$(GET_PROP "$WORK_DIR/system/system/build.prop" "ro.build.display.id")"
-SET_PROP "system" "ro.build.display.id" "ExtremeROM $ROM_CODENAME $ROM_VERSION - $TARGET_CODENAME ($VALUE)"
+SET_PROP "system" "ro.build.display.id" "EternityROM $ROM_CODENAME $ROM_VERSION - $TARGET_CODENAME ($VALUE)"
 
 # Disable FRP
 SET_PROP "vendor" "ro.frp.pst" ""
