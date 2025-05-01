@@ -1,0 +1,279 @@
+{
+  "Permit": [
+    {
+      "ProcName": "Bf0N9NmMvDWyfZWsJiEkMw==",
+      "ResourcePermitted": "TRUE",
+      "HintList": [
+        "0"
+      ]
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArs8yTo4a4MBVJtPfF93dezE=",
+      "ResourcePermitted": "TRUE"
+    },
+    {
+      "ProcName": "2d7kXzDmEA16RFFmIqnqM2deXaIxZ7JULD+gsfneGHY=",
+      "HintList": [
+        "12", "18", "7000"
+      ]
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArjTxtlLWVPwHQXwinB6ZD2Q=",
+      "HintList": [
+          "1300"
+        ]
+    },
+    {
+      "ProcName": "2d7kXzDmEA16RFFmIqnqM3ctPwCtrAqk41OImPO9t/8=",
+      "ResourcePermitted": "TRUE",
+      "HintList": [
+        "0"
+      ]
+    },
+    {
+      "ProcName": "pt9AhfB3kKckmy9/qugEvQ==",
+      "ResourcePermitted": "TRUE"
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArlIzbheROiQQzzZGOHhtwQcojZkVuBLxe7ME12XWedvn",
+      "HintList": [
+        "1200", "1201"
+      ]
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SAru1lTf8QoU1mFWAzCgq69V4=",
+      "HintList": [
+        "1500"
+      ]
+    },
+    {
+      "ProcName": "2d7kXzDmEA16RFFmIqnqM+CN7RqiNIVX7kgN2MW5yvo=",
+      "HintList": [
+        "1050", "1051", "4550"
+      ]
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SAri32kRUDkdbiOuA0fFhuKSY=",
+      "HintList": [
+        "4010", "4011"
+      ]
+    },
+    {
+      "ProcName": "2d7kXzDmEA16RFFmIqnqM9vkHjRLODJzTlGuCrvgRJw=",
+      "HintList": [
+        "1600"
+      ]
+    },
+    {
+      "ProcName": "DpRpiBatPCR/Nwc/VfVhBQ==",
+      "HintList": [
+        "23000"
+      ]
+    },
+    {
+      "ProcName": "somB/2u/RoXaCYvY2xj3Aw==",
+      "HintList": [
+        "3700"
+      ]
+    },
+    {
+      "ProcName": "XpgrHdTpsUk2ZoyYraQgPw==",
+	  "ResourcePermitted": "TRUE"
+	},
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArqAgumk3r0s2cJjsh9JElZE=",
+      "HintList": [
+        "4000", "4001"
+      ]
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArhCTZeA2mCgAK/TCDUJB8WM=",
+      "HintList": [
+        "4000", "4001"
+      ]
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArjSwxuIZVBuChRPSiK6z6Ko=",
+      "HintList": [
+        "4000", "4001"
+      ]
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArt0QLcQw+AdYF2eR467VJHDm4pEa0hiA4OXavRiB6QAT",
+      "HintList": [
+        "4000", "4001"
+      ]
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArt0QLcQw+AdYF2eR467VJHDIKBISB3ubrUfmnqjiBIRx",
+      "HintList": [
+        "4000", "4001"
+      ]
+    },
+    {
+      "ProcName": "TzBTGToHFzKpXZ2cMNbhrLm7z0E8hiGX+QZOXDFB4As=",
+      "HintList": [
+        "3501", "3511", "3512"
+      ]
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArhiD/5SxI9UhPnMuuy4TMdktVXNllzTHoqZXGbBtaOMD",
+      "HintList": [
+        "1060"
+      ]
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SAruvszDmfY6yab4hVS/9ZZJtW+O09idbAyYc4gUwM37x5",
+      "HintList": [
+        "1061"
+      ]
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArl7QCqmgIoikv+VxO9RNuH+8KbJJQ0PlC5Oj6Z64qLFO",
+      "HintList": [
+        "6000", "6001", "6002"
+      ]
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SAroQCcrSLKdEGPAjAybuz0ZgE8M+vqDU/s1rPBl+iez83",
+      "HintList": [
+        "5000"
+      ]
+    },
+    {
+      "ProcName": "Y6fTGEUIMEnYssjULTY6RDnCsUO4ODporxtEGJjKwLk=",
+      "HintList": [
+        "1400"
+      ]
+    },
+    {
+      "ProcName": "2X3C9+CeQvDt8bCjw/wwj/GhvGJdJYRTQ84jb4/TIN8=",
+      "ResourcePermitted": "TRUE",
+      "HintList": [
+        "0"
+      ]
+    },
+    {
+      "ProcName": "RiQ7OkMxBKMBz99N2GSwcVOLLxwSfy7RATh3pVS6URc=",
+      "ResourcePermitted": "TRUE"
+    },
+    {
+      "ProcName": "VDpV/kwlahfxtf/iLrqZ+QjmIh4WnYZWFjeYCMy1tac=",
+      "HintList": [
+        "3100", "3101"
+      ]
+    },
+    {
+      "ProcName": "2d7kXzDmEA16RFFmIqnqMzFdv+e4MTv0FhfwNrGNiTwkKZ5CrQdtJrpvuprE0rQ=",
+      "HintList": [
+        "18"
+      ]
+    },
+    {
+      "ProcName": "uYxyVJ0CAHJsO7vU+HtDQg==",
+      "HintList": [
+        "2100"
+      ]
+    },
+    {
+      "ProcName": "2d7kXzDmEA16RFFmIqnqMzMiZOrK3JNAEOMXkeIq/To=",
+      "HintList": [
+        "0"
+      ],
+      "ResourcePermitted": "TRUE"
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArj+G6CG+xt+737UJKspdp0M=",
+      "ResourcePermitted": "TRUE"
+    },
+    {
+      "ProcName": "xAGTr85/b5DEh9uCOcS0FXqWkLsCNOVrIHNS5LLDd84=",
+      "ResourcePermitted": "TRUE"
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArgT7cQlDR4JU7sVlLvhwQoLpU1b476vQ9rvfzoKG4Ceh",
+      "HintList": [
+        "5192"
+      ]
+    },
+    {
+      "ProcName": "xAGTr85/b5DEh9uCOcS0FW/miR+icGxEUfR2jtTBeIwu2/0Likw2d0So8PUgSbqD",
+      "HintList": [
+        "1070"
+      ],
+      "ResourcePermitted": "TRUE"
+    },
+    {
+      "ProcName": "2d7kXzDmEA16RFFmIqnqM5AvCFnrm5j2/dA6rt4UcYM=",
+      "HintList": [
+        "1900"
+      ]
+    },
+    {
+      "ProcName": "BIbZGsWmMzJFDpkYetL/WQkvBQyaYqxfGw3z865WI+w=",
+      "HintList": [
+        "1900"
+      ]
+    },
+    {
+      "ProcName": "63rg9Ti/cmOXEOkwfKzilw==",
+      "HintList": [
+        "7100"
+      ]
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArvU9So5kJXwLN4l6H6nQlg==",
+      "HintList": [
+        "2340", "2341"
+      ]
+    },
+    {
+      "ProcName": "bEU8wIWmA1uFpLvDY/1Pbb/EaV/FLvWXpCILODM0uF4=",
+      "HintList": [
+        "4500"
+      ]
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArsdSm6A2jtCDGge3pWRuqK27949rUaWrKhHKBk9vIWgm",
+      "HintList": [
+        "4912"
+      ]
+    },
+    {
+      "ProcName": "JHoyPE2ZpsYGDUmE4wqoog==",
+      "ResourcePermitted": "TRUE"
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SAruLPnq7kL3f28HQxZw7rewoIM/kJGYlYmKOAAOLtl2vr",
+      "ResourcePermitted": "TRUE"
+    },
+    {
+      "ProcName": "3V7X+h7Cvccxr8xb6u0bUQ==",
+      "ResourcePermitted": "TRUE"
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArrEEQFRP6IHOLp/uJ9vHjAvqYhBl+QUvPpb9JWPdwF1m",
+      "HintList": [
+        "1300"
+      ]
+    },
+    {
+      "ProcName": "39tNjaYk9jY4M6xHr0SArp22Df1COFAFszWBch6Oz0E=",
+      "HintList": [
+        "9999"
+      ]
+    },
+    {
+      "ProcName": "oUJ0e0pcfaLmlkqTFOHltWoc+SNMOW/UKnt/CPQtan0=",
+      "HintList": [
+        "8600"
+      ]
+    },
+	{
+      "ProcName": "2d7kXzDmEA16RFFmIqnqM3LwYwqNUtd7SzYv+0cBNZg=",
+      "HintList": [
+        "10001", "10002", "10003", "10004", "10005", "10006", "10007", "10008", "10009"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<manifest version="1.0" type="device">
+<!-- IComponentStore -->
+   <hal format="hidl" override="true">
+        <name>android.hardware.media.c2</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IComponentStore</name>
+            <instance>default</instance>
+        </interface>
+   </hal>
+</manifest>

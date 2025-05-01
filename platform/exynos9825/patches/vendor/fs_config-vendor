@@ -1,80 +1,107 @@
  0 2000 755 capabilities=0x0
 vendor/bin 0 2000 0751
 vendor/bin/hw 0 2000 0751
-vendor/bin/hw/android.hardware.audio.service 0 2000 0755
-vendor/bin/hw/android.hardware.graphics.allocator@2.0-service 0 2000 755
-vendor/bin/hw/android.hardware.graphics.composer@2.2-service 0 2000 755
-vendor/bin/hw/rild 0 2000 755
-vendor/bin/hw/vendor.samsung.hardware.snap-service 0 2000 755
-vendor/bin/hw/vendor.samsung.hardware.sysinput@1.3-service 0 2000 755
-vendor/bin/hw/vendor.samsung.hardware.vibrator-service 0 2000 755
-vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service 0 2000 755
-vendor/bin/hw/wpa_supplicant 0 2000 755
-vendor/bin/snap_utility_64 0 2000 755
-vendor/eden 0 2000 755
-vendor/eden/gpu 0 2000 755
-vendor/eden/gpu/eden_kernel_32.bin 0 0 644
-vendor/eden/gpu/eden_kernel_64.bin 0 0 644
-vendor/etc 0 2000 755
-vendor/etc/init 0 2000 755
-vendor/etc/init/android.hardware.wifi.supplicant-service.rc 0 0 644
-vendor/etc/init/init.vendor.rilchip.rc 0 0 644
-vendor/etc/init/init.vendor.rilcommon.rc 0 0 644
-vendor/etc/init/vendor.samsung.hardware.snap-lazy.rc 0 0 644
-vendor/etc/init/vendor.samsung.hardware.sysinput@1.3-service.rc 0 0 644
-vendor/etc/init/vendor.samsung.hardware.vibrator-default.rc 0 0 644
-vendor/etc/audio_effects_spatializer.xml 0 0 644
-vendor/etc/audio_policy_configuration_base.xml 0 0 644
-vendor/etc/bluetooth_audio_policy_configuration.xml 0 0 644
-vendor/etc/mtu-conf.xml 0 0 644
-vendor/etc/playback_record_audio_policy_configuration.xml 0 0 644
-vendor/etc/snap_gpu_kernel_64.bin 0 0 644
-vendor/etc/vintf 0 2000 755
+vendor/bin/hw/android.hardware.audio.service 0 2000 755 capabilities=0x0
+vendor/bin/hw/android.hardware.graphics.allocator@2.0-service 0 2000 755 capabilities=0x0
+vendor/bin/hw/android.hardware.graphics.composer@2.2-service 0 2000 755 capabilities=0x0
+vendor/bin/hw/android.hardware.media.omx@1.0-service 0 2000 755 capabilities=0x0
+vendor/bin/hw/android.hardware.memtrack@1.0-service 0 2000 755 capabilities=0x0
+vendor/bin/hw/android.hardware.power.samsung-service 0 2000 755 capabilities=0x0
+vendor/bin/hw/rild 0 2000 755 capabilities=0x0
+vendor/bin/hw/samsung.software.media.c2@1.0-service 0 2000 755 capabilities=0x0
+vendor/bin/hw/vendor.samsung.hardware.health-service 0 2000 755 capabilities=0x0
+vendor/bin/hw/vendor.samsung.hardware.hyper-service 0 2000 755 capabilities=0x0
+vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service 0 2000 755 capabilities=0x0
+vendor/bin/hw/vendor.samsung.hardware.snap-service 0 2000 755 capabilities=0x0
+vendor/bin/hw/vendor.samsung.hardware.sysinput@1.3-service 0 2000 755 capabilities=0x0
+vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service 0 2000 755 capabilities=0x0
+vendor/bin/hw/vendor.samsung.hardware.vibrator-service 0 2000 755 capabilities=0x0
+vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service 0 2000 755 capabilities=0x0
+vendor/bin/hw/vendor.samsung_slsi.hardware.iva@1.0-service 0 2000 755 capabilities=0x0
+vendor/bin/hw/wpa_supplicant 0 2000 755 capabilities=0x0
+vendor/bin/snap_utility_64 0 2000 755 capabilities=0x0
+vendor/eden 0 2000 755 capabilities=0x0
+vendor/eden/gpu 0 2000 755 capabilities=0x0
+vendor/eden/gpu/eden_kernel_32.bin 0 0 644 capabilities=0x0
+vendor/eden/gpu/eden_kernel_64.bin 0 0 644 capabilities=0x0
+vendor/etc 0 2000 755 capabilities=0x0
+vendor/etc/audio_effects_spatializer.xml 0 0 644 capabilities=0x0
+vendor/etc/audio_policy_configuration_base.xml 0 0 644 capabilities=0x0
+vendor/etc/bluetooth_audio_policy_configuration.xml 0 0 644 capabilities=0x0
+vendor/etc/fstab.exynos9825 0 0 644 capabilities=0x0
+vendor/etc/ 0 2000 755 capabilities=0x0
+vendor/etc/hyper/config_chipset.json 0 0 644 capabilities=0x0
+vendor/etc/hyper/config_hyper_permission.json 0 0 644 capabilities=0x0
+vendor/etc/hyper/config_vendor.json 0 0 644 capabilities=0x0
+vendor/etc/init 0 2000 755 capabilities=0x0
+vendor/etc/init/android.hardware.media.omx@1.0-service.rc 0 0 644 capabilities=0x0
+vendor/etc/init/android.hardware.wifi.supplicant-service.rc 0 0 644 capabilities=0x0
+vendor/etc/init/init.vendor.rilchip.rc 0 0 644 capabilities=0x0
+vendor/etc/init/init.vendor.rilcommon.rc 0 0 644 capabilities=0x0
+vendor/etc/init/power-default-sec.rc 0 0 644 capabilities=0x0
+vendor/etc/init/samsung.software.media.c2@1.0-service.rc 0 0 644 capabilities=0x0
+vendor/etc/init/vendor.samsung.hardware.health-service.rc 0 0 644 capabilities=0x0
+vendor/etc/init/vendor.samsung.hardware.snap-lazy.rc 0 0 644 capabilities=0x0
+vendor/etc/init/vendor.samsung.hardware.sysinput@1.3-service.rc 0 0 644 capabilities=0x0
+vendor/etc/init/vendor.samsung.hardware.vibrator-default.rc 0 0 644 capabilities=0x0
+vendor/etc/media_codecs.xml 0 0 644 capabilities=0x0
+vendor/etc/media_codecs_c2_sec.xml 0 0 644 capabilities=0x0
+vendor/etc/media_codecs_c2_sec_ape.xml 0 0 644 capabilities=0x0
+vendor/etc/media_codecs_c2_sec_qcp.xml 0 0 644 capabilities=0x0
+vendor/etc/media_codecs_c2_sec_wmx.xml 0 0 644 capabilities=0x0
+vendor/etc/media_codecs_dolby_audio.xml 0 0 644 capabilities=0x0
+vendor/etc/media_codecs_google_telephony.xml 0 0 644 capabilities=0x0
+vendor/etc/media_codecs_performance.xml 0 0 644 capabilities=0x0
+vendor/etc/media_codecs_performance_c2.xml 0 0 644 capabilities=0x0
+vendor/etc/mtu-conf.xml 0 0 644 capabilities=0x0
+vendor/etc/playback_record_audio_policy_configuration.xml 0 0 644 capabilities=0x0
+vendor/etc/snap_gpu_kernel_64.bin 0 0 644 capabilities=0x0
+vendor/etc/vintf 0 2000 755 capabilities=0x0
+vendor/etc/vintf/manifest 0 2000 755 capabilities=0x0
+vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml 0 0 644 capabilities=0x0
+vendor/etc/vintf/manifest/power-samsung.xml 0 0 644 capabilities=0x0
+vendor/etc/vintf/manifest/sec_c2_manifest_default_1_0.xml 0 0 644 capabilities=0x0
+vendor/etc/vintf/manifest/vendor.samsung.hardware.health-service.xml 0 0 644 capabilities=0x0
+vendor/etc/vintf/manifest/vendor.samsung.hardware.radio.exclude.slsi.xml 0 0 644 capabilities=0x0
+vendor/etc/vintf/manifest/vendor.samsung.hardware.radio_manifest_2_31.xml 0 0 644 capabilities=0x0
+vendor/etc/vintf/manifest/vendor.samsung.hardware.sehradio_manifest_2_31.xml 0 0 644 capabilities=0x0
+vendor/etc/vintf/manifest/vendor.samsung.hardware.snap-default.xml 0 0 644 capabilities=0x0
+vendor/etc/vintf/manifest/vendor.samsung.hardware.vibrator-default.xml 0 0 644 capabilities=0x0
 vendor/etc/vintf/manifest.xml 0 0 644 capabilities=0x0
-vendor/etc/vintf/manifest 0 2000 755
-vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml 0 0 644
-vendor/etc/vintf/manifest/vendor.samsung.hardware.radio.exclude.slsi.xml 0 0 644
-vendor/etc/vintf/manifest/vendor.samsung.hardware.radio_manifest_2_31.xml 0 0 644
-vendor/etc/vintf/manifest/vendor.samsung.hardware.sehradio_manifest_2_31.xml 0 0 644
-vendor/etc/vintf/manifest/vendor.samsung.hardware.snap-default.xml 0 0 644
-vendor/etc/vintf/manifest/vendor.samsung.hardware.vibrator-default.xml 0 0 644
-vendor/etc/wifi 0 2000 755
-vendor/etc/wifi/wpa_supplicant_overlay.conf 0 0 644
-vendor/firmware 0 2000 755
-vendor/firmware/a2dpcom.bin 0 0 644
-vendor/lib 0 2000 755
-vendor/lib/egl 0 2000 755
-vendor/lib/egl/libGLES_mali.so 0 0 644
-vendor/lib/hw 0 2000 755
-vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so 0 0 644
-vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so 0 0 644
-vendor/lib/hw/android.hardware.renderscript@1.0-impl.so 0 0 644
-vendor/lib/hw/audio.a2dpsink.default.so 0 0 644
-vendor/lib/hw/audio.bluetooth.default.so 0 0 644
-vendor/lib/hw/gralloc.default.so 0 0 644
-vendor/lib/hw/gralloc.exynos9820.so 0 0 644
-vendor/lib/hw/hwcomposer.exynos9820.so 0 0 644
-vendor/lib/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so 0 0 0644
-vendor/lib/hw/vendor.samsung.hardware.bluetooth.a2dpsink@1.0-impl.so 0 0 0644
-vendor/lib/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so 0 0 0644
-vendor/lib/hw/vendor.samsung_slsi.hardware.ExynosA2DPOffload@3.0-impl.so 0 0 0644
-vendor/lib/hw/vulkan.mali.so 0 0 644
+vendor/etc/wifi 0 2000 755 capabilities=0x0
+vendor/etc/wifi/wpa_supplicant_overlay.conf 0 0 644 capabilities=0x0
+vendor/firmware 0 2000 755 capabilities=0x0
+vendor/firmware/a2dpcom.bin 0 0 644 capabilities=0x0
+vendor/lib 0 2000 755 capabilities=0x0
 vendor/lib/android.hardware.common-V2-ndk.so 0 0 644 capabilities=0x0
 vendor/lib/android.hardware.graphics.allocator-V1-ndk.so 0 0 644 capabilities=0x0
 vendor/lib/android.hardware.graphics.common-V3-ndk.so 0 0 644 capabilities=0x0
+vendor/lib/android.hardware.thermal@1.0.so 0 0 644 capabilities=0x0
 vendor/lib/arm.graphics-V1-ndk.so 0 0 644 capabilities=0x0
+vendor/lib/libExynosHWCService.so 0 0 644 capabilities=0x0
+vendor/lib/libExynosOMX_Core.so 0 0 644 capabilities=0x0
+vendor/lib/libExynosOMX_Resourcemanager.so 0 0 644 capabilities=0x0
 vendor/lib/libaboxpcmdump.so 0 0 644 capabilities=0x0
-vendor/lib/libaudioproxy2.so 0 0 644 capabilities=0x0
 vendor/lib/libacryl.so 0 0 644 capabilities=0x0
 vendor/lib/libaudioparamupdate.so 0 0 644 capabilities=0x0
+vendor/lib/libaudioproxy2.so 0 0 644 capabilities=0x0
+vendor/lib/libavservices_minijail.so 0 0 644 capabilities=0x0
 vendor/lib/libbluetooth_a2dpsink_session.so 0 0 644 capabilities=0x0
+vendor/lib/libcodec2-v33.so 0 0 644 capabilities=0x0
+vendor/lib/libcodec2_hidl@1.0.so 0 0 644 capabilities=0x0
+vendor/lib/libcodec2_hidl@1.1.so 0 0 644 capabilities=0x0
+vendor/lib/libcodec2_hidl_plugin.so 0 0 644 capabilities=0x0
+vendor/lib/libcodec2_simple_component.so 0 0 644 capabilities=0x0
+vendor/lib/libcodec2_soft_common.so 0 0 644 capabilities=0x0
+vendor/lib/libcodec2_vndk.so 0 0 644 capabilities=0x0
+vendor/lib/libcodecsolutionhelper_vendor.so 0 0 644 capabilities=0x0
 vendor/lib/libdatamod.so 0 0 644 capabilities=0x0
 vendor/lib/libdrmresource-v33.so 0 0 644 capabilities=0x0
 vendor/lib/libexynosdisplay.so 0 0 644 capabilities=0x0
-vendor/lib/libExynosHWCService.so 0 0 644 capabilities=0x0
 vendor/lib/libexynosutils.so 0 0 644 capabilities=0x0
 vendor/lib/libexynosv4l2.so 0 0 644 capabilities=0x0
 vendor/lib/libfmq-v33.so 0 0 644 capabilities=0x0
+vendor/lib/libgralloctypes-v33.so 0 0 644 capabilities=0x0
 vendor/lib/libgui_vendor.so 0 0 644 capabilities=0x0
 vendor/lib/libion_exynos.so 0 0 644 capabilities=0x0
 vendor/lib/liblastaboxmsg.so 0 0 644 capabilities=0x0
@@ -84,32 +111,54 @@ vendor/lib/libsecril-client.so 0 0 644 capabilities=0x0
 vendor/lib/libsehbluetooth_audio_session.so 0 0 644 capabilities=0x0
 vendor/lib/libsemnativecarrierfeature.so 0 0 644 capabilities=0x0
 vendor/lib/libspatializerparamstorage.so 0 0 644 capabilities=0x0
+vendor/lib/libui-v33.so 0 0 644 capabilities=0x0
 vendor/lib/vendor.samsung.hardware.bluetooth.a2dp@1.0.so 0 0 644 capabilities=0x0
 vendor/lib/vendor.samsung.hardware.bluetooth.a2dpsink@1.0.so 0 0 644 capabilities=0x0
 vendor/lib/vendor.samsung.hardware.bluetooth.audio@2.0.so 0 0 644 capabilities=0x0
 vendor/lib/vendor.samsung.hardware.bluetooth.audio@2.1.so 0 0 644 capabilities=0x0
 vendor/lib/vendor.samsung_slsi.hardware.ExynosA2DPOffload@3.0.so 0 0 644 capabilities=0x0
+vendor/lib/vendor.samsung_slsi.hardware.iva@1.0.so 0 0 644 capabilities=0x0
 vendor/lib/vintf-codecsolution-V2-ndk.so 0 0 644 capabilities=0x0
-vendor/lib/vndk 0 2000 755
-vendor/lib/vndk/libaudioroute.so 0 0 644
-vendor/lib/vndk/libtinyalsa.so 0 0 644
-vendor/lib64 0 2000 755
-vendor/lib64/egl 0 2000 755
-vendor/lib64/egl/libGLES_mali.so 0 0 644
-vendor/lib64/hw 0 2000 755
-vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so 0 0 644
-vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so 0 0 644
-vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so 0 0 644
-vendor/lib64/hw/audio.a2dpsink.default.so 0 0 644
-vendor/lib64/hw/audio.bluetooth.default.so 0 0 644
-vendor/lib64/hw/gralloc.default.so 0 0 644
-vendor/lib64/hw/gralloc.exynos9820.so 0 0 644
-vendor/lib64/hw/hwcomposer.exynos9820.so 0 0 644
-vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so 0 0 0644
-vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dpsink@1.0-impl.so 0 0 0644
-vendor/lib64/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so 0 0 0644
-vendor/lib64/hw/vendor.samsung_slsi.hardware.ExynosA2DPOffload@3.0-impl.so 0 0 0644
-vendor/lib64/hw/vulkan.mali.so 0 0 644
+vendor/lib/egl 0 2000 755 capabilities=0x0
+vendor/lib/egl/libGLES_mali.so 0 0 644 capabilities=0x0
+vendor/lib/hw 0 2000 755 capabilities=0x0
+vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so 0 0 644 capabilities=0x0
+vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so 0 0 644 capabilities=0x0
+vendor/lib/hw/android.hardware.memtrack@1.0-impl.so 0 0 644 capabilities=0x0
+vendor/lib/hw/android.hardware.renderscript@1.0-impl.so 0 0 644 capabilities=0x0
+vendor/lib/hw/android.hardware.thermal@1.0-impl.so 0 0 644 capabilities=0x0
+vendor/lib/hw/audio.a2dpsink.default.so 0 0 644 capabilities=0x0
+vendor/lib/hw/audio.bluetooth.default.so 0 0 644 capabilities=0x0
+vendor/lib/hw/gralloc.default.so 0 0 644 capabilities=0x0
+vendor/lib/hw/gralloc.exynos9825.so 0 0 644 capabilities=0x0
+vendor/lib/hw/hwcomposer.exynos9825.so 0 0 644 capabilities=0x0
+vendor/lib/hw/memtrack.exynos9825.so 0 0 644 capabilities=0x0
+vendor/lib/hw/power.default.so 0 0 644 capabilities=0x0
+vendor/lib/hw/thermal.exynos9825.so 0 0 644 capabilities=0x0
+vendor/lib/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so 0 0 644 capabilities=0x0
+vendor/lib/hw/vendor.samsung.hardware.bluetooth.a2dpsink@1.0-impl.so 0 0 644 capabilities=0x0
+vendor/lib/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so 0 0 644 capabilities=0x0
+vendor/lib/hw/vendor.samsung_slsi.hardware.ExynosA2DPOffload@3.0-impl.so 0 0 644 capabilities=0x0
+vendor/lib/hw/vulkan.mali.so 0 0 644 capabilities=0x0
+vendor/lib/vndk 0 2000 755 capabilities=0x0
+vendor/lib/vndk/libaudioroute.so 0 0 644 capabilities=0x0
+vendor/lib/vndk/libstagefright_omx_utils.so 0 0 644 capabilities=0x0
+vendor/lib/vndk/libtinyalsa.so 0 0 644 capabilities=0x0
+vendor/lib/omx 0 2000 755 capabilities=0x0
+vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so 0 0 644 capabilities=0x0
+vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so 0 0 644 capabilities=0x0
+vendor/lib/omx/libOMX.Exynos.AVC.WFD.Encoder.so 0 0 644 capabilities=0x0
+vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so 0 0 644 capabilities=0x0
+vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so 0 0 644 capabilities=0x0
+vendor/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so 0 0 644 capabilities=0x0
+vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so 0 0 644 capabilities=0x0
+vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so 0 0 644 capabilities=0x0
+vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so 0 0 644 capabilities=0x0
+vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so 0 0 644 capabilities=0x0
+vendor/lib/omx/libOMX.Exynos.VP9.Decoder.so 0 0 644 capabilities=0x0
+vendor/lib/omx/libOMX.Exynos.VP9.Encoder.so 0 0 644 capabilities=0x0
+vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so 0 0 644 capabilities=0x0
+vendor/lib64 0 2000 755 capabilities=0x0
 vendor/lib64/android.hardware.common-V2-ndk.so 0 0 644 capabilities=0x0
 vendor/lib64/android.hardware.graphics.allocator-V1-ndk.so 0 0 644 capabilities=0x0
 vendor/lib64/android.hardware.graphics.common-V3-ndk.so 0 0 644 capabilities=0x0
@@ -117,6 +166,15 @@ vendor/lib64/android.hardware.graphics.composer@2.1-resources.so 0 0 644 capabil
 vendor/lib64/android.hardware.graphics.composer@2.1.so 0 0 644 capabilities=0x0
 vendor/lib64/android.hardware.graphics.composer@2.2-resources.so 0 0 644 capabilities=0x0
 vendor/lib64/android.hardware.graphics.composer@2.2.so 0 0 644 capabilities=0x0
+vendor/lib64/android.hardware.health-V1-ndk.so 0 0 644 capabilities=0x0
+vendor/lib64/android.hardware.health.storage-V1-ndk.so 0 0 644 capabilities=0x0
+vendor/lib64/android.hardware.health.storage@1.0.so 0 0 644 capabilities=0x0
+vendor/lib64/android.hardware.health@1.0.so 0 0 644 capabilities=0x0
+vendor/lib64/android.hardware.health@2.0.so 0 0 644 capabilities=0x0
+vendor/lib64/android.hardware.media.c2@1.0.so 0 0 644 capabilities=0x0
+vendor/lib64/android.hardware.media.c2@1.1.so 0 0 644 capabilities=0x0
+vendor/lib64/android.hardware.media.c2@1.2.so 0 0 644 capabilities=0x0
+vendor/lib64/android.hardware.power-V2-ndk.so 0 0 644 capabilities=0x0
 vendor/lib64/android.hardware.radio.config@1.0.so 0 0 644 capabilities=0x0
 vendor/lib64/android.hardware.radio.config@1.1.so 0 0 644 capabilities=0x0
 vendor/lib64/android.hardware.radio.config@1.2.so 0 0 644 capabilities=0x0
@@ -129,55 +187,85 @@ vendor/lib64/android.hardware.radio@1.3.so 0 0 644 capabilities=0x0
 vendor/lib64/android.hardware.radio@1.4.so 0 0 644 capabilities=0x0
 vendor/lib64/android.hardware.radio@1.5.so 0 0 644 capabilities=0x0
 vendor/lib64/android.hardware.radio@1.6.so 0 0 644 capabilities=0x0
+vendor/lib64/android.hardware.thermal@1.0.so 0 0 644 capabilities=0x0
+vendor/lib64/android.hardware.thermal@2.0.so 0 0 644 capabilities=0x0
 vendor/lib64/android.hardware.wifi.supplicant@1.0.so 0 0 644 capabilities=0x0
 vendor/lib64/android.hardware.wifi.supplicant@1.1.so 0 0 644 capabilities=0x0
 vendor/lib64/android.hardware.wifi.supplicant@1.2.so 0 0 644 capabilities=0x0
 vendor/lib64/android.hardware.wifi.supplicant@1.3.so 0 0 644 capabilities=0x0
 vendor/lib64/android.hardware.wifi.supplicant@1.4.so 0 0 644 capabilities=0x0
+vendor/lib64/arm.graphics-V1-ndk.so 0 0 644 capabilities=0x0
+vendor/lib64/libExynosHWCService.so 0 0 644 capabilities=0x0
+vendor/lib64/libExynosOMX_Core.so 0 0 644 capabilities=0x0
+vendor/lib64/libExynosOMX_Resourcemanager.so 0 0 644 capabilities=0x0
+vendor/lib64/libSecC2ComponentStore.so 0 0 644 capabilities=0x0
+vendor/lib64/libSemDataProps.so 0 0 644 capabilities=0x0
+vendor/lib64/libSemTelephonyProps.so 0 0 644 capabilities=0x0
+vendor/lib64/libacryl.so 0 0 644 capabilities=0x0
+vendor/lib64/libavservices_minijail.so 0 0 644 capabilities=0x0
+vendor/lib64/libbluetooth_a2dpsink_session.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2-v33.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_hidl@1.0.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_hidl@1.1.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_hidl@1.2.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_hidl_plugin.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_sec_aacdec.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_sec_aacenc.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_sec_amrnbdec.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_sec_amrwbdec.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_sec_apedec.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_sec_flacdec.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_sec_imadec.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_sec_mp3dec.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_sec_mp43dec.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_sec_mp4vdec.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_sec_soft_common.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_sec_vc1dec.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_sec_wmadec.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_sec_wmv7dec.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_sec_wmv8dec.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_simple_component.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_soft_ac4dec.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_soft_common.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_soft_eac3dec.so 0 0 644 capabilities=0x0
+vendor/lib64/libcodec2_vndk.so 0 0 644 capabilities=0x0
+vendor/lib64/libdrmresource-v33.so 0 0 644 capabilities=0x0
 vendor/lib64/libengmode15.so 0 0 644 capabilities=0x0
 vendor/lib64/libengmode_client.so 0 0 644 capabilities=0x0
 vendor/lib64/libengmode_server.so 0 0 644 capabilities=0x0
 vendor/lib64/libengmode_tlc.so 0 0 644 capabilities=0x0
-vendor/lib64/libhdr_plugin_exynos9820.so 0 0 644 capabilities=0x0
-vendor/lib64/libhdr10p_meta_plugin_default.so 0 0 644 capabilities=0x0
-vendor/lib64/libhwc2on1adapter.so 0 0 644 capabilities=0x0
-vendor/lib64/libhwc2onfbadapter.so 0 0 644 capabilities=0x0
-vendor/lib64/arm.graphics-V1-ndk.so 0 0 644 capabilities=0x0
-vendor/lib64/libaboxpcmdump.so 0 0 644 capabilities=0x0
-vendor/lib64/libaudioproxy2.so 0 0 644 capabilities=0x0
-vendor/lib64/libacryl.so 0 0 644 capabilities=0x0
-vendor/lib64/libaudioparamupdate.so 0 0 644 capabilities=0x0
-vendor/lib64/libbluetooth_a2dpsink_session.so 0 0 644 capabilities=0x0
-vendor/lib64/libdatamod.so 0 0 644 capabilities=0x0
-vendor/lib64/libdrmresource-v33.so 0 0 644 capabilities=0x0
 vendor/lib64/libexynosdisplay.so 0 0 644 capabilities=0x0
-vendor/lib64/libExynosHWCService.so 0 0 644 capabilities=0x0
 vendor/lib64/libexynosutils.so 0 0 644 capabilities=0x0
 vendor/lib64/libexynosv4l2.so 0 0 644 capabilities=0x0
 vendor/lib64/libfmq-v33.so 0 0 644 capabilities=0x0
-vendor/lib64/libgui_vendor.so 0 0 644 capabilities=0x0
+vendor/lib64/libgralloctypes-v33.so 0 0 644 capabilities=0x0
+vendor/lib64/libhdr10p_meta_plugin_default.so 0 0 644 capabilities=0x0
+vendor/lib64/libhdr_plugin_exynos9825.so 0 0 644 capabilities=0x0
+vendor/lib64/libhwc2on1adapter.so 0 0 644 capabilities=0x0
+vendor/lib64/libhwc2onfbadapter.so 0 0 644 capabilities=0x0
 vendor/lib64/libion_exynos.so 0 0 644 capabilities=0x0
 vendor/lib64/libril_sem.so 0 0 644 capabilities=0x0
 vendor/lib64/librilutils.so 0 0 644 capabilities=0x0
-vendor/lib64/liblastaboxmsg.so 0 0 644 capabilities=0x0
+vendor/lib64/libsec-ril.so 0 0 644 capabilities=0x0
 vendor/lib64/libsec_semRil.so 0 0 644 capabilities=0x0
 vendor/lib64/libsecnativefeature.so 0 0 644 capabilities=0x0
 vendor/lib64/libsecril-client.so 0 0 644 capabilities=0x0
 vendor/lib64/libsehbluetooth_audio_session.so 0 0 644 capabilities=0x0
 vendor/lib64/libsemnativecarrierfeature.so 0 0 644 capabilities=0x0
-vendor/lib64/libSemDataProps.so 0 0 644 capabilities=0x0
-vendor/lib64/libSemTelephonyProps.so 0 0 644 capabilities=0x0
 vendor/lib64/libsnap_compute.so 0 0 644 capabilities=0x0
 vendor/lib64/libsnap_compute_wrapper.so 0 0 644 capabilities=0x0
 vendor/lib64/libsnap_vndk.so 0 0 644 capabilities=0x0
 vendor/lib64/libsnaplite_native.so 0 0 644 capabilities=0x0
 vendor/lib64/libsnaplite_wrapper.so 0 0 644 capabilities=0x0
 vendor/lib64/libspatializerparamstorage.so 0 0 644 capabilities=0x0
+vendor/lib64/libui-v33.so 0 0 644 capabilities=0x0
 vendor/lib64/vendor.samsung.hardware.bluetooth.a2dp@1.0.so 0 0 644 capabilities=0x0
 vendor/lib64/vendor.samsung.hardware.bluetooth.a2dpsink@1.0.so 0 0 644 capabilities=0x0
 vendor/lib64/vendor.samsung.hardware.bluetooth.audio@2.0.so 0 0 644 capabilities=0x0
 vendor/lib64/vendor.samsung.hardware.bluetooth.audio@2.1.so 0 0 644 capabilities=0x0
-vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk.so 0 0 644
+vendor/lib64/vendor.samsung.hardware.health-V1-ndk.so 0 0 644 capabilities=0x0
+vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk.so 0 0 644 capabilities=0x0
+vendor/lib64/vendor.samsung.hardware.miscpower@2.0.so 0 0 644 capabilities=0x0
 vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so 0 0 644 capabilities=0x0
 vendor/lib64/vendor.samsung.hardware.radio.bridge@2.1.so 0 0 644 capabilities=0x0
 vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so 0 0 644 capabilities=0x0
@@ -189,8 +277,43 @@ vendor/lib64/vendor.samsung.hardware.sysinput@1.0.so 0 0 644 capabilities=0x0
 vendor/lib64/vendor.samsung.hardware.sysinput@1.1.so 0 0 644 capabilities=0x0
 vendor/lib64/vendor.samsung.hardware.sysinput@1.2.so 0 0 644 capabilities=0x0
 vendor/lib64/vendor.samsung.hardware.sysinput@1.3.so 0 0 644 capabilities=0x0
+vendor/lib64/vendor.samsung.hardware.thermal@1.0.so 0 0 644 capabilities=0x0
 vendor/lib64/vendor.samsung.hardware.vibrator-V5-ndk_platform.so 0 0 644 capabilities=0x0
 vendor/lib64/vendor.samsung.hardware.wifi.supplicant@3.0.so 0 0 644 capabilities=0x0
 vendor/lib64/vendor.samsung.hardware.wifi.supplicant@3.1.so 0 0 644 capabilities=0x0
 vendor/lib64/vendor.samsung_slsi.hardware.ExynosA2DPOffload@3.0.so 0 0 644 capabilities=0x0
 vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so 0 0 644 capabilities=0x0
+vendor/lib64/egl 0 2000 755 capabilities=0x0
+vendor/lib64/egl/libGLES_mali.so 0 0 644 capabilities=0x0
+vendor/lib64/hw 0 2000 755 capabilities=0x0
+vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/android.hardware.thermal@1.0-impl.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/audio.a2dpsink.default.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/audio.bluetooth.default.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/gralloc.default.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/gralloc.exynos9825.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/hwcomposer.exynos9825.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/memtrack.exynos9825.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/power.default.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/thermal.exynos9825.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dpsink@1.0-impl.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so 0 0 644 capabilities=0x0
+vendor/lib64/hw/vulkan.mali.so 0 0 644 capabilities=0x0
+vendor/lib64/omx 0 2000 755 capabilities=0x0
+vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so 0 0 644 capabilities=0x0
+vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so 0 0 644 capabilities=0x0
+vendor/lib64/omx/libOMX.Exynos.AVC.WFD.Encoder.so 0 0 644 capabilities=0x0
+vendor/lib64/omx/libOMX.Exynos.HEVC.Decoder.so 0 0 644 capabilities=0x0
+vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so 0 0 644 capabilities=0x0
+vendor/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so 0 0 644 capabilities=0x0
+vendor/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so 0 0 644 capabilities=0x0
+vendor/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so 0 0 644 capabilities=0x0
+vendor/lib64/omx/libOMX.Exynos.VP8.Decoder.so 0 0 644 capabilities=0x0
+vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so 0 0 644 capabilities=0x0
+vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so 0 0 644 capabilities=0x0
+vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so 0 0 644 capabilities=0x0
+vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so 0 0 644 capabilities=0x0

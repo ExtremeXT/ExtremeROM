@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<MediaCodecs>
+    <Decoders>
+        <!-- WMA -->
+        <MediaCodec name="c2.sec.wma.decoder" type="audio/x-ms-wma" rank="1">
+            <Limit name="channel-count" max="6" />
+            <Limit name="sample-rate" ranges="8000-96000" />
+            <Limit name="bitrate" range="1-21000000" />
+        </MediaCodec> 
+        <!-- WMA END -->
+        <MediaCodec name="c2.sec.wmv7.decoder" type="video/x-ms-wmv7" rank="1">
+		    <Limit name="size" min="32x32" max="2048x2048" />
+            <Quirk name="decoder-ignores-streamcorrupt-error" />
+        </MediaCodec>
+        <MediaCodec name="c2.sec.wmv8.decoder" type="video/x-ms-wmv8" rank="1">
+            <Limit name="size" min="32x32" max="2048x2048" />
+            <Quirk name="decoder-ignores-streamcorrupt-error" />
+        </MediaCodec>
+        <MediaCodec name="c2.sec.mp43.decoder" type="video/mp43" rank="1">
+            <Limit name="size" min="32x32" max="2048x2048" />		
+            <Quirk name="decoder-ignores-streamcorrupt-error" />
+        </MediaCodec>
+    </Decoders>
+</MediaCodecs>

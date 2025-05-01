@@ -6,6 +6,8 @@
         manifest.xml
         manifest.xml
         manifest.xml
+        radio_manifest_ds.xml
+        radio_manifest_ds.xml
         manifest_chip.xml
         manifest.xml
         manifest.xml
@@ -16,8 +18,8 @@
         manifest.xml
         manifest.xml
         manifest.xml
-        manifest_gnss_2_0.xml
-        manifest_isehgnss_2_0.xml
+        manifest.xml
+        manifest.xml
 -->
 <manifest version="4.0" type="device" target-level="3">
     <hal format="hidl">
@@ -80,17 +82,16 @@
         </interface>
         <fqname>@1.0::IGatekeeper/default</fqname>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>android.hardware.gnss</name>
         <transport>hwbinder</transport>
-        <version>2.0</version>
-        <version>1.1</version>
+        <version>2.1</version>
         <interface>
             <name>IGnss</name>
             <instance>default</instance>
         </interface>
         <fqname>@1.1::IGnss/default</fqname>
-        <fqname>@2.0::IGnss/default</fqname>
+        <fqname>@2.1::IGnss/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.graphics.allocator</name>
@@ -191,11 +192,13 @@
         <name>android.hardware.thermal</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
+        <version>2.0</version>
         <interface>
             <name>IThermal</name>
             <instance>default</instance>
         </interface>
         <fqname>@1.0::IThermal/default</fqname>
+        <fqname>@2.0::IThermal/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.audio</name>
@@ -248,24 +251,14 @@
         <fqname>@2.1::ISehBluetoothAudioProvidersFactory/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.samsung_slsi.hardware.ExynosA2DPOffload</name>
-        <transport>hwbinder</transport>
-        <version>3.0</version>
-        <interface>
-            <name>IExynosA2DPOffload</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@3.0::IExynosA2DPOffload/default</fqname>
-    </hal>
-    <hal format="hidl" override="true">
         <name>vendor.samsung.hardware.gnss</name>
         <transport>hwbinder</transport>
-        <version>2.0</version>
+        <version>2.1</version>
         <interface>
             <name>ISehGnss</name>
             <instance>default</instance>
         </interface>
-        <fqname>@2.0::ISehGnss/default</fqname>
+        <fqname>@2.1::ISehGnss/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.miscpower</name>
@@ -369,6 +362,16 @@
             <instance>default</instance>
         </interface>
         <fqname>@3.1::ISehSupplicant/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.samsung_slsi.hardware.ExynosA2DPOffload</name>
+        <transport>hwbinder</transport>
+        <version>3.0</version>
+        <interface>
+            <name>IExynosA2DPOffload</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@3.0::IExynosA2DPOffload/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung_slsi.hardware.ExynosHWCServiceTW</name>

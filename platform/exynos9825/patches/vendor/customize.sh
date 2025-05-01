@@ -1,16 +1,20 @@
 echo "Updating Vendor HALs..."
 BLOBS_LIST="
+bin/hw/android.hardware.health@2.1-service-samsung
 bin/hw/vendor.samsung.hardware.vibrator@2.2-service
 bin/hw/vendor.samsung.hardware.sysinput@1.2-service
 bin/hw/vendor.samsung.hardware.snap@1.2-service
 etc/audio_policy_configuration_sec.xml
+etc/init/android.hardware.health@2.1-service-samsung.rc
 etc/init/vendor.samsung.hardware.sysinput@1.2-service.rc
 etc/init/vendor.samsung.hardware.vibrator@2.2-service.rc
+etc/manifest/android.hardware.health@2.1-samsung.xml
 lib/hw/android.hardware.graphics.mapper@2.0-impl.so
 lib/hw/vendor.samsung.hardware.snap@1.2-impl.so
 lib/vendor.samsung.hardware.snap@1.0.so
 lib/vendor.samsung.hardware.snap@1.1.so
 lib/vendor.samsung.hardware.snap@1.2.so
+lib64/android.hardware.health@2.1.so
 lib64/vendor.samsung.hardware.snap@1.0.so
 lib64/vendor.samsung.hardware.snap@1.1.so
 lib64/vendor.samsung.hardware.snap@1.2.so

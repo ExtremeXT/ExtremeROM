@@ -1,0 +1,8 @@
+service vendor.samsung.power-default /vendor/bin/hw/android.hardware.power.samsung-service
+    class hal
+    user system
+    group system
+    task_profiles ServiceCapacityLow
+
+on property:init.svc.zygote=restarting
+    restart vendor.samsung.power-default

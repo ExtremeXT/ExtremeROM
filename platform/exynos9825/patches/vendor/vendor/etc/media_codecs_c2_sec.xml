@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<MediaCodecs>
+    <Settings>
+        <Domain name="telephony" enabled="true" />
+    </Settings>
+    <Decoders>
+        <MediaCodec name="c2.sec.flac.decoder" type="audio/flac" rank="1">
+            <Limit name="channel-count" max="8" />
+            <Limit name="sample-rate" ranges="1-655350" />
+            <Limit name="bitrate" range="1-21000000" />
+        </MediaCodec>
+        <MediaCodec name="c2.sec.mp3.decoder" rank="1">
+            <Type name="audio/mpeg">
+                <Limit name="channel-count" max="2" />
+                <Limit name="sample-rate" ranges="8000-48000" />
+                <Limit name="bitrate" range="8000-320000" />
+            </Type>
+            <Type name="audio/mpeg-L1">
+                <Limit name="channel-count" max="2" />
+                <Limit name="sample-rate" ranges="8000-48000" />
+                <Limit name="bitrate" range="8000-448000" />
+            </Type>
+            <Type name="audio/mpeg-L2">
+                <Limit name="channel-count" max="2" />
+                <Limit name="sample-rate" ranges="8000-48000" />
+                <Limit name="bitrate" range="8000-384000" />
+            </Type>
+        </MediaCodec>
+        <MediaCodec name="c2.sec.amrnb.decoder" type="audio/3gpp" rank="1">
+            <Limit name="channel-count" max="1" />
+            <Limit name="sample-rate" ranges="8000" />
+            <Limit name="bitrate" range="4750-12200" />
+        </MediaCodec>
+        <MediaCodec name="c2.sec.amrwb.decoder" type="audio/amr-wb" rank="1">
+            <Limit name="channel-count" max="1" />
+            <Limit name="sample-rate" ranges="16000" />
+            <Limit name="bitrate" range="6600-23850" />
+        </MediaCodec>
+        <MediaCodec name="c2.sec.ima.decoder" type="audio/x-ima" rank="1">
+            <Limit name="channel-count" max="2" />
+            <Limit name="sample-rate" ranges="8000-48000" />
+            <Limit name="bitrate" range="5000-384000" />
+        </MediaCodec>
+        <MediaCodec name="c2.sec.vc1.decoder" rank="1">
+            <Type name="video/wvc1">
+                <Limit name="size" min="32x32" max="2048x2048" />
+            </Type>
+            <Type name="video/x-ms-wmv">
+                <Limit name="size" min="32x32" max="2048x2048" />
+            </Type>
+            <Quirk name="decoder-ignores-streamcorrupt-error" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="block-count" range="1-16384" />
+        </MediaCodec>
+        <MediaCodec name="c2.sec.mpeg4.decoder" type="video/mp4v-es">
+            <Limit name="size" min="32x32" max="1920x1920" />
+            <Quirk name="decoder-ignores-streamcorrupt-error" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="block-count" range="1-8160" />
+        </MediaCodec>
+    </Decoders>
+    <Encoders>
+        <MediaCodec name="c2.sec.aac.encoder" type="audio/mp4a-latm" rank="16">
+            <Limit name="channel-count" max="6" />
+            <Limit name="sample-rate" ranges="8000-96000" />
+            <Limit name="bitrate" range="8000-960000" />
+        </MediaCodec>
+    </Encoders>
+</MediaCodecs>
+

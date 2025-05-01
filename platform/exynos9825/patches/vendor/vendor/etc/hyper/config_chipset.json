@@ -1,0 +1,365 @@
+{
+  "Resources": [
+    {
+      "Name": "CPUMinFreq",
+      "HighFreqLimitNum": "6"
+    },
+    {
+      "Name": "CPUMaxFreq",
+      "HighFreqLimitNum": "6"
+    },
+    {
+      "Name": "TABoost",
+      "ID" : "0x41001003",
+      "Handler" : "sysfs",
+      "FreqTablePath" : "",
+      "BoostPath" : "/dev/stune/top-app/schedtune.boost",
+      "DefaultValue": "0",
+      "MaxValue" : "100",
+      "MinValue" : "0",
+      "Priority" : "high"
+    },
+    {
+      "Name": "PCIE_PSM_DISABLE",
+      "Handler" : "sysfs",
+      "BoostPath" : "/sys/devices/platform/13ed0000.pcie0/pcie_sysfs",
+      "DefaultValue": "11",
+      "Priority" : "low",
+      "Values": [
+        "10"
+      ]
+    },
+    {
+      "Name": "LPMDisableAll",
+      "ID": "0x10003002",
+      "Handler": "sysfs",
+      "FreqTablePath": "",
+      "BoostPath": "/sys/module/cpuidle/parameters/off",
+      "DefaultValue": "0",
+      "Priority": "high",
+      "Values": [
+        "0",
+        "1"
+      ]
+    }
+  ],
+  "Hints": [
+    {
+      "Hint": "AMS_RESUME",
+      "ID": "1",
+      "Duration": "-1",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "1664000"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_RELAUNCH_RESUME",
+      "ID": "2",
+      "Duration": "1000",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "1820000"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_ACT_RESUME",
+      "ID": "3",
+      "Duration": "-1",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "1664000"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_ACT_START",
+      "ID": "4",
+      "Duration": "-1",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "2340000"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_RESUME_TAIL",
+      "ID": "5",
+      "Duration": "300",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "1820000"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_APP_SWITCH",
+      "ID": "7",
+      "Duration": "-1",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "2530000"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_APP_HOME",
+      "ID": "8",
+      "Duration": "800",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "2530000"
+        }
+      ]
+    },
+    {
+      "Hint": "GALLERY_TOUCH",
+      "ID": "9",
+      "Duration": "500",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "1144000"
+        }
+      ]
+    },
+    {
+      "Hint": "GALLERY_TOUCH_TAIL",
+      "ID": "10",
+      "Duration": "500",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "1144000"
+        }
+      ]
+    },
+    {
+      "Hint": "GALLERY_SCROLL",
+      "ID": "11",
+      "Duration": "-1",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "1144000"
+        }
+      ]
+    },
+    {
+      "Hint": "LAUNCHER_TOUCH",
+      "ID": "12",
+      "Duration": "1000",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "1144000"
+        }
+      ]
+    },
+    {
+      "Hint": "LISTVIEW_SCROLL",
+      "ID": "16",
+      "Duration": "10000",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "175500"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_APP_LAUNCH_M",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "2530000"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_APP_LAUNCH_LM",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "2530000"
+        }
+      ]
+    },
+    {
+      "Hint": "APP_LAUNCH",
+      "ID": "18",
+      "Duration": "700",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "2530000"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_APP_LAUNCH",
+      "Duration": "1000",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "2530000"
+        }
+      ]
+    },
+    {
+      "Hint": "DEVICE_WAKEUP",
+      "ID": "19",
+      "Duration": "1000",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "1378000"
+        }
+      ]
+    },
+    {
+      "Hint": "CONTACT_SCROLL",
+      "ID": "20",
+      "Duration": "1000",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "1040000"
+        }
+      ]
+    },
+    {
+      "Hint": "BADGE_UPDATE",
+      "ID": "26",
+      "Duration": "500",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "1378000"
+        }
+      ]
+    },
+    {
+      "Hint": "SMOOTH_SCROLL",
+      "ID": "21",
+      "Duration": "10000",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "1144000"
+        }
+      ]
+    },
+    {
+      "Hint": "GESTURE_DETECTED",
+      "ID": "22",
+      "Duration": "500",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "175500"
+        }
+      ]
+    },
+    {
+      "Hint": "PWM_ROTATION",
+      "ID": "15",
+      "Duration": "2000",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "2530000"
+        },
+        {
+          "Resource": "GPUMinFreq",
+          "Value": "260000"
+        }
+      ]
+    },
+    {
+      "Hint": "SMART_VIEW_NORMAL",
+      "ID" : "1200",
+      "ResoureList": [
+        {
+          "Resource" : "CPUMinFreq",
+          "Value" : "16453"
+        },
+        {
+          "Resource" : "CoreNumBigMin",
+          "Value" : "3"
+        }
+      ]
+    },
+    {
+      "Hint": "SMART_VIEW_SECURE",
+      "ID" : "1201",
+      "ResoureList": [
+        {
+          "Resource" : "CPUMinFreq",
+          "Value" : "20312"
+        },
+        {
+          "Resource" : "CoreNumBigMin",
+          "Value" : "3"
+        }
+      ]
+    },
+	{
+      "Hint": "DIALPAD_TAB_LAUCH",
+      "ID" : "9999",
+      "Duration": "250",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "50%"
+        }
+      ]
+    }
+  ],
+  "Sysfs": [
+    {
+      "SysfsId": "0x00402300",
+      "SysfsName": "EFF_MODE",
+      "Path": "/sys/kernel/ems/eff_mode"
+    },
+    {
+      "SysfsId": "0x00402400",
+      "SysfsName": "ENERGY_WEIGHT",
+      "Path": "/sys/kernel/ems/energy_weight"
+    },
+    {
+      "SysfsId": "0x00301600",
+      "SysfsName": "LITTLE_FREQVAR_ST_BOOST",
+      "Path": "/sys/devices/system/cpu/cpu0/cpufreq/schedutil/freqvar_st_boost"
+    },
+    {
+      "SysfsId": "0x00301604",
+      "SysfsName": "MID_FREQVAR_ST_BOOST",
+      "Path": "/sys/devices/system/cpu/cpu4/cpufreq/schedutil/freqvar_st_boost"
+    },
+    {
+      "SysfsId": "0x00301606",
+      "SysfsName": "BIG_FREQVAR_ST_BOOST",
+      "Path": "/sys/devices/system/cpu/cpu6/cpufreq/schedutil/freqvar_st_boost"
+    },
+    {
+      "SysfsId": "0x00600900",
+      "SysfsName": "EXECUTION_MODE_CHANGE",
+      "Path": "/sys/power/execution_mode_change"
+    },
+    {
+      "SysfsId": "0x00600901",
+      "SysfsName": "BOOT_MODE_CHANGE",
+      "Path": "/sys/power/boost_mode_change"
+    }
+  ]
+}
