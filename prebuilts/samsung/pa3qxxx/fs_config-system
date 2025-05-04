@@ -1,0 +1,4 @@
+system 0 0 755 capabilities=0x0
+system/lib64 0 0 755 capabilities=0x0
+system/lib64/aidl_comm_iccc_client.so 0 0 644 capabilities=0x0
+system/lib64/vendor.samsung.hardware.tlc.iccc-V3-ndk.so 0 0 644 capabilities=0x0
