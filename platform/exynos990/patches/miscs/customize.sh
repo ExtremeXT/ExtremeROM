@@ -1,6 +1,3 @@
-echo "Disabling A/B"
-SET_PROP "product" "ro.product.ab_ota_partitions" --delete
-
 echo "Disabling UFFD GC"
 SET_PROP "product" "ro.dalvik.vm.enable_uffd_gc" "false"
 
@@ -32,3 +29,15 @@ sed -i "${LINE}s/,fileencryption=ice//g" "$WORK_DIR/vendor/etc/fstab.exynos990"
 
 # ODE
 sed -i -e "/ODE/d" -e "/keydata/d" -e "/keyrefuge/d" "$WORK_DIR/vendor/etc/fstab.exynos990"
+
+# For some reason we are missing 2 permissions here: android.hardware.security.model.compatible and android.software.controls
+# First one is related to encryption and second one to SmartThings Device Control
+echo "Patching vendor permissions"
+sed -i '$d' "$WORK_DIR/vendor/etc/permissions/handheld_core_hardware.xml"
+echo >> "$WORK_DIR/vendor/etc/permissions/handheld_core_hardware.xml"
+echo "    <!-- Indicate support for the Android security model per the CDD. -->" >> "$WORK_DIR/vendor/etc/permissions/handheld_core_hardware.xml"
+echo "    <feature name=\"android.hardware.security.model.compatible\"/>" >> "$WORK_DIR/vendor/etc/permissions/handheld_core_hardware.xml"
+echo >> "$WORK_DIR/vendor/etc/permissions/handheld_core_hardware.xml"
+echo "    <!--  Feature to specify if the device supports controls.  -->" >> "$WORK_DIR/vendor/etc/permissions/handheld_core_hardware.xml"
+echo "    <feature name=\"android.software.controls\"/>" >> "$WORK_DIR/vendor/etc/permissions/handheld_core_hardware.xml"
+echo "</permissions>" >> "$WORK_DIR/vendor/etc/permissions/handheld_core_hardware.xml"
