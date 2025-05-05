@@ -25,7 +25,7 @@ GET_LATEST_FIRMWARE()
 {
     #curl -s --retry 5 --retry-delay 5 "https://fota-cloud-dn.ospserver.net/firmware/$REGION/$MODEL/version.xml" \
     #    | grep latest | sed 's/^[^>]*>//' | sed 's/<.*//'
-    "G990EXXSCFYB3/G990EOLMCFYB3/G990EXXSCFYB1"
+    'G990EXXSCFYB3/G990EOLMCFYB3/G990EXXSCFYB1'
 }
 
 DOWNLOAD_FIRMWARE()
