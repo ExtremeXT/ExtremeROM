@@ -225,6 +225,12 @@ if $SOURCE_IS_ESIM_SUPPORTED; then
     fi
 fi
 
+if [ -f "$FW_DIR/${MODEL}_${REGION}/system/system/etc/permissions/com.sec.feature.cover.xml" ]; then
+    echo "Adding LED Case Cover support"
+    ADD_TO_WORK_DIR "p3sxxx" "system" "system/priv-app/LedCoverService/LedCoverService.apk"
+    ADD_TO_WORK_DIR "p3sxxx" "system" "system/etc/permissions/privapp-permissions-com.sec.android.cover.ledcover.xml"
+fi
+
 if [ ! -f "$FW_DIR/${MODEL}_${REGION}/vendor/etc/permissions/android.hardware.strongbox_keystore.xml" ]; then
     echo "Applying strongbox patches"
     APPLY_PATCH "system/framework/framework.jar" "strongbox/framework.jar/0001-Disable-StrongBox-in-DevRootKeyATCmd.patch"
@@ -273,4 +279,9 @@ if $SOURCE_SUPPORT_HOTSPOT_ENHANCED_OPEN; then
         echo "Applying Hotspot Enhanced Open patches"
         APPLY_PATCH "system/priv-app/SecSettings/SecSettings.apk" "wifi/SecSettings.apk/0004-Disable-Hotspot-Enhanced-Open.patch"
     fi
+fi
+
+if [ "$(GET_PROP "vendor" "ro.build.ab_update")" != "true" ]; then
+    echo "Disabling A/B partitions"
+    SET_PROP "product" "ro.product.ab_ota_partitions" --delete
 fi

@@ -1,6 +1,3 @@
-MODEL=$(echo -n "$TARGET_FIRMWARE" | cut -d "/" -f 1)
-REGION=$(echo -n "$TARGET_FIRMWARE" | cut -d "/" -f 2)
-
 # S25 Ultra OneUI 7 -> SoundBooster 2060
 # S20 Series -> SoundBooster 1050
 echo "Replacing SoundBooster"

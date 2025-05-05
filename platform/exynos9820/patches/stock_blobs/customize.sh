@@ -14,18 +14,17 @@ MODEL=$(echo -n "$TARGET_FIRMWARE" | cut -d "/" -f 1)
 REGION=$(echo -n "$TARGET_FIRMWARE" | cut -d "/" -f 2)
 
 echo "Replacing Hotword"
-# Why does 9820 have this in system and not product?
 DELETE_FROM_WORK_DIR "product" "priv-app/HotwordEnrollmentXGoogleEx6_WIDEBAND_LARGE"
 DELETE_FROM_WORK_DIR "product" "priv-app/HotwordEnrollmentYGoogleEx6_WIDEBAND_LARGE"
-cp -a --preserve=all "$FW_DIR/${MODEL}_${REGION}/system/system/priv-app/HotwordEnrollmentOKGoogleExCORTEXM4" "$WORK_DIR/product/priv-app"
-cp -a --preserve=all "$FW_DIR/${MODEL}_${REGION}/system/system/priv-app/HotwordEnrollmentXGoogleExCORTEXM4" "$WORK_DIR/product/priv-app"
+mkdir -p "$FW_DIR/${MODEL}_${REGION}/system/system/priv-app/HotwordEnrollmentOKGoogleExCORTEXM4"
+mkdir -p "$FW_DIR/${MODEL}_${REGION}/system/system/priv-app/HotwordEnrollmentXGoogleExCORTEXM4"
+cp -a --preserve=all "$FW_DIR/${MODEL}_${REGION}/system/system/priv-app/HotwordEnrollmentOKGoogleExCORTEXM4/HotwordEnrollmentOKGoogleExCORTEXM4.apk" "$WORK_DIR/product/priv-app/HotwordEnrollmentOKGoogleExCORTEXM4"
+cp -a --preserve=all "$FW_DIR/${MODEL}_${REGION}/system/system/priv-app/HotwordEnrollmentXGoogleExCORTEXM4/HotwordEnrollmentXGoogleExCORTEXM4.apk" "$WORK_DIR/product/priv-app/HotwordEnrollmentXGoogleExCORTEXM4"
 
 SET_METADATA "product" "priv-app/HotwordEnrollmentOKGoogleExCORTEXM4" 0 0 755 "u:object_r:system_file:s0"
 SET_METADATA "product" "priv-app/HotwordEnrollmentOKGoogleExCORTEXM4/HotwordEnrollmentOKGoogleExCORTEXM4.apk" 0 0 644 "u:object_r:system_file:s0"
-SET_METADATA "product" "priv-app/HotwordEnrollmentOKGoogleExCORTEXM4/HotwordEnrollmentOKGoogleExCORTEXM4.apk.prof" 0 0 644 "u:object_r:system_file:s0"
 SET_METADATA "product" "priv-app/HotwordEnrollmentXGoogleExCORTEXM4" 0 0 755 "u:object_r:system_file:s0"
 SET_METADATA "product" "priv-app/HotwordEnrollmentXGoogleExCORTEXM4/HotwordEnrollmentXGoogleExCORTEXM4.apk" 0 0 644 "u:object_r:system_file:s0"
-SET_METADATA "product" "priv-app/HotwordEnrollmentXGoogleExCORTEXM4/HotwordEnrollmentXGoogleExCORTEXM4.apk.prof" 0 0 644 "u:object_r:system_file:s0"
 
 echo "Adding 32-Bit WFD blobs"
 ADD_TO_WORK_DIR "p3sxxx" "system" "system/bin/remotedisplay" 0 2000 755 "u:object_r:remotedisplay_exec:s0"
