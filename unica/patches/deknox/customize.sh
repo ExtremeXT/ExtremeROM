@@ -4,6 +4,9 @@ ADD_TO_WORK_DIR "a56xnaxx" "system" "."
 # Tab S10 FE android_server blobs
 ADD_TO_WORK_DIR "gts10fewifixx" "system" "."
 
+# S25U iccc blobs
+ADD_TO_WORK_DIR "pa3qxxx" "system" "."
+
 # KnoxGuard
 DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxGuard"
 DELETE_FROM_WORK_DIR "system" "system/etc/permissions/privapp-permissions-com.samsung.android.kgclient.xml"
