@@ -81,7 +81,7 @@ if $SOURCE_HAS_QHD_DISPLAY; then
         ADD_TO_WORK_DIR "e1sxxx" "system" "."
         # TODO: Finish SystemUI Resolution patch
         #APPLY_PATCH "system/framework/framework.jar" "resolution/framework.jar/0001-Disable-dynamic-resolution-control.patch"
-        #APPLY_PATCH "system/priv-app/SecSettings/SecSettings.apk" "resolution/SecSettings.apk/0001-Disable-dynamic-resolution-control.patch"
+        APPLY_PATCH "system/priv-app/SecSettings/SecSettings.apk" "resolution/SecSettings.apk/0001-Disable-dynamic-resolution-control.patch"
     fi
 fi
 
