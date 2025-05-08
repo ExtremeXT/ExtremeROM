@@ -1,7 +1,0 @@
-
-# target/x1s/postinstall.edify
-if is_substring("G980F", getprop("ro.bootloader")) then
-    package_extract_file("boot_lte.img", "/dev/block/by-name/boot");
-    package_extract_file("dtbo_lte.img", "/dev/block/by-name/dtbo");
-endif;
-
