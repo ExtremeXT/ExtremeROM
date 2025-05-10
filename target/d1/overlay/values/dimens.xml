@@ -11,9 +11,9 @@
     <dimen name="rounded_corner_radius_bottom">9.0dip</dimen>
     <dimen name="rounded_corner_radius_for_letterbox">2.0mm</dimen>
     <dimen name="rounded_corner_radius_top">9.0dip</dimen>
-    <dimen name="status_bar_camera_side_padding">2.2247925mm</dimen>
-    <dimen name="status_bar_camera_top_margin">1.4213867mm</dimen>
-    <dimen name="status_bar_height_portrait">5.76297mm</dimen>
-    <dimen name="status_bar_indicator_corner_padding">4.4496155mm</dimen>
+    <dimen name="status_bar_camera_side_padding">1.6068115mm</dimen>
+    <dimen name="status_bar_camera_top_margin">1.1123962mm</dimen>
+    <dimen name="status_bar_height_portrait">5.6879883mm</dimen>
+    <dimen name="status_bar_indicator_corner_padding">3.213623mm</dimen>
     <dimen name="physical_power_button_center_screen_location_y">1435.0px</dimen>
 </resources>

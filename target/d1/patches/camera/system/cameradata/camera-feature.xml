@@ -109,7 +109,6 @@
     <!-- Multi-camera features -->
     <local name="SUPPORT_BACK_DUAL_PORTRAIT" value="true"/>
     <local name="SUPPORT_BACK_WIDE_NORMAL_DUAL_PORTRAIT" value="true"/>
-    <local name="SUPPORT_BACK_TOF_PORTRAIT" value="true"/>
     <local name="SUPPORT_SEAMLESS_ZOOM" value="true"/>
     <local name="SUPPORT_WIDE_LENS_CORRECTION" value="true"/>
     <local name="BACK_WIDE_CAMERA_ID" value="2"/>
@@ -157,7 +156,7 @@
 
     <local name="SUPPORT_RECORDING_MULTI_MIC_ZOOM_FOCUS" value="true"/>
 
-    <local name="DISPLAY_CUTOUT_ANIMATION_INFO" num-of-display-cutout="1" display-cutout-0-type="0" display-cutout-0-left="164.5" display-cutout-0-top="1" display-cutout-0-right="195.5" display-cutout-0-bottom="32" display-cutout-0-inner-left="166.8" display-cutout-0-inner-top="3.3" display-cutout-0-inner-right="193.2" display-cutout-0-inner-bottom="29.7"/>
+    <local name="DISPLAY_CUTOUT_ANIMATION_INFO" num-of-display-cutout="1" display-cutout-0-type="0" display-cutout-0-left="163.5" display-cutout-0-top="1" display-cutout-0-right="196.5" display-cutout-0-bottom="34" display-cutout-0-inner-left="166" display-cutout-0-inner-top="3.5" display-cutout-0-inner-right="194" display-cutout-0-inner-bottom="31.5"/>
 
     <!-- Auto Framing -->
     <local name="SUPPORT_VIDEO_AUTO_FRAMING" value="true"/>
