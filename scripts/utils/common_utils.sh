@@ -250,11 +250,11 @@ ADD_TO_WORK_DIR()
         if [ -e "$SOURCE_FILE.00" ]; then
             LOG "- Adding $(sed -e "s|$WORK_DIR||" -e "s|/\.||" <<< "$TARGET_FILE") from ${SOURCE//$SRC_DIR\//}"
             mkdir -p "$(dirname "$TARGET_FILE")"
-            cat "$SOURCE_FILE."* > "$TARGET_FILE"
+            EVAL "cat \"$SOURCE_FILE.\"* > \"$TARGET_FILE\"" || exit 1
         elif [ -e "$SOURCE_FILE.000" ]; then
             LOG "- Adding ${TARGET_FILE//$WORK_DIR/} from ${SOURCE//$SRC_DIR\//}"
             mkdir -p "$(dirname "$TARGET_FILE")"
-            cat "$SOURCE_FILE.0"* > "$TARGET_FILE"
+            EVAL "cat \"$SOURCE_FILE.0\"* > \"$TARGET_FILE\"" || exit 1
         else
             LOGE "File not found: ${SOURCE_FILE//$SRC_DIR\//}"
             return 1
@@ -266,7 +266,7 @@ ADD_TO_WORK_DIR()
         else
             mkdir -p "$TARGET_FILE"
         fi
-        cp -a -T "$SOURCE_FILE" "$TARGET_FILE"
+        EVAL "cp -a -T \"$SOURCE_FILE\" \"$TARGET_FILE\"" || exit 1
     fi
 
     local ENTRY="${TARGET_FILE//$WORK_DIR\//}"
