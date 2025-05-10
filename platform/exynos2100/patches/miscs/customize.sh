@@ -4,6 +4,10 @@ SET_PROP "vendor" "external_storage.casefold.enabled" "1"
 SET_PROP "vendor" "external_storage.sdcardfs.enabled" "0"
 SET_PROP "vendor" "persist.sys.fuse.passthrough.enable" "true"
 
+echo "Enable Vulkan"
+SET_PROP "vendor" "ro.hwui.use_vulkan" "true"
+SET_PROP "vendor" "debug.hwui.use_hint_manager" "true"
+
 echo "Disabling encryption"
 # Encryption
 LINE=$(sed -n "/^\/dev\/block\/by-name\/userdata/=" "$WORK_DIR/vendor/etc/fstab.exynos2100")
