@@ -92,7 +92,7 @@ echo    'ui_print(" ");'
 echo    'ui_print(" ");'
 echo    'ui_print("****************************************");'
 echo -n 'ui_print("'
-echo -n "EternityROM v$ROM_VERSION for $TARGET_NAME"
+echo -n "EternityROM $ROM_VERSION for $TARGET_NAME"
 echo    '");'
 echo    'ui_print("ROM by Ocin4ever @XDAforums");'
 echo    'ui_print("Build system coded by salvo_giangri @XDAforums");'
