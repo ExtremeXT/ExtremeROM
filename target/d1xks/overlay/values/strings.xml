@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 H -13.71428571428571 V 34.28571428571429 H 13.71428571428571 V 0 H 0 Z @dp</string>
+    <string name="config_radio_access_family">GSM|CDMA|EVDO|WCDMA|LTE</string>
+</resources>
