@@ -3,6 +3,9 @@ out/
 # MacOS files
 *.DS_Store
 
+# WSL files
+*.Identifier
+
 # Cert
 security/unica_ota.x509.pem
 security/unica_ota.pk8
