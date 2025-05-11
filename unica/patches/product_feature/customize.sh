@@ -80,6 +80,7 @@ if $SOURCE_HAS_QHD_DISPLAY; then
         echo "Applying multi resolution patches"
         ADD_TO_WORK_DIR "e1sxxx" "system" "."
         APPLY_PATCH "system/framework/framework.jar" "resolution/framework.jar/0001-Disable-dynamic-resolution-control.patch"
+        APPLY_PATCH "system/framework/gamemanager.jar" "resolution/gamemanager.jar/0001-Disable-dynamic-resolution-control.patch"
         APPLY_PATCH "system/priv-app/SecSettings/SecSettings.apk" "resolution/SecSettings.apk/0001-Disable-dynamic-resolution-control.patch"
     fi
 fi
