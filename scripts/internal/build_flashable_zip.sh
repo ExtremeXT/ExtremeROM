@@ -19,6 +19,14 @@
 # [
 source "$SRC_DIR/scripts/utils/build_utils.sh" || exit 1
 
+SOURCE_FIRMWARE_PATH="$(cut -d "/" -f 1 -s <<< "$SOURCE_FIRMWARE")_$(cut -d "/" -f 2 -s <<< "$SOURCE_FIRMWARE")"
+TARGET_FIRMWARE_PATH="$(cut -d "/" -f 1 -s <<< "$TARGET_FIRMWARE")_$(cut -d "/" -f 2 -s <<< "$TARGET_FIRMWARE")"
+
+SOURCE_FINGERPRINT="$(GET_PROP "$FW_DIR/$SOURCE_FIRMWARE_PATH/system/system/build.prop" "ro.system.build.fingerprint")"
+SOURCE_FINGERPRINT="${SOURCE_FINGERPRINT//$(GET_PROP "$FW_DIR/$SOURCE_FIRMWARE_PATH/system/system/build.prop" "ro.build.product")/$(GET_PROP "$FW_DIR/$SOURCE_FIRMWARE_PATH/vendor/build.prop" "ro.product.vendor.device")}"
+TARGET_FINGERPRINT="$(GET_PROP "$FW_DIR/$TARGET_FIRMWARE_PATH/system/system/build.prop" "ro.system.build.fingerprint")"
+TARGET_FINGERPRINT="${TARGET_FINGERPRINT//$(GET_PROP "$FW_DIR/$TARGET_FIRMWARE_PATH/system/system/build.prop" "ro.build.product")/$(GET_PROP "$FW_DIR/$TARGET_FIRMWARE_PATH/vendor/build.prop" "ro.product.vendor.device")}"
+
 TMP_DIR="$OUT_DIR/zip"
 
 FILE_NAME="EternityROM_${ROM_VERSION}_${ROM_COMMIT}_$(date +%Y%m%d)_${TARGET_CODENAME}"
@@ -192,14 +200,11 @@ GENERATE_OTA_METADATA()
 {
     local PROTO_FILE="$SRC_DIR/external/android-tools/vendor/build/tools/releasetools/ota_metadata.proto"
 
-    local FINGERPRINT
     local INCREMENTAL
     local RELEASE
     local SECURITY_PATCH_LEVEL
     local TIMESTAMP
 
-    # TODO replace SSI name in fingerprint
-    FINGERPRINT="$(GET_PROP "system" "ro.system.build.fingerprint")"
     INCREMENTAL="$(GET_PROP "system" "ro.build.version.incremental")"
     RELEASE="$(GET_PROP "system" "ro.build.version.release")"
     SECURITY_PATCH_LEVEL="$(GET_PROP "system" "ro.build.version.security_patch")"
@@ -214,7 +219,7 @@ GENERATE_OTA_METADATA()
         MESSAGE+="type: BLOCK"
         MESSAGE+=", precondition: {device: \\\"$TARGET_CODENAME\\\"}"
         MESSAGE+=", postcondition: {device: \\\"$TARGET_CODENAME\\\""
-        MESSAGE+=", build: \\\"$FINGERPRINT\\\""
+        MESSAGE+=", build: \\\"$SOURCE_FINGERPRINT\\\""
         MESSAGE+=", build_incremental: \\\"$INCREMENTAL\\\""
         MESSAGE+=", timestamp: $TIMESTAMP"
         MESSAGE+=", sdk_level: \\\"$RELEASE\\\""
@@ -227,7 +232,7 @@ GENERATE_OTA_METADATA()
     {
         echo "ota-required-cache=0"
         echo "ota-type=BLOCK"
-        echo "post-build=$FINGERPRINT"
+        echo "post-build=$SOURCE_FINGERPRINT"
         echo "post-build-incremental=$INCREMENTAL"
         echo "post-sdk-level=$RELEASE"
         echo "post-security-patch-level=$SECURITY_PATCH_LEVEL"
@@ -588,10 +593,10 @@ PRINT_HEADER()
     echo -n "One UI version: $ONEUI_VERSION"
     echo    '");'
     echo -n 'ui_print("'
-    echo -n "Source: $(GET_PROP "ro.system.build.fingerprint" "$WORK_DIR/system/system/build.prop")"
+    echo -n "Source: $SOURCE_FINGERPRINT"
     echo    '");'
     echo -n 'ui_print("'
-    echo -n "Target: $(GET_PROP "ro.vendor.build.fingerprint" "$WORK_DIR/vendor/build.prop")"
+    echo -n "Target: $TARGET_FINGERPRINT"
     echo    '");'
     echo    'ui_print("****************************************************");'
     echo    'ui_print(" ");'
