@@ -230,11 +230,6 @@
     <local name="SUPPORT_SINGLE_TAKE_HIGHLIGHT_VIDEOS" value="true"/>
     <local name="SUPPORT_VDIS_IN_SINGLE_TAKE" value="true"/>
 
-    <local name="QUICK_SETTING_GUIDE_LINE" value="0.110f"/>
-    <local name="TOP_GUIDE_LINE" value="0.111f"/>
-    <local name="BOTTOM_GUIDE_LINE" value="0.743f"/>
-    <local name="SHUTTER_AREA_GUIDE_LINE" value="0.811f"/>
-
     <!-- directors view features -->
     <local name="SUPPORT_DIRECTORS_VIEW_VDIS" value="true"/>
     <local name="SUPPORT_DIRECTORS_VIEW_SAVE_OPTION" value="true"/>
