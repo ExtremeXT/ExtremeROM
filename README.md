@@ -65,7 +65,9 @@ This project is licensed under the terms of the [GNU General Public License v3.0
 * YOU are choosing to make these modifications, and if
 * you point the finger at me for messing up your device, I will laugh at you.
 *
-* I am also not responsible for you getting in trouble for using any of the features in this ROM, including but not limited to Call Recording, secure flag removal etc.
+* I am also not responsible for you getting in trouble for using any of the
+* features in this ROM, including but not limited to Call Recording, secure
+* flag removal etc.
 */
 ```
 
