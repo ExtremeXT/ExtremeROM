@@ -1,5 +1,0 @@
-# Disable ADB auth
-ro.adb.secure=0
-
-# Enable logs for Samsung apps
-persist.log.semlevel=0xFFFFFFFF
