@@ -16,9 +16,9 @@
 #
 
 # UN1CA configuration file
-ROM_VERSION="1.0.0-nxt"
+ROM_VERSION="4.0"
 ROM_VERSION+="-$(git rev-parse --short HEAD)"
-ROM_CODENAME="Nexus"
+ROM_CODENAME="Eulah"
 
 # Source ROM firmware
 case "$TARGET_SINGLE_SYSTEM_IMAGE" in
