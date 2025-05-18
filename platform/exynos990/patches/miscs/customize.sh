@@ -22,6 +22,10 @@ if [[ "$MODEL" != "c1s" && "$MODEL" != "c2s" ]]; then
     SET_PROP "vendor" "ro.surface_flinger.enable_frame_rate_override" "true"
 fi
 
+echo "Enable Vulkan"
+SET_PROP "vendor" "ro.hwui.use_vulkan" "true"
+SET_PROP "vendor" "debug.hwui.use_hint_manager" "true"
+
 echo "Disabling encryption"
 # Encryption
 LINE=$(sed -n "/^\/dev\/block\/by-name\/userdata/=" "$WORK_DIR/vendor/etc/fstab.exynos990")
