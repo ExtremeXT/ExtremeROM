@@ -98,4 +98,4 @@ Original UN1CA credits:
 - *All the UN1CA project contributors and testers ❤️*
 
 # Stargazers over time
-[![Stargazers over time](https://starchart.cc/Ocin4ever/EternityROM.svg)](https://starchart.cc/ExtremeXT/ExtremeROM)
+[![Stargazers over time](https://starchart.cc/Ocin4ever/EternityROM.svg)](https://starchart.cc/Ocin4ever/EternityROM)
