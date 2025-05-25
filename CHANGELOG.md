@@ -16,6 +16,8 @@
   - Better performance
   - Gain free space without 32bits libs
 - Upstreamed Kernel to 4.14.356 to allow compatibility:
+  - Fix bootlooping issues
+  - Updated F2FS drivers
   - Thanks [ExtremeXT](https://github.com/ExtremeXT)
 - Vulkan API enabled natively by default:
   - Better performance and power usage
