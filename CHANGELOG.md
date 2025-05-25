@@ -22,6 +22,8 @@
 - Vulkan API enabled natively by default:
   - Better performance and power usage
   - Some apps may still run on OpenGL
+- Fixed artifacts when using Vulkan:
+  - L1 is temporally disabled
 - Fix Samsung Camera:
   - 0.5x is still broken
   - Look at the issues section for more info
