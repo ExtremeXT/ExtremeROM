@@ -8,6 +8,7 @@
 - Switched to erofs:
   - Improve responsiveness
   - Faster loading time
+- Added KSU Next support
 - Add S25 fancy AI features:
   - Now Brief
   - Voice Eraser
