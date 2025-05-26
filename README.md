@@ -75,6 +75,9 @@ This project is licensed under the terms of the [GNU General Public License v3.0
 # Credits
 A big thanks goes to the following for their invaluable contributions in no particular order (MORE INFO AND PEOPLE: TO BE WRITTEN)
 - **[salvogiangri](https://github.com/salvogiangri)** for the UN1CA build system, OneUI patches, and general help and support while developing
+- **[ExtremeXT](https://github.com/ExtremeXT)** for your support since the beginning and helping me with so many things. Special thanks to you!
+
+Original ExtremeROM credits:
 - **[Igor](https://github.com/BotchedRPR)** for getting me into porting, teaching me the basics, and emotional support down the road
 - **[Halal Beef](https://github.com/halal-beef)** for lk3rd, testing and misc help
 - **[Duhan](https://github.com/duhansysl)** for help with vendor backports, a lot of fixes and advice
