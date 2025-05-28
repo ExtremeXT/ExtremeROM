@@ -23,6 +23,7 @@ ODIN=false
 FW=false
 APKTOOL=false
 WORK=false
+KERNEL_TMP=false
 TOOLS=false
 
 if [ "$#" == 0 ]; then
@@ -47,6 +48,9 @@ else
             "work_dir")
                 WORK=true
                 ;;
+	    "kernel_tmp_dir")
+		KERNEL_TMP=true
+		;;
             "tools")
                 TOOLS=true
                 ;;
@@ -58,6 +62,7 @@ else
                 echo "fw"
                 echo "apktool"
                 echo "work_dir"
+		echo "kernel_tmp_dir"
                 echo "tools"
                 exit 1
             ;;
@@ -91,6 +96,11 @@ fi
 if $WORK; then
     echo "- Cleaning ROM work dir..."
     rm -rf "$WORK_DIR"
+fi
+
+if $KERNEL_TMP; then
+    echo "- Cleaning Kernel dir..."
+    rm -rf "$KERNEL_TMP_DIR"
 fi
 
 if $TOOLS; then
