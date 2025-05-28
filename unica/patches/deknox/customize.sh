@@ -19,20 +19,16 @@ DELETE_FROM_WORK_DIR "system" "system/lib64/vendor.samsung.hardware.tlc.ddar-V1-
 DELETE_FROM_WORK_DIR "system" "system/app/BlockchainBasicKit"
 DELETE_FROM_WORK_DIR "system" "system/framework/service-samsung-blockchain.jar"
 DELETE_FROM_WORK_DIR "system" "system/etc/sysconfig/preinstalled-packages-com.samsung.android.coldwalletservice.xml"
-DELETE_FROM_WORK_DIR "system" "system/lib64/hidl_tlc_blockchain_comm_client.so"
 DELETE_FROM_WORK_DIR "system" "system/lib64/libtlc_blockchain_comm.so"
 DELETE_FROM_WORK_DIR "system" "system/lib64/libtlc_blockchain_keystore.so"
 DELETE_FROM_WORK_DIR "system" "system/lib64/libtlc_blockchain_direct_comm.so"
-DELETE_FROM_WORK_DIR "system" "system/lib64/vendor.samsung.hardware.tlc.blockchain@1.0.so"
 DELETE_FROM_WORK_DIR "system" "system/lib64/vendor.samsung.hardware.tlc.blockchain-V1-ndk.so"
 SET_FLOATING_FEATURE_CONFIG "SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_BLOCKCHAIN_SERVICE" --delete
 
 # Payment
-DELETE_FROM_WORK_DIR "system" "system/lib64/hidl_tlc_payment_comm_client.so"
 DELETE_FROM_WORK_DIR "system" "system/lib64/libtlc_payment_direct_comm.so"
 DELETE_FROM_WORK_DIR "system" "system/lib64/libtlc_payment_spay.so"
 DELETE_FROM_WORK_DIR "system" "system/lib64/libtlc_payment_comm.so"
-DELETE_FROM_WORK_DIR "system" "system/lib64/vendor.samsung.hardware.tlc.payment@1.0.so"
 DELETE_FROM_WORK_DIR "system" "system/lib64/vendor.samsung.hardware.tlc.payment-V1-ndk.so"
 
 # MPOS
