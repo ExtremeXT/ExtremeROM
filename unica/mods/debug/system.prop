@@ -1,0 +1,4 @@
+ro.secure=0
+ro.adb.secure=0
+ro.debuggable=1
+ro.force.debuggable=1

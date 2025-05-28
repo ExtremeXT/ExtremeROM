@@ -1,0 +1,10 @@
+on post-fs
+    rm /cache/logcat.txt
+    start logcat_cache
+
+service logcat_cache /system/bin/logcat -b all -f /cache/logcat.txt -v threadtime
+    class main
+    user root
+    group system
+    seclabel u:r:su:s0
+    disabled
