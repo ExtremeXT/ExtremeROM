@@ -1,38 +1,89 @@
 # [
-EXTREMEKRNL_REPO="https://github.com/ExtremeXT/990_upstream_v2/releases/download/latest"
+EXTREMEKRNL_REPO="https://github.com/ExtremeXT/990_upstream_v2/"
 KERNELSU_MANAGER_APK="https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v1.0.6/KernelSU_Next_v1.0.6_12490-release.apk"
+
+BUILD_KERNEL()
+{
+    PARENT=$(pwd)
+    cd $KERNEL_TMP_DIR
+
+    ./build.sh -m ${TARGET_CODENAME} -k y -r n
+
+    # Fixup for LTE devices
+    ./build.sh -m ${TARGET_CODENAME}lte -k n -r n -d y
+
+    cd $PARENT
+}
+
+SAFE_PULL_CHANGES()
+{
+    PARENT=$(pwd)
+    cd "$KERNEL_TMP_DIR"
+
+    set -eo pipefail
+
+    git fetch origin
+
+    LOCAL=$(git rev-parse @)
+    REMOTE=$(git rev-parse origin/main)
+    BASE=$(git merge-base @ origin/main)
+
+    # Now we have three cases that we need to take care of.
+    if [ "$LOCAL" = "$REMOTE" ]; then
+        echo "Local branch is up-to-date with remote."
+    elif [ "$LOCAL" = "$BASE" ]; then
+        echo "Fast-forward possible. Pulling..."
+        git pull --ff-only
+    elif [ "$REMOTE" = "$BASE" ]; then
+        echo "Local branch is ahead of remote. Not doing anything."
+    else
+        echo "ERR: Remote history has diverged (possible force-push)."
+	cd "$PARENT"
+	return 1
+    fi
+
+    cd "$PARENT"
+}
 
 REPLACE_KERNEL_BINARIES()
 {
-    [ -d "$TMP_DIR" ] && rm -rf "$TMP_DIR"
-    mkdir -p "$TMP_DIR"
+    mkdir -p "$KERNEL_TMP_DIR"
 
-    ZIP_LINK="$EXTREMEKRNL_REPO/ExtremeKRNL-Nexus-${TARGET_CODENAME}.zip"
-    echo "Downloading $(basename "$ZIP_LINK")"
-    curl -L -s -o "$TMP_DIR/krnl.zip" "$ZIP_LINK"
+    echo "Cloning/updating ExtremeKernel"
 
-    echo "Extracting kernel binaries"
-    rm -f "$WORK_DIR/kernel/"*.img
-    unzip -q -j "$TMP_DIR/krnl.zip" \
-        "files/boot.img" "files/dtbo.img" \
-        -d "$WORK_DIR/kernel"
-
-    if [[ "$TARGET_CODENAME" != "r8s" && "$TARGET_CODENAME" != "z3s" && "$TARGET_INSTALL_METHOD" != "odin" ]]; then
-        ZIP_LINK="$EXTREMEKRNL_REPO/ExtremeKRNL-Nexus-${TARGET_CODENAME}lte.zip"
-        echo "Downloading $(basename "$ZIP_LINK")"
-        curl -L -s -o "$TMP_DIR/krnl_lte.zip" "$ZIP_LINK"
-
-        echo "Extracting kernel binaries"
-        mkdir "$WORK_DIR/kernel/temp"
-        unzip -q -j "$TMP_DIR/krnl_lte.zip" \
-            "files/boot.img" "files/dtbo.img" \
-            -d "$WORK_DIR/kernel/temp"
-        mv "$WORK_DIR/kernel/temp/boot.img" "$WORK_DIR/kernel/boot_lte.img"
-        mv "$WORK_DIR/kernel/temp/dtbo.img" "$WORK_DIR/kernel/dtbo_lte.img"
-        rm -rf "$WORK_DIR/kernel/temp"
+    # If the kernel dir exists, pull the latest changes.
+    # If it does not exist, clone the repo.
+    if [ -d "$KERNEL_TMP_DIR/.git" ]; then
+        echo "Existing git repo found, trying to pull latest changes."
+        if ! SAFE_PULL_CHANGES; then
+		echo "ERR: Could not pull latest Kernel changes."
+		echo "If you hold local changes, please rebase to the new base."
+		echo "If not, cleaning the kernel_tmp_dir should suffice."
+		return 1
+	fi
+    else
+        rm -rf "$KERNEL_TMP_DIR"
+        git clone "$EXTREMEKRNL_REPO" "$KERNEL_TMP_DIR" --recurse-submodules
     fi
 
-    rm -rf "$TMP_DIR"
+    echo "Running the kernel build script."
+    BUILD_KERNEL
+    rm -f "$WORK_DIR/kernel/"*.img
+
+    # Move the files to the work dir
+    mv -v "$KERNEL_TMP_DIR/build/out/$TARGET_CODENAME/boot.img" "$WORK_DIR/kernel"
+    mv -v "$KERNEL_TMP_DIR/build/out/$TARGET_CODENAME/dtbo.img" "$WORK_DIR/kernel"
+
+    # And now for the LTE DTBOs
+    if [[ "$TARGET_CODENAME" != "r8s" && "$TARGET_CODENAME" != "z3s" && "$TARGET_INSTALL_METHOD" != "odin" ]]; then
+	mv -v "$KERNEL_TMP_DIR/build/out/${TARGET_CODENAME}lte/dtbo.img" "$WORK_DIR/kernel/dtbo_lte.img"
+    fi
+
+    # Usually we would delete the temporary directory.
+    # However, the Kernel has its own build system that
+    # will track changes made to the source by itself.
+    # Clean building the kernel also takes a long time.
+    # So, keep the kernel temp dir.
 }
 
 ADD_MANAGER_APK_TO_PRELOAD()
