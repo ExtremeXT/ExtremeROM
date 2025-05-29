@@ -47,7 +47,8 @@ SAFE_PULL_CHANGES()
 
 REPLACE_KERNEL_BINARIES()
 {
-    mkdir -p "$KERNEL_TMP_DIR"
+    local KERNEL_TMP_DIR="$KERNEL_TMP_DIR-$TARGET_PLATFORM"
+    [ ! -d "$KERNEL_TMP_DIR" ] && mkdir -p "$KERNEL_TMP_DIR"
 
     echo "Cloning/updating ExtremeKernel"
 

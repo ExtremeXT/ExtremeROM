@@ -99,8 +99,8 @@ if $WORK; then
 fi
 
 if $KERNEL_TMP; then
-    echo "- Cleaning Kernel dir..."
-    rm -rf "$KERNEL_TMP_DIR"
+    echo "- Cleaning Kernel dir(s)..."
+    rm -rf "$KERNEL_TMP_DIR"*
 fi
 
 if $TOOLS; then
