@@ -36,16 +36,16 @@ system/etc/init/ssu.rc
 system/etc/permissions/privapp-permissions-com.samsung.ssu.xml
 system/etc/sysconfig/samsungsimunlock.xml
 system/lib64/android.security.securekeygeneration-ndk.so
-system/lib64/vendor.samsung.hardware.security.ssu-V1-ndk.so
 system/lib64/libssu_keystore2.so
+system/lib64/vendor.samsung.hardware.security.ssu-V1-ndk.so
 system/priv-app/SsuService
 "
 
 # Recovery restoration script
 VENDOR_DEBLOAT+="
-recovery-from-boot.p
 bin/install-recovery.sh
 etc/init/vendor_flash_recovery.rc
+recovery-from-boot.p
 "
 
 # SEPolicy version
@@ -62,17 +62,16 @@ app/Maps
 app/YouTube
 overlay/GmsConfigOverlaySearchSelector.apk
 priv-app/FamilyLinkParentalControls
-priv-app/Messages
 priv-app/SearchSelector
 "
 
 SYSTEM_DEBLOAT+="
-system/app/FBAppManager_NS
-system/app/PlayAutoInstallConfig
-system/app/SamsungPassAutofill_v1
 system/app/Fast
-system/app/Rampart
+system/app/FBAppManager_NS
 system/app/KidsHome_Installer
+system/app/PlayAutoInstallConfig
+system/app/Rampart
+system/app/SamsungPassAutofill_v1
 system/app/SamsungTTSVoice_de_DE_f00
 system/app/SamsungTTSVoice_en_GB_f00
 system/app/SamsungTTSVoice_es_ES_f00
@@ -105,33 +104,35 @@ system/etc/sysconfig/samsungauthframework.xml
 system/etc/sysconfig/samsungpassapp.xml
 system/hidden/SmartTutor
 system/preload/Facebook_stub_preload
-system/priv-app/AuthFramework
-system/priv-app/AREmojiEditor
 system/priv-app/AREmoji
-system/priv-app/YourPhone_P1_5
-system/priv-app/StickerFaceARAvatar
-system/priv-app/SamsungBilling
+system/priv-app/AREmojiEditor
+system/priv-app/AuthFramework
 system/priv-app/BCService
 system/priv-app/DiagMonAgent94
 system/priv-app/DigitalKey
 system/priv-app/FBInstaller_NS
 system/priv-app/FBServices
 system/priv-app/FotaAgent
-system/priv-app/OneDrive_Samsung_v3
 system/priv-app/OMCAgent5
+system/priv-app/OneDrive_Samsung_v3
 system/priv-app/PaymentFramework
-system/priv-app/SOAgent75
+system/priv-app/SamsungBilling
 system/priv-app/SamsungCarKeyFw
+system/priv-app/SamsungMessages
 system/priv-app/SamsungPass
+system/priv-app/SOAgent75
 system/priv-app/SPPPushClient
+system/priv-app/StickerFaceARAvatar
 "
 
 PRISM_DEBLOAT+="
 app
+HWRDB/data/hwr_zh_CN.dat
+HWRDB/data/hwr_zh_HK.dat
+HWRDB/data/hwr_zh_TW.dat
 media
 preload
 priv-app
-sipdb/Xt9
 sipdb/SwiftKey/ar
 sipdb/SwiftKey/as
 sipdb/SwiftKey/az
@@ -206,9 +207,7 @@ sipdb/SwiftKey/uk
 sipdb/SwiftKey/ur
 sipdb/SwiftKey/uz
 sipdb/SwiftKey/vi
-HWRDB/data/hwr_zh_CN.dat
-HWRDB/data/hwr_zh_HK.dat
-HWRDB/data/hwr_zh_TW.dat
+sipdb/Xt9
 "
 
 # eSIM
@@ -219,8 +218,8 @@ if $SOURCE_IS_ESIM_SUPPORTED; then
         system/etc/permissions/privapp-permissions-com.samsung.euicc.mep.xml
         system/etc/sysconfig/preinstalled-packages-com.samsung.android.app.esimkeystring.xml
         system/etc/sysconfig/preinstalled-packages-com.samsung.euicc.xml
-        system/priv-app/EsimKeyString
         system/priv-app/EsimClient
+        system/priv-app/EsimKeyString
         system/priv-app/EuiccService
         "
     fi
