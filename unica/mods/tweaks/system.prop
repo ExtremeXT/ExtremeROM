@@ -1,0 +1,2 @@
+persist.device_config.activity_manager_native_boot.use_freezer=true
+
