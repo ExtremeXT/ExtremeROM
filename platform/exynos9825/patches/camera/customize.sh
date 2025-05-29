@@ -34,19 +34,6 @@ HEX_PATCH "$WORK_DIR/system/system/lib64/libstagefright.so" "010140f9dd1f0594a04
 
 # Add prebuilt libs from other devices
 BLOBS_LIST="
-system/lib64/libtensorflowLite.camera.samsung.so
-system/lib64/libtensorflowlite_c.camera.samsung.so
-system/lib64/libtensorflowlite_inference_api.camera.samsung.so
-system/lib64/libtensorflowlite_jni_voicecommand.so
-system/lib64/libtensorflowLite2_11_0_dynamic_camera.so
-system/lib64/libsaiv_HprFace_cmh_support_jni.camera.samsung.so
-"
-for blob in $BLOBS_LIST
-do
-    ADD_TO_WORK_DIR "e2sxxx" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0"
-done
-
-BLOBS_LIST="
 system/lib64/libeden_wrapper_system.so
 system/lib64/libsnap_aidl.snap.samsung.so
 system/lib64/vendor.samsung.hardware.snap-V2-ndk.so

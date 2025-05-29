@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<config>
-    <install-in-user-type package="com.samsung.sec.android.teegris.tui_service">
-        <install-in user-type="SYSTEM" />
-    </install-in-user-type>
-</config>
