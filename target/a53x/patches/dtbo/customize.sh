@@ -32,7 +32,13 @@ APPLY_DTBO_PATCH() {
     fi
 
     echo "- Applying \"$(grep "^Subject:" "$PATCH" | sed "s/.*PATCH] //")\" to dtbo"
-    "LC_ALL=C git apply --directory=\"$TMP_DIR\" --verbose --unsafe-paths \"$PATCH\""
+    patch -p1 -s -t -N --no-backup-if-mismatch -d "$TMP_DIR" < "$PATCH" &> /dev/null
+    cd - &> /dev/null
+
+    if [ -f "$TMP_DIR/*.rej" ]; then
+        echo "ERR: Found *.rej files in $TMP_DIR"
+        exit 1
+    fi
 }
 
 CREATE_CFG() {
