@@ -1,7 +1,6 @@
 echo "- Fix portrait mode"
 BLOBS_LIST="
 system/etc/public.libraries-arcsoft.txt
-system/lib/libface_landmark.arcsoft.so
 system/lib64/libhumantracking.arcsoft.so
 system/lib64/libface_recognition.arcsoft.so
 system/lib64/libsuper_fusion.arcsoft.so
