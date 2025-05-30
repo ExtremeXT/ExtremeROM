@@ -1,0 +1,4 @@
+id=vendor
+name=Add support to other variants
+author=Fede2782, SalvoGiangreco, @Ksawlii
+description=Adds firmware and tee blobs.
