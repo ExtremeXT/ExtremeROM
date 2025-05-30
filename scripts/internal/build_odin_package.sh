@@ -16,7 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-set -Eeuo pipefail
+set -Eeo pipefail
 
 # [
 GENERATE_LPMAKE_OPT()
@@ -141,11 +141,13 @@ while read -r i; do
     cp -a --preserve=all "$i" "$TMP_DIR/$IMG"
 done <<< "$(find "$WORK_DIR/kernel" -mindepth 1 -maxdepth 1 -type f -name "*.img")"
 
-for i in "$TMP_DIR"/*.img; do
-    echo "Compressing $(basename "$i")"
-    [ -f "$i.lz4" ] && rm -f "$i.lz4"
-    lz4 -B6 --content-size -q --rm "$i" "$i.lz4" &> /dev/null
-done
+if ! $NO_COMPRESSION; then
+    for i in "$TMP_DIR"/*.img; do
+        echo "Compressing $(basename "$i")"
+        [ -f "$i.lz4" ] && rm -f "$i.lz4"
+        lz4 -B6 --content-size -q --rm "$i" "$i.lz4" &> /dev/null
+    done
+fi
 
 echo "Creating tar"
 [ -f "$OUT_DIR/$FILE_NAME.tar" ] && rm -f "$OUT_DIR/$FILE_NAME.tar"

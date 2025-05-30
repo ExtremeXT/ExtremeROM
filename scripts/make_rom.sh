@@ -16,7 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-set -Eeuo pipefail
+set -Eeo pipefail
 START=$SECONDS
 
 # [
@@ -27,6 +27,7 @@ WORK_DIR_HASH="$(echo -n "$COMMIT_HASH$CONFIG_HASH" | sha1sum | cut -d " " -f 1)
 
 FORCE=false
 BUILD_ROM=false
+NO_COMPRESSION=false
 BUILD_ZIP=false
 BUILD_TAR=false
 
@@ -37,6 +38,9 @@ while [ "$#" != 0 ]; do
     case "$1" in
         "-f" | "--force")
             FORCE=true
+            ;;
+        "--no-compression")
+            NO_COMPRESSION=true
             ;;
         "--no-rom-zip")
             if $BUILD_TAR; then
@@ -55,6 +59,7 @@ while [ "$#" != 0 ]; do
         *)
             echo "Usage: make_rom [options]"
             echo " -f, --force : Force build"
+            echo " --no-compression : Disable brotli and zip file compression"
             echo " --no-rom-zip : Do not build ROM zip"
             echo " --no-rom-tar : Do not build ROM tar"
             exit 1
