@@ -27,16 +27,15 @@ APPLY_DTBO_PATCH() {
     local PATCH="$SRC_DIR/target/$TARGET_CODENAME/patches/dtbo/patches/$1"
 
     if [ ! -f "$PATCH" ]; then
-        LOGE "File not found: ${PATCH//$SRC_DIR\//}"
+        echo "File not found: ${PATCH//$SRC_DIR\//}"
         return 1
     fi
 
-    LOG "- Applying \"$(grep "^Subject:" "$PATCH" | sed "s/.*PATCH] //")\" to dtbo"
-    EVAL "LC_ALL=C git apply --directory=\"$TMP_DIR\" --verbose --unsafe-paths \"$PATCH\"" || return 1
+    echo "- Applying \"$(grep "^Subject:" "$PATCH" | sed "s/.*PATCH] //")\" to dtbo"
+    "LC_ALL=C git apply --directory=\"$TMP_DIR\" --verbose --unsafe-paths \"$PATCH\""
 }
 
 CREATE_CFG() {
-    LOG_STEP_OUT
     {
         echo "a53x_eur_open_w00_r00.dtbo"
         echo "    custom0=0x00000000"
@@ -58,7 +57,6 @@ CREATE_CFG() {
         echo "    custom0=0x00000006"
         echo "    custom1=0x00000020"
     } >> "$TMP_DIR/$TARGET_CODENAME.cfg"
-    LOG_STEP_IN
 }
 
 PACK_TO_DTBO() {
@@ -74,16 +72,14 @@ PACK_TO_IMG() {
 }
 
 COPY_TOOLS
-LOG_STEP_IN
-LOG "- Extract dtbo"
+echo "- Extract dtbo"
 EXTRACT
 APPLY_DTBO_PATCH "0001-Fix-Adaptive-Refresh-Rate-Color-Flickering.patch"
 CREATE_CFG
-LOG "- Repack dtbo"
+echo "- Repack dtbo"
 PACK_TO_DTBO
 PACK_TO_IMG
 [ -f "$WORK_DIR/kernel/dtbo.img" ] && rm -rf "$WORK_DIR/kernel/dtbo.img"
-LOG "- Copy new dtbo.img"
+echo "- Copy new dtbo.img"
 cp -fa "$TMP_DIR/dtbo.img" "$WORK_DIR/kernel/dtbo.img"
 rm -rf "$TMP_DIR"
-LOG_STEP_OUT
