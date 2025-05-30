@@ -1,0 +1,332 @@
+From 75d15cadcaac7f063d186858dac86185a7c991a0 Mon Sep 17 00:00:00 2001
+From: Ksawlii <ksawery.blaszczak@proton.me>
+Date: Sat, 19 Apr 2025 21:41:52 +0200
+Subject: [PATCH] Fix Adaptive Refresh Rate Color Flickering
+
+Signed-off-by: Ksawlii <ksawery.blaszczak@proton.me>
+---
+ dtsi.0 | 22 +++++++++++-----------
+ dtsi.1 | 22 +++++++++++-----------
+ dtsi.2 | 22 +++++++++++-----------
+ dtsi.3 | 22 +++++++++++-----------
+ dtsi.4 | 22 +++++++++++-----------
+ 5 files changed, 55 insertions(+), 55 deletions(-)
+
+diff --git a/dtsi.0 b/dtsi.0
+index ca18a17..b383516 100644
+--- a/dtsi.0
++++ b/dtsi.0
+@@ -1678,12 +1678,12 @@
+ 					cmd_underrun_cnt = <0x83b>;
+ 				};
+ 
+-				1080x2400@60hs {
+-					mode-name = "1080x2400@60hs";
++				1080x2400@60phs {
++					mode-name = "1080x2400@60phs";
+ 					pmsk = <0x02 0xaa 0x02 0x7627 0x0d 0x04 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00>;
+ 					hs-clk = <0x454>;
+ 					esc-clk = <0x14>;
+-					cmd_underrun_cnt = <0x1f37>;
++					cmd_underrun_cnt = <0x83b>;
+ 				};
+ 
+ 				1080x2400@30ns {
+@@ -1730,26 +1730,26 @@
+ 					phandle = <0x23>;
+ 				};
+ 
+-				a53x_panel_display_mode_1080x2400_60hs {
+-					id = "1080x2400_60HS";
++				a53x_panel_display_mode_1080x2400_60phs {
++					id = "1080x2400_60HS_120HS_TE_HW_SKIP_1";
+ 					width = <0x438>;
+ 					height = <0x960>;
+ 					refresh_rate = <0x3c>;
+-					refresh_mode = <0x01>;
+-					panel_refresh_rate = <0x3c>;
++					refresh_mode = <0x02>;
++					panel_refresh_rate = <0x78>;
+ 					panel_refresh_mode = <0x01>;
+ 					panel_te_st = <0x00>;
+ 					panel_te_ed = <0x00>;
+ 					panel_te_sw_skip_count = <0x00>;
+-					panel_te_hw_skip_count = <0x00>;
++					panel_te_hw_skip_count = <0x01>;
+ 					panel_h_porch = <0x00 0x00 0x00>;
+-					panel_v_porch = <0x980 0x00 0x00>;
++					panel_v_porch = <0x10 0x00 0x00>;
+ 					dsc_en = <0x01>;
+ 					dsc_cnt = <0x01>;
+ 					dsc_slice_num = <0x02>;
+ 					dsc_slice_w = <0x21c>;
+ 					dsc_slice_h = <0x28>;
+-					cmd_lp_ref = <0x1f37>;
++					cmd_lp_ref = <0x83b>;
+ 					phandle = <0x24>;
+ 				};
+ 
+@@ -10062,7 +10062,7 @@
+ 		ddi_vdd3 = "/fragment@panel_drv/__overlay__/panel_drv_0/regulators/ddi-vdd3";
+ 		a53x_panel_display_modes = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes";
+ 		a53x_panel_display_mode_1080x2400_120hs = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_120hs";
+-		a53x_panel_display_mode_1080x2400_60hs = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_60hs";
++		a53x_panel_display_mode_1080x2400_60phs = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_60phs";
+ 		a53x_panel_display_mode_1080x2400_30ns = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_30ns";
+ 		sec_debug_next = "/fragment@1/__overlay__/sec_debug_next";
+ 		sec_reloc_gpio = "/fragment@model/__overlay__/samsung,reloc_gpio";
+diff --git a/dtsi.1 b/dtsi.1
+index affc862..c7d2f1b 100644
+--- a/dtsi.1
++++ b/dtsi.1
+@@ -1693,12 +1693,12 @@
+ 					cmd_underrun_cnt = <0x83b>;
+ 				};
+ 
+-				1080x2400@60hs {
+-					mode-name = "1080x2400@60hs";
++				1080x2400@60phs {
++					mode-name = "1080x2400@60phs";
+ 					pmsk = <0x02 0xaa 0x02 0x7627 0x0d 0x04 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00>;
+ 					hs-clk = <0x454>;
+ 					esc-clk = <0x14>;
+-					cmd_underrun_cnt = <0x1f37>;
++					cmd_underrun_cnt = <0x83b>;
+ 				};
+ 
+ 				1080x2400@30ns {
+@@ -1745,26 +1745,26 @@
+ 					phandle = <0x2b>;
+ 				};
+ 
+-				a53x_panel_display_mode_1080x2400_60hs {
+-					id = "1080x2400_60HS";
++				a53x_panel_display_mode_1080x2400_60phs {
++					id = "1080x2400_60HS_120HS_TE_HW_SKIP_1";
+ 					width = <0x438>;
+ 					height = <0x960>;
+ 					refresh_rate = <0x3c>;
+-					refresh_mode = <0x01>;
+-					panel_refresh_rate = <0x3c>;
++					refresh_mode = <0x02>;
++					panel_refresh_rate = <0x78>;
+ 					panel_refresh_mode = <0x01>;
+ 					panel_te_st = <0x00>;
+ 					panel_te_ed = <0x00>;
+ 					panel_te_sw_skip_count = <0x00>;
+-					panel_te_hw_skip_count = <0x00>;
++					panel_te_hw_skip_count = <0x01>;
+ 					panel_h_porch = <0x00 0x00 0x00>;
+-					panel_v_porch = <0x980 0x00 0x00>;
++					panel_v_porch = <0x10 0x00 0x00>;
+ 					dsc_en = <0x01>;
+ 					dsc_cnt = <0x01>;
+ 					dsc_slice_num = <0x02>;
+ 					dsc_slice_w = <0x21c>;
+ 					dsc_slice_h = <0x28>;
+-					cmd_lp_ref = <0x1f37>;
++					cmd_lp_ref = <0x83b>;
+ 					phandle = <0x2c>;
+ 				};
+ 
+@@ -10179,7 +10179,7 @@
+ 		ddi_vdd3 = "/fragment@panel_drv/__overlay__/panel_drv_0/regulators/ddi-vdd3";
+ 		a53x_panel_display_modes = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes";
+ 		a53x_panel_display_mode_1080x2400_120hs = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_120hs";
+-		a53x_panel_display_mode_1080x2400_60hs = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_60hs";
++		a53x_panel_display_mode_1080x2400_60phs = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_60phs";
+ 		a53x_panel_display_mode_1080x2400_30ns = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_30ns";
+ 		sec_debug_next = "/fragment@1/__overlay__/sec_debug_next";
+ 		sm5451_charger = "/fragment@2/__overlay__/sm5451@63";
+diff --git a/dtsi.2 b/dtsi.2
+index 728f671..25346d8 100644
+--- a/dtsi.2
++++ b/dtsi.2
+@@ -1693,12 +1693,12 @@
+ 					cmd_underrun_cnt = <0x83b>;
+ 				};
+ 
+-				1080x2400@60hs {
+-					mode-name = "1080x2400@60hs";
++				1080x2400@60phs {
++					mode-name = "1080x2400@60phs";
+ 					pmsk = <0x02 0xaa 0x02 0x7627 0x0d 0x04 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00>;
+ 					hs-clk = <0x454>;
+ 					esc-clk = <0x14>;
+-					cmd_underrun_cnt = <0x1f37>;
++					cmd_underrun_cnt = <0x83b>;
+ 				};
+ 
+ 				1080x2400@30ns {
+@@ -1745,26 +1745,26 @@
+ 					phandle = <0x2b>;
+ 				};
+ 
+-				a53x_panel_display_mode_1080x2400_60hs {
+-					id = "1080x2400_60HS";
++				a53x_panel_display_mode_1080x2400_60phs {
++					id = "1080x2400_60HS_120HS_TE_HW_SKIP_1";
+ 					width = <0x438>;
+ 					height = <0x960>;
+ 					refresh_rate = <0x3c>;
+-					refresh_mode = <0x01>;
+-					panel_refresh_rate = <0x3c>;
++					refresh_mode = <0x02>;
++					panel_refresh_rate = <0x78>;
+ 					panel_refresh_mode = <0x01>;
+ 					panel_te_st = <0x00>;
+ 					panel_te_ed = <0x00>;
+ 					panel_te_sw_skip_count = <0x00>;
+-					panel_te_hw_skip_count = <0x00>;
++					panel_te_hw_skip_count = <0x01>;
+ 					panel_h_porch = <0x00 0x00 0x00>;
+-					panel_v_porch = <0x980 0x00 0x00>;
++					panel_v_porch = <0x10 0x00 0x00>;
+ 					dsc_en = <0x01>;
+ 					dsc_cnt = <0x01>;
+ 					dsc_slice_num = <0x02>;
+ 					dsc_slice_w = <0x21c>;
+ 					dsc_slice_h = <0x28>;
+-					cmd_lp_ref = <0x1f37>;
++					cmd_lp_ref = <0x83b>;
+ 					phandle = <0x2c>;
+ 				};
+ 
+@@ -10189,7 +10189,7 @@
+ 		ddi_vdd3 = "/fragment@panel_drv/__overlay__/panel_drv_0/regulators/ddi-vdd3";
+ 		a53x_panel_display_modes = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes";
+ 		a53x_panel_display_mode_1080x2400_120hs = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_120hs";
+-		a53x_panel_display_mode_1080x2400_60hs = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_60hs";
++		a53x_panel_display_mode_1080x2400_60phs = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_60phs";
+ 		a53x_panel_display_mode_1080x2400_30ns = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_30ns";
+ 		sec_debug_next = "/fragment@1/__overlay__/sec_debug_next";
+ 		sm5451_charger = "/fragment@2/__overlay__/sm5451@63";
+diff --git a/dtsi.3 b/dtsi.3
+index 68b443c..067555c 100644
+--- a/dtsi.3
++++ b/dtsi.3
+@@ -1693,12 +1693,12 @@
+ 					cmd_underrun_cnt = <0x83b>;
+ 				};
+ 
+-				1080x2400@60hs {
+-					mode-name = "1080x2400@60hs";
++				1080x2400@60phs {
++					mode-name = "1080x2400@60phs";
+ 					pmsk = <0x02 0xaa 0x02 0x7627 0x0d 0x04 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00>;
+ 					hs-clk = <0x454>;
+ 					esc-clk = <0x14>;
+-					cmd_underrun_cnt = <0x1f37>;
++					cmd_underrun_cnt = <0x83b>;
+ 				};
+ 
+ 				1080x2400@30ns {
+@@ -1745,26 +1745,26 @@
+ 					phandle = <0x2b>;
+ 				};
+ 
+-				a53x_panel_display_mode_1080x2400_60hs {
+-					id = "1080x2400_60HS";
++				a53x_panel_display_mode_1080x2400_60phs {
++					id = "1080x2400_60HS_120HS_TE_HW_SKIP_1";
+ 					width = <0x438>;
+ 					height = <0x960>;
+ 					refresh_rate = <0x3c>;
+-					refresh_mode = <0x01>;
+-					panel_refresh_rate = <0x3c>;
++					refresh_mode = <0x02>;
++					panel_refresh_rate = <0x78>;
+ 					panel_refresh_mode = <0x01>;
+ 					panel_te_st = <0x00>;
+ 					panel_te_ed = <0x00>;
+ 					panel_te_sw_skip_count = <0x00>;
+-					panel_te_hw_skip_count = <0x00>;
++					panel_te_hw_skip_count = <0x01>;
+ 					panel_h_porch = <0x00 0x00 0x00>;
+-					panel_v_porch = <0x980 0x00 0x00>;
++					panel_v_porch = <0x10 0x00 0x00>;
+ 					dsc_en = <0x01>;
+ 					dsc_cnt = <0x01>;
+ 					dsc_slice_num = <0x02>;
+ 					dsc_slice_w = <0x21c>;
+ 					dsc_slice_h = <0x28>;
+-					cmd_lp_ref = <0x1f37>;
++					cmd_lp_ref = <0x83b>;
+ 					phandle = <0x2c>;
+ 				};
+ 
+@@ -10189,7 +10189,7 @@
+ 		ddi_vdd3 = "/fragment@panel_drv/__overlay__/panel_drv_0/regulators/ddi-vdd3";
+ 		a53x_panel_display_modes = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes";
+ 		a53x_panel_display_mode_1080x2400_120hs = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_120hs";
+-		a53x_panel_display_mode_1080x2400_60hs = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_60hs";
++		a53x_panel_display_mode_1080x2400_60phs = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_60phs";
+ 		a53x_panel_display_mode_1080x2400_30ns = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_30ns";
+ 		sec_debug_next = "/fragment@1/__overlay__/sec_debug_next";
+ 		sm5451_charger = "/fragment@2/__overlay__/sm5451@63";
+diff --git a/dtsi.4 b/dtsi.4
+index 9c82dbf..fca10ea 100644
+--- a/dtsi.4
++++ b/dtsi.4
+@@ -1683,12 +1683,12 @@
+ 					cmd_underrun_cnt = <0x83b>;
+ 				};
+ 
+-				1080x2400@60hs {
+-					mode-name = "1080x2400@60hs";
++				1080x2400@60phs {
++					mode-name = "1080x2400@60phs";
+ 					pmsk = <0x02 0xaa 0x02 0x7627 0x0d 0x04 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00>;
+ 					hs-clk = <0x454>;
+ 					esc-clk = <0x14>;
+-					cmd_underrun_cnt = <0x1f37>;
++					cmd_underrun_cnt = <0x83b>;
+ 				};
+ 
+ 				1080x2400@30ns {
+@@ -1735,26 +1735,26 @@
+ 					phandle = <0x2a>;
+ 				};
+ 
+-				a53x_panel_display_mode_1080x2400_60hs {
+-					id = "1080x2400_60HS";
++				a53x_panel_display_mode_1080x2400_60phs {
++					id = "1080x2400_60HS_120HS_TE_HW_SKIP_1";
+ 					width = <0x438>;
+ 					height = <0x960>;
+ 					refresh_rate = <0x3c>;
+-					refresh_mode = <0x01>;
+-					panel_refresh_rate = <0x3c>;
++					refresh_mode = <0x02>;
++					panel_refresh_rate = <0x78>;
+ 					panel_refresh_mode = <0x01>;
+ 					panel_te_st = <0x00>;
+ 					panel_te_ed = <0x00>;
+ 					panel_te_sw_skip_count = <0x00>;
+-					panel_te_hw_skip_count = <0x00>;
++					panel_te_hw_skip_count = <0x01>;
+ 					panel_h_porch = <0x00 0x00 0x00>;
+-					panel_v_porch = <0x980 0x00 0x00>;
++					panel_v_porch = <0x10 0x00 0x00>;
+ 					dsc_en = <0x01>;
+ 					dsc_cnt = <0x01>;
+ 					dsc_slice_num = <0x02>;
+ 					dsc_slice_w = <0x21c>;
+ 					dsc_slice_h = <0x28>;
+-					cmd_lp_ref = <0x1f37>;
++					cmd_lp_ref = <0x83b>;
+ 					phandle = <0x2b>;
+ 				};
+ 
+@@ -10095,7 +10095,7 @@
+ 		ddi_vdd3 = "/fragment@panel_drv/__overlay__/panel_drv_0/regulators/ddi-vdd3";
+ 		a53x_panel_display_modes = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes";
+ 		a53x_panel_display_mode_1080x2400_120hs = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_120hs";
+-		a53x_panel_display_mode_1080x2400_60hs = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_60hs";
++		a53x_panel_display_mode_1080x2400_60phs = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_60phs";
+ 		a53x_panel_display_mode_1080x2400_30ns = "/fragment@panel_display_mode/__overlay__/a53x_panel_display_modes/a53x_panel_display_mode_1080x2400_30ns";
+ 		sec_debug_next = "/fragment@1/__overlay__/sec_debug_next";
+ 		sm5451_charger = "/fragment@2/__overlay__/sm5451@63";
+-- 
+2.49.0
+
