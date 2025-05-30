@@ -1,54 +1,54 @@
 echo "- Fix portrait mode"
+DELETE_FROM_WORK_DIR "system" "system/etc/public.libraries-arcsoft.txt"
 BLOBS_LIST="
-system/etc/public.libraries-arcsoft.txt
-system/lib64/libhumantracking.arcsoft.so
-system/lib64/libface_recognition.arcsoft.so
-system/lib64/libsuper_fusion.arcsoft.so
-system/lib64/libsf_tetra_enhance.arcsoft.so
-system/lib64/libmf_bayer_enhance.arcsoft.so
-system/lib64/libpic_best.arcsoft.so
-system/lib64/libPortraitDistortionCorrection.arcsoft.so
-system/lib64/libPortraitDistortionCorrectionCali.arcsoft.so
-system/lib64/libface_landmark.arcsoft.so
-system/lib64/libFacialStickerEngine.arcsoft.so
-system/lib64/libfrtracking_engine.arcsoft.so
-system/lib64/libFaceRecognition.arcsoft.so
-system/lib64/libveengine.arcsoft.so
-system/lib64/lib_pet_detection.arcsoft.so
-system/lib64/libae_bracket_hdr.arcsoft.so
-system/lib64/libhybrid_high_dynamic_range.arcsoft.so
-system/lib64/libimage_enhancement.arcsoft.so
-system/lib64/libhigh_dynamic_range.arcsoft.so
-system/lib64/libobjectcapture_jni.arcsoft.so
-system/lib64/libFacialAttributeDetection.arcsoft.so
-system/lib64/libobjectcapture.arcsoft.so
-system/lib64/libai_fusion_high_resolution.arcsoft.so
-system/lib64/libai_fusion_high_resolution_base_v2.arcsoft.so
-system/lib64/libai_fusion_high_resolution_base_v1.arcsoft.so
+libhumantracking.arcsoft.so
+libface_recognition.arcsoft.so
+libsuper_fusion.arcsoft.so
+libsf_tetra_enhance.arcsoft.so
+libmf_bayer_enhance.arcsoft.so
+libpic_best.arcsoft.so
+libPortraitDistortionCorrection.arcsoft.so
+libPortraitDistortionCorrectionCali.arcsoft.so
+libface_landmark.arcsoft.so
+libFacialStickerEngine.arcsoft.so
+libfrtracking_engine.arcsoft.so
+libFaceRecognition.arcsoft.so
+libveengine.arcsoft.so
+lib_pet_detection.arcsoft.so
+libae_bracket_hdr.arcsoft.so
+libhybrid_high_dynamic_range.arcsoft.so
+libimage_enhancement.arcsoft.so
+libhigh_dynamic_range.arcsoft.so
+libobjectcapture_jni.arcsoft.so
+libFacialAttributeDetection.arcsoft.so
+libobjectcapture.arcsoft.so
+libai_fusion_high_resolution.arcsoft.so
+libai_fusion_high_resolution_base_v2.arcsoft.so
+libai_fusion_high_resolution_base_v1.arcsoft.so
 "
 for blob in $BLOBS_LIST
 do
-    DELETE_FROM_WORK_DIR "system" "$blob"
+    DELETE_FROM_WORK_DIR "system" "system/lib64/$blob"
 done
 
+ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/etc/public.libraries-arcsoft.txt" 0 0 644 "u:object_r:system_file:s0"
+ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/lib/libface_landmark.arcsoft.so" 0 0 644 "u:object_r:system_lib_file:s0"
 BLOBS_LIST="
-system/etc/public.libraries-arcsoft.txt
-system/lib/libface_landmark.arcsoft.so
-system/lib64/libhumantracking.arcsoft.so
-system/lib64/libPortraitDistortionCorrection.arcsoft.so
-system/lib64/libPortraitDistortionCorrectionCali.arcsoft.so
-system/lib64/libface_landmark.arcsoft.so
-system/lib64/libFacialStickerEngine.arcsoft.so
-system/lib64/libimage_enhancement.arcsoft.so
-system/lib64/libveengine.arcsoft.so
-system/lib64/liblow_light_hdr.arcsoft.so
-system/lib64/libobjectcapture_jni.arcsoft.so
-system/lib64/libobjectcapture.arcsoft.so
-system/lib64/libFacialAttributeDetection.arcsoft.so
+libhumantracking.arcsoft.so
+libPortraitDistortionCorrection.arcsoft.so
+libPortraitDistortionCorrectionCali.arcsoft.so
+libface_landmark.arcsoft.so
+libFacialStickerEngine.arcsoft.so
+libimage_enhancement.arcsoft.so
+libveengine.arcsoft.so
+liblow_light_hdr.arcsoft.so
+libobjectcapture_jni.arcsoft.so
+libobjectcapture.arcsoft.so
+libFacialAttributeDetection.arcsoft.so
 "
 for blob in $BLOBS_LIST
 do
-    ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0"
+    ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/lib64/$blob" 0 0 644 "u:object_r:system_lib_file:s0"
 done
 
 echo "- Fix AI Photo Editor"
