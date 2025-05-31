@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<omc-default-permissions>
+
+    <!-- Non-TSS -->
+    <sales-code csc="TCE" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </sales-code>
+    <sales-code csc="PET" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </sales-code>
+    <sales-code csc="COM" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </sales-code>
+    <sales-code csc="PCT" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </sales-code>
+    <sales-code csc="PGU" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </sales-code>
+    <sales-code csc="CHL" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </sales-code>
+    <sales-code csc="NEN" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </sales-code>
+    <sales-code csc="CDR" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </sales-code>
+    <sales-code csc="CRC" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </sales-code>
+    <sales-code csc="ECO" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </sales-code>
+
+    <!-- TSS -->
+    <activated-id code="TCE" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </activated-id>
+    <activated-id code="PET" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </activated-id>
+    <activated-id code="COM" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </activated-id>
+    <activated-id code="PCT" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </activated-id>
+    <activated-id code="PGU" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </activated-id>
+    <activated-id code="CHL" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </activated-id>
+    <activated-id code="NEN" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </activated-id>
+    <activated-id code="CDR" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </activated-id>
+    <activated-id code="CRC" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </activated-id>
+    <activated-id code="ECO" firstboot="true">
+        <package name="co.sitic.pp">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="true" />
+            <permission name="android.permission.RECEIVE_SMS" systemfixed="true" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="true" />
+        </package>
+    </activated-id>
+</omc-default-permissions>

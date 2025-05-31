@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_UFN_15_0011</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0002</customerEdition>
+    <carrierListVersion>150032</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>3</carrierCount>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>01</mnc>
+      <spn>Tuenti</spn>
+      <networkName>tuenti_AR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>010</mnc>
+      <spn>Tuenti</spn>
+      <networkName>tuenti_AR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>07</mnc>
+      <networkName>movistar_AR</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

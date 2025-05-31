@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+
+<omc-default-permissions>
+
+    <!-- Non-TSS -->
+    <sales-code csc="CDR" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+    <sales-code csc="CHL" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+    <sales-code csc="COM" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+    <sales-code csc="CRC" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+    <sales-code csc="CTI" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+    <sales-code csc="CTP" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+    <sales-code csc="CTU" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+    <sales-code csc="ECO" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+    <sales-code csc="NEN" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+    <sales-code csc="PCT" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+    <sales-code csc="PET" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+    <sales-code csc="PGU" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+    <sales-code csc="ZTA" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+    <!-- TSS -->
+    <activated-id code="CDR" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </activated-id>
+    <activated-id code="CHL" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </activated-id>
+    <activated-id code="COM" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </activated-id>
+    <activated-id code="CRC" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </activated-id>
+    <activated-id code="CTI" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </activated-id>
+    <activated-id code="CTP" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </activated-id>
+    <activated-id code="CTU" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </activated-id>
+    <activated-id code="ECO" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </activated-id>
+    <activated-id code="NEN" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </activated-id>
+    <activated-id code="PCT" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </activated-id>
+    <activated-id code="PET" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </activated-id>
+    <activated-id code="PGU" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </activated-id>
+    <activated-id code="ZTA" firstboot="true">
+        <package name="com.claroColombia.contenedor">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </activated-id>
+</omc-default-permissions>

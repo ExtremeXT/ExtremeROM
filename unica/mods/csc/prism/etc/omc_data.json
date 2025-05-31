@@ -1,0 +1,917 @@
+{
+    "unified_sales_code_list": {
+        "EUX": [
+            "AT",
+            "BG",
+            "CH",
+            "CZ",
+            "DE",
+            "ES",
+            "FR",
+            "GB",
+            "GR",
+            "HU",
+            "IT",
+            "LU",
+            "LV",
+            "NL",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK"
+        ],
+        "EUY": [
+            "RS",
+            "UA"
+        ]
+    },
+    "sales_code_list": {
+        "normal": [
+            "XID"
+        ],
+        "single": [
+            "ACR",
+            "AFG",
+            "AFR",
+            "ARO",
+            "BKD",
+            "BNG",
+            "BOG",
+            "BVO",
+            "CAC",
+            "CAU",
+            "CDR",
+            "CGU",
+            "CHE",
+            "CHL",
+            "CHO",
+            "CHT",
+            "COB",
+            "COL",
+            "COM",
+            "COO",
+            "CPW",
+            "CRC",
+            "CTI",
+            "CTP",
+            "CTU",
+            "DKR",
+            "DOR",
+            "EBE",
+            "ECO",
+            "ECT",
+            "EGY",
+            "EON",
+            "EUX",
+            "EUY",
+            "FWD",
+            "GLB",
+            "GLO",
+            "GTO",
+            "ILO",
+            "ILP",
+            "INS",
+            "IUS",
+            "KSA",
+            "LYS",
+            "MET",
+            "MEO",
+            "MID",
+            "MM1",
+            "MOB",
+            "MOT",
+            "MSR",
+            "MWD",
+            "MXO",
+            "NPB",
+            "OPS",
+            "PAK",
+            "PEO",
+            "PET",
+            "PGU",
+            "PKD",
+            "PLS",
+            "PNT",
+            "PRT",
+            "PSN",
+            "PSP",
+            "SAM",
+            "SER",
+            "SFR",
+            "SIM",
+            "SIN",
+            "SKZ",
+            "SLK",
+            "SOZ",
+            "STH",
+            "SWC",
+            "TCE",
+            "TEL",
+            "TGP",
+            "THL",
+            "TMM",
+            "TOP",
+            "TPA",
+            "TUN",
+            "TUR",
+            "UFN",
+            "UFU",
+            "UPO",
+            "UYO",
+            "VAU",
+            "VIP",
+            "WWA",
+            "WWC",
+            "WWD",
+            "XFA",
+            "XFV",
+            "XME",
+            "XNZ",
+            "XSA",
+            "XSG",
+            "XSP",
+            "XTC",
+            "XXV",
+            "ZTA",
+            "ZTM",
+            "ZTO",
+            "ZVV"
+        ]
+    },
+    "omc_b2b_list": {
+        "N14": "XAA",
+        "N20": "XAR",
+        "U05": "XEU",
+        "U07": "BTU",
+        "E27": "XEF",
+        "E28": "DBT",
+        "E29": "ITV",
+        "E30": "PHE",
+        "E31": "NEE",
+        "E32": "PHN",
+        "E33": "XEO",
+        "E34": "ATO",
+        "E35": "AUT",
+        "E36": "ROM",
+        "E37": "BGL",
+        "E38": "TPH",
+        "E39": "SEE",
+        "E40": "SEB",
+        "E41": "EUR",
+        "E42": "ETL",
+        "E43": "XEH",
+        "E45": "DRE",
+        "E48": "LUX",
+        "E49": "MOB",
+        "E50": "XEZ",
+        "E52": "SIO",
+        "E53": "ORX",
+        "S02": "XSP",
+        "S03": "XSA",
+        "STS": "XSA",
+        "S04": "TEL",
+        "S05": "XNZ",
+        "SZO": "NZO",
+        "S06": "THL",
+        "S07": "XTC",
+        "SHL": "XTC",
+        "S08": "XID",
+        "S09": "XME",
+        "S10": "XXV",
+        "EEX": "EUX",
+        "EEY": "EUY",
+        "M04": "KSA",
+        "M05": "ILO",
+        "M12": "ILP",
+        "M06": "MID",
+        "M07": "AFG",
+        "M08": "PAK",
+        "M09": "TUR",
+        "M10": "XSG",
+        "M11": "LYS",
+        "M13": "TUN",
+        "M14": "TKD",
+        "M15": "MWD",
+        "M16": "EGY",
+        "L05": "ZTO",
+        "L06": "MXO",
+        "L09": "ARO",
+        "L10": "UYO",
+        "L11": "UPO",
+        "L07": "CHO",
+        "L12": "BVO",
+        "L13": "COO",
+        "L08": "PEO",
+        "L14": "TPA",
+        "L15": "GTO",
+        "L16": "EON",
+        "R02": "SER",
+        "R03": "CAC",
+        "R04": "SKZ",
+        "R05": "SEK",
+        "R06": "CAU",
+        "C82": "TGY",
+        "S11": "BRI",
+        "LEB": "ZTO",
+        "LEA": "ARO",
+        "LEP": "PEO",
+        "LEC": "COO",
+        "LEM": "MXO",
+        "LEU": "UYO",
+        "LEL": "CHO",
+        "LEY": "UPO",
+        "LEE": "EON",
+        "W01": "INS",
+        "W02": "INS",
+        "W03": "BKD",
+        "W04": "BNG",
+        "W05": "SLK",
+        "W06": "SLI",
+        "W07": "NPL",
+        "W08": "NPB"
+    },
+    "tss_default_customer_table": {
+        "MAX": "ATO",
+        "DRE": "ATO",
+        "MOB": "ATO",
+        "TRG": "ATO",
+        "SWC": "AUT",
+        "MET": "BTU",
+        "VDI": "BTU",
+        "TSI": "BTU",
+        "3IE": "BTU",
+        "EVR": "BTU",
+        "H3G": "BTU",
+        "VOD": "BTU",
+        "O2U": "BTU",
+        "DTM": "DBT",
+        "VD2": "DBT",
+        "DCO": "DBT",
+        "DO2": "DBT",
+        "VGR": "EUR",
+        "COS": "EUR",
+        "CYV": "EUR",
+        "HUI": "ITV",
+        "OMN": "ITV",
+        "TIM": "ITV",
+        "HTS": "NEE",
+        "TMS": "ORX,XSK",
+        "ORS": "ORX,XSK",
+        "AMO": "PHE",
+        "ATL": "PHE",
+        "XEC": "PHE",
+        "VDF": "PHN",
+        "TNL": "PHN",
+        "DNL": "PHN",
+        "CNX": "ROM",
+        "COA": "ROM",
+        "ORO": "ROM",
+        "MBM": "SEE",
+        "TOP": "SEE",
+        "MSR": "SEE",
+        "AVF": "SEE",
+        "SIM": "SIO",
+        "MOT": "SIO",
+        "CRO": "SIO",
+        "VIP": "SIO",
+        "TCL": "TPH",
+        "MEO": "TPH",
+        "SFR": "XEF",
+        "BOG": "XEF",
+        "FTM": "XEF",
+        "TMH": "XEH",
+        "VDH": "XEH",
+        "PLS": "XEO",
+        "PRT": "XEO",
+        "TPL": "XEO",
+        "OPV": "XEO",
+        "O2C": "XEZ",
+        "TMZ": "XEZ",
+        "VDC": "XEZ",
+        "PSN": "ARO",
+        "CTI": "ARO",
+        "UFN": "ARO",
+        "CHT": "CHO",
+        "CHE": "CHO",
+        "CHL": "CHO",
+        "CHX": "CHO",
+        "COB": "COO",
+        "COL": "COO",
+        "COM": "COO",
+        "TCE": "MXO",
+        "TMM": "MXO",
+        "IUS": "MXO",
+        "PET": "PEO",
+        "SAM": "PEO",
+        "PNT": "PEO",
+        "CTU": "UYO",
+        "UFU": "UYO",
+        "ANC": "UYO",
+        "ZVV": "ZTO",
+        "ZTA": "ZTO",
+        "ZTM": "ZTO",
+        "EBE": "EON",
+        "ALE": "EON",
+        "ECO": "EON",
+        "CDR": "GLO",
+        "DOR": "GLO",
+        "CGU": "GLO",
+        "PGU": "GLO",
+        "NBS": "GLO",
+        "CRC": "GLO",
+        "CTP": "UPO",
+        "PSP": "UPO",
+        "TGP": "UPO"
+    },
+    "netbased_code_list": {
+        "EUX": [
+            "3IE",
+            "AMO",
+            "ATL",
+            "ATO",
+            "AUT",
+            "BGL",
+            "BOG",
+            "BTU",
+            "CNX",
+            "COS",
+            "CRO",
+            "DBT",
+            "DO2",
+            "DRE",
+            "DTM",
+            "EUR",
+            "EVR",
+            "FTM",
+            "H3G",
+            "HTS",
+            "HUI",
+            "ITV",
+            "LUX",
+            "MAX",
+            "MEO",
+            "MET",
+            "MOB",
+            "MOT",
+            "NEE",
+            "O2U",
+            "OMN",
+            "OPV",
+            "ORO",
+            "ORS",
+            "ORX",
+            "PHE",
+            "PHN",
+            "PLS",
+            "PRT",
+            "ROM",
+            "SEB",
+            "SFR",
+            "SIM",
+            "SIO",
+            "SWC",
+            "TCL",
+            "TIM",
+            "TMH",
+            "TMS",
+            "TMZ",
+            "TPH",
+            "TPL",
+            "VD2",
+            "VDC",
+            "VDF",
+            "VDI",
+            "VGR",
+            "VIP",
+            "VOD",
+            "XEC",
+            "XEF",
+            "XEH",
+            "XEO",
+            "XEZ"
+        ],
+        "EEX": [
+            "3IE",
+            "AMO",
+            "ATL",
+            "ATO",
+            "AUT",
+            "BGL",
+            "BOG",
+            "BTU",
+            "CNX",
+            "COS",
+            "CRO",
+            "DBT",
+            "DO2",
+            "DRE",
+            "DTM",
+            "EUR",
+            "EVR",
+            "FTM",
+            "H3G",
+            "HTS",
+            "HUI",
+            "ITV",
+            "LUX",
+            "MAX",
+            "MEO",
+            "MET",
+            "MOB",
+            "MOT",
+            "NEE",
+            "O2U",
+            "OMN",
+            "OPV",
+            "ORO",
+            "ORS",
+            "ORX",
+            "PHE",
+            "PHN",
+            "PLS",
+            "PRT",
+            "ROM",
+            "SEB",
+            "SFR",
+            "SIM",
+            "SIO",
+            "SWC",
+            "TCL",
+            "TIM",
+            "TMH",
+            "TMS",
+            "TMZ",
+            "TPH",
+            "TPL",
+            "VD2",
+            "VDC",
+            "VDF",
+            "VDI",
+            "VGR",
+            "VIP",
+            "VOD",
+            "XEC",
+            "XEF",
+            "XEH",
+            "XEO",
+            "XEZ"
+        ],
+        "EUY": [
+            "MBM",
+            "MSR",
+            "SEE",
+            "SEK",
+            "TOP"
+        ],
+        "EEY": [
+            "MBM",
+            "MSR",
+            "SEE",
+            "SEK",
+            "TOP"
+        ],
+        "XSA": [
+            "XSA",
+            "OPS",
+            "TEL",
+            "VAU"
+        ],
+        "STS": [
+            "XSA",
+            "OPS",
+            "TEL",
+            "VAU"
+        ],
+        "XSG": [
+            "XSG",
+            "KSA",
+            "FWD",
+            "MID",
+            "EGY",
+            "AFG",
+            "LYS",
+            "TUN",
+            "PAK"
+        ],
+        "M10": [
+            "XSG",
+            "KSA",
+            "FWD",
+            "MID",
+            "EGY",
+            "AFG",
+            "LYS",
+            "TUN",
+            "PAK"
+        ],
+        "ILO": [
+            "ILO",
+            "ILP"
+        ],
+        "M05": [
+            "ILO",
+            "ILP"
+        ],
+        "XFA": [
+            "XFA",
+            "XFV"
+        ],
+        "AFR": [
+            "AFR",
+            "ACR",
+            "DKR",
+            "ECT"
+        ],
+        "XSP": [
+            "XSP",
+            "SIN",
+            "STH",
+            "MM1"
+        ],
+        "XTC": [
+            "XTC",
+            "GLB"
+        ],
+        "S02": [
+            "XSP",
+            "MM1",
+            "SIN",
+            "STH"
+        ],
+        "SHL": [
+            "XTC",
+            "GLB"
+        ],
+        "ZTO": [
+            "ZTA",
+            "ZTM",
+            "ZVV",
+            "ZTO"
+        ],
+        "LEB": [
+            "ZTA",
+            "ZTM",
+            "ZVV",
+            "ZTO"
+        ],
+        "ARO": [
+            "CTI",
+            "PSN",
+            "UFN",
+            "ARO"
+        ],
+        "L09": [
+            "CTI",
+            "PSN",
+            "UFN",
+            "ARO"
+        ],
+        "COO": [
+            "COB",
+            "COL",
+            "COO"
+        ],
+        "LEC": [
+            "COB",
+            "COL",
+            "COO"
+        ],
+        "PEO": [
+            "PET",
+            "PNT",
+            "SAM",
+            "PEO"
+        ],
+        "LEP": [
+            "PET",
+            "PNT",
+            "SAM",
+            "PEO"
+        ],
+        "MXO": [
+            "IUS",
+            "TCE",
+            "TMM",
+            "MXO"
+        ],
+        "LEM": [
+            "IUS",
+            "TCE",
+            "TMM",
+            "MXO"
+        ],
+        "UYO": [
+            "CTU",
+            "UFU",
+            "UYO"
+        ],
+        "LEU": [
+            "CTU",
+            "UFU",
+            "UYO"
+        ],
+        "CHO": [
+            "CHE",
+            "CHL",
+            "CHT",
+            "CHO"
+        ],
+        "LEL": [
+            "CHE",
+            "CHL",
+            "CHT",
+            "CHO"
+        ],
+        "EON": [
+            "EBE",
+            "ECO",
+            "EON"
+        ],
+        "LEE": [
+            "EBE",
+            "ECO",
+            "EON"
+        ],
+        "GLO": [
+            "CGU",
+            "CRC",
+            "DOR",
+            "PGU",
+            "GLO"
+        ],
+        "UPO": [
+            "CTP",
+            "PSP",
+            "TGP",
+            "UPO"
+        ],
+        "LEY": [
+            "CTP",
+            "PSP",
+            "TGP",
+            "UPO"
+        ]
+    },
+    "customer_countryiso_list": {
+        "EUX": {
+            "3IE": {
+                "countryiso": "GB",
+                "type": "carrier"
+            },
+            "AMO": {
+                "countryiso": "ES",
+                "type": "carrier"
+            },
+            "ATL": {
+                "countryiso": "ES",
+                "type": "carrier"
+            },
+            "ATO": {
+                "countryiso": "AT",
+                "type": "open"
+            },
+            "AUT": {
+                "countryiso": "CH",
+                "type": "open"
+            },
+            "BGL": {
+                "countryiso": "BG",
+                "type": "open"
+            },
+            "BTU": {
+                "countryiso": "GB",
+                "type": "open"
+            },
+            "CNX": {
+                "countryiso": "RO",
+                "type": "carrier"
+            },
+            "COS": {
+                "countryiso": "GR",
+                "type": "carrier"
+            },
+            "CRO": {
+                "countryiso": "SI",
+                "type": "carrier"
+            },
+            "DBT": {
+                "countryiso": "DE",
+                "type": "open"
+            },
+            "DO2": {
+                "countryiso": "DE",
+                "type": "carrier"
+            },
+            "DRE": {
+                "countryiso": "AT",
+                "type": "carrier"
+            },
+            "DTM": {
+                "countryiso": "DE",
+                "type": "carrier"
+            },
+            "EUR": {
+                "countryiso": "GR",
+                "type": "open"
+            },
+            "EVR": {
+                "countryiso": "GB",
+                "type": "carrier"
+            },
+            "FTM": {
+                "countryiso": "FR",
+                "type": "carrier"
+            },
+            "H3G": {
+                "countryiso": "GB",
+                "type": "carrier"
+            },
+            "HTS": {
+                "countryiso": "SE",
+                "type": "carrier"
+            },
+            "HUI": {
+                "countryiso": "IT",
+                "type": "carrier"
+            },
+            "ITV": {
+                "countryiso": "IT",
+                "type": "open"
+            },
+            "LUX": {
+                "countryiso": "LU",
+                "type": "open"
+            },
+            "MAX": {
+                "countryiso": "AT",
+                "type": "carrier"
+            },
+            "NEE": {
+                "countryiso": "SE",
+                "type": "open"
+            },
+            "O2U": {
+                "countryiso": "GB",
+                "type": "carrier"
+            },
+            "OMN": {
+                "countryiso": "IT",
+                "type": "carrier"
+            },
+            "OPV": {
+                "countryiso": "PL",
+                "type": "carrier"
+            },
+            "ORO": {
+                "countryiso": "RO",
+                "type": "carrier"
+            },
+            "ORS": {
+                "countryiso": "SK",
+                "type": "carrier"
+            },
+            "ORX": {
+                "countryiso": "SK",
+                "type": "open"
+            },
+            "PHE": {
+                "countryiso": "ES",
+                "type": "open"
+            },
+            "PHN": {
+                "countryiso": "NL",
+                "type": "open"
+            },
+            "ROM": {
+                "countryiso": "RO",
+                "type": "open"
+            },
+            "SEB": {
+                "countryiso": "LV",
+                "type": "open"
+            },
+            "SIO": {
+                "countryiso": "SI",
+                "type": "open"
+            },
+            "TCL": {
+                "countryiso": "PT",
+                "type": "carrier"
+            },
+            "TIM": {
+                "countryiso": "IT",
+                "type": "carrier"
+            },
+            "TMH": {
+                "countryiso": "HU",
+                "type": "carrier"
+            },
+            "TMS": {
+                "countryiso": "SK",
+                "type": "carrier"
+            },
+            "TMZ": {
+                "countryiso": "CZ",
+                "type": "carrier"
+            },
+            "TPH": {
+                "countryiso": "PT",
+                "type": "open"
+            },
+            "TPL": {
+                "countryiso": "PL",
+                "type": "carrier"
+            },
+            "VD2": {
+                "countryiso": "DE",
+                "type": "carrier"
+            },
+            "VDC": {
+                "countryiso": "CZ",
+                "type": "carrier"
+            },
+            "VDF": {
+                "countryiso": "NL",
+                "type": "carrier"
+            },
+            "VDI": {
+                "countryiso": "GB",
+                "type": "carrier"
+            },
+            "VGR": {
+                "countryiso": "GR",
+                "type": "carrier"
+            },
+            "VOD": {
+                "countryiso": "GB",
+                "type": "carrier"
+            },
+            "XEC": {
+                "countryiso": "ES",
+                "type": "carrier"
+            },
+            "XEF": {
+                "countryiso": "FR",
+                "type": "open"
+            },
+            "XEH": {
+                "countryiso": "HU",
+                "type": "open"
+            },
+            "XEO": {
+                "countryiso": "PL",
+                "type": "open"
+            },
+            "XEZ": {
+                "countryiso": "CZ",
+                "type": "open"
+            }
+        },
+        "EUY": {
+            "MBM": {
+                "countryiso": "RS",
+                "type": "carrier"
+            },
+            "SEE": {
+                "countryiso": "RS",
+                "type": "open"
+            },
+            "SEK": {
+                "countryiso": "UA",
+                "type": "open"
+            }
+        }
+    },
+    "oemkey1_by_carrier": [
+        "3IE",
+        "AMO",
+        "ATL",
+        "CNX",
+        "DRE",
+        "DTM",
+        "EVR",
+        "FTM",
+        "H3G",
+        "HTS",
+        "HUI",
+        "O2U",
+        "OMN",
+        "OPV",
+        "ORO",
+        "ORS",
+        "TCL",
+        "TIM",
+        "VD2",
+        "VDC",
+        "VDF",
+        "VDI",
+        "VGR",
+        "VOD",
+        "XEC"
+    ],
+    "tss_extension": [
+        "LateTA"
+    ]
+}

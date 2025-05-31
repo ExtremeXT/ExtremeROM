@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0003</CSCEdition>
+    <Country>Paraguay</Country>
+    <CountryISO>PY</CountryISO>
+    <Region>LA</Region>
+    <SalesCode>UPO</SalesCode>
+    <NbNetworkInfo>4</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>74405</MCCMNC>
+      <NetworkName>Personal PY</NetworkName>
+      <NWID>NW01038</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>74402</MCCMNC>
+      <NetworkName>Claro PY</NetworkName>
+      <NWID>NW00248</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>74401</MCCMNC>
+      <NetworkName>Vox PY</NetworkName>
+      <NWID>NW01520</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>74404</MCCMNC>
+      <NetworkName>Tigo PY</NetworkName>
+      <NWID>NW01296</NWID>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>8</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>Personal PY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Personal PY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Claro PY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Claro PY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Vox PY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Vox PY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Tigo PY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Tigo PY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>default</NetworkName>
+          <WbAmrCodec>off</WbAmrCodec>
+        </WbAmr>
+      </Network>
+      <Phone>
+        <DefLanguage>spanish_latin</DefLanguage>
+        <DefLanguageNoSIM>spanish_latin</DefLanguageNoSIM>
+        <T9Enabling>disable</T9Enabling>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Messages>
+      <NbVoicemail>4</NbVoicemail>
+      <Voicemail>
+        <NetworkName>Personal PY</NetworkName>
+        <TelNum>*555</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Claro PY</NetworkName>
+        <TelNum>*555</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Vox PY</NetworkName>
+        <TelNum>+595961222</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Tigo PY</NetworkName>
+        <TelNum>*98</TelNum>
+      </Voicemail>
+      <PushMsg>
+        <RecOption>on</RecOption>
+      </PushMsg>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <CreationMode>free</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>1</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>4</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>5</NbNetProfile>
+        <NetworkName>Personal PY</NetworkName>
+        <ProfBrowser>Personal Internet</ProfBrowser>
+        <ProfMMS>Personal MMS</ProfMMS>
+        <ProfIMS>Personal IMS</ProfIMS>
+        <ProfXCAP>Personal UT</ProfXCAP>
+        <ProfEmergencyIMSCall>Personal SOS</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Vox PY</NetworkName>
+        <ProfBrowser>VOX INTERNET</ProfBrowser>
+        <ProfMMS>VOX MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Claro PY</NetworkName>
+        <ProfBrowser>Claro PY</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Claro PY</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Tigo PY</NetworkName>
+        <ProfBrowser>TIGO PY</ProfBrowser>
+        <ProfMMS>MMS Tigo</ProfMMS>
+        <ProfIMS>IMS TIGO PY</ProfIMS>
+        <ProfEmergencyIMSCall>EMERGENCY TIGO PY</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <NbProfile>13</NbProfile>
+      <Profile>
+        <NetworkName>Claro PY</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Personal PY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Personal Internet</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Personal PY</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Personal MMS</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.192.7</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro PY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Claro PY</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>igprs.claro.com.py</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vox PY</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>VOX INTERNET</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>vox.internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vox PY</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>VOX MMS</ProfileName>
+        <URL>http://mms.vox.com.py/mmsc</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.24.97.29</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>vox.mms</APN>
+          <UserId>vox</UserId>
+          <Password>vox</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tigo PY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>TIGO PY</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.tigo.py</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tigo PY</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MMS Tigo</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.16.17.12</ServAddr>
+          <Port>8888</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.tigo.py</APN>
+          <UserId>tigo</UserId>
+          <Password>tigo</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Personal PY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Personal IMS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Personal PY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Personal SOS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tigo PY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS TIGO PY</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tigo PY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>EMERGENCY TIGO PY</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Personal PY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Personal UT</ProfileName>
+        <PSparam>
+          <APN>ut</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

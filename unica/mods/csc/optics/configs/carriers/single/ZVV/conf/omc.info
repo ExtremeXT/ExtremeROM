@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_ZVV_15_0015</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0002</customerEdition>
+    <carrierListVersion>150032</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>4</carrierCount>
+    <carrier>
+      <mcc>724</mcc>
+      <mnc>06</mnc>
+      <networkName>VIVO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>724</mcc>
+      <mnc>10</mnc>
+      <networkName>VIVO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>724</mcc>
+      <mnc>11</mnc>
+      <networkName>VIVO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>724</mcc>
+      <mnc>23</mnc>
+      <networkName>VIVO</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>
