@@ -27,9 +27,10 @@ WORK_DIR_HASH="$(echo -n "$COMMIT_HASH$CONFIG_HASH" | sha1sum | cut -d " " -f 1)
 
 FORCE=false
 BUILD_ROM=false
-NO_COMPRESSION=false
 BUILD_ZIP=false
 BUILD_TAR=false
+
+export NO_COMPRESSION=false
 
 [[ "$TARGET_INSTALL_METHOD" == "zip" ]] && BUILD_ZIP=true
 [[ "$TARGET_INSTALL_METHOD" == "odin" ]] && BUILD_TAR=true
@@ -129,6 +130,7 @@ elif $BUILD_TAR; then
     echo ""
 fi
 
+unset NO_COMPRESSION
 ESTIMATED=$((SECONDS-START))
 echo "Build completed in $((ESTIMATED / 3600))hrs $(((ESTIMATED / 60) % 60))min $((ESTIMATED % 60))sec."
 
