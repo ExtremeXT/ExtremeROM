@@ -229,7 +229,7 @@ DO_RECOMPILE()
 
     mkdir -p "$APKTOOL_DIR$IN_DIR/build/apk"
     cp -a --preserve=all "$APKTOOL_DIR$IN_DIR/original/META-INF" "$APKTOOL_DIR$IN_DIR/build/apk/META-INF"
-    apktool -q b -p "$FRAMEWORK_DIR" -srp "$APKTOOL_DIR$IN_DIR"
+    apktool -q b -p "$FRAMEWORK_DIR" "$APKTOOL_DIR$IN_DIR"
     [[ -f "$APKTOOL_DIR$IN_DIR/classes.dex" ]] && rm "$APKTOOL_DIR$IN_DIR/"*.dex
 
     echo "Zipaligning $IN_DIR"
