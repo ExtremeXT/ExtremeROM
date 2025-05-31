@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2025 Fede2782
+# Copyright (C) 2025 Ksawlii
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -22,26 +22,16 @@
 
 # GameDriver
 SYSTEM_DEBLOAT+="
-system/priv-app/DevGPUDriver-EX2200
-system/priv-app/GameDriver-EX2200
+system/priv-app/DevGPUDriver-SM8750
+system/priv-app/GameDriver-SM8750
 "
 
 # system_ext clean-up
 SYSTEM_DEBLOAT+="
-system/etc/permissions/org.carconnectivity.android.digitalkey.rangingintent.xml
-system/etc/permissions/org.carconnectivity.android.digitalkey.secureelement.xml
+system/etc/permissions/org.carconnectivity.android.digitalkey.timesync.xml
 "
 SYSTEM_EXT_DEBLOAT+="
-framework/org.carconnectivity.android.digitalkey.rangingintent.jar
-framework/org.carconnectivity.android.digitalkey.secureelement.jar
-framework/oat/arm/org.carconnectivity.android.digitalkey.rangingintent.odex
-framework/oat/arm/org.carconnectivity.android.digitalkey.rangingintent.vdex
-framework/oat/arm/org.carconnectivity.android.digitalkey.secureelement.odex
-framework/oat/arm/org.carconnectivity.android.digitalkey.secureelement.vdex
-framework/oat/arm64/org.carconnectivity.android.digitalkey.rangingintent.odex
-framework/oat/arm64/org.carconnectivity.android.digitalkey.rangingintent.vdex
-framework/oat/arm64/org.carconnectivity.android.digitalkey.secureelement.odex
-framework/oat/arm64/org.carconnectivity.android.digitalkey.secureelement.vdex
+framework/org.carconnectivity.android.digitalkey.timesync.jar
 "
 
 # Overlays
