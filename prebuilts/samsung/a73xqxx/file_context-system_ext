@@ -1,3 +1,0 @@
-/system_ext u:object_r:system_file:s0
-/system_ext/apex u:object_r:system_file:s0
-/system_ext/apex/com\.android\.vndk\.v30\.apex u:object_r:system_file:s0
