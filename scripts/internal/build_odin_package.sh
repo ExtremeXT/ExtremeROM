@@ -141,7 +141,7 @@ while read -r i; do
     cp -a --preserve=all "$i" "$TMP_DIR/$IMG"
 done <<< "$(find "$WORK_DIR/kernel" -mindepth 1 -maxdepth 1 -type f -name "*.img")"
 
-if ! $NO_COMPRESSION; then
+if [ "$NO_COMPRESSION" = "false" ]; then
     for i in "$TMP_DIR"/*.img; do
         echo "Compressing $(basename "$i")"
         [ -f "$i.lz4" ] && rm -f "$i.lz4"

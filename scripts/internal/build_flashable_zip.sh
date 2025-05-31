@@ -249,7 +249,7 @@ GENERATE_LPMAKE_OPT()
 GENERATE_UPDATER_SCRIPT()
 {
     local BROTLI_EXTENSION
-    $NO_COMPRESSION || BROTLI_EXTENSION=".br"
+    [ "$NO_COMPRESSION" = "false" ] && BROTLI_EXTENSION=".br"
     local SCRIPT_FILE="$TMP_DIR/META-INF/com/google/android/updater-script"
     local PARTITION_COUNT=0
     local HAS_BOOT=false
@@ -336,7 +336,7 @@ GENERATE_UPDATER_SCRIPT()
                 echo -n    '/system", '
             fi
             echo -n    'package_extract_file("system.transfer.list"), '
-            echo -n    "system.new.dat${BROTLI_EXTENSION}"
+            echo -n    "\"system.new.dat${BROTLI_EXTENSION}\""
             echo       ', "system.patch.dat") ||'
             echo    '  abort("E1001: Failed to update system image.");'
         fi
@@ -353,7 +353,7 @@ GENERATE_UPDATER_SCRIPT()
                 echo -n    '/vendor", '
             fi
             echo -n    'package_extract_file("vendor.transfer.list"), '
-            echo -n    "vendor.new.dat${BROTLI_EXTENSION}"
+            echo -n    "\"vendor.new.dat${BROTLI_EXTENSION}\""
             echo       ', "vendor.patch.dat") ||'
             echo    '  abort("E2001: Failed to update vendor image.");'
         fi
@@ -370,7 +370,7 @@ GENERATE_UPDATER_SCRIPT()
                 echo -n    '/product", '
             fi
             echo -n    'package_extract_file("product.transfer.list"), '
-            echo -n    "product.new.dat${BROTLI_EXTENSION}"
+            echo -n    "\"product.new.dat${BROTLI_EXTENSION}\""
             echo       ', "product.patch.dat") ||'
             echo    '  abort("E2001: Failed to update product image.");'
         fi
@@ -387,7 +387,7 @@ GENERATE_UPDATER_SCRIPT()
                 echo -n    '/system_ext", '
             fi
             echo -n    'package_extract_file("system_ext.transfer.list"), '
-            echo -n    "system_ext.new.dat${BROTLI_EXTENSION}"
+            echo -n    "\"system_ext.new.dat${BROTLI_EXTENSION}\""
             echo       ', "system_ext.patch.dat") ||'
             echo    '  abort("E2001: Failed to update system_ext image.");'
         fi
@@ -404,7 +404,7 @@ GENERATE_UPDATER_SCRIPT()
                 echo -n    '/odm", '
             fi
             echo -n    'package_extract_file("odm.transfer.list"), '
-            echo -n    "odm.new.dat${BROTLI_EXTENSION}"
+            echo -n    "\"odm.new.dat${BROTLI_EXTENSION}\""
             echo       ', "odm.patch.dat") ||'
             echo    '  abort("E2001: Failed to update odm image.");'
         fi
@@ -421,7 +421,7 @@ GENERATE_UPDATER_SCRIPT()
                 echo -n    '/vendor_dlkm", '
             fi
             echo -n    'package_extract_file("vendor_dlkm.transfer.list"), '
-            echo -n    "vendor_dlkm.new.dat${BROTLI_EXTENSION}"
+            echo -n    "\"vendor_dlkm.new.dat${BROTLI_EXTENSION}\""
             echo       ', "vendor_dlkm.patch.dat") ||'
             echo    '  abort("E2001: Failed to update vendor_dlkm image.");'
         fi
@@ -438,7 +438,7 @@ GENERATE_UPDATER_SCRIPT()
                 echo -n    '/odm_dlkm", '
             fi
             echo -n    'package_extract_file("odm_dlkm.transfer.list"), '
-            echo -n    "odm_dlkm.new.dat${BROTLI_EXTENSION}"
+            echo -n    "\"odm_dlkm.new.dat${BROTLI_EXTENSION}\""
             echo       ', "odm_dlkm.patch.dat") ||'
             echo    '  abort("E2001: Failed to update odm_dlkm image.");'
         fi
@@ -455,7 +455,7 @@ GENERATE_UPDATER_SCRIPT()
                 echo -n    '/system_dlkm", '
             fi
             echo -n    'package_extract_file("system_dlkm.transfer.list"), '
-            echo -n    "system_dlkm.new.dat${BROTLI_EXTENSION}"
+            echo -n    "\"system_dlkm.new.dat${BROTLI_EXTENSION}\""
             echo       ', "system_dlkm.patch.dat") ||'
             echo    '  abort("E2001: Failed to update system_dlkm image.");'
         fi
@@ -468,7 +468,7 @@ GENERATE_UPDATER_SCRIPT()
             echo -n    "$TARGET_BOOT_DEVICE_PATH"
             echo -n    '/prism", '
             echo -n    'package_extract_file("prism.transfer.list"), '
-            echo -n    "prism.new.dat${BROTLI_EXTENSION}"
+            echo -n    "\"prism.new.dat${BROTLI_EXTENSION}\""
             echo       ', "prism.patch.dat") ||'
             echo    '  abort("E2001: Failed to update prism image.");'
         fi
@@ -481,7 +481,7 @@ GENERATE_UPDATER_SCRIPT()
             echo -n    "$TARGET_BOOT_DEVICE_PATH"
             echo -n    '/optics", '
             echo -n    'package_extract_file("optics.transfer.list"), '
-            echo -n    "optics.new.dat${BROTLI_EXTENSION}"
+            echo -n    "\"optics.new.dat${BROTLI_EXTENSION}\""
             echo       ', "optics.patch.dat") ||'
             echo    '  abort("E2001: Failed to update optics image.");'
         fi
@@ -601,7 +601,7 @@ while read -r i; do
     echo "Converting $PARTITION.img to $PARTITION.new.dat"
     img2sdat -o "$TMP_DIR" "$i" > /dev/null 2>&1 \
         && rm "$i"
-    if ! $NO_COMPRESSION; then
+    if [ "$NO_COMPRESSION" = "false" ]; then
         echo "Compressing $PARTITION.new.dat"
         brotli --quality=6 --output="$TMP_DIR/$PARTITION.new.dat.br" "$TMP_DIR/$PARTITION.new.dat" \
             && rm "$TMP_DIR/$PARTITION.new.dat"
@@ -624,10 +624,10 @@ GENERATE_BUILD_INFO
 echo "Creating zip"
 [ -f "$OUT_DIR/$ZIP_FILE_NAME" ] && rm -f "$OUT_DIR/$ZIP_FILE_NAME"
 cd "$TMP_DIR"
-if ! $NO_COMPRESSION; then
-    zip -rq ../$ZIP_FILE_NAME.zip ./*
+if [ "$NO_COMPRESSION" = "false" ]; then
+    zip -rq0 --store ../$ZIP_FILE_NAME ./*
 else
-    zip -rq0 --store ../$ZIP_FILE_NAME.zip ./*
+    zip -rq ../$ZIP_FILE_NAME ./*
 fi
 cd - &> /dev/null
 
