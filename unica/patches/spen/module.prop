@@ -1,4 +1,4 @@
 id=spen
-name=Remove SPen support
+name=Add SPen support
 author=Ocin4ever
-description=Remove SPen related blobs for non-Note/Ultra series.
+description=Add SPen related blobs for non-Note/Ultra series.
