@@ -1,4 +1,4 @@
-From 1acb550c41765afe26bc03913c272c6f90ce778d Mon Sep 17 00:00:00 2001
+From 07270907a9ccf137d4e1e40283ad13fd646fd08c Mon Sep 17 00:00:00 2001
 From: Ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
 Date: Mon, 21 Apr 2025 19:29:58 +0200
 Subject: [PATCH] Disable dynamic resolution control
@@ -18,7 +18,7 @@ Subject: [PATCH] Disable dynamic resolution control
  11 files changed, 2732 insertions(+), 3465 deletions(-)
 
 diff --git a/smali_classes2/com/android/settings/DisplaySettings$3.smali b/smali_classes2/com/android/settings/DisplaySettings$3.smali
-index 888c51419f..3b123c3d75 100644
+index 046f7a27..9856a78d 100644
 --- a/smali_classes2/com/android/settings/DisplaySettings$3.smali
 +++ b/smali_classes2/com/android/settings/DisplaySettings$3.smali
 @@ -13,30 +13,6 @@
@@ -53,7 +53,7 @@ index 888c51419f..3b123c3d75 100644
  
      move-result-object v0
 diff --git a/smali_classes2/com/android/settings/DisplaySettings$4.smali b/smali_classes2/com/android/settings/DisplaySettings$4.smali
-index 3940a7f8bb..afb6d5c86a 100644
+index ef867423..ac9f378f 100644
 --- a/smali_classes2/com/android/settings/DisplaySettings$4.smali
 +++ b/smali_classes2/com/android/settings/DisplaySettings$4.smali
 @@ -5,7 +5,7 @@
@@ -1052,10 +1052,10 @@ index 3940a7f8bb..afb6d5c86a 100644
  
      :catch_0
 diff --git a/smali_classes2/com/android/settings/Utils.smali b/smali_classes2/com/android/settings/Utils.smali
-index 825e97f51c..80359c0db5 100644
+index cd8e85db..953c2224 100644
 --- a/smali_classes2/com/android/settings/Utils.smali
 +++ b/smali_classes2/com/android/settings/Utils.smali
-@@ -4922,11 +4922,7 @@
+@@ -4925,11 +4925,7 @@
  
      if-nez v0, :cond_2
  
@@ -1068,7 +1068,7 @@ index 825e97f51c..80359c0db5 100644
  
      if-nez v3, :cond_2
  
-@@ -4955,23 +4951,19 @@
+@@ -4958,23 +4954,19 @@
  
      invoke-static {p0}, Lcom/android/settings/Utils;->isGuestMode(Landroid/content/Context;)Z
  
@@ -1097,7 +1097,7 @@ index 825e97f51c..80359c0db5 100644
  
      invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
  
-@@ -5090,8 +5082,8 @@
+@@ -5093,8 +5085,8 @@
      return p0
  .end method
  
@@ -1108,7 +1108,7 @@ index 825e97f51c..80359c0db5 100644
  
      sget-object v0, Lcom/samsung/android/settings/Rune;->COMMON_CONFIG_PACKAGE_NAME_SMART_MANAGER:Ljava/lang/String;
  
-@@ -5119,71 +5111,49 @@
+@@ -5122,71 +5114,49 @@
  
      move-result v1
  
@@ -1202,7 +1202,7 @@ index 825e97f51c..80359c0db5 100644
  
  .method public static isGuestMode(Landroid/content/Context;)Z
 diff --git a/smali_classes4/com/samsung/android/settings/display/ScreenResolutionFragment.smali b/smali_classes4/com/samsung/android/settings/display/ScreenResolutionFragment.smali
-index b3f1938774..cf2c1a9c5d 100644
+index 2aa7e56c..4e7b5366 100644
 --- a/smali_classes4/com/samsung/android/settings/display/ScreenResolutionFragment.smali
 +++ b/smali_classes4/com/samsung/android/settings/display/ScreenResolutionFragment.smali
 @@ -24,8 +24,6 @@
@@ -1351,7 +1351,7 @@ index b3f1938774..cf2c1a9c5d 100644
      invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onViewStateRestored(Landroid/os/Bundle;)V
  
 diff --git a/smali_classes4/com/samsung/android/settings/display/ScreenZoomSettingsReceiver.smali b/smali_classes4/com/samsung/android/settings/display/ScreenZoomSettingsReceiver.smali
-index a1a5f3eb00..584486dd94 100644
+index 0e21b09c..3c564965 100644
 --- a/smali_classes4/com/samsung/android/settings/display/ScreenZoomSettingsReceiver.smali
 +++ b/smali_classes4/com/samsung/android/settings/display/ScreenZoomSettingsReceiver.smali
 @@ -112,9 +112,9 @@
@@ -1478,7 +1478,7 @@ index a1a5f3eb00..584486dd94 100644
 -    .end array-data
  .end method
 diff --git a/smali_classes4/com/samsung/android/settings/display/SecDisplayUtils.smali b/smali_classes4/com/samsung/android/settings/display/SecDisplayUtils.smali
-index ccd62e4f8f..896c8ee1f1 100644
+index ca881e0c..cd5c0aa5 100644
 --- a/smali_classes4/com/samsung/android/settings/display/SecDisplayUtils.smali
 +++ b/smali_classes4/com/samsung/android/settings/display/SecDisplayUtils.smali
 @@ -1999,14 +1999,6 @@
@@ -1975,7 +1975,7 @@ index ccd62e4f8f..896c8ee1f1 100644
      .locals 3
  
 diff --git a/smali_classes4/com/samsung/android/settings/display/SecScreenZoomPreferenceFragment.smali b/smali_classes4/com/samsung/android/settings/display/SecScreenZoomPreferenceFragment.smali
-index 9c24c08abe..16d6a2ded2 100644
+index 8ad252fc..665483d2 100644
 --- a/smali_classes4/com/samsung/android/settings/display/SecScreenZoomPreferenceFragment.smali
 +++ b/smali_classes4/com/samsung/android/settings/display/SecScreenZoomPreferenceFragment.smali
 @@ -143,41 +143,39 @@
@@ -2353,8 +2353,8 @@ index 9c24c08abe..16d6a2ded2 100644
 -    iget-object v2, v8, Lcom/samsung/android/settings/display/SecFontTrialSettings;->mBubbleListViewAdapter:Lcom/samsung/android/settings/display/FontPreviewBubbleListAdapter;
 +    iget-object v2, v7, Lcom/samsung/android/settings/display/SecFontTrialSettings;->mBubbleListViewAdapter:Lcom/samsung/android/settings/display/FontPreviewBubbleListAdapter;
  
--    const v9, 0x7f140fe5
-+    const v8, 0x7f140fe5
+-    const v9, 0x7f140fe7
++    const v8, 0x7f140fe7
  
 -    invoke-virtual {v0, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 +    invoke-virtual {v0, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2368,8 +2368,8 @@ index 9c24c08abe..16d6a2ded2 100644
 -    iget-object v2, v8, Lcom/samsung/android/settings/display/SecFontTrialSettings;->mBubbleListViewAdapter:Lcom/samsung/android/settings/display/FontPreviewBubbleListAdapter;
 +    iget-object v2, v7, Lcom/samsung/android/settings/display/SecFontTrialSettings;->mBubbleListViewAdapter:Lcom/samsung/android/settings/display/FontPreviewBubbleListAdapter;
  
--    const v9, 0x7f140fe6
-+    const v8, 0x7f140fe6
+-    const v9, 0x7f140fe8
++    const v8, 0x7f140fe8
  
 -    invoke-virtual {v0, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 +    invoke-virtual {v0, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2394,8 +2394,8 @@ index 9c24c08abe..16d6a2ded2 100644
 -    iget-object v5, v8, Lcom/samsung/android/settings/display/SecFontTrialSettings;->mBubbleListViewAdapter:Lcom/samsung/android/settings/display/FontPreviewBubbleListAdapter;
 +    iget-object v4, v7, Lcom/samsung/android/settings/display/SecFontTrialSettings;->mBubbleListViewAdapter:Lcom/samsung/android/settings/display/FontPreviewBubbleListAdapter;
  
--    const v9, 0x7f140fe7
-+    const v8, 0x7f140fe7
+-    const v9, 0x7f140fe9
++    const v8, 0x7f140fe9
  
      filled-new-array {v2}, [Ljava/lang/Object;
  
@@ -3330,7 +3330,7 @@ index 9c24c08abe..16d6a2ded2 100644
  
 @@ -1216,23 +1202,23 @@
  
-     const v11, 0x7f1426db
+     const v11, 0x7f1426de
  
 -    invoke-virtual {v3, v11, v10}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 +    invoke-virtual {v5, v11, v10}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -3643,7 +3643,7 @@ index 9c24c08abe..16d6a2ded2 100644
  
  .method public final getMetricsCategory()I
 diff --git a/smali_classes4/com/samsung/android/settings/display/controller/EasyModePreferenceController.smali b/smali_classes4/com/samsung/android/settings/display/controller/EasyModePreferenceController.smali
-index bb446dd1a0..318a03881c 100644
+index 0d4bfa43..9266f788 100644
 --- a/smali_classes4/com/samsung/android/settings/display/controller/EasyModePreferenceController.smali
 +++ b/smali_classes4/com/samsung/android/settings/display/controller/EasyModePreferenceController.smali
 @@ -102,9 +102,9 @@
@@ -3679,7 +3679,7 @@ index bb446dd1a0..318a03881c 100644
 -
 -    move-result p1
 -
--    const v2, 0x7f142001
+-    const v2, 0x7f142003
 -
 -    if-eqz p1, :cond_1
 +    invoke-static {}, Lcom/android/settings/Utils;->isGameModeEnabled()V
@@ -3688,7 +3688,7 @@ index bb446dd1a0..318a03881c 100644
 -
 -    iget-object v0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 -
--    const v3, 0x7f14081d
+-    const v3, 0x7f14081e
 -
 -    invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 -
@@ -3748,8 +3748,8 @@ index bb446dd1a0..318a03881c 100644
 -    iget-object v0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 +    iget-object v1, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
  
--    const v3, 0x7f14111f
-+    const v2, 0x7f14111f
+-    const v3, 0x7f141121
++    const v2, 0x7f141121
  
 -    invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 +    invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -3782,7 +3782,7 @@ index bb446dd1a0..318a03881c 100644
      :goto_1
      iget-object p1, p0, Lcom/samsung/android/settings/display/controller/EasyModePreferenceController;->mPreference:Lcom/samsung/android/settings/display/DisplayDisabledAppearancePreference;
 diff --git a/smali_classes4/com/samsung/android/settings/display/controller/ScreenResolutionPreferenceController.smali b/smali_classes4/com/samsung/android/settings/display/controller/ScreenResolutionPreferenceController.smali
-index cb6dda9fa6..5d3041eac5 100644
+index 07a3a325..2b90048f 100644
 --- a/smali_classes4/com/samsung/android/settings/display/controller/ScreenResolutionPreferenceController.smali
 +++ b/smali_classes4/com/samsung/android/settings/display/controller/ScreenResolutionPreferenceController.smali
 @@ -99,36 +99,11 @@
@@ -3826,7 +3826,7 @@ index cb6dda9fa6..5d3041eac5 100644
      return p0
  .end method
 diff --git a/smali_classes4/com/samsung/android/settings/display/controller/SecScreenResolutionSingleChoiceController.smali b/smali_classes4/com/samsung/android/settings/display/controller/SecScreenResolutionSingleChoiceController.smali
-index a61816878d..4b43fca9ba 100644
+index 6ebc1713..29f13ea1 100644
 --- a/smali_classes4/com/samsung/android/settings/display/controller/SecScreenResolutionSingleChoiceController.smali
 +++ b/smali_classes4/com/samsung/android/settings/display/controller/SecScreenResolutionSingleChoiceController.smali
 @@ -510,36 +510,11 @@
@@ -3892,7 +3892,7 @@ index a61816878d..4b43fca9ba 100644
      invoke-virtual {p0}, Lcom/samsung/android/settings/display/controller/SecScreenResolutionSingleChoiceController;->getSelectedValue()Ljava/lang/String;
  
 diff --git a/smali_classes4/com/samsung/android/settings/eternal/provider/items/DisplayItem.smali b/smali_classes4/com/samsung/android/settings/eternal/provider/items/DisplayItem.smali
-index ed09058f25..5212dfeeff 100644
+index 30f26698..d7ea809c 100644
 --- a/smali_classes4/com/samsung/android/settings/eternal/provider/items/DisplayItem.smali
 +++ b/smali_classes4/com/samsung/android/settings/eternal/provider/items/DisplayItem.smali
 @@ -7,400 +7,606 @@
@@ -10491,5 +10491,5 @@ index ed09058f25..5212dfeeff 100644
      .sparse-switch
          -0x7fd88b6c -> :sswitch_21
 -- 
-2.43.0
+2.45.2
 
