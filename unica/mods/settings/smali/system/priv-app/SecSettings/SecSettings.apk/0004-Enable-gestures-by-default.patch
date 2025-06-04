@@ -1,0 +1,51 @@
+From 3f38169dd025c009f533b0071f7cb077647f0832 Mon Sep 17 00:00:00 2001
+From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date: Wed, 4 Jun 2025 21:19:12 +0300
+Subject: [PATCH] Enable gestures by default
+
+Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+---
+ .../NavigationBarSettingsUtil.smali           | 25 +++----------------
+ 1 file changed, 3 insertions(+), 22 deletions(-)
+
+diff --git a/smali_classes4/com/samsung/android/settings/navigationbar/NavigationBarSettingsUtil.smali b/smali_classes4/com/samsung/android/settings/navigationbar/NavigationBarSettingsUtil.smali
+index f30ad25f4..bbb07e166 100644
+--- a/smali_classes4/com/samsung/android/settings/navigationbar/NavigationBarSettingsUtil.smali
++++ b/smali_classes4/com/samsung/android/settings/navigationbar/NavigationBarSettingsUtil.smali
+@@ -125,30 +125,11 @@
+ .end method
+ 
+ .method public static isGestureDefault()Z
+-    .locals 3
+-
+-    const-string/jumbo v0, "ro.product.first_api_level"
+-
+-    const/4 v1, 0x0
+-
+-    invoke-static {v0, v1}, Landroid/os/SystemProperties;->getInt(Ljava/lang/String;I)I
+-
+-    move-result v0
+-
+-    invoke-static {}, Lcom/samsung/android/settings/Rune;->isChinaModel()Z
++    .locals 1
+ 
+-    move-result v2
+-
+-    if-eqz v2, :cond_0
+-
+-    const/16 v2, 0x23
+-
+-    if-lt v0, v2, :cond_0
+-
+-    const/4 v1, 0x1
++    const/4 v0, 0x1
+ 
+-    :cond_0
+-    return v1
++    return v0
+ .end method
+ 
+ .method public static isGestureHintOn(Landroid/content/Context;)Z
+-- 
+2.45.2
+
