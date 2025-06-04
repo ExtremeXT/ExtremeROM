@@ -1,5 +1,5 @@
 # [
-EXTREMEKRNL_REPO="https://github.com/Ocin4ever/ExtremeKernel/releases/download/"
+EXTREMEKRNL_REPO="https://github.com/Ocin4ever/ExtremeKernel/releases"
 KERNELSU_MANAGER_APK="https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v1.0.7/KernelSU_Next_v1.0.7_12602-release.apk"
 
 REPLACE_KERNEL_BINARIES()
@@ -8,9 +8,9 @@ REPLACE_KERNEL_BINARIES()
     mkdir -p "$TMP_DIR"
 
     if [[ "$DEBUG" == 0 ]]; then
-        ZIP_LINK="$EXTREMEKRNL_REPO/latest/ExtremeKRNL-Nexus-${TARGET_CODENAME}.zip"
+        ZIP_LINK="$EXTREMEKRNL_REPO/latest/download/ExtremeKRNL-Nexus-${TARGET_CODENAME}.zip"
     else
-        ZIP_LINK="$EXTREMEKRNL_REPO/debug/ExtremeKRNL-Nexus-${TARGET_CODENAME}.zip"
+        ZIP_LINK="$EXTREMEKRNL_REPO/download/debug/ExtremeKRNL-Nexus-${TARGET_CODENAME}.zip"
     fi
     echo "Downloading $(basename "$ZIP_LINK")"
     curl -L -s -o "$TMP_DIR/krnl.zip" "$ZIP_LINK"
