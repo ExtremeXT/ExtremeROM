@@ -331,3 +331,28 @@ if [ "$(GET_PROP "vendor" "ro.build.ab_update")" != "true" ]; then
     echo "Disabling A/B partitions"
     SET_PROP "product" "ro.product.ab_ota_partitions" --delete
 fi
+
+# Add/Improve Adaptive Refresh Rate
+if [[ "$TARGET_USE_CONTENT_DETECTION_FOR_REFRESH_RATE" != "false" ]]; then
+    SET_PROP "vendor" "ro.surface_flinger.use_content_detection_for_refresh_rate" "$TARGET_USE_CONTENT_DETECTION_FOR_REFRESH_RATE"
+fi
+
+if [[ "$TARGET_SHOW_REFRESH_RATE_OVERLAY_RENDER_RATE" != "false" ]]; then
+    SET_PROP "vendor" "debug.sf.show_refresh_rate_overlay_render_rat" "$TARGET_SHOW_REFRESH_RATE_OVERLAY_RENDER_RATE"
+fi
+
+if [[ "$TARGET_GAME_DEFAULT_FRAME_RATE_OVERRIDE" != "0" ]]; then
+    SET_PROP "vendor" "ro.surface_flinger.game_default_frame_rate_override" "$TARGET_GAME_DEFAULT_FRAME_OVERRIDE"
+fi
+
+if [[ "$TARGET_SET_TOUCH_TIMER_MS" != "0" ]]; then
+    SET_PROP "vendor" "ro.surface_flinger.set_touch_timer_ms" "$TARGET_SET_TOUCH_TIMER_MS"
+fi
+
+if [[ "$TARGET_SET_IDLE_TIMER_MS" != "0" ]]; then
+    SET_PROP "vendor" "ro.surface_flinger.set_idle_timer_ms" "$TARGET_SET_IDLE_TIMER_MS"
+fi
+
+if [[ "$TARGET_ENABLE_FRAME_RATE_OVERRIDE" != "false" ]]; then
+    SET_PROP "vendor" "ro.surface_flinger.enable_frame_rate_override" "$TARGET_ENABLE_FRAME_RATE_OVERRIDE"
+fi
