@@ -19,18 +19,22 @@
     <public type="bool" name="config_showNavigationBar" id="0x7f020002" />
     <public type="bool" name="config_supportAudioSourceUnprocessed" id="0x7f020003" />
     <public type="bool" name="config_systemCaptionsServiceCallsEnabled" id="0x7f020004" />
-    <public type="dimen" name="config_screenBrightnessDimFloat" id="0x7f030000" />
-    <public type="dimen" name="config_screenBrightnessSettingDefaultFloat" id="0x7f030001" />
-    <public type="dimen" name="config_screenBrightnessSettingMaximumFloat" id="0x7f030002" />
-    <public type="dimen" name="config_screenBrightnessSettingMinimumFloat" id="0x7f030003" />
-    <public type="dimen" name="cover_clear_view_bottom" id="0x7f030004" />
-    <public type="dimen" name="cover_clear_view_left" id="0x7f030005" />
-    <public type="dimen" name="cover_clear_view_right" id="0x7f030006" />
-    <public type="dimen" name="cover_clear_view_top" id="0x7f030007" />
-    <public type="dimen" name="status_bar_camera_side_padding" id="0x7f030008" />
-    <public type="dimen" name="status_bar_camera_top_margin" id="0x7f030009" />
-    <public type="dimen" name="status_bar_height_portrait" id="0x7f03000a" />
-    <public type="dimen" name="status_bar_indicator_corner_padding" id="0x7f03000b" />
+    <public type="dimen" name="config_letterboxHorizontalPositionMultiplier" id="0x7f030000" />
+    <public type="dimen" name="config_letterboxVerticalPositionMultiplier" id="0x7f030001" />
+    <public type="dimen" name="config_screenBrightnessDimFloat" id="0x7f030002" />
+    <public type="dimen" name="config_screenBrightnessSettingDefaultFloat" id="0x7f030003" />
+    <public type="dimen" name="config_screenBrightnessSettingMaximumFloat" id="0x7f030004" />
+    <public type="dimen" name="config_screenBrightnessSettingMinimumFloat" id="0x7f030005" />
+    <public type="dimen" name="cover_clear_view_bottom" id="0x7f030006" />
+    <public type="dimen" name="cover_clear_view_left" id="0x7f030007" />
+    <public type="dimen" name="cover_clear_view_right" id="0x7f030008" />
+    <public type="dimen" name="cover_clear_view_top" id="0x7f030009" />
+    <public type="dimen" name="rounded_corner_radius_bottom" id="0x7f03000a" />
+    <public type="dimen" name="rounded_corner_radius_top" id="0x7f03000b" />
+    <public type="dimen" name="status_bar_camera_side_padding" id="0x7f03000c" />
+    <public type="dimen" name="status_bar_camera_top_margin" id="0x7f03000d" />
+    <public type="dimen" name="status_bar_height_portrait" id="0x7f03000e" />
+    <public type="dimen" name="status_bar_indicator_corner_padding" id="0x7f03000f" />
     <public type="integer" name="config_acl_version" id="0x7f040000" />
     <public type="integer" name="config_autoBrightnessHbmAmbientLux" id="0x7f040001" />
     <public type="integer" name="config_lowLimitAtHighestAutoBrightnessLevel" id="0x7f040002" />
