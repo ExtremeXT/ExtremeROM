@@ -1,29 +1,71 @@
-# [
+BUILD_KERNEL()
+{
+    local PARENT="$(pwd)"
+    cd "$KERNEL_TMP_DIR/floppy"
+
+    ./do_build.sh
+
+    cd "$PARENT"
+}
+
+SAFE_PULL_CHANGES()
+{
+    set -eo pipefail
+
+    local PARENT="$(pwd)"
+    cd "$KERNEL_TMP_DIR/floppy"
+
+    git fetch origin
+
+    LOCAL="$(git rev-parse @)"
+    REMOTE="$(git rev-parse origin)"
+    BASE="$(git merge-base @ origin)"
+
+    # Now we have three cases that we need to take care of.
+    if [ "$LOCAL" = "$REMOTE" ]; then
+        echo "Local branch is up-to-date with remote."
+    elif [ "$LOCAL" = "$BASE" ]; then
+        echo "Fast-forward possible. Pulling..."
+        git pull --ff-only
+    elif [ "$REMOTE" = "$BASE" ]; then
+        echo "Local branch is ahead of remote. Not doing anything."
+    else
+        echo "ERR: Remote history has diverged (possible force-push)."
+	    cd "$PARENT"
+	    return 1
+    fi
+
+    cd "$PARENT"
+}
+
 REPLACE_KERNEL_BINARIES()
 {
-    local LATEST
-    local FLOPPY_TAR
-    
-    [ -d "$TMP_DIR" ] && rm -rf "$TMP_DIR"
-    mkdir -p "$TMP_DIR"
+    local KERNEL_TMP_DIR="$KERNEL_TMP_DIR-$TARGET_PLATFORM"
+    local FLOPPY_REPO="https://github.com/FlopKernel-Series/flop_s5e8825_kernel"
 
-    LATEST=$(curl -s https://api.github.com/repos/FlopKernel-Series/flop_s5e8825_kernel/releases/latest)
-    FLOPPY_TAR=$(echo "$LATEST" |
-        jq -r '.assets[] | select(.name | test("Vanilla-exynos1280.*\\.tar$")) | .browser_download_url')
+    [ ! -d "$KERNEL_TMP_DIR" ] && mkdir -p "$KERNEL_TMP_DIR"
 
-    echo "- Downloading $(basename "$FLOPPY_TAR")"
-    curl -L -s -o "$TMP_DIR/floppy.tar" "$FLOPPY_TAR"
+    if [ -d "$KERNEL_TMP_DIR/floppy/.git" ]; then
+        echo "Existing git repo found, trying to pull latest changes."
+        if ! SAFE_PULL_CHANGES; then
+		    echo "ERR: Could not pull latest Kernel changes."
+		    echo "If you hold local changes, please rebase to the new base."
+		    echo "If not, cleaning the kernel_tmp_dir should suffice."
+		    return 1
+	    fi
+    else
+        echo "Cloning FloppyKernel"
+        [ -d "$KERNEL_TMP_DIR/floppy" ] && rm -rf "$KERNEL_TMP_DIR/floppy"
+        git clone "$FLOPPY_REPO" --single-branch "$KERNEL_TMP_DIR/floppy"
+    fi
 
-    echo "- Extracting kernel binaries"
-    tar xf "$TMP_DIR/floppy.tar" -C "$TMP_DIR"
-    lz4 -q -d "$TMP_DIR/boot.img.lz4" "$TMP_DIR/boot.img"
-    lz4 -q -d "$TMP_DIR/vendor_boot.img.lz4" "$TMP_DIR/vendor_boot.img"
-    echo "- Replacing kernel binaries"
-    [ -f "$WORK_DIR/kernel/boot.img" ] && rm -rf "$WORK_DIR/kernel/boot.img"
-    [ -f "$WORK_DIR/kernel/vendor_boot.img" ] && rm -rf "$WORK_DIR/kernel/vendor_boot.img"
-    mv "$TMP_DIR/boot.img" "$TMP_DIR/vendor_boot.img" "$WORK_DIR/kernel/"
+    echo "Running the kernel build script."
+    BUILD_KERNEL
+
+    # Move the files to the work dir
+    mv -fv "$KERNEL_TMP_DIR/floppy/kernel_build/boot.img" "$WORK_DIR/kernel"
+    mv -fv "$KERNEL_TMP_DIR/floppy/kernel_build/vendor_boot.img" "$WORK_DIR/kernel"
 }
-# ]
 
 REPLACE_KERNEL_BINARIES
 rm -rf "$TMP_DIR"
