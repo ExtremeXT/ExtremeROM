@@ -115,9 +115,12 @@
     <local name="SUPPORT_SEAMLESS_ZOOM" value="true"/>
     <local name="SUPPORT_WIDE_LENS_CORRECTION" value="true"/>
     <local name="BACK_WIDE_CAMERA_ID" value="2"/>
-    <local name="BACK_TELE_CAMERA_ZOOM_LEVEL" value="5.0"/>
+    <local name="BACK_TELE_CAMERA_ZOOM_LEVEL" value="3.0"/>
     <local name="BACK_TELE_CAMERA_ID" value="52"/>
-    <local name="DIGITAL_ZOOM_SHORTCUT_LIST" value="10.0, 20.0"/>
+    <local name="DIGITAL_ZOOM_SHORTCUT_LIST" value="5.0, 10.0"/>
+    <local name="SUPPORT_BACK_SECOND_TELE_CAMERA" value="true"/> 
+    <local name="BACK_SECOND_TELE_CAMERA_ID" value="52"/>
+    <local name="BACK_SECOND_TELE_CAMERA_ZOOM_LEVEL" value="5.0"/>
 
     <!-- Front dynamic FOV features -->
     <local name="FRONT_DYNAMIC_FOV_CAMERA_ID" value="3"/>
