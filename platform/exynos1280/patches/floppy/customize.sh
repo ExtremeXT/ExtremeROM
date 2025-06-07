@@ -5,6 +5,7 @@ BUILD_KERNEL()
 
     ./do_build.sh
 
+    echo "- Building dtbo image"
     "$SRC_DIR/platform/exynos1280/patches/floppy/bin/mkdtimg" cfg_create \
         "kernel_build/dtbo.img" \
         "$SRC_DIR/platform/exynos1280/patches/floppy/configs/$TARGET_CODENAME.cfg" \
@@ -43,7 +44,7 @@ SAFE_PULL_CHANGES()
     cd "$PARENT"
 }
 
-REPLACE_KERNEL_BINARIES()
+REPLACE_KERNEL_IMAGES()
 {
     local KERNEL_TMP_DIR="$KERNEL_TMP_DIR-$TARGET_PLATFORM"
     local FLOPPY_REPO="https://github.com/FlopKernel-Series/flop_s5e8825_kernel"
@@ -64,14 +65,16 @@ REPLACE_KERNEL_BINARIES()
         git clone "$FLOPPY_REPO" --single-branch "$KERNEL_TMP_DIR/floppy"
     fi
 
-    echo "Running the kernel build script."
+    echo "- Running the kernel build script."
     BUILD_KERNEL
 
     # Move the files to the work dir
-    mv -fv "$KERNEL_TMP_DIR/floppy/kernel_build/dtbo.img" "$WORK_DIR/kernel"
-    mv -fv "$KERNEL_TMP_DIR/floppy/kernel_build/boot.img" "$WORK_DIR/kernel"
-    mv -fv "$KERNEL_TMP_DIR/floppy/kernel_build/vendor_boot.img" "$WORK_DIR/kernel"
+    KERNEL_IMAGES=(dtbo.img boot.img vendor_boot.img)
+    for b in "${KERNEL_IMAGES[@]}"; do
+        [ -f "$WORK_DIR/kernel/$b" ] && rm -f "$WORK_DIR/kernel/$b"
+        mv -f "$KERNEL_TMP_DIR/floppy/kernel_build/$b" "$WORK_DIR/kernel"
+    done
 }
 
-REPLACE_KERNEL_BINARIES
+REPLACE_KERNEL_IMAGES
 rm -rf "$TMP_DIR"
