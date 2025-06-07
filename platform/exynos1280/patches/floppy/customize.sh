@@ -5,6 +5,11 @@ BUILD_KERNEL()
 
     ./do_build.sh
 
+    "$SRC_DIR/platform/exynos1280/patches/floppy/bin/mkdtimg" cfg_create \
+        "kernel_build/dtbo.img" \
+        "$SRC_DIR/platform/exynos1280/patches/floppy/configs/$TARGET_CODENAME.cfg" \
+        -d "out/arch/arm64/boot/dts/exynos/samsung/$TARGET_CODENAME"
+
     cd "$PARENT"
 }
 
@@ -63,6 +68,7 @@ REPLACE_KERNEL_BINARIES()
     BUILD_KERNEL
 
     # Move the files to the work dir
+    mv -fv "$KERNEL_TMP_DIR/floppy/kernel_build/dtbo.img" "$WORK_DIR/kernel"
     mv -fv "$KERNEL_TMP_DIR/floppy/kernel_build/boot.img" "$WORK_DIR/kernel"
     mv -fv "$KERNEL_TMP_DIR/floppy/kernel_build/vendor_boot.img" "$WORK_DIR/kernel"
 }
