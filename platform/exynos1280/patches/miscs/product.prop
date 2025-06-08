@@ -6,4 +6,3 @@ bluetooth.profile.ccp.server.enabled=
 bluetooth.profile.vcp.controller.enabled=
 bluetooth.profile.bap.broadcast.assist.enabled=
 bluetooth.profile.bap.broadcast.source.enabled=
-ro.frp.pst=
