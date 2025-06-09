@@ -36,7 +36,7 @@ TARGET_BOOT_DEVICE_PATH="/dev/block/by-name"
 
 # SEC Product Feature
 TARGET_AUTO_BRIGHTNESS_TYPE="4"
-TARGET_DVFS_CONFIG_NAME="dvfs_policy_default"
+TARGET_DVFS_CONFIG_NAME="dvfs_policy_makalu_xx"
 TARGET_NFC_CHIP_VENDOR="SLSI"
 TARGET_FP_SENSOR_CONFIG="google_touch_display_ultrasonic"
 TARGET_HAS_MASS_CAMERA_APP=false
