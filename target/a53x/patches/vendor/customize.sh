@@ -41,6 +41,7 @@ cp -rfa "$SRC_DIR/target/$TARGET_CODENAME/patches/vendor/vendor/firmware" "$WORK
 
 # A536E
 {
+    echo "# SM-A536E (TPA)"
     echo "on early-init && property:ro.boot.em.model=SM-A536E"
     echo "mount none /vendor/firmware/cis/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind"
     echo "mount none /vendor/firmware/cis/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind"
@@ -54,6 +55,8 @@ cp -rfa "$SRC_DIR/target/$TARGET_CODENAME/patches/vendor/vendor/firmware" "$WORK
 
 # A536B
 {
+    echo ""
+    echo "# SM-A536B (EUX"
     echo "on early-init && property:ro.boot.em.model=SM-A536B"
     echo "mount none /vendor/firmware/eur/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind"
     echo "mount none /vendor/firmware/eur/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind"
