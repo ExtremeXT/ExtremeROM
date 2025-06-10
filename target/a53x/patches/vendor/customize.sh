@@ -68,6 +68,17 @@ cp -rfa "$SRC_DIR/target/$TARGET_CODENAME/patches/vendor/vendor/firmware" "$WORK
     echo "mount none /vendor/tee_eur /vendor/tee bind"
 } >> "$WORK_DIR/vendor/etc/init/unify.rc"
 
+# Restart audiserver on post-fs-data. We need to do it 10 times because 
+# once isn't enough (it works once every 5 reboots)
+{
+    echo ""
+    echo "# Restart audioserver on post-fs-data"
+    echo "on post-fs-data"
+    for r in $(seq 10); do
+        echo "    restart audioserver"
+    done
+} >> "$WORK_DIR/vendor/etc/init/unify.rc"
+
 # Sepolicy
 if ! grep -q "tee_file (dir (mounton" "$WORK_DIR/vendor/etc/selinux/vendor_sepolicy.cil"; then
     echo "(allow init_31_0 tee_file (dir (mounton)))" >> "$WORK_DIR/vendor/etc/selinux/vendor_sepolicy.cil"
