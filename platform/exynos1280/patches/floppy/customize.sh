@@ -1,15 +1,28 @@
 BUILD_KERNEL()
 {
     local PARENT="$(pwd)"
+    local DEVICE=($TARGET_CODENAME)
+    [ "$TARGET_CODENAME" = "a53x" ] && local DEVICE=(A536B A536E)
     cd "$KERNEL_TMP_DIR/floppy"
+
+    if [ "$TARGET_CODENAME" = "a53x" ]; then
+        sed -i "s/AP_AUDIO_SLSI/AP_AUDIO_SLSI-eur/g" "$KERNEL_TMP_DIR/floppy/arch/arm64/boot/dts/exynos/samsung/a53x/a53x_eur"*
+        sed -i "s/APDV_AUDIO_SLSI/APDV_AUDIO_SLSI-eur/g" "$KERNEL_TMP_DIR/floppy/arch/arm64/boot/dts/exynos/samsung/a53x/a53x_eur"*
+        sed -i "s/AP_AUDIO_SLSI/AP_AUDIO_SLSI-cis/g" "$KERNEL_TMP_DIR/floppy/arch/arm64/boot/dts/exynos/samsung/a53x/a53x_cis"*
+        sed -i "s/APDV_AUDIO_SLSI/APDV_AUDIO_SLSI-cis/g" "$KERNEL_TMP_DIR/floppy/arch/arm64/boot/dts/exynos/samsung/a53x/a53x_cis"*
+    fi
 
     ./do_build.sh k
 
-    echo "- Building dtbo image"
-    "$SRC_DIR/platform/exynos1280/patches/floppy/bin/mkdtimg" cfg_create \
-        "kernel_build/dtbo.img" \
-        "$SRC_DIR/platform/exynos1280/patches/floppy/configs/$TARGET_CODENAME.cfg" \
-        -d "out/arch/arm64/boot/dts/exynos/samsung/$TARGET_CODENAME"
+    [ "$TARGET_CODENAME" = "a53x" ] && git restore "$KERNEL_TMP_DIR/floppy/arch/arm64/boot/dts/exynos/samsung/a53x"
+
+    for d in "${DEVICE[@]}"; do
+        echo "- Building dtbo image for $d"
+        "$SRC_DIR/platform/exynos1280/patches/floppy/bin/mkdtimg" cfg_create \
+            "kernel_build/dtbo-$d.img" \
+            "$SRC_DIR/platform/exynos1280/patches/floppy/configs/$d.cfg" \
+            -d "out/arch/arm64/boot/dts/exynos/samsung/$TARGET_CODENAME"
+    done
 
     cd "$PARENT"
 }
@@ -69,11 +82,19 @@ REPLACE_KERNEL_IMAGES()
     BUILD_KERNEL
 
     # Move the files to the work dir
-    KERNEL_IMAGES=(dtbo.img boot.img vendor_boot.img)
+    KERNEL_IMAGES=(boot vendor_boot)
     for b in "${KERNEL_IMAGES[@]}"; do
-        [ -f "$WORK_DIR/kernel/$b" ] && rm -f "$WORK_DIR/kernel/$b"
-        mv -f "$KERNEL_TMP_DIR/floppy/kernel_build/$b" "$WORK_DIR/kernel"
+        [ -f "$WORK_DIR/kernel/$b*.img" ] && rm -f "$WORK_DIR/kernel/$b*.img"
+        [ -f "$KERNEL_TMP_DIR/floppy/kernel_build/$b*.img" ] && mv -f "$KERNEL_TMP_DIR/floppy/kernel_build/$b*.img" "$WORK_DIR/kernel"
     done
+
+    if [ "$TARGET_CODENAME" != "a53x" ]; then
+        mv "$WORK_DIR/kernel/dtbo-$TARGET_CODENAME.img" "$WORK_DIR/kernel/dtbo.img"
+    else
+        [ -f "$WORK_DIR/kernel/dtbo"* ] && rm -f "$WORK_DIR/kernel/dtbo"*
+        mv "$KERNEL_TMP_DIR/floppy/kernel_build/dtbo-A536B.img" "$WORK_DIR/kernel/dtbo-eur.img"
+        mv "$KERNEL_TMP_DIR/floppy/kernel_build/dtbo-A536E.img" "$WORK_DIR/kernel/dtbo-cis.img"
+    fi
 }
 
 ADD_KERNELSU_NEXT_MANAGER()

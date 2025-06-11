@@ -16,8 +16,8 @@ cp -fa --preserve=all "$SRC_DIR/target/$TARGET_CODENAME/patches/vendor/vendor/te
 # A536E
 if [ ! -d "$WORK_DIR/vendor/firmware/cis" ]; then
     mkdir -p "$WORK_DIR/vendor/firmware/cis"
-    mv -f "$WORK_DIR/vendor/firmware/AP_AUDIO_SLSI.bin" "$WORK_DIR/vendor/firmware/cis/AP_AUDIO_SLSI.bin"
-    mv -f "$WORK_DIR/vendor/firmware/APDV_AUDIO_SLSI.bin" "$WORK_DIR/vendor/firmware/cis/APDV_AUDIO_SLSI.bin"
+    mv -f "$WORK_DIR/vendor/firmware/AP_AUDIO_SLSI.bin" "$WORK_DIR/vendor/firmware/AP_AUDIO_SLSI-cis.bin"
+    mv -f "$WORK_DIR/vendor/firmware/APDV_AUDIO_SLSI.bin" "$WORK_DIR/vendor/firmware/APDV_AUDIO_SLSI-cis.bin"
     mv -f "$WORK_DIR/vendor/firmware/calliope_sram.bin" "$WORK_DIR/vendor/firmware/cis/calliope_sram.bin"
     mv -f "$WORK_DIR/vendor/firmware/mfc_fw.bin" "$WORK_DIR/vendor/firmware/cis/mfc_fw.bin"
     mv -f "$WORK_DIR/vendor/firmware/os.checked.bin" "$WORK_DIR/vendor/firmware/cis/os.checked.bin"
@@ -35,6 +35,8 @@ fi
 # A536B
 [ -d "$WORK_DIR/vendor/firmware/eur" ] && rm -rf "$WORK_DIR/vendor/firmware/eur"
 cp -rfa "$SRC_DIR/target/$TARGET_CODENAME/patches/vendor/vendor/firmware" "$WORK_DIR/vendor/firmware/eur"
+mv -f "$WORK_DIR/vendor/firmware/eur/AP_AUDIO_SLSI.bin" "$WORK_DIR/vendor/firmware/AP_AUDIO_SLSI-eur.bin"
+mv -f "$WORK_DIR/vendor/firmware/eur/APDV_AUDIO_SLSI.bin" "$WORK_DIR/vendor/firmware/APDV_AUDIO_SLSI-eur.bin"
 
 ## Rc (unify.rc)
 [ -f "$WORK_DIR/vendor/etc/init/unify.rc" ] && rm -f "$WORK_DIR/vendor/etc/init/unify.rc" 
@@ -43,8 +45,6 @@ cp -rfa "$SRC_DIR/target/$TARGET_CODENAME/patches/vendor/vendor/firmware" "$WORK
 {
     echo "# SM-A536E (TPA)"
     echo "on early-init && property:ro.boot.em.model=SM-A536E"
-    echo "mount none /vendor/firmware/cis/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind"
-    echo "mount none /vendor/firmware/cis/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind"
     echo "mount none /vendor/firmware/cis/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind"
     echo "mount none /vendor/firmware/cis/NPU.bin /vendor/firmware/NPU.bin bind"
     echo "mount none /vendor/firmware/cis/os.checked.bin /vendor/firmware/os.checked.bin bind"
@@ -58,25 +58,12 @@ cp -rfa "$SRC_DIR/target/$TARGET_CODENAME/patches/vendor/vendor/firmware" "$WORK
     echo ""
     echo "# SM-A536B (EUX"
     echo "on early-init && property:ro.boot.em.model=SM-A536B"
-    echo "mount none /vendor/firmware/eur/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind"
-    echo "mount none /vendor/firmware/eur/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind"
     echo "mount none /vendor/firmware/eur/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind"
     echo "mount none /vendor/firmware/eur/NPU.bin /vendor/firmware/NPU.bin bind"
     echo "mount none /vendor/firmware/eur/os.checked.bin /vendor/firmware/os.checked.bin bind"
     echo "mount none /vendor/firmware/eur/vts.bin /vendor/firmware/vts.bin bind"
     echo "mount none /vendor/firmware/eur/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind"
     echo "mount none /vendor/tee_eur /vendor/tee bind"
-} >> "$WORK_DIR/vendor/etc/init/unify.rc"
-
-# Restart audiserver on post-fs-data. We need to do it 10 times because 
-# once isn't enough (it works once every 5 reboots)
-{
-    echo ""
-    echo "# Restart audioserver on post-fs-data"
-    echo "on post-fs-data"
-    for r in $(seq 10); do
-        echo "    restart audioserver"
-    done
 } >> "$WORK_DIR/vendor/etc/init/unify.rc"
 
 # Sepolicy
@@ -95,8 +82,8 @@ fi
 if ! grep -q "vendor/firmware/cis" "$WORK_DIR/configs/file_context-vendor"; then
     {
         echo "/vendor/firmware/cis u:object_r:vendor_fw_file:s0"
-        echo "/vendor/firmware/cis/AP_AUDIO_SLSI\.bin u:object_r:vendor_fw_file:s0"
-        echo "/vendor/firmware/cis/APDV_AUDIO_SLSI\.bin u:object_r:vendor_fw_file:s0"
+        echo "/vendor/firmware/AP_AUDIO_SLSI-cis\.bin u:object_r:vendor_fw_file:s0"
+        echo "/vendor/firmware/APDV_AUDIO_SLSI-cis\.bin u:object_r:vendor_fw_file:s0"
         echo "/vendor/firmware/cis/calliope_sram\.bin u:object_r:vendor_fw_file:s0"
         echo "/vendor/firmware/cis/mfc_fw\.bin u:object_r:vendor_fw_file:s0"
         echo "/vendor/firmware/cis/NPU\.bin u:object_r:vendor_npu_firmware_file:s0"
@@ -108,8 +95,8 @@ fi
 if ! grep -q "vendor/firmware/cis" "$WORK_DIR/configs/fs_config-vendor"; then
     {
         echo "vendor/firmware/cis 0 2000 755 capabilities=0x0"
-        echo "vendor/firmware/cis/AP_AUDIO_SLSI.bin 0 0 644 capabilities=0x0"
-        echo "vendor/firmware/cis/APDV_AUDIO_SLSI.bin 0 0 644 capabilities=0x0"
+        echo "vendor/firmware/AP_AUDIO_SLSI-cis.bin 0 0 644 capabilities=0x0"
+        echo "vendor/firmware/APDV_AUDIO_SLSI-cis.bin 0 0 644 capabilities=0x0"
         echo "vendor/firmware/cis/calliope_sram.bin 0 0 644 capabilities=0x0"
         echo "vendor/firmware/cis/mfc_fw.bin 0 0 644 capabilities=0x0"
         echo "vendor/firmware/cis/NPU.bin 0 0 644 capabilities=0x0"
@@ -122,8 +109,8 @@ fi
 if ! grep -q "vendor/firmware/eur" "$WORK_DIR/configs/file_context-vendor"; then
     {
         echo "/vendor/firmware/eur u:object_r:vendor_fw_file:s0"
-        echo "/vendor/firmware/eur/AP_AUDIO_SLSI\.bin u:object_r:vendor_fw_file:s0"
-        echo "/vendor/firmware/eur/APDV_AUDIO_SLSI\.bin u:object_r:vendor_fw_file:s0"
+        echo "/vendor/firmware/AP_AUDIO_SLSI-eur\.bin u:object_r:vendor_fw_file:s0"
+        echo "/vendor/firmware/APDV_AUDIO_SLSI-eur\.bin u:object_r:vendor_fw_file:s0"
         echo "/vendor/firmware/eur/calliope_sram\.bin u:object_r:vendor_fw_file:s0"
         echo "/vendor/firmware/eur/mfc_fw\.bin u:object_r:vendor_fw_file:s0"
         echo "/vendor/firmware/eur/NPU\.bin u:object_r:vendor_npu_firmware_file:s0"
@@ -135,8 +122,8 @@ fi
 if ! grep -q "vendor/firmware/eur" "$WORK_DIR/configs/fs_config-vendor"; then
     {
         echo "vendor/firmware/eur 0 2000 755 capabilities=0x0"
-        echo "vendor/firmware/eur/AP_AUDIO_SLSI.bin 0 0 644 capabilities=0x0"
-        echo "vendor/firmware/eur/APDV_AUDIO_SLSI.bin 0 0 644 capabilities=0x0"
+        echo "vendor/firmware/AP_AUDIO_SLSI-eur.bin 0 0 644 capabilities=0x0"
+        echo "vendor/firmware/APDV_AUDIO_SLSI-eur.bin 0 0 644 capabilities=0x0"
         echo "vendor/firmware/eur/calliope_sram.bin 0 0 644 capabilities=0x0"
         echo "vendor/firmware/eur/mfc_fw.bin 0 0 644 capabilities=0x0"
         echo "vendor/firmware/eur/NPU.bin 0 0 644 capabilities=0x0"
