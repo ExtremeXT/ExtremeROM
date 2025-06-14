@@ -18,17 +18,17 @@ if [[ $TARGET_SINGLE_SYSTEM_IMAGE == "qssi" || $TARGET_SINGLE_SYSTEM_IMAGE == "e
     # Creating symlinks
     ln -sf "/apex/com.android.runtime/bin/linker" "$WORK_DIR/system/system/bin/linker"
     ln -sf "/apex/com.android.runtime/bin/linker" "$WORK_DIR/system/system/bin/linker_asan"
-    SET_METADATA "system" "system/system/bin/linker" 0 0 755 "u:object_r:system_file:s0"
-    SET_METADATA "system" "system/system/bin/linker_asan" 0 0 755 "u:object_r:system_file:s0"
+    SET_METADATA "system" "system/bin/linker" 0 0 755 "u:object_r:system_file:s0"
+    SET_METADATA "system" "system/bin/linker_asan" 0 0 755 "u:object_r:system_file:s0"
 
     ln -sf "/apex/com.android.runtime/lib/bionic/libc.so" "$WORK_DIR/system/system/lib/libc.so"
     ln -sf "/apex/com.android.runtime/lib/bionic/libdl.so" "$WORK_DIR/system/system/lib/libdl.so"
     ln -sf "/apex/com.android.runtime/lib/bionic/libdl_android.so" "$WORK_DIR/system/system/lib/libdl_android.so"
     ln -sf "/apex/com.android.runtime/lib/bionic/libm.so" "$WORK_DIR/system/system/lib/libm.so"
-    SET_METADATA "system" "system/system/lib/libc.so" 0 0 644 "u:object_r:system_lib_file:s0"
-    SET_METADATA "system" "system/system/lib/libdl.so" 0 0 644 "u:object_r:system_lib_file:s0"
-    SET_METADATA "system" "system/system/lib/libdl_android.so" 0 0 644 "u:object_r:system_lib_file:s0"
-    SET_METADATA "system" "system/system/lib/libm.so" 0 0 644 "u:object_r:system_lib_file:s0"
+    SET_METADATA "system" "system/lib/libc.so" 0 0 644 "u:object_r:system_lib_file:s0"
+    SET_METADATA "system" "system/lib/libdl.so" 0 0 644 "u:object_r:system_lib_file:s0"
+    SET_METADATA "system" "system/lib/libdl_android.so" 0 0 644 "u:object_r:system_lib_file:s0"
+    SET_METADATA "system" "system/lib/libm.so" 0 0 644 "u:object_r:system_lib_file:s0"
 
     # Set props
     echo "Setting props..."
