@@ -1,2 +1,0 @@
-getprop("ro.boot.em.model") == "SM-A536B" || ui_print("Full Patching dtbo.img img...") || package_extract_file("dtbo-eur.img", "/dev/block/by-name/dtbo");
-getprop("ro.boot.em.model") == "SM-A536E" || ui_print("Full Patching dtbo.img img...") || package_extract_file("dtbo-cis.img", "/dev/block/by-name/dtbo");
