@@ -1,5 +1,5 @@
 # A56 VOLD/MDF blobs
-ADD_TO_WORK_DIR "a56xnaxx" "system" "."
+ADD_TO_WORK_DIR "a26xxx" "system" "."
 
 # Tab S10 FE android_server blobs
 ADD_TO_WORK_DIR "gts10fewifixx" "system" "."

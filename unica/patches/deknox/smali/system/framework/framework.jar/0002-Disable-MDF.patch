@@ -1,0 +1,76 @@
+From 449b955c4628559f26d15ea7f7ebdd09b2fa11ff Mon Sep 17 00:00:00 2001
+From: Louis Poier <lpoier7@proton.me>
+Date: Sat, 14 Jun 2025 12:46:56 +0300
+Subject: [PATCH] Disable MDF
+
+Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+---
+ .../android/security/mdf/MdfUtils.smali       | 42 ++++++++++++++++---
+ 1 file changed, 36 insertions(+), 6 deletions(-)
+
+diff --git a/smali_classes6/com/samsung/android/security/mdf/MdfUtils.smali b/smali_classes6/com/samsung/android/security/mdf/MdfUtils.smali
+index b3625f19..4a483f07 100644
+--- a/smali_classes6/com/samsung/android/security/mdf/MdfUtils.smali
++++ b/smali_classes6/com/samsung/android/security/mdf/MdfUtils.smali
+@@ -1385,22 +1385,52 @@
+     return v2
+ .end method
+ 
+-.method public static native blacklist isMdfApplied()Z
++.method public static blacklist isMdfApplied()Z
++    .locals 1
++
++    const/4 v0, 0x0
++
++    return v0
+ .end method
+ 
+-.method public static native blacklist isMdfDisabled()Z
++.method public static blacklist isMdfDisabled()Z
++    .locals 1
++
++    const/4 v0, 0x0
++
++    return v0
+ .end method
+ 
+-.method public static native blacklist isMdfEnabled()Z
++.method public static blacklist isMdfEnabled()Z
++    .locals 1
++
++    const/4 v0, 0x0
++
++    return v0
+ .end method
+ 
+-.method public static native blacklist isMdfEnforced()Z
++.method public static blacklist isMdfEnforced()Z
++    .locals 1
++
++    const/4 v0, 0x0
++
++    return v0
+ .end method
+ 
+-.method public static native blacklist isMdfReady()Z
++.method public static blacklist isMdfReady()Z
++    .locals 1
++
++    const/4 v0, 0x0
++
++    return v0
+ .end method
+ 
+-.method public static native blacklist isMdfSupported()Z
++.method public static blacklist isMdfSupported()Z
++    .locals 1
++
++    const/4 v0, 0x0
++
++    return v0
+ .end method
+ 
+ .method public static blacklist logMdf(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/String;)V
+-- 
+2.45.2
+
