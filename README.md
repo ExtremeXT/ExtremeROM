@@ -81,7 +81,7 @@ A big thanks goes to the following for their invaluable contributions in no part
 - **[Duhan](https://github.com/duhansysl)** for help with vendor backports, a lot of fixes and advice
 - **[Anan](https://github.com/ananjaser1211)** for all of his contributions to OneUI porting
 - **[CiprianDinca](https://github.com/CiprianDinca9)** for custom ExtremeROM ringtones
-- **[PeterKnetch93](https://github.com/PeterKnetch93)** for help with smali and a lot of misc fixes
+- **[PeterKnecht93](https://github.com/PeterKnecht93)** for help with smali and a lot of misc fixes
 - **[tsn](https://github.com/tisenu100)** for some smali fixes and advice
 - **[Nguyen Long](https://github.com/LumiPlayground)** for misc fixes and support
 - **[AlexFurina](https://github.com/AlexFurina)** for S10 specific fixes
