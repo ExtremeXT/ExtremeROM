@@ -1,13 +1,14 @@
-From f30fbe7c15f1bc3aab3d314b9d1b3706a42308a4 Mon Sep 17 00:00:00 2001
-From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
-Date: Sun, 22 Jun 2025 17:37:44 +0300
+From 7b2e4eeff4ba6a98d9778e9dcd7f4037e2aaf6c7 Mon Sep 17 00:00:00 2001
+From: dupazlasu <dupazlasu66@gmail.com>
+Date: Tue, 24 Jun 2025 18:41:44 +0200
 Subject: [PATCH] Enable ACH ringtone support
 
-Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Co-authored-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Signed-off-by: dupazlasu <dupazlasu66@gmail.com>
 ---
  smali_classes5/com/samsung/android/audio/Rune.smali       | 4 +---
- smali_classes6/com/samsung/android/vibrator/VibRune.smali | 4 +---
- 2 files changed, 2 insertions(+), 6 deletions(-)
+ smali_classes6/com/samsung/android/vibrator/VibRune.smali | 2 +-
+ 2 files changed, 2 insertions(+), 4 deletions(-)
 
 diff --git a/smali_classes5/com/samsung/android/audio/Rune.smali b/smali_classes5/com/samsung/android/audio/Rune.smali
 index 3a6cc21a..42582fde 100644
@@ -27,20 +28,18 @@ index 3a6cc21a..42582fde 100644
      move-result v0
  
 diff --git a/smali_classes6/com/samsung/android/vibrator/VibRune.smali b/smali_classes6/com/samsung/android/vibrator/VibRune.smali
-index 9bfc42ad..af9cb9b3 100644
+index 9bfc42ad..7471fcd2 100644
 --- a/smali_classes6/com/samsung/android/vibrator/VibRune.smali
 +++ b/smali_classes6/com/samsung/android/vibrator/VibRune.smali
-@@ -79,9 +79,7 @@
+@@ -81,7 +81,7 @@
  
-     const-string v1, "ACH"
+     const-string v2, ""
  
--    const-string v2, ""
--
 -    invoke-virtual {v2, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 +    invoke-virtual {v2, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
  
      move-result v1
  
 -- 
-2.45.2
+2.43.0
 
