@@ -79,7 +79,7 @@ APPLY_PATCH()
 
     DECODE_APK "$PARTITION" "$FILE" || return 1
 
-    LOG "- Applying \"$(grep "^Subject:" "$PATCH" | sed "s/.*PATCH] //")\" to /$PARTITION/$FILE"
+    LOG "- Applying \"$(grep "^Subject:" "$PATCH" | sed "s/.*PATCH] //; s/.*PATCH .\/.] //")\" to /$PARTITION/$FILE"
     EVAL "cd \"$APKTOOL_DIR/$PARTITION/${FILE//system\//}\"; patch -p1 -s -t -N --no-backup-if-mismatch < \"$PATCH\"; cd - &> /dev/null"
 }
 
