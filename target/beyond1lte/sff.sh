@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-# SEC Floating Feature configuration file for Galaxy S10+ (beyond2lte)
+# SEC Floating Feature configuration file for Galaxy S10 (beyond1lte)
 
 # Battery
 SEC_FLOATING_FEATURE_BATTERY_SUPPORT_PASS_THROUGH=
