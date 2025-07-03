@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_SLK_15_0006</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0003</customerEdition>
+    <carrierListVersion>150025</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>7</carrierCount>
+    <carrier>
+      <mcc>413</mcc>
+      <mnc>01</mnc>
+      <networkName>Mobitel</networkName>
+    </carrier>
+    <carrier>
+      <mcc>413</mcc>
+      <mnc>02</mnc>
+      <networkName>Dialog</networkName>
+    </carrier>
+    <carrier>
+      <mcc>413</mcc>
+      <mnc>03</mnc>
+      <networkName>Etisalat</networkName>
+    </carrier>
+    <carrier>
+      <mcc>413</mcc>
+      <mnc>05</mnc>
+      <networkName>Airtel</networkName>
+    </carrier>
+    <carrier>
+      <mcc>413</mcc>
+      <mnc>08</mnc>
+      <networkName>Hutch</networkName>
+    </carrier>
+    <carrier>
+      <mcc>472</mcc>
+      <mnc>01</mnc>
+      <networkName>Dhiraagu</networkName>
+    </carrier>
+    <carrier>
+      <mcc>472</mcc>
+      <mnc>02</mnc>
+      <networkName>Ooredoo Maldives</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

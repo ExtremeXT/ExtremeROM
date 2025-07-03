@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_XNZ_15_0009</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0003</customerEdition>
+    <carrierListVersion>150057</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>29</carrierCount>
+    <carrier>
+      <mcc>311</mcc>
+      <mnc>780</mnc>
+      <networkName>ASTCA</networkName>
+    </carrier>
+    <carrier>
+      <mcc>514</mcc>
+      <mnc>01</mnc>
+      <networkName>Timor Telkomcel</networkName>
+    </carrier>
+    <carrier>
+      <mcc>514</mcc>
+      <mnc>02</mnc>
+      <networkName>Timor Telecom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>514</mcc>
+      <mnc>03</mnc>
+      <spn>TELEMOR</spn>
+      <networkName>TELEMOR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>530</mcc>
+      <mnc>01</mnc>
+      <networkName>Vodafone NZ</networkName>
+    </carrier>
+    <carrier>
+      <mcc>530</mcc>
+      <mnc>05</mnc>
+      <networkName>Spark NZ</networkName>
+    </carrier>
+    <carrier>
+      <mcc>530</mcc>
+      <mnc>05</mnc>
+      <spn>Skinny</spn>
+      <subsetCode>204</subsetCode>
+      <networkName>Skinny</networkName>
+    </carrier>
+    <carrier>
+      <mcc>530</mcc>
+      <mnc>24</mnc>
+      <networkName>2degrees</networkName>
+    </carrier>
+    <carrier>
+      <mcc>530</mcc>
+      <mnc>24</mnc>
+      <spn>Warehouse</spn>
+      <subsetCode>10</subsetCode>
+      <networkName>Warehouse</networkName>
+    </carrier>
+    <carrier>
+      <mcc>530</mcc>
+      <mnc>99</mnc>
+      <networkName>Spark NZ</networkName>
+    </carrier>
+    <carrier>
+      <mcc>537</mcc>
+      <mnc>03</mnc>
+      <spn>DIGICEL</spn>
+      <networkName>Digicel PNG</networkName>
+    </carrier>
+    <carrier>
+      <mcc>537</mcc>
+      <mnc>04</mnc>
+      <networkName>Vodafone PNG</networkName>
+    </carrier>
+    <carrier>
+      <mcc>539</mcc>
+      <mnc>88</mnc>
+      <networkName>Digicel Tonga</networkName>
+    </carrier>
+    <carrier>
+      <mcc>541</mcc>
+      <mnc>01</mnc>
+      <networkName>Vodafone VU</networkName>
+    </carrier>
+    <carrier>
+      <mcc>541</mcc>
+      <mnc>05</mnc>
+      <spn>DIGICEL</spn>
+      <networkName>Digicel Vanuatu</networkName>
+    </carrier>
+    <carrier>
+      <mcc>542</mcc>
+      <mnc>01</mnc>
+      <networkName>Vodafone FJ</networkName>
+    </carrier>
+    <carrier>
+      <mcc>542</mcc>
+      <mnc>02</mnc>
+      <networkName>Digicel Nauru</networkName>
+    </carrier>
+    <carrier>
+      <mcc>542</mcc>
+      <mnc>02</mnc>
+      <networkName>Digicel Fiji</networkName>
+    </carrier>
+    <carrier>
+      <mcc>543</mcc>
+      <mnc>01</mnc>
+      <spn>MANUIA</spn>
+      <networkName>MANUIA</networkName>
+    </carrier>
+    <carrier>
+      <mcc>544</mcc>
+      <mnc>110</mnc>
+      <spn>Bluesky</spn>
+      <networkName>Bluesky Am Samoa</networkName>
+    </carrier>
+    <carrier>
+      <mcc>545</mcc>
+      <mnc>01</mnc>
+      <networkName>Vodafone Kiribati</networkName>
+    </carrier>
+    <carrier>
+      <mcc>546</mcc>
+      <mnc>01</mnc>
+      <spn>MOBILIS</spn>
+      <networkName>OPT-NC</networkName>
+    </carrier>
+    <carrier>
+      <mcc>547</mcc>
+      <mnc>05</mnc>
+      <networkName>ORA MOBILE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>547</mcc>
+      <mnc>15</mnc>
+      <networkName>Vodafone PF</networkName>
+    </carrier>
+    <carrier>
+      <mcc>547</mcc>
+      <mnc>20</mnc>
+      <networkName>VINI</networkName>
+    </carrier>
+    <carrier>
+      <mcc>548</mcc>
+      <mnc>01</mnc>
+      <networkName>Vodafone CK</networkName>
+    </carrier>
+    <carrier>
+      <mcc>549</mcc>
+      <mnc>00</mnc>
+      <spn>DIGICEL</spn>
+      <networkName>Digicel Samoa</networkName>
+    </carrier>
+    <carrier>
+      <mcc>549</mcc>
+      <mnc>27</mnc>
+      <networkName>Vodafone Samoa</networkName>
+    </carrier>
+    <carrier>
+      <mcc>553</mcc>
+      <mnc>01</mnc>
+      <networkName>Tuvalu Telecom</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

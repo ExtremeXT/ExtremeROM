@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0006</CSCEdition>
+    <Country>Russia</Country>
+    <CountryISO>RU</CountryISO>
+    <Region>CIS</Region>
+    <SalesCode>SER</SalesCode>
+    <NbNetworkInfo>21</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25001</MCCMNC>
+      <NetworkName>MTS</NetworkName>
+      <NWID>NW00823</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25099</MCCMNC>
+      <NetworkName>Beeline</NetworkName>
+      <NWID>NW00099</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25002</MCCMNC>
+      <NetworkName>Megafon</NetworkName>
+      <NWID>NW00728</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25002</MCCMNC>
+      <NetworkName>Yota</NetworkName>
+      <NWID>NW01563</NWID>
+      <SPName>YOTA</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25011</MCCMNC>
+      <NetworkName>Yota</NetworkName>
+      <NWID>NW01563</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25013</MCCMNC>
+      <NetworkName>Lycamobile</NetworkName>
+      <NWID>NW00694</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25020</MCCMNC>
+      <NetworkName>T2</NetworkName>
+      <NWID>NW02371</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25027</MCCMNC>
+      <NetworkName>Tattelecom</NetworkName>
+      <NWID>NW01209</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25035</MCCMNC>
+      <NetworkName>Motiv</NetworkName>
+      <NWID>NW00765</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25059</MCCMNC>
+      <NetworkName>WIFIRE</NetworkName>
+      <NWID>NW01542</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25050</MCCMNC>
+      <NetworkName>SberMobile</NetworkName>
+      <NWID>NW01926</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25020</MCCMNC>
+      <NetworkName>SberMobile</NetworkName>
+      <NWID>NW01926</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>FA3207FFFFFFFFFFFFFF</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>24007</MCCMNC>
+      <NetworkName>SberMobile</NetworkName>
+      <NWID>NW01926</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>FA3207FFFFFFFFFFFFFF</SubsetCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25062</MCCMNC>
+      <NetworkName>Tinkoff Mobile</NetworkName>
+      <NWID>NW01630</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25026</MCCMNC>
+      <NetworkName>VTB Mobile</NetworkName>
+      <NWID>NW01978</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25045</MCCMNC>
+      <NetworkName>GPB Mobile</NetworkName>
+      <NWID>NW02066</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25020</MCCMNC>
+      <NetworkName>Rostelecom</NetworkName>
+      <NWID>NW02058</NWID>
+      <SPName>ROSTELECOM</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25701</MCCMNC>
+      <NetworkName>A1</NetworkName>
+      <NWID>NW00119</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25702</MCCMNC>
+      <NetworkName>MTS.BY</NetworkName>
+      <NWID>NW00827</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25704</MCCMNC>
+      <NetworkName>Life</NetworkName>
+      <NWID>NW00684</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25047</MCCMNC>
+      <NetworkName>Next Mobile</NetworkName>
+      <NWID>NW02265</NWID>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>default</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>112, 911</SOSNumber>
+        <NbSOSNumberNoSIM>1</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>112, 911</SOSNumberNoSIM>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <DefLanguage>ru_RU</DefLanguage>
+        <DefLanguageNoSIM>ru_RU</DefLanguageNoSIM>
+        <T9Enabling>disable</T9Enabling>
+        <T9Language>russian</T9Language>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+        <WeekendSetting>satsun</WeekendSetting>
+      </Phone>
+      <CountryCert>
+        <CertCountryName>Россия</CertCountryName>
+        <NbDetailDesc>1</NbDetailDesc>
+        <DetailDesc>
+          <CertTag>Сертификат соответствия ЕАС</CertTag>
+          <CertValue>См. в инструкции пользователя или на сайте производителя</CertValue>
+        </DetailDesc>
+      </CountryCert>
+    </Main>
+    <Calendar>
+      <StartDay>monday</StartDay>
+    </Calendar>
+    <Messages>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <MsgTypeThreshold>
+          <ThresholdValue>5</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
+        <CharSupport>automatic</CharSupport>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <MessageSize>500</MessageSize>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+      <Email>
+        <EmailReceiving>
+          <AutoPoll>off</AutoPoll>
+          <KeepServer>on</KeepServer>
+        </EmailReceiving>
+      </Email>
+    </Messages>
+    <Browser>
+      <NbBookmark>3</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Index>1</Index>
+        <BookmarkName>Samsung</BookmarkName>
+        <URL>http://www.samsung.com/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Index>2</Index>
+        <BookmarkName>Яндекс</BookmarkName>
+        <URL>https://www.yandex.ru/?clid=2253643</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>3</Index>
+        <BookmarkName>Galaxy Shop</BookmarkName>
+        <URL>https://www.samsung.com/ru/mobile/?cid=ru_ow_app_s-internet_none_none_bookmark_bookmark_202008_none</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>18</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>MTS</NetworkName>
+        <ProfBrowser>MTS Internet</ProfBrowser>
+        <ProfMMS>MTS MMS</ProfMMS>
+        <ProfIMS>MTS IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Beeline</NetworkName>
+        <ProfBrowser>Beeline Internet</ProfBrowser>
+        <ProfMMS>Beeline MMS</ProfMMS>
+        <ProfIMS>Beeline IMS</ProfIMS>
+        <ProfXCAP>Beeline XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Megafon</NetworkName>
+        <ProfBrowser>Megafon Internet</ProfBrowser>
+        <ProfMMS>Megafon MMS</ProfMMS>
+        <ProfIMS>Megafon IMS</ProfIMS>
+        <ProfXCAP>Megafon XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Yota</NetworkName>
+        <ProfBrowser>Yota Internet</ProfBrowser>
+        <ProfMMS>Yota MMS</ProfMMS>
+        <ProfIMS>Yota IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>T2</NetworkName>
+        <ProfBrowser>T2 Internet</ProfBrowser>
+        <ProfMMS>T2 MMS</ProfMMS>
+        <ProfIMS>T2 IMS</ProfIMS>
+        <ProfXCAP>T2 XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Rostelecom</NetworkName>
+        <ProfBrowser>Rostelecom Internet</ProfBrowser>
+        <ProfMMS>Rostelecom MMS</ProfMMS>
+        <ProfIMS>Rostelecom IMS</ProfIMS>
+        <ProfXCAP>Rostelecom XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Tattelecom</NetworkName>
+        <ProfBrowser>Letai Internet</ProfBrowser>
+        <ProfMMS>Letai MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Motiv</NetworkName>
+        <ProfBrowser>Motiv Internet</ProfBrowser>
+        <ProfMMS>Motiv MMS</ProfMMS>
+        <ProfIMS>Motiv IMS</ProfIMS>
+        <ProfXCAP>Motiv XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>WIFIRE</NetworkName>
+        <ProfBrowser>WIFIRE Internet</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>SberMobile</NetworkName>
+        <ProfBrowser>SberMobile Internet</ProfBrowser>
+        <ProfIMS>SberMobile IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Tinkoff Mobile</NetworkName>
+        <ProfBrowser>Tinkoff Mobile Internet</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Lycamobile</NetworkName>
+        <ProfBrowser>Lycamobile Internet</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>VTB Mobile</NetworkName>
+        <ProfBrowser>VTB Mobile Internet</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>GPB Mobile</NetworkName>
+        <ProfBrowser>GPB Mobile Internet</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>A1</NetworkName>
+        <ProfBrowser>A1 Internet</ProfBrowser>
+        <ProfMMS>A1 MMS</ProfMMS>
+        <ProfIMS>A1 IMS</ProfIMS>
+        <ProfXCAP>A1 XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>MTS.BY</NetworkName>
+        <ProfBrowser>MTS.BY Internet</ProfBrowser>
+        <ProfMMS>MTS.BY MMS</ProfMMS>
+        <ProfXCAP>MTS.BY XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Life</NetworkName>
+        <ProfBrowser>Life Internet</ProfBrowser>
+        <ProfMMS>Life MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Next Mobile</NetworkName>
+        <ProfBrowser>Next Mobile Internet</ProfBrowser>
+      </ProfileHandle>
+      <NbProfile>45</NbProfile>
+      <Profile>
+        <NetworkName>MTS</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MTS MMS</ProfileName>
+        <URL>http://mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.192.192</ServAddr>
+          <Port>9201</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.mts.ru</APN>
+          <UserId>mts</UserId>
+          <Password>mts</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTS</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>MTS Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.mts.ru</APN>
+          <UserId>mts</UserId>
+          <Password>mts</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTS</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>MTS IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Yota</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Yota Internet</ProfileName>
+        <PSparam>
+          <APN>internet.yota</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Yota</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Yota MMS</ProfileName>
+        <URL>http://mmsc:8002</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.10.10</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.yota</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Yota</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Yota IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Beeline</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Beeline MMS</ProfileName>
+        <URL>http://mms/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.94.23</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.beeline.ru</APN>
+          <UserId>beeline</UserId>
+          <Password>beeline</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Beeline</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Beeline Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.beeline.ru</APN>
+          <UserId>beeline</UserId>
+          <Password>beeline</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Beeline</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Beeline IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Beeline</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Beeline XCAP</ProfileName>
+        <PSparam>
+          <APN>xcap.beeline.ru</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Megafon</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Megafon MMS</ProfileName>
+        <URL>http://mmsc:8002</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.10.10</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Megafon</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Megafon Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+          <UserId>gdata</UserId>
+          <Password>gdata</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Megafon</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Megafon IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Megafon</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Megafon XCAP</ProfileName>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T2</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>T2 MMS</ProfileName>
+        <URL>http://mmsc.tele2.ru</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>193.12.40.65</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.tele2.ru</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>T2 Internet</ProfileName>
+        <PSparam>
+          <APN>internet.tele2.ru</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>T2 IMS</ProfileName>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>T2 XCAP</ProfileName>
+        <PSparam>
+          <APN>HOS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Rostelecom</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Rostelecom MMS</ProfileName>
+        <URL>http://mmsc.rtk.ru</URL>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>193.12.40.65</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.rtk.ru</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Rostelecom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Rostelecom Internet</ProfileName>
+        <PSparam>
+          <APN>internet.rtk.ru</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Rostelecom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Rostelecom IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Rostelecom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Rostelecom XCAP</ProfileName>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tattelecom</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Letai MMS</ProfileName>
+        <URL>https://mmsс:8002</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>mmsc</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tattelecom</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Letai Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.letai.ru</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Motiv</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Motiv MMS</ProfileName>
+        <URL>http://mms.ycc.ru</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.2.10</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.ycc.ru</APN>
+          <UserId>motiv</UserId>
+          <Password>motiv</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Motiv</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Motiv Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>inet.ycc.ru</APN>
+          <UserId>motiv</UserId>
+          <Password>motiv</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Motiv</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Motiv IMS</ProfileName>
+        <Auth>normal</Auth>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Motiv</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Motiv XCAP</ProfileName>
+        <Auth>normal</Auth>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>WIFIRE</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>WIFIRE Internet</ProfileName>
+        <URL>http://www.wifire.ru</URL>
+        <Auth>normal</Auth>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.nbn</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SberMobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>SberMobile Internet</ProfileName>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>sberbank</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SberMobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>SberMobile IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tinkoff Mobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Tinkoff Mobile Internet</ProfileName>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>m.tinkoff</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Lycamobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Lycamobile Internet</ProfileName>
+        <PSparam>
+          <APN>data.lycamobile.ru</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VTB Mobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>VTB Mobile Internet</ProfileName>
+        <PSparam>
+          <APN>vtb</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>GPB Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>GPB Mobile Internet</ProfileName>
+        <PSparam>
+          <APN>gpb</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>A1</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>A1 MMS</ProfileName>
+        <URL>http://mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>A1</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>A1 Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>A1</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>A1 IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>A1</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>A1 XCAP</ProfileName>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTS.BY</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MTS.BY MMS</ProfileName>
+        <URL>http://mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.192.168</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mts</APN>
+          <UserId>mts</UserId>
+          <Password>mts</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTS.BY</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MTS.BY Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>mts</APN>
+          <UserId>mts</UserId>
+          <Password>mts</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTS.BY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>MTS.BY XCAP</ProfileName>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Life</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Life MMS</ProfileName>
+        <URL>http://mms.life.com.by/mmsc</URL>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.10.20</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.life.com.by</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Life</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Life Internet</ProfileName>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.life.com.by</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Next Mobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Next Mobile Internet</ProfileName>
+        <PSparam>
+          <APN>Next</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

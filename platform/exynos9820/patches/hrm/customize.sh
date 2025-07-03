@@ -1,4 +1,4 @@
-if [[ "$TARGET_CODENAME" != "beyond0lte" ]]; then
+if [[ "$TARGET_CODENAME" != "beyond0lte" && "$TARGET_CODENAME" != "beyondx" ]]; then
     echo "Add stock HRM blobs"
     BLOBS_LIST="
     system/etc/permissions/privapp-permissions-com.sec.android.service.health.xml
@@ -12,5 +12,5 @@ if [[ "$TARGET_CODENAME" != "beyond0lte" ]]; then
         ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "$blob"
     done
 else
-    echo "Detected beyond0! Skipping HRM..."
+    echo "Detected beyond0 or beyondx! Skipping HRM..."
 fi

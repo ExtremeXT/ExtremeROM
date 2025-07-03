@@ -1,0 +1,26 @@
+<SamsungMobileLanguage>
+   <Country>Italy</Country>
+   <CountryISO>it</CountryISO>
+   <SalesCode>XEI</SalesCode>
+   <LanguageSet>
+          <Display>
+en_GB;en_US;en_AU;en_IE;en_NZ;en_ZA;ko_KR;de_AT;de_CH;de_DE;fr_FR;fr_CH;
+bg_BG;cs_CZ;da_DK;el_GR;es_ES;et_EE;fi_FI;ga_IE;hr_HR;hu_HU;is_IS;it_IT;
+lt_LT;lv_LV;mk_MK;nb_NO;nl_NL;nl_BE;pl_PL;pt_PT;ro_RO;sr_RS;sv_SE;tr_TR;
+ca_ES;eu_ES;gl_ES;kk_KZ;ru_RU; sk_SK; sl_SI; uk_UA; uz_UZ;
+                   az_AZ; hy_AM; ka_GE;
+                   es_US; pt_BR;
+                   en_PH;zh_CN;zh_TW;vi_VN;th_TH;in_ID;ms_MY;
+                   ar_AE;fa_IR;ur_PK;
+                   iw_IL;
+                   ja_JP;
+          </Display>
+          <Input>
+                <SupportList>
+        	en_GB;en_US;az;ca;cs;da;de;et;es;eu;el;fr;gl;ka;hr;it;is;kk;lv;lt;hu;nb;nl;pl;pt;ru;ro;fi;sr;sk;sl;sv;tr;uk;ko;hy;bg;
+                </SupportList>
+                <EnableList>
+                </EnableList>
+          </Input>
+   </LanguageSet>
+</SamsungMobileLanguage>

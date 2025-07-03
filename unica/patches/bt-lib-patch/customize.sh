@@ -17,4 +17,4 @@ fi
 
 # https://github.com/3arthur6/BluetoothLibraryPatcher/blob/425bb59da6505c962a38c143137698849b01d470/hexpatch.sh#L12
 HEX_PATCH "$WORK_DIR/system/system/lib64/libbluetooth_jni.so" \
-    "480500352800805228cb1e39" "2a0000142800805228cb1e39"
+    "4805003528008052284b1e39" "2a00001428008052284b1e39"

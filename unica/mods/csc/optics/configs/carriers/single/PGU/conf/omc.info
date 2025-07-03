@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_PGU_15_0013</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0004</customerEdition>
+    <carrierListVersion>150032</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>4</carrierCount>
+    <carrier>
+      <mcc>704</mcc>
+      <mnc>01</mnc>
+      <networkName>Claro_GT</networkName>
+    </carrier>
+    <carrier>
+      <mcc>706</mcc>
+      <mnc>01</mnc>
+      <networkName>Claro_SV</networkName>
+    </carrier>
+    <carrier>
+      <mcc>708</mcc>
+      <mnc>001</mnc>
+      <networkName>Claro_HN</networkName>
+    </carrier>
+    <carrier>
+      <mcc>710</mcc>
+      <mnc>21</mnc>
+      <networkName>Claro_NI_NEN</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

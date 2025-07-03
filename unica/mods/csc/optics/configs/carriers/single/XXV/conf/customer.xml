@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0002</CSCEdition>
+    <Country>VIETNAM</Country>
+    <CountryISO>VN</CountryISO>
+    <Region>SEA</Region>
+    <SalesCode>XXV</SalesCode>
+    <NbNetworkInfo>8</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45207</MCCMNC>
+      <NetworkName>Gmobile</NetworkName>
+      <NWID>NW00539</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45201</MCCMNC>
+      <NetworkName>VN MobiFone</NetworkName>
+      <NWID>NW01450</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45209</MCCMNC>
+      <NetworkName>reddi</NetworkName>
+      <NWID>NW02010</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45202</MCCMNC>
+      <NetworkName>VN VINAPHONE</NetworkName>
+      <NWID>NW01471</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45205</MCCMNC>
+      <NetworkName>VN Vietnamobile</NetworkName>
+      <NWID>NW01470</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45208</MCCMNC>
+      <NetworkName>iTel</NetworkName>
+      <NWID>NW02262</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45206</MCCMNC>
+      <NetworkName>VNSKY</NetworkName>
+      <NWID>NW02343</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>45204</MCCMNC>
+      <NetworkName>VIETTEL</NetworkName>
+      <NWID>NW01431</NWID>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbMaxPDP>1</NbMaxPDP>
+        <MaxPDP>
+          <MaxPDP2G>3</MaxPDP2G>
+        </MaxPDP>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Sound>
+        <RngToneAlertType>melody</RngToneAlertType>
+      </Sound>
+      <Phone>
+        <DefLanguage>automatic</DefLanguage>
+        <DefLanguageNoSIM>en_GB</DefLanguageNoSIM>
+        <T9Enabling>disable</T9Enabling>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Contact>
+      <ContactSort>firstname</ContactSort>
+    </Contact>
+    <Messages>
+      <PushMsg>
+        <RecOption>on</RecOption>
+        <PushLoading>always</PushLoading>
+      </PushMsg>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <MsgTypeThreshold>
+          <ThresholdValue>13</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
+        <CharSupport>automatic</CharSupport>
+      </SMS>
+      <MMS>
+        <MMSVersion>1.2</MMSVersion>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>300</MessageSize>
+          <CreationMode>warning</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+      <Email>
+        <EmailReceiving>
+          <AutoPoll>off</AutoPoll>
+          <KeepServer>on</KeepServer>
+        </EmailReceiving>
+      </Email>
+    </Messages>
+    <Multimedia>
+      <Camera>
+        <Quality>high</Quality>
+      </Camera>
+      <Video>
+        <Quality>high</Quality>
+      </Video>
+    </Multimedia>
+    <GPS>
+      <GPSMode>sgps</GPSMode>
+    </GPS>
+    <Browser>
+      <NbBookmark>2</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Index>1</Index>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>2</Index>
+        <BookmarkName>Galaxy Shop</BookmarkName>
+        <URL>https://www.samsung.com/vn/mobile/?cid=vn_ow_app_s-internet_none_none_bookmark_bookmark_202008_none</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>8</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Gmobile</NetworkName>
+        <ProfBrowser>Gmobile Email</ProfBrowser>
+        <ProfMMS>Gmobile MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>VN MobiFone</NetworkName>
+        <ProfBrowser>VN MobiFone Email</ProfBrowser>
+        <ProfMMS>VN MobiFone MMS</ProfMMS>
+        <ProfIMS>ims</ProfIMS>
+        <ProfXCAP>xcap</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>VN VINAPHONE</NetworkName>
+        <ProfBrowser>VN VINAPHONE Email</ProfBrowser>
+        <ProfMMS>VN VINAPHONE MMS</ProfMMS>
+        <ProfIMS>VN VINAPHONE IMS</ProfIMS>
+        <ProfXCAP>VN VINAPHONE XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>reddi</NetworkName>
+        <ProfBrowser>reddi APN</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>VIETTEL</NetworkName>
+        <ProfBrowser>VIETTEL Email</ProfBrowser>
+        <ProfMMS>VIETTEL MMS</ProfMMS>
+        <ProfIMS>VIETTEL IMS</ProfIMS>
+        <ProfXCAP>VIETTEL XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>VN Vietnamobile</NetworkName>
+        <ProfBrowser>VN Vietnamobile Email</ProfBrowser>
+        <ProfMMS>VN Vietnamobile MMS</ProfMMS>
+        <ProfIMS>VN Vietnamobile IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>VNSKY</NetworkName>
+        <ProfBrowser>VNSKY Email</ProfBrowser>
+        <ProfMMS>VNSKY MMS</ProfMMS>
+        <ProfIMS>ims</ProfIMS>
+        <ProfXCAP>xcap</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>iTel</NetworkName>
+        <ProfBrowser>itelecom</ProfBrowser>
+        <ProfMMS>itelecom</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>23</NbProfile>
+      <Profile>
+        <NetworkName>Gmobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Gmobile MMS</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.16.70.199</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Gmobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Gmobile Email</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VN MobiFone</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>VN MobiFone MMS</ProfileName>
+        <URL>http://203.162.21.114/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>203.162.21.114</ServAddr>
+          <Port>3130</Port>
+        </Proxy>
+        <PSparam>
+          <APN>m-i090</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VN MobiFone</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>VN MobiFone Email</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <PSparam>
+          <APN>m-wap</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VN MobiFone</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>ims</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VN MobiFone</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>xcap</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VNSKY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>VNSKY MMS</ProfileName>
+        <URL>http://203.162.21.114/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>203.162.21.114</ServAddr>
+          <Port>3130</Port>
+        </Proxy>
+        <PSparam>
+          <APN>m-i090</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VNSKY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>VNSKY Email</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <PSparam>
+          <APN>m-wap</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VNSKY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>ims</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VNSKY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>xcap</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VN VINAPHONE</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>VN VINAPHONE MMS</ProfileName>
+        <URL>http://mms.vinaphone.com.vn</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.1.10.46</ServAddr>
+          <Port>8000</Port>
+        </Proxy>
+        <PSparam>
+          <APN>m3-mms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VN VINAPHONE</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>VN VINAPHONE IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VN VINAPHONE</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>VN VINAPHONE Email</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <PSparam>
+          <APN>m3-world</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VN VINAPHONE</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>VN VINAPHONE XCAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>reddi</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>reddi APN</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>m9-reddi</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VIETTEL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>VIETTEL MMS</ProfileName>
+        <URL>http://mms.viettelmobile.com.vn/mms/wapenc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.233.10</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>v-mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VIETTEL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>VIETTEL Email</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <PSparam>
+          <APN>v-internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VIETTEL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>VIETTEL XCAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VIETTEL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>VIETTEL IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VN Vietnamobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>VN Vietnamobile MMS</ProfileName>
+        <URL>http://10.10.128.58/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>010.010.128.044</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VN Vietnamobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>VN Vietnamobile IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VN Vietnamobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>VN Vietnamobile Email</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>iTel</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>itelecom</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>other</Protocol>
+        <PSparam>
+          <APN>m9-itelecom</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

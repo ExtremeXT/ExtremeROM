@@ -1,10 +1,11 @@
-echo "Disabling A/B"
-SET_PROP "product" "ro.product.ab_ota_partitions" --delete
+echo "Disable Vulkan"
+SET_PROP "vendor" "ro.hwui.use_vulkan" "false"
+SET_PROP "vendor" "debug.hwui.renderer" "skiagl"
+SET_PROP "vendor" "debug.renderengine.backend" "skiagl"
+SET_PROP "vendor" "renderthread.skia.reduceopstasksplitting" "true"
+SET_PROP "vendor" "debug.hwui.skia_atrace_enabled" "false"
 
-echo "Setting casefold props"
-SET_PROP "vendor" "external_storage.projid.enabled" "1"
-SET_PROP "vendor" "external_storage.casefold.enabled" "1"
-SET_PROP "vendor" "external_storage.sdcardfs.enabled" "0"
+echo "Setting FUSE passthough"
 SET_PROP "vendor" "persist.sys.fuse.passthrough.enable" "true"
 
 echo "Disabling encryption"

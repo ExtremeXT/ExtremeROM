@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_XSA_15_0009</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0001</customerEdition>
+    <carrierListVersion>150057</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>8</carrierCount>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>01</mnc>
+      <networkName>Telstra</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>01</mnc>
+      <subsetCode>56</subsetCode>
+      <networkName>TelstraMVNO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>02</mnc>
+      <networkName>YES OPTUS</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>03</mnc>
+      <networkName>vodafone AU</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>06</mnc>
+      <networkName>vodafone AU</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>39</mnc>
+      <networkName>Telstra</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>71</mnc>
+      <networkName>Telstra</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>72</mnc>
+      <networkName>Telstra</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

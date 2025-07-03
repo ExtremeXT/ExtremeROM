@@ -1,0 +1,26 @@
+From 44bee707455c9e1a7b3f83bb4fe6338c7865ebd3 Mon Sep 17 00:00:00 2001
+From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date: Sun, 22 Jun 2025 17:33:48 +0300
+Subject: [PATCH] Enable EAD Settings
+
+Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+---
+ .../display/controller/SecEADPreferenceController.smali         | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/smali_classes4/com/samsung/android/settings/display/controller/SecEADPreferenceController.smali b/smali_classes4/com/samsung/android/settings/display/controller/SecEADPreferenceController.smali
+index 8fd6d8fe..546b5570 100644
+--- a/smali_classes4/com/samsung/android/settings/display/controller/SecEADPreferenceController.smali
++++ b/smali_classes4/com/samsung/android/settings/display/controller/SecEADPreferenceController.smali
+@@ -169,7 +169,7 @@
+ 
+     sget-object p0, Lcom/samsung/android/settings/Rune;->COMMON_CONFIG_PACKAGE_NAME_SMART_MANAGER:Ljava/lang/String;
+ 
+-    const/4 p0, 0x3
++    const/4 p0, 0x0
+ 
+     return p0
+ .end method
+-- 
+2.45.2
+

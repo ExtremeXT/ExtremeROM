@@ -1,0 +1,14 @@
+<SamsungMobileLanguage>
+    <Country>Papua New Guinea</Country>
+    <CountryISO>NZ</CountryISO>
+    <SalesCode>PNG</SalesCode>
+    <LanguageSet>
+        <Input>
+            <SupportList>
+                en_GB;en_US;ca;cs;da;de;et;es;eu;el;fr;gl;hr;it;is;lv;lt;hu;nb;nl;pl;pt;ru;ro;fi;sr;sk;sl;sv;tr;ko;bg;zh_CN;ar;
+            </SupportList>
+            <EnableList>
+            </EnableList>
+        </Input>
+    </LanguageSet>
+</SamsungMobileLanguage>

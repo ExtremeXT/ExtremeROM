@@ -1,6 +1,0 @@
-on property:sys.boot_completed=1
-    write /sys/module/tcp_cubic/parameters/hystart 0
-	setprop sys.tcp_cubic.hystart 0
-
-on property:sys.boot_completed=1 && property:ro.hardware=qcom
-    write /proc/sys/net/ipv4/tcp_adv_win_scale "2"

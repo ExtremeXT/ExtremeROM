@@ -1,0 +1,10 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+
+	<AMXService>
+		<PortalMovilURL>http://www.claroideas.com/wrapper</PortalMovilURL>
+		<iMStoreURL>http://m.claromusica.com</iMStoreURL>
+	</AMXService>
+
+	
+</CustomerData>

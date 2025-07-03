@@ -1,0 +1,54 @@
+From aee42b8ed9175752ab1d165722476d9f248fa7fa Mon Sep 17 00:00:00 2001
+From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date: Wed, 4 Jun 2025 21:29:08 +0300
+Subject: [PATCH] Disable Virtual Vibration support
+
+Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+---
+ ...ationIntensityIncomingCallController.smali | 28 ++-----------------
+ 1 file changed, 3 insertions(+), 25 deletions(-)
+
+diff --git a/smali_classes4/com/samsung/android/settings/asbase/vibration/SecVibrationIntensityIncomingCallController.smali b/smali_classes4/com/samsung/android/settings/asbase/vibration/SecVibrationIntensityIncomingCallController.smali
+index 4498264ff..211dd7551 100644
+--- a/smali_classes4/com/samsung/android/settings/asbase/vibration/SecVibrationIntensityIncomingCallController.smali
++++ b/smali_classes4/com/samsung/android/settings/asbase/vibration/SecVibrationIntensityIncomingCallController.smali
+@@ -81,33 +81,11 @@
+ 
+ # virtual methods
+ .method public getAvailabilityStatus()I
+-    .locals 2
+-
+-    iget-object v0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
+-
+-    invoke-static {v0}, Lcom/samsung/android/settings/asbase/utils/VibUtils;->isSupportDcHaptic(Landroid/content/Context;)Z
+-
+-    move-result v0
+-
+-    const/4 v1, 0x3
+-
+-    if-eqz v0, :cond_0
+-
+-    return v1
+-
+-    :cond_0
+-    iget-object p0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
+-
+-    invoke-static {p0}, Lcom/android/settings/Utils;->isVoiceCapable(Landroid/content/Context;)Z
+-
+-    move-result p0
+-
+-    if-eqz p0, :cond_1
++    .locals 1
+ 
+-    const/4 v1, 0x0
++    const/4 v0, 0x3
+ 
+-    :cond_1
+-    return v1
++    return v0
+ .end method
+ 
+ .method public bridge synthetic getBackgroundWorkerClass()Ljava/lang/Class;
+-- 
+2.45.2
+

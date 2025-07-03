@@ -1,0 +1,25 @@
+From 745747fbb5f223ad42d2561974a36ee079367eef Mon Sep 17 00:00:00 2001
+From: Utkustnr <utkuustuner@proton.me>
+Date: Fri, 6 Jun 2025 21:48:00 +0300
+Subject: [PATCH] Bypass app target SDK
+
+---
+ smali_classes2/com/android/server/pm/InstallPackageHelper.smali | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/smali_classes2/com/android/server/pm/InstallPackageHelper.smali b/smali_classes2/com/android/server/pm/InstallPackageHelper.smali
+index 3c11a3ac1..72112ba4d 100644
+--- a/smali_classes2/com/android/server/pm/InstallPackageHelper.smali
++++ b/smali_classes2/com/android/server/pm/InstallPackageHelper.smali
+@@ -17053,7 +17053,7 @@
+     goto :goto_d
+ 
+     :cond_13
+-    const/4 v2, 0x0
++    const/4 v2, 0x1
+ 
+     :goto_d
+     if-nez v2, :cond_14
+-- 
+2.45.2
+

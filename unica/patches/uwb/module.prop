@@ -1,4 +1,4 @@
 id=uwb
 name=UWB blobs
-author=Ocin4ever
-description=Remove UWB blobs if target device isn't capable (help of @salvogiangri).
+author=xfwdrev
+description=Add UWB blobs if target device is capable.

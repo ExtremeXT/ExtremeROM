@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.ironsource.appcloud.oobe.hutchison">
+        <permission name="android.permission.POST_NOTIFICATIONS" whitelisted="true" />
+    </exception>
+</exceptions>

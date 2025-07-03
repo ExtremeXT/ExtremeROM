@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0003</CSCEdition>
+    <Country>France</Country>
+    <CountryISO>FR</CountryISO>
+    <Region>EUR</Region>
+    <SalesCode>SFR</SalesCode>
+    <NbNetworkInfo>7</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20810</MCCMNC>
+      <NetworkName>F SFR</NetworkName>
+      <NWID>NW00450</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20811</MCCMNC>
+      <NetworkName>F SFR</NetworkName>
+      <NWID>NW00450</NWID>
+      <SPName>F SFR</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>64710</MCCMNC>
+      <NetworkName>SFR RU</NetworkName>
+      <NWID>NW01096</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20823</MCCMNC>
+      <NetworkName>Virgin (OMEA)</NetworkName>
+      <NWID>NW01441</NWID>
+      <SPName>Virgin</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20810</MCCMNC>
+      <NetworkName>CORIOLIS light</NetworkName>
+      <NWID>NW02285</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>434F5249</SubsetCode>
+      <SPName>Coriolis.</SPName>
+      <ICCID>893327</ICCID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20809</MCCMNC>
+      <NetworkName>SFR RU Roaming</NetworkName>
+      <NWID>NW01097</NWID>
+      <SPName>SFR REUNION Roaming</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>34002</MCCMNC>
+      <NetworkName>Outremer</NetworkName>
+      <NWID>NW01002</NWID>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>6</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>F SFR</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>F SFR</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>SFR RU</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>SFR RU</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>SFR RU Roaming</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>SFR RU Roaming</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>F SFR</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <NbSOSNumber>2</NbSOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <SOSNumber>911</SOSNumber>
+      </Network>
+      <Sound>
+        <TouchTone>off</TouchTone>
+        <ExtraSound>
+          <ConnectTone>off</ConnectTone>
+        </ExtraSound>
+      </Sound>
+      <Phone>
+        <DefLanguage>fr_FR</DefLanguage>
+        <DefLanguageNoSIM>fr_FR</DefLanguageNoSIM>
+        <T9Enabling>enable</T9Enabling>
+        <T9Language>french</T9Language>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Messages>
+      <NbVoicemail>2</NbVoicemail>
+      <Voicemail>
+        <NetworkName>default</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Outremer</NetworkName>
+        <TelNum>888</TelNum>
+      </Voicemail>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <MsgTypeThreshold>
+          <ThresholdValue>6</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
+        <CharSupport>automatic</CharSupport>
+        <DeleteOldMessage>off</DeleteOldMessage>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>600</MessageSize>
+          <CreationMode>free</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>auto</Roaming>
+        </MmsReceiving>
+      </MMS>
+      <Email>
+        <NbAccount>5</NbAccount>
+        <Account>
+          <NetworkName>default</NetworkName>
+          <AccountName>sfr.fr</AccountName>
+          <EmailAddr>@sfr.fr</EmailAddr>
+          <UserId>@sfr.fr</UserId>
+          <LoginType>domain_type</LoginType>
+          <Incoming>
+            <MailboxType>imap4</MailboxType>
+            <ServAddr>imap.sfr.fr</ServAddr>
+            <Port>993</Port>
+            <Secure>ssl</Secure>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>smtp.sfr.fr</ServAddr>
+            <Port>465</Port>
+            <SmtpAuth>on</SmtpAuth>
+            <Secure>ssl</Secure>
+          </Outgoing>
+        </Account>
+        <Account>
+          <NetworkName>default</NetworkName>
+          <AccountName>Neuf.fr</AccountName>
+          <EmailAddr>@neuf.fr</EmailAddr>
+          <UserId>@neuf.fr</UserId>
+          <LoginType>domain_type</LoginType>
+          <Incoming>
+            <MailboxType>imap4</MailboxType>
+            <ServAddr>imap.sfr.fr</ServAddr>
+            <Port>993</Port>
+            <Secure>ssl</Secure>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>smtp.sfr.fr</ServAddr>
+            <Port>465</Port>
+            <SmtpAuth>on</SmtpAuth>
+            <Secure>ssl</Secure>
+          </Outgoing>
+        </Account>
+        <Account>
+          <NetworkName>default</NetworkName>
+          <AccountName>Club-Internet</AccountName>
+          <EmailAddr>@club-internet.fr</EmailAddr>
+          <UserId>@club-internet.fr</UserId>
+          <LoginType>domain_type</LoginType>
+          <Incoming>
+            <MailboxType>imap4</MailboxType>
+            <ServAddr>imap.sfr.fr</ServAddr>
+            <Port>993</Port>
+            <Secure>ssl</Secure>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>smtp.sfr.fr</ServAddr>
+            <Port>465</Port>
+            <SmtpAuth>on</SmtpAuth>
+            <Secure>ssl</Secure>
+          </Outgoing>
+        </Account>
+        <Account>
+          <NetworkName>default</NetworkName>
+          <AccountName>Cegetel</AccountName>
+          <EmailAddr>@cegetel.net</EmailAddr>
+          <UserId>@cegetel.net</UserId>
+          <LoginType>domain_type</LoginType>
+          <Incoming>
+            <MailboxType>imap4</MailboxType>
+            <ServAddr>imap.sfr.fr</ServAddr>
+            <Port>993</Port>
+            <Secure>ssl</Secure>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>smtp.sfr.fr</ServAddr>
+            <Port>465</Port>
+            <SmtpAuth>on</SmtpAuth>
+            <Secure>ssl</Secure>
+          </Outgoing>
+        </Account>
+        <Account>
+          <NetworkName>default</NetworkName>
+          <AccountName>laposte.net</AccountName>
+          <EmailAddr>@laposte.net</EmailAddr>
+          <UserId>@laposte.net</UserId>
+          <LoginType>domain_type</LoginType>
+          <Incoming>
+            <MailboxType>imap4</MailboxType>
+            <ServAddr>imap.laposte.net</ServAddr>
+            <Port>993</Port>
+            <Secure>ssl</Secure>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>smtp.laposte.net</ServAddr>
+            <Port>465</Port>
+            <SmtpAuth>on</SmtpAuth>
+            <Secure>ssl</Secure>
+          </Outgoing>
+        </Account>
+      </Email>
+    </Messages>
+    <Multimedia>
+      <Camera>
+        <ShutterSound>off</ShutterSound>
+      </Camera>
+    </Multimedia>
+    <Browser>
+      <NbBookmark>3</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>no</Editable>
+        <BookmarkName>m.sfr.fr</BookmarkName>
+        <URL>http://m.sfr.fr</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Galaxy Shop</BookmarkName>
+        <URL>https://www.samsung.com/fr/mobile/?cid=fr_ow_app_s-internet_none_none_bookmark_bookmark_202008_none</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>6</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>F SFR</NetworkName>
+        <ProfBrowser>SFR webphone</ProfBrowser>
+        <ProfMMS>SFR MMS</ProfMMS>
+        <ProfIntSharing>SFR webphone</ProfIntSharing>
+        <ProfIMS>SFR IMS</ProfIMS>
+        <ProfXCAP>SFR webphone</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>SFR RU</NetworkName>
+        <ProfBrowser>SFR webphone</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+        <ProfIntSharing>SFR option modem</ProfIntSharing>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>SFR RU Roaming</NetworkName>
+        <ProfBrowser>SFR webphone</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+        <ProfIntSharing>SFR webphone</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Virgin (OMEA)</NetworkName>
+        <ProfBrowser>Virgin mobile</ProfBrowser>
+        <ProfMMS>VM MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Outremer</NetworkName>
+        <ProfBrowser>Internet</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+        <ProfIntSharing>Modem</ProfIntSharing>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>CORIOLIS light</NetworkName>
+        <ProfBrowser>SFR webphone</ProfBrowser>
+        <ProfMMS>SFR MMS</ProfMMS>
+        <ProfIntSharing>SFR option modem</ProfIntSharing>
+        <ProfIMS>SFR IMS</ProfIMS>
+        <ProfXCAP>SFR webphone</ProfXCAP>
+      </ProfileHandle>
+      <NbProfile>19</NbProfile>
+      <Profile>
+        <NetworkName>SFR RU</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>SFR option modem</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+          <Port>0</Port>
+        </Proxy>
+        <PSparam>
+          <APN>websfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>F SFR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>SFR webphone</ProfileName>
+        <URL>http://m.sfr.fr</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>sl2sfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SFR RU</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>SFR webphone</ProfileName>
+        <URL>http://m.sfr.re</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>sl2sfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>F SFR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>SFR MMS</ProfileName>
+        <URL>http://mms1</URL>
+        <Auth>normal</Auth>
+        <Bearer>psfirst</Bearer>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.151.0.1</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>sl2sfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SFR RU</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>psfirst</Bearer>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.0.224.145</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mmssfr</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SFR RU</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SFR RU Roaming</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://mms1</URL>
+        <Auth>normal</Auth>
+        <Bearer>psfirst</Bearer>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.151.0.1</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mmssfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SFR RU Roaming</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>SFR webphone</ProfileName>
+        <URL>http://m.sfr.re</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>sl2sfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Virgin (OMEA)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Virgin mobile</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>psfirst</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>virgin-mobile.fr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Virgin (OMEA)</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>VM MMS</ProfileName>
+        <URL>http://virginmms.fr</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.6.10.1</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>virgin-mobile.fr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Outremer</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>psfirst</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.sfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Outremer</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Modem</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>psfirst</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.sfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Outremer</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://mmsc.only.fr</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>mmsc.only.fr</ServAddr>
+          <Port>9091</Port>
+        </Proxy>
+        <PSparam>
+          <APN>internet.sfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Outremer</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>F SFR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>SFR IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CORIOLIS light</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>SFR webphone</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>sl2sfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CORIOLIS light</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>SFR IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CORIOLIS light</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>SFR MMS</ProfileName>
+        <URL>http://mms1</URL>
+        <Auth>normal</Auth>
+        <Bearer>psfirst</Bearer>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.151.0.1</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>sl2sfr</APN>
+        </PSparam>
+        <CSparam>
+          <TelNum>+33613000030</TelNum>
+          <UserId>mms@mms</UserId>
+          <Password>mms</Password>
+          <CallType>analog</CallType>
+        </CSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CORIOLIS light</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>SFR option modem</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>websfr</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

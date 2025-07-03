@@ -1,25 +1,13 @@
 BLOBS_LIST="
+system/lib64/libenn_wrapper_system.so
 system/lib64/libpic_best.arcsoft.so
-system/lib64/libdualcam_portraitlighting_gallery_360.so
 system/lib64/libarcsoft_dualcam_portraitlighting.so
 system/lib64/libdualcam_refocus_gallery_54.so
 system/lib64/libdualcam_refocus_gallery_50.so
-system/lib64/libsuper_fusion.arcsoft.so
-system/lib64/libdualcam_refocus_image_lite.so
 system/lib64/libhybrid_high_dynamic_range.arcsoft.so
 system/lib64/libae_bracket_hdr.arcsoft.so
 system/lib64/libface_recognition.arcsoft.so
-system/lib64/libmf_bayer_enhance.arcsoft.so
 system/lib64/libDualCamBokehCapture.camera.samsung.so
-system/lib64/libai_fusion_high_resolution.arcsoft.so
-system/lib64/libai_fusion_high_resolution_base_v1.arcsoft.so
-system/lib64/libai_fusion_high_resolution_base_v2.arcsoft.so
-system/lib64/libBayerAIPhoto.camera.samsung.so
-system/lib64/libbayeraiphoto_wrapper_v1.camera.samsung.so
-system/lib64/libBayerAIPhotoTuning.camera.samsung.so
-system/lib64/libFusionAIPhoto.camera.samsung.so
-system/lib64/libFusionAIPhoto_wrapper.camera.samsung.so
-system/lib64/libFusionAIPhotoTuning.camera.samsung.so
 "
 for blob in $BLOBS_LIST
 do
@@ -41,27 +29,13 @@ do
     ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0"
 done
 
-# Patch libstagefright.so to remove HDR10+ check
+# Patch S25U libstagefright.so to remove HDR10+ check
+ADD_TO_WORK_DIR "pa3qxxx" "system" "system/lib64/libstagefright.so" 0 0 644 "u:object_r:system_lib_file:s0"
 HEX_PATCH "$WORK_DIR/system/system/lib64/libstagefright.so" "010140f9cf390594a0500034" "010140f91f2003d51f2003d5"
-
-# Add prebuilt libs from other devices
-BLOBS_LIST="
-system/lib64/libtensorflowLite.camera.samsung.so
-system/lib64/libtensorflowlite_c.camera.samsung.so
-system/lib64/libtensorflowlite_inference_api.camera.samsung.so
-system/lib64/libtensorflowlite_jni_voicecommand.so
-system/lib64/libtensorflowLite2_11_0_dynamic_camera.so
-system/lib64/libsaiv_HprFace_cmh_support_jni.camera.samsung.so
-"
-for blob in $BLOBS_LIST
-do
-    ADD_TO_WORK_DIR "e2sxxx" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0"
-done
 
 BLOBS_LIST="
 system/lib64/libeden_wrapper_system.so
 system/lib64/libsnap_aidl.snap.samsung.so
-system/lib64/vendor.samsung.hardware.snap-V2-ndk.so
 "
 for blob in $BLOBS_LIST
 do
@@ -82,19 +56,14 @@ do
 done
 
 # Polarr SDK
-ADD_TO_WORK_DIR "b0sxxx" "system" "system/etc/public.libraries-polarr.txt" 0 0 644 "u:object_r:system_file:s0"
+ADD_TO_WORK_DIR "a26xxx" "system" "system/etc/public.libraries-polarr.txt" 0 0 644 "u:object_r:system_file:s0"
+ADD_TO_WORK_DIR "a26xxx" "system" "system/lib64/libBestComposition.polarr.so" 0 0 644 "u:object_r:system_lib_file:s0"
+ADD_TO_WORK_DIR "a26xxx" "system" "system/lib64/libFeature.polarr.so" 0 0 644 "u:object_r:system_lib_file:s0"
+ADD_TO_WORK_DIR "a26xxx" "system" "system/lib64/libTracking.polarr.so" 0 0 644 "u:object_r:system_lib_file:s0"
 
-BLOBS_LIST="
-system/lib64/libBestComposition.polarr.so
-system/lib64/libFeature.polarr.so
-system/lib64/libPolarrSnap.polarr.so
-system/lib64/libTracking.polarr.so
-system/lib64/libYuv.polarr.so
-"
-for blob in $BLOBS_LIST
-do
-    ADD_TO_WORK_DIR "b0sxxx" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0"
-done
+# Cleanup SamsungCamera OAT
+DELETE_FROM_WORK_DIR "system" "system/priv-app/SamsungCamera/oat"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/SamsungCamera/SamsungCamera.apk.prof"
 
 echo "Fix AI Photo Editor"
 cp -a --preserve=all \

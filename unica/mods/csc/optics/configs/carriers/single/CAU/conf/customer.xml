@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0001</CSCEdition>
+    <Country>Georgia</Country>
+    <CountryISO>GE</CountryISO>
+    <Region>CIS</Region>
+    <SalesCode>CAU</SalesCode>
+    <NbNetworkInfo>10</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>40001</MCCMNC>
+      <NetworkName>AZERCELL</NetworkName>
+      <NWID>NW00094</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>40002</MCCMNC>
+      <NetworkName>Bakcell</NetworkName>
+      <NWID>NW00096</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>40004</MCCMNC>
+      <NetworkName>Nar</NetworkName>
+      <NWID>NW00834</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>40006</MCCMNC>
+      <NetworkName>Naxtel</NetworkName>
+      <NWID>NW02200</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>28201</MCCMNC>
+      <NetworkName>Geocell</NetworkName>
+      <NWID>NW00526</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>28202</MCCMNC>
+      <NetworkName>Magticom</NetworkName>
+      <NWID>NW00698</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>28204</MCCMNC>
+      <NetworkName>Cellfie Mobile</NetworkName>
+      <NWID>NW02270</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>28310</MCCMNC>
+      <NetworkName>UCOM</NetworkName>
+      <NWID>NW01987</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>28305</MCCMNC>
+      <NetworkName>VIVA Armenia</NetworkName>
+      <NWID>NW02330</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>28301</MCCMNC>
+      <NetworkName>Team</NetworkName>
+      <NWID>NW02159</NWID>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>default</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>112, 911</SOSNumber>
+        <NbSOSNumberNoSIM>1</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>112, 911</SOSNumberNoSIM>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <DefLanguage>ru_RU</DefLanguage>
+        <DefLanguageNoSIM>ru_RU</DefLanguageNoSIM>
+        <T9Enabling>disable</T9Enabling>
+        <T9Language>russian</T9Language>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+        <WeekendSetting>satsun</WeekendSetting>
+      </Phone>
+      <CountryCert>
+        <CertCountryName>Россия (ЕАЭС)</CertCountryName>
+        <NbDetailDesc>1</NbDetailDesc>
+        <DetailDesc>
+          <CertTag>EAC / TP</CertTag>
+          <CertValue>См. в инструкции пользователя или на сайте производителя</CertValue>
+        </DetailDesc>
+      </CountryCert>
+    </Main>
+    <Calendar>
+      <StartDay>monday</StartDay>
+    </Calendar>
+    <Messages>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <MsgTypeThreshold>
+          <ThresholdValue>4</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
+        <CharSupport>automatic</CharSupport>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <MessageSize>500</MessageSize>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+      <Email>
+        <EmailReceiving>
+          <AutoPoll>off</AutoPoll>
+          <KeepServer>on</KeepServer>
+        </EmailReceiving>
+      </Email>
+    </Messages>
+    <Browser>
+      <NbBookmark>2</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Index>1</Index>
+        <BookmarkName>Samsung</BookmarkName>
+        <URL>http://www.samsung.com/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Index>2</Index>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>10</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>AZERCELL</NetworkName>
+        <ProfBrowser>Azercell Internet</ProfBrowser>
+        <ProfMMS>Azercell MMS</ProfMMS>
+        <ProfIMS>Azercell IMS</ProfIMS>
+        <ProfXCAP>Azercell XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Bakcell</NetworkName>
+        <ProfBrowser>Bakcell Internet</ProfBrowser>
+        <ProfMMS>Bakcell MMS</ProfMMS>
+        <ProfIMS>Bakcell IMS</ProfIMS>
+        <ProfXCAP>Bakcell XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Nar</NetworkName>
+        <ProfBrowser>Nar DATA</ProfBrowser>
+        <ProfMMS>Nar MMSNEW</ProfMMS>
+        <ProfIMS>Nar IMS</ProfIMS>
+        <ProfXCAP>Nar XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Naxtel</NetworkName>
+        <ProfBrowser>Naxtel Internet</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Geocell</NetworkName>
+        <ProfBrowser>Geocell Internet</ProfBrowser>
+        <ProfMMS>Geocell MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Magticom</NetworkName>
+        <ProfBrowser>Magticom Internet</ProfBrowser>
+        <ProfMMS>Magticom MMS</ProfMMS>
+        <ProfIMS>Magticom IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Cellfie Mobile</NetworkName>
+        <ProfBrowser>Cellfie Mobile Internet</ProfBrowser>
+        <ProfIMS>Cellfie Mobile IMS</ProfIMS>
+        <ProfXCAP>Cellfie Mobile XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>UCOM</NetworkName>
+        <ProfBrowser>UCOM Internet</ProfBrowser>
+        <ProfMMS>UCOM MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>VIVA Armenia</NetworkName>
+        <ProfBrowser>VIVA Armenia Internet</ProfBrowser>
+        <ProfMMS>VIVA Armenia MMS</ProfMMS>
+        <ProfIMS>VIVA Armenia IMS</ProfIMS>
+        <ProfXCAP>VIVA Armenia XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Team</NetworkName>
+        <ProfBrowser>Team Internet</ProfBrowser>
+        <ProfMMS>Team MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>29</NbProfile>
+      <Profile>
+        <NetworkName>AZERCELL</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Azercell Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>AZERCELL</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Azercell IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>AZERCELL</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Azercell XCAP</ProfileName>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>AZERCELL</NetworkName>
+        <ProfileName>Azercell MMS</ProfileName>
+        <URL>http://mms.azercell.com/cMMSC/post</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.0.154.101</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Bakcell</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Bakcell Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.bakcell.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Bakcell</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Bakcell MMS</ProfileName>
+        <URL>http://mmsc.bakcell.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.bakcell.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Bakcell</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Bakcell IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Bakcell</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Bakcell XCAP</ProfileName>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Nar</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Nar DATA</ProfileName>
+        <PSparam>
+          <APN>nar</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Nar</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Nar MMSNEW</ProfileName>
+        <URL>http://mmsc.nar.az</URL>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Nar</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Nar IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Nar</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Nar XCAP</ProfileName>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Naxtel</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Naxtel Internet</ProfileName>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Geocell</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Geocell Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Geocell</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Geocell MMS</ProfileName>
+        <URL>http://mms.geocell.com.ge/cmmsc/post</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.11.240.7</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Magticom</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Magticom Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>3g.ge</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Magticom</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Magticom MMS</ProfileName>
+        <URL>http://mms.magticom.ge</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>081.095.160.016</ServAddr>
+          <Port>9401</Port>
+        </Proxy>
+        <PSparam>
+          <APN>3g.ge</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Magticom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Magticom IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cellfie Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Cellfie Mobile Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cellfie Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Cellfie Mobile IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cellfie Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Cellfie Mobile XCAP</ProfileName>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>UCOM</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>UCOM Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>UCOM</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>UCOM MMS</ProfileName>
+        <URL>http://mms/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.220.251</ServAddr>
+          <Port>3128</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VIVA Armenia</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>VIVA Armenia Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>inet.vivacell.am</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VIVA Armenia</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>VIVA Armenia XCAP</ProfileName>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VIVA Armenia</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>VIVA Armenia IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VIVA Armenia</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>VIVA Armenia MMS</ProfileName>
+        <URL>http://mms.vivacell.am/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>83.217.226.72</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.vivacell.am</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Team</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Team Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Team</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Team MMS</ProfileName>
+        <URL>http://mms/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.3.2.205</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

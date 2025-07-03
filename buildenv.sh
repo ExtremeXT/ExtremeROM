@@ -68,6 +68,8 @@ run_cmd()
 }
 
 alias unica=run_cmd
+alias extremerom=run_cmd
+alias erom=run_cmd
 
 # https://android.googlesource.com/platform/build/+/refs/tags/android-15.0.0_r1/envsetup.sh#806
 croot()
@@ -96,6 +98,7 @@ unset -f _GET_SRC_DIR
 export SRC_DIR
 export OUT_DIR="$SRC_DIR/out"
 export TMP_DIR="$OUT_DIR/tmp"
+export KERNEL_TMP_DIR="$OUT_DIR/kernel_tmp"
 export ODIN_DIR="$OUT_DIR/odin"
 export FW_DIR="$OUT_DIR/fw"
 export APKTOOL_DIR="$OUT_DIR/apktool"

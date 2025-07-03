@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the standard set of features for devices for Turkish. -->
+<config>
+    <feature name="com.google.android.feature.TR_DEVICE" />
+    <feature name="com.google.android.paid.qsb_widget" />
+</config>

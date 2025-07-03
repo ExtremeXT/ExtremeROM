@@ -1,7 +1,7 @@
-/ 0 2000 755
-vendor/bin 0 2000 751
-vendor/bin/hw 0 2000 751
-vendor/bin/hw/vendor.samsung.hardware.light-service 0 2000 755
-vendor/lib64 0 2000 755
-vendor/lib64/android.hardware.light-V1-ndk_platform.so 0 0 644
-vendor/lib64/vendor.samsung.hardware.light-V1-ndk_platform.so 0 0 644
+/ 0 2000 755 capabilities=0x0
+vendor/bin 0 2000 751 capabilities=0x0
+vendor/bin/hw 0 2000 751 capabilities=0x0
+vendor/bin/hw/vendor.samsung.hardware.light-service 0 2000 755 capabilities=0x0
+vendor/lib64 0 2000 755 capabilities=0x0
+vendor/lib64/android.hardware.light-V1-ndk_platform.so 0 0 644 capabilities=0x0
+vendor/lib64/vendor.samsung.hardware.light-V1-ndk_platform.so 0 0 644 capabilities=0x0

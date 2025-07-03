@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0004</CSCEdition>
+    <Country>Uruguay</Country>
+    <CountryISO>UY</CountryISO>
+    <Region>LA</Region>
+    <SalesCode>UYO</SalesCode>
+    <NbNetworkInfo>3</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>74801</MCCMNC>
+      <NetworkName>Ancel UY</NetworkName>
+      <NWID>NW00149</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>74810</MCCMNC>
+      <NetworkName>Claro UY</NetworkName>
+      <NWID>NW00256</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>74807</MCCMNC>
+      <NetworkName>Movistar UY</NetworkName>
+      <NWID>NW00790</NWID>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>6</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>Ancel UY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Ancel UY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Claro UY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Claro UY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Movistar UY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Movistar UY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>default</NetworkName>
+          <WbAmrCodec>off</WbAmrCodec>
+        </WbAmr>
+      </Network>
+      <Phone>
+        <DefLanguage>spanish_latin</DefLanguage>
+        <DefLanguageNoSIM>spanish_latin</DefLanguageNoSIM>
+        <T9Enabling>disable</T9Enabling>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Messages>
+      <NbVoicemail>3</NbVoicemail>
+      <Voicemail>
+        <NetworkName>Ancel UY</NetworkName>
+        <TelNum>*66</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Claro UY</NetworkName>
+        <TelNum>*2747</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Movistar UY</NetworkName>
+        <TelNum>6684</TelNum>
+      </Voicemail>
+      <PushMsg>
+        <RecOption>on</RecOption>
+      </PushMsg>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <CreationMode>free</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>1</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>3</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>5</NbNetProfile>
+        <NetworkName>Ancel UY</NetworkName>
+        <ProfBrowser>Vera 1</ProfBrowser>
+        <ProfMMS>mmsANTEL</ProfMMS>
+        <ProfIMS>imsANTEL</ProfIMS>
+        <ProfXCAP>xcapANTEL</ProfXCAP>
+        <ProfEmergencyIMSCall>sos</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Claro UY</NetworkName>
+        <ProfBrowser>Claro UY</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Claro UY</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Movistar UY</NetworkName>
+        <ProfBrowser>movistar internet uy</ProfBrowser>
+        <ProfIMS>IMS APN</ProfIMS>
+      </ProfileHandle>
+      <NbProfile>9</NbProfile>
+      <Profile>
+        <NetworkName>Ancel UY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Vera 1</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>antel.lte</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ancel UY</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>mmsANTEL</ProfileName>
+        <URL>http://mmsc.mms.ancelutil.com.uy</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>200.40.246.2</ServAddr>
+          <Port>3128</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ancel UY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>imsANTEL</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro UY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Claro UY</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>igprs.claro.com.uy</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Movistar UY</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>movistar internet uy</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>webapn.movistar.com.uy</APN>
+          <UserId>movistar</UserId>
+          <Password>movistar</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ancel UY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>xcapANTEL</ProfileName>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ancel UY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>sos</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Movistar UY</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS APN</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro UY</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

@@ -1,31 +1,31 @@
-
 system 0 0 755 capabilities=0x0
-system/bin 0 2000 751
-system/bin/bootanimation 0 2000 755
-system/bin/surfaceflinger 0 2000 755
-system/lib64 0 0 755
-system/lib64/libgui.so 0 0 644
-system/media 0 0 755
-system/media/battery_error.spi 0 0 644
-system/media/battery_lightning.spi 0 0 644
-system/media/battery_lightning_fast.spi 0 0 644
-system/media/battery_low.spi 0 0 644
-system/media/battery_temperature_error.spi 0 0 644
-system/media/battery_temperature_limit.spi 0 0 644
-system/media/battery_water_usb.spi 0 0 644
-system/media/bootsamsung.qmg 0 0 644
-system/media/bootsamsungloop.qmg 0 0 644
-system/media/charging_vi_100.spi 0 0 644
-system/media/charging_vi_level1.spi 0 0 644
-system/media/charging_vi_level2.spi 0 0 644
-system/media/charging_vi_level3.spi 0 0 644
-system/media/charging_vi_level4.spi 0 0 644
-system/media/dock_error_usb.spi 0 0 644
-system/media/incomplete_connect.spi 0 0 644
-system/media/lcd_density.txt 0 0 644
-system/media/percentage.spi 0 0 644
-system/media/safety_timer_usb.spi 0 0 644
-system/media/shutdown.qmg 0 0 644
-system/media/slow_charging_usb.spi 0 0 644
-system/media/temperature_limit_usb.spi 0 0 644
-system/media/water_protection_usb.spi 0 0 644
+system/bin 0 2000 751 capabilities=0x0
+system/bin/bootanimation 0 2000 755 capabilities=0x0
+system/bin/surfaceflinger 0 2000 755 capabilities=0x0
+system/lib64 0 0 755 capabilities=0x0
+system/lib64/libgui.so 0 0 644 capabilities=0x0
+system/lib64/libui.so 0 0 644 capabilities=0x0
+system/media 0 0 755 capabilities=0x0
+system/media/battery_error.spi 0 0 644 capabilities=0x0
+system/media/battery_lightning_fast.spi 0 0 644 capabilities=0x0
+system/media/battery_lightning.spi 0 0 644 capabilities=0x0
+system/media/battery_low.spi 0 0 644 capabilities=0x0
+system/media/battery_temperature_error.spi 0 0 644 capabilities=0x0
+system/media/battery_temperature_limit.spi 0 0 644 capabilities=0x0
+system/media/battery_water_usb.spi 0 0 644 capabilities=0x0
+system/media/bootsamsung.qmg 0 0 644 capabilities=0x0
+system/media/bootsamsungloop.qmg 0 0 644 capabilities=0x0
+system/media/charging_vi_100.spi 0 0 644 capabilities=0x0
+system/media/charging_vi_level1.spi 0 0 644 capabilities=0x0
+system/media/charging_vi_level2.spi 0 0 644 capabilities=0x0
+system/media/charging_vi_level3.spi 0 0 644 capabilities=0x0
+system/media/charging_vi_level4.spi 0 0 644 capabilities=0x0
+system/media/dock_error_usb.spi 0 0 644 capabilities=0x0
+system/media/incomplete_connect.spi 0 0 644 capabilities=0x0
+system/media/lcd_density.txt 0 0 644 capabilities=0x0
+system/media/percentage.spi 0 0 644 capabilities=0x0
+system/media/safety_timer_usb.spi 0 0 644 capabilities=0x0
+system/media/shutdown.qmg 0 0 644 capabilities=0x0
+system/media/slow_charging_usb.spi 0 0 644 capabilities=0x0
+system/media/temperature_limit_usb.spi 0 0 644 capabilities=0x0
+system/media/water_protection_usb.spi 0 0 644 capabilities=0x0

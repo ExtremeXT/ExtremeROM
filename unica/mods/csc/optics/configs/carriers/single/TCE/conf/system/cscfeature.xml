@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SamsungMobileFeature>
+  <Version>ED00009</Version>
+  <Country>MEXICO</Country>
+  <CountryISO>MX</CountryISO>
+  <SalesCode>TCE</SalesCode>
+  <FeatureSet>
+    <CscFeature_Camera_CameraFlicker>60hz</CscFeature_Camera_CameraFlicker>
+    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
+    <CscFeature_Contact_ConfigOpStyleVariation>TCE</CscFeature_Contact_ConfigOpStyleVariation>
+    <CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>TRUE</CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>
+    <CscFeature_Contact_SupportDuoVideoCall>TRUE</CscFeature_Contact_SupportDuoVideoCall>
+    <CscFeature_Framework_ConfigForbiddenADBKillForceStopApps>co.sitic.pp</CscFeature_Framework_ConfigForbiddenADBKillForceStopApps>
+    <CscFeature_Framework_ConfigRequiredSystemPackages>co.sitic.pp</CscFeature_Framework_ConfigRequiredSystemPackages>
+    <CscFeature_GMS_SetClientIDBaseAm>android-americamovil-{country}</CscFeature_GMS_SetClientIDBaseAm>
+    <CscFeature_GMS_SetClientIDBaseCr>android-americamovil-{country}-rvc2</CscFeature_GMS_SetClientIDBaseCr>
+    <CscFeature_GMS_SetClientIDBaseMs>android-americamovil-{country}-rvc2</CscFeature_GMS_SetClientIDBaseMs>
+    <CscFeature_GMS_SetClientIDBasePg2>android-samsung-sros-21-43</CscFeature_GMS_SetClientIDBasePg2>
+    <CscFeature_GMS_SetClientIDBaseVs>android-americamovil-{country}-rvc2</CscFeature_GMS_SetClientIDBaseVs>
+    <CscFeature_RIL_WbamrDefaultOn>TRUE</CscFeature_RIL_WbamrDefaultOn>
+    <CscFeature_Setting_ConfigAboutDeviceItems>modelnumberDSsuffix=disabled;</CscFeature_Setting_ConfigAboutDeviceItems>
+    <CscFeature_Setting_ConfigAppListForDisablingForceStopButton>co.sitic.pp</CscFeature_Setting_ConfigAppListForDisablingForceStopButton>
+    <CscFeature_Setting_ConfigAppListForHidingAppMgr>co.sitic.pp</CscFeature_Setting_ConfigAppListForHidingAppMgr>
+    <CscFeature_Setting_ConfigForbidAppDisableButton>co.sitic.pp</CscFeature_Setting_ConfigForbidAppDisableButton>
+    <CscFeature_Setting_SupportELabelManufacturer>DISEÑADO Y DESARROLLADO POR SAMSUNG</CscFeature_Setting_SupportELabelManufacturer>
+    <CscFeature_Setting_SupportRegulatoryInfo>TRUE</CscFeature_Setting_SupportRegulatoryInfo>
+    <CscFeature_SetupWizard_SupportEsimAsPrimary>TRUE</CscFeature_SetupWizard_SupportEsimAsPrimary>
+    <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>TCE</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
+    <CscFeature_VT_SupportMerge>TRUE</CscFeature_VT_SupportMerge>
+    <CscFeature_VoiceCall_ConfigRecording>RecordingAllowedByMenu,disclaimer_latin</CscFeature_VoiceCall_ConfigRecording>
+    <CscFeature_VoiceCall_DisableClirMenu>TRUE</CscFeature_VoiceCall_DisableClirMenu>
+    <CscFeature_VoiceCall_EnableCallButtonInFdnList>TRUE</CscFeature_VoiceCall_EnableCallButtonInFdnList>
+    <CscFeature_VoiceCall_EnableDetailCallEndCause>TRUE</CscFeature_VoiceCall_EnableDetailCallEndCause>
+    <CscFeature_VoiceCall_EnableDisplaySdnNameDuringCall>TRUE</CscFeature_VoiceCall_EnableDisplaySdnNameDuringCall>
+    <CscFeature_Web_ConfigDefaultBrowser>chrome</CscFeature_Web_ConfigDefaultBrowser>
+  </FeatureSet>
+</SamsungMobileFeature>

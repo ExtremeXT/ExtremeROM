@@ -1,9 +1,0 @@
-system 0 0 755 capabilities=0x0
-system/etc 0 0 0755
-system/etc/public.libraries-polarr.txt 0 0 0644
-system/lib64 0 0 755 capabilities=0x0
-system/lib64/libBestComposition.polarr.so 0 0 0644
-system/lib64/libFeature.polarr.so 0 0 0644
-system/lib64/libPolarrSnap.polarr.so 0 0 0644
-system/lib64/libTracking.polarr.so 0 0 0644
-system/lib64/libYuv.polarr.so 0 0 0644

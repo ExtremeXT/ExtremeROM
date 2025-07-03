@@ -1,0 +1,25 @@
+From 565e9729d0323f4964ac61f37aab75489af9b685 Mon Sep 17 00:00:00 2001
+From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date: Wed, 18 Jun 2025 12:41:03 +0300
+Subject: [PATCH] Set FP_FEATURE_SENSOR_IS_OPTICAL to false
+
+---
+ .../samsung/android/biometrics/app/setting/Utils$Config.smali   | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/smali/com/samsung/android/biometrics/app/setting/Utils$Config.smali b/smali/com/samsung/android/biometrics/app/setting/Utils$Config.smali
+index 24d32c2..52c410c 100644
+--- a/smali/com/samsung/android/biometrics/app/setting/Utils$Config.smali
++++ b/smali/com/samsung/android/biometrics/app/setting/Utils$Config.smali
+@@ -151,7 +151,7 @@
+ 
+     sput-boolean v5, Lcom/samsung/android/biometrics/app/setting/Utils$Config;->FP_FEATURE_SENSOR_IS_ULTRASONIC:Z
+ 
+-    sput-boolean v2, Lcom/samsung/android/biometrics/app/setting/Utils$Config;->FP_FEATURE_SENSOR_IS_OPTICAL:Z
++    sput-boolean v3, Lcom/samsung/android/biometrics/app/setting/Utils$Config;->FP_FEATURE_SENSOR_IS_OPTICAL:Z
+ 
+     const-string v5, "powerkey"
+ 
+-- 
+2.45.2
+

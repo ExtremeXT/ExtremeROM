@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<!-- These are the standard packages that are white-listed to always have internet access while in power save mode, even if they aren't in the foreground. -->
+       <allow-in-power-save package="de.telekom.tsc" />
+       <allow-in-power-save-except-idle package="de.telekom.tsc" />
+</config>

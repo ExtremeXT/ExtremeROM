@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <!--The OMA DM service must be whitelisted so they are always able to run.-->
+  <allow-in-power-save package="com.dti.bouyguestelecom"/>
+  <allow-in-data-usage-save package="com.dti.bouyguestelecom"/>
+  <app-link package="com.dti.bouyguestelecom"/>
+</config>

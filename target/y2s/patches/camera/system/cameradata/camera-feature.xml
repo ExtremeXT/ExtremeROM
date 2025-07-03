@@ -247,7 +247,7 @@
 
     <!-- post processing features -->
     <local name="SUPPORT_POST_PICTURE_PROCESSING" value="true"/>
-    <local name="SUPPORT_POST_PROCESSING_MOTION_PHOTO" value="true"/>
+    <local name="SUPPORT_POST_PROCESSING_MOTION_PHOTO" value="false"/>
     <local name="SUPPORT_POST_PROCESSING_NIGHT_SHOT" value="true"/>
     <local name="SUPPORT_POST_PROCESSING_MAX_NIGHT_SHOT" value="true"/>
 

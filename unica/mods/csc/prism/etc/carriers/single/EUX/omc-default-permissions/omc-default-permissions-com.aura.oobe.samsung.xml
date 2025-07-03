@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+    <sales-code csc="EUX">
+        <package name="com.aura.oobe.samsung">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+</omc-default-permissions>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0002</CSCEdition>
+    <Country>Senegal</Country>
+    <CountryISO>SN</CountryISO>
+    <Region>MEA</Region>
+    <SalesCode>DKR</SalesCode>
+    <NbNetworkInfo>6</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>60801</MCCMNC>
+      <NetworkName>Orange SN</NetworkName>
+      <NWID>NW00994</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>60803</MCCMNC>
+      <NetworkName>Expresso Senegal</NetworkName>
+      <NWID>NW01664</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>61002</MCCMNC>
+      <NetworkName>Orange ML</NetworkName>
+      <NWID>NW00946</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>60704</MCCMNC>
+      <NetworkName>QCell Gambia</NetworkName>
+      <NWID>NW02295</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>60802</MCCMNC>
+      <NetworkName>Senegal Free</NetworkName>
+      <NWID>NW02376</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>608299</MCCMNC>
+      <NetworkName>Senegal Promobile</NetworkName>
+      <NWID>NW02377</NWID>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
+      <Phone>
+        <DefLanguage>en_GB</DefLanguage>
+        <DefLanguageNoSIM>en_GB</DefLanguageNoSIM>
+      </Phone>
+    </Main>
+    <Browser>
+      <NbBookmark>2</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>1</Index>
+        <BookmarkName>Samsung Apps Web</BookmarkName>
+        <URL>http://www.samsungapps.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>2</Index>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>6</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Orange SN</NetworkName>
+        <ProfBrowser>Orange Web SN</ProfBrowser>
+        <ProfMMS>Orange MMS SN</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Expresso Senegal</NetworkName>
+        <ProfBrowser>expresso</ProfBrowser>
+        <ProfMMS>expresso</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Orange ML</NetworkName>
+        <ProfBrowser>internet</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>QCell Gambia</NetworkName>
+        <ProfBrowser>QCELLNET</ProfBrowser>
+        <ProfMMS>QCELLNET</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Senegal Free</NetworkName>
+        <ProfBrowser>Free</ProfBrowser>
+        <ProfMMS>Free</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Senegal Promobile</NetworkName>
+        <ProfBrowser>Promobile</ProfBrowser>
+        <ProfMMS>Promobile</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>7</NbProfile>
+      <Profile>
+        <NetworkName>Orange SN</NetworkName>
+        <ProfileName>Orange Web SN</ProfileName>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+          <UserId>internet</UserId>
+          <Password>internet</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange SN</NetworkName>
+        <ProfileName>Orange MMS SN</ProfileName>
+        <URL>http://mmsalize/servlets/mms</URL>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <ServAddr>172.16.30.9</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange ML</NetworkName>
+        <ProfileName>internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+          <UserId>internet</UserId>
+          <Password>internet</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Expresso Senegal</NetworkName>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>expresso</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>expresso</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>QCell Gambia</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <ProfileName>QCELLNET</ProfileName>
+        <URL>https://qcell.gm/</URL>
+        <PSparam>
+          <APN>QCELLNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Senegal Free</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Free</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>web.sentel.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Senegal Promobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Promobile</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

@@ -1,0 +1,84 @@
+From d88209358df3c579c03a83148ae182376dcdcece Mon Sep 17 00:00:00 2001
+From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date: Sat, 21 Jun 2025 20:10:58 +0200
+Subject: [PATCH] Nuke Knox DualDAR and HDM version
+
+Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+---
+ .../android/knox/ddar/DualDARPolicy.smali     |  2 +-
+ .../samsung/android/knox/hdm/HdmManager.smali | 38 +------------------
+ 2 files changed, 3 insertions(+), 37 deletions(-)
+
+diff --git a/smali/com/samsung/android/knox/ddar/DualDARPolicy.smali b/smali/com/samsung/android/knox/ddar/DualDARPolicy.smali
+index 059731524c..e014bafb38 100644
+--- a/smali/com/samsung/android/knox/ddar/DualDARPolicy.smali
++++ b/smali/com/samsung/android/knox/ddar/DualDARPolicy.smali
+@@ -96,7 +96,7 @@
+ .method public static greylist getDualDARVersion()Ljava/lang/String;
+     .locals 1
+ 
+-    const-string v0, "1.7.0"
++    const/4 v0, 0x0
+ 
+     return-object v0
+ .end method
+diff --git a/smali/com/samsung/android/knox/hdm/HdmManager.smali b/smali/com/samsung/android/knox/hdm/HdmManager.smali
+index 11647d170d..ab5fdf0835 100644
+--- a/smali/com/samsung/android/knox/hdm/HdmManager.smali
++++ b/smali/com/samsung/android/knox/hdm/HdmManager.smali
+@@ -35,7 +35,7 @@
+ .end method
+ 
+ .method public static greylist getHdmVersion()Ljava/lang/String;
+-    .locals 4
++    .locals 2
+ 
+     sget-object v0, Lcom/samsung/android/knox/hdm/HdmManager;->TAG:Ljava/lang/String;
+ 
+@@ -43,42 +43,8 @@
+ 
+     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+ 
+-    const-string v0, "ro.vendor.hdm.hdm_supported_subsystem"
+-
+-    const-string v1, "none"
+-
+-    invoke-static {v0, v1}, Landroid/os/SystemProperties;->get(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+-
+-    move-result-object v2
+-
+-    invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+-
+-    move-result v2
+-
+-    if-nez v2, :cond_0
+-
+-    new-instance v2, Ljava/lang/StringBuilder;
+-
+-    const-string v3, "2.0 - "
+-
+-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+-
+-    invoke-static {v0, v1}, Landroid/os/SystemProperties;->get(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+-
+-    move-result-object v0
+-
+-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-
+-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+-
+-    move-result-object v0
+-
+-    goto :goto_0
+-
+-    :cond_0
+-    const-string v0, "2.0 - 95"
++    const/4 v0, 0x0
+ 
+-    :goto_0
+     return-object v0
+ .end method
+ 
+-- 
+2.43.0
+

@@ -1,0 +1,6 @@
+/system u:object_r:system_file:s0
+/system/preload u:object_r:system_file:s0
+/system/preload/SafetyCore u:object_r:system_file:s0
+/system/preload/SafetyCore/SafetyCore\.apk u:object_r:system_file:s0
+/system/preload/ContactKeys u:object_r:system_file:s0
+/system/preload/ContactKeys/ContactKeys\.apk u:object_r:system_file:s0

@@ -63,14 +63,6 @@ APPLY_SMALI_PATCHES()
         local COMMIT_NAME
         COMMIT_NAME="$(grep "^Subject:" "$patch" | sed 's/.*PATCH] //')"
 
-        if [[ "$patch" == *"0000-"* ]]; then
-            if $ROM_IS_OFFICIAL; then
-                [[ "$patch" == *"AOSP"* ]] && continue
-            else
-                [[ "$patch" == *"UNICA"* ]] && continue
-            fi
-        fi
-
         echo "Applying \"$COMMIT_NAME\" to $TARGET"
         OUT="$(patch -p1 -s -t -N --dry-run < "$patch")" \
             || echo "$OUT" | grep -q "Skipping patch" || false
@@ -112,6 +104,8 @@ APPLY_MODULE()
         [ -d "$MODPATH/system" ] && ADD_TO_WORK_DIR "$MODPATH" "system" "." 0 0 755 "u:object_r:system_file:s0"
         [ -d "$MODPATH/system_ext" ] && ADD_TO_WORK_DIR "$MODPATH" "system_ext" "." 0 0 755 "u:object_r:system_file:s0"
         [ -d "$MODPATH/vendor" ] && ADD_TO_WORK_DIR "$MODPATH" "vendor" "." 0 2000 755 "u:object_r:vendor_file:s0"
+        [ -d "$MODPATH/optics" ] && ADD_TO_WORK_DIR "$MODPATH" "optics" "." 0 0 755 u:object_r:vendor_configs_file:s0
+        [ -d "$MODPATH/prism" ] && ADD_TO_WORK_DIR "$MODPATH" "prism" "." 0 0 755 u:object_r:vendor_configs_file:s0
     fi
 
     READ_AND_APPLY_PROPS "$MODPATH"

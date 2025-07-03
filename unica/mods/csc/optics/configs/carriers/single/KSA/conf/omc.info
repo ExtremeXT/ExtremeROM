@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_KSA_15_0005</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0003</customerEdition>
+    <carrierListVersion>150038</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>8</carrierCount>
+    <carrier>
+      <mcc>420</mcc>
+      <mnc>01</mnc>
+      <networkName>STC</networkName>
+    </carrier>
+    <carrier>
+      <mcc>420</mcc>
+      <mnc>03</mnc>
+      <networkName>Mobily Prepaid</networkName>
+    </carrier>
+    <carrier>
+      <mcc>420</mcc>
+      <mnc>03</mnc>
+      <networkName>Mobily Postpaid</networkName>
+    </carrier>
+    <carrier>
+      <mcc>420</mcc>
+      <mnc>04</mnc>
+      <networkName>Zain</networkName>
+    </carrier>
+    <carrier>
+      <mcc>420</mcc>
+      <mnc>05</mnc>
+      <networkName>Virgin</networkName>
+    </carrier>
+    <carrier>
+      <mcc>420</mcc>
+      <mnc>06</mnc>
+      <networkName>Lebara</networkName>
+    </carrier>
+    <carrier>
+      <mcc>420</mcc>
+      <mnc>09</mnc>
+      <networkName>Salam</networkName>
+    </carrier>
+    <carrier>
+      <mcc>420</mcc>
+      <mnc>10</mnc>
+      <spn>Red Bull Mobile</spn>
+      <networkName>Redbull</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

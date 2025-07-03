@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_CGU_15_0011</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0003</customerEdition>
+    <carrierListVersion>150032</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>4</carrierCount>
+    <carrier>
+      <mcc>704</mcc>
+      <mnc>02</mnc>
+      <networkName>TIGO_CGU</networkName>
+    </carrier>
+    <carrier>
+      <mcc>706</mcc>
+      <mnc>03</mnc>
+      <networkName>TIGO_ETE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>708</mcc>
+      <mnc>02</mnc>
+      <networkName>TIGO_CTE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>708</mcc>
+      <mnc>020</mnc>
+      <networkName>TIGO_CTE</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

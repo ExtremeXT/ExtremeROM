@@ -1,0 +1,22 @@
+From d6eead0f39428e71adec019c32233d28863ff062 Mon Sep 17 00:00:00 2001
+From: Ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
+Date: Fri, 16 May 2025 17:26:55 +0200
+Subject: [PATCH] Show real device model number
+
+Co-Authored-By: Salvo Giangreco <giangrecosalvo9@gmail.com>
+diff --git a/smali_classes4/com/samsung/android/settings/deviceinfo/aboutphone/ModelNameGetter.smali b/smali_classes4/com/samsung/android/settings/deviceinfo/aboutphone/ModelNameGetter.smali
+index 7d029eb89..23710a100 100644
+--- a/smali_classes4/com/samsung/android/settings/deviceinfo/aboutphone/ModelNameGetter.smali
++++ b/smali_classes4/com/samsung/android/settings/deviceinfo/aboutphone/ModelNameGetter.smali
+@@ -48,7 +48,7 @@
+ 
+     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+ 
+-    const-string/jumbo v2, "ro.product.model"
++    const-string/jumbo v2, "ro.boot.em.model"
+ 
+     invoke-static {v2}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+ 
+-- 
+2.39.5 (Apple Git-154)
+

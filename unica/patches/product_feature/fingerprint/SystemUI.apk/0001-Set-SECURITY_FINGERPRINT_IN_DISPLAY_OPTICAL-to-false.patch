@@ -1,0 +1,25 @@
+From ca4627f636923490311c8b1ee85e8cad091f4718 Mon Sep 17 00:00:00 2001
+From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date: Wed, 18 Jun 2025 12:46:17 +0300
+Subject: [PATCH] Set SECURITY_FINGERPRINT_IN_DISPLAY_OPTICAL to false
+
+---
+ smali/com/android/systemui/LsRune.smali | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/smali/com/android/systemui/LsRune.smali b/smali/com/android/systemui/LsRune.smali
+index 6ae275d9..6d910e2d 100644
+--- a/smali/com/android/systemui/LsRune.smali
++++ b/smali/com/android/systemui/LsRune.smali
+@@ -662,7 +662,7 @@
+ 
+     sput-boolean v3, Lcom/android/systemui/LsRune;->SECURITY_FINGERPRINT_IN_DISPLAY:Z
+ 
+-    sput-boolean v3, Lcom/android/systemui/LsRune;->SECURITY_FINGERPRINT_IN_DISPLAY_OPTICAL:Z
++    sput-boolean v2, Lcom/android/systemui/LsRune;->SECURITY_FINGERPRINT_IN_DISPLAY_OPTICAL:Z
+ 
+     sput-boolean v2, Lcom/android/systemui/LsRune;->SECURITY_BACKGROUND_AUTHENTICATION:Z
+ 
+-- 
+2.45.2
+

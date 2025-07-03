@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <feature name="com.google.android.feature.EEA_DEVICE" />
+	<feature name="com.google.android.feature.EEA_V2_DEVICE" />
+    <feature name="com.google.android.paid.search" />
+    <feature name="com.google.android.paid.chrome" />
+</config>

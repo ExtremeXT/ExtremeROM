@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_BVO_15_0009</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0001</customerEdition>
+    <carrierListVersion>150034</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>4</carrierCount>
+    <carrier>
+      <mcc>736</mcc>
+      <mnc>01</mnc>
+      <networkName>VIVA</networkName>
+    </carrier>
+    <carrier>
+      <mcc>736</mcc>
+      <mnc>02</mnc>
+      <networkName>ENTEL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>736</mcc>
+      <mnc>03</mnc>
+      <networkName>TIGO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>736</mcc>
+      <mnc>04</mnc>
+      <networkName>COTAS</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

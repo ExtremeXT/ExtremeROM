@@ -17,16 +17,16 @@
 *.gif binary
 *.qmg binary
 *.webp binary
+*.pdf binary
 
 # ROM-specific prebuilt blobs
 prebuilts/bootable/deprecated-ota/updater binary
 prebuilts/*/*/*/** binary
-unica/mods/pif/system/bin/rezetprop binary
+unica/mods/csc/*/** binary
+unica/mods/rezetprop/system/bin/rezetprop binary
+
+# Platform-specific prebuilt blobs
+platform/exynos9820/patches/vendor/vendor/** binary
 
 # Device-specific prebuilt blobs
-target/a52sxq/patches/wpss/vendor/firmware/** binary
-target/a71/patches/*/*/** binary
-target/a73xq/patches/wpss/vendor/firmware/** binary
-target/*/patches/china/vendor/firmware/** binary
-target/m52xq/patches/vendor/vendor/firmware/** binary
-platform/exynos9820/patches/vendor/vendor/** binary
+target/r8s/patches/vendor/vendor/** binary

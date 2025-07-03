@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+
+    <!-- Non-TSS -->
+    <sales-code csc="TCE" firstboot="true">
+        <package name="com.speedymovil.wire">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+        </package>
+    </sales-code>
+
+    <!-- TSS -->
+    <activated-id code="TCE" firstboot="true">
+        <package name="com.speedymovil.wire">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.CALL_PHONE" systemfixed="false" />
+        </package>
+    </activated-id>
+
+</omc-default-permissions>

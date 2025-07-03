@@ -1,0 +1,137 @@
+From d57739f6b842ae749c0e00bf0cf9e6c6ff957f35 Mon Sep 17 00:00:00 2001
+From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date: Fri, 20 Jun 2025 16:32:16 +0300
+Subject: [PATCH] Enable HW mDNIe
+
+Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+---
+ .../android/view/accessibility/A11yRune.smali | 68 ++++++++++++-------
+ 1 file changed, 42 insertions(+), 26 deletions(-)
+
+diff --git a/smali_classes4/android/view/accessibility/A11yRune.smali b/smali_classes4/android/view/accessibility/A11yRune.smali
+index 1b63da40..f3125273 100644
+--- a/smali_classes4/android/view/accessibility/A11yRune.smali
++++ b/smali_classes4/android/view/accessibility/A11yRune.smali
+@@ -18,7 +18,7 @@
+ 
+ .field public static final blacklist A11Y_COLOR_BOOL_SUPPORT_DMC_COLORWEAKNESS:Z
+ 
+-.field public static final blacklist A11Y_COLOR_BOOL_SUPPORT_MDNIE_HW:Z = false
++.field public static final blacklist A11Y_COLOR_BOOL_SUPPORT_MDNIE_HW:Z = true
+ 
+ .field public static final blacklist A11Y_COLOR_BOOL_SUPPORT_MDNIE_SW:Z = false
+ 
+@@ -145,7 +145,7 @@
+ 
+ # direct methods
+ .method static constructor blacklist <clinit>()V
+-    .locals 3
++    .locals 4
+ 
+     nop
+ 
+@@ -159,61 +159,77 @@
+ 
+     sput v0, Landroid/view/accessibility/A11yRune;->FIRST_API_LEVEL:I
+ 
+-    const-string v0, "0"
++    const-string v0, "3"
+ 
+     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+ 
+-    move-result-object v1
++    move-result-object v0
++
++    const-string v1, "0"
+ 
+-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+ 
+     move-result v0
+ 
+     sput-boolean v0, Landroid/view/accessibility/A11yRune;->A11Y_COLOR_BOOL_SUPPORT_DMC_COLORWEAKNESS:Z
+ 
+-    const/4 v0, 0x0
++    sget v0, Landroid/view/accessibility/A11yRune;->FIRST_API_LEVEL:I
++
++    const/16 v1, 0x23
++
++    const/4 v2, 0x1
++
++    const/4 v3, 0x0
++
++    if-ge v0, v1, :cond_0
++
++    move v0, v2
+ 
++    goto :goto_0
++
++    :cond_0
++    move v0, v3
++
++    :goto_0
+     sput-boolean v0, Landroid/view/accessibility/A11yRune;->A11Y_COLOR_BOOL_SUPPORT_COLOR_FILTER_MDNIE_HW:Z
+ 
+     invoke-static {}, Lcom/samsung/android/feature/SemFloatingFeature;->getInstance()Lcom/samsung/android/feature/SemFloatingFeature;
+ 
+-    move-result-object v1
++    move-result-object v0
+ 
+-    const-string v2, "SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_FOLDABLE_TYPE_FLIP"
++    const-string v1, "SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_FOLDABLE_TYPE_FLIP"
+ 
+-    invoke-virtual {v1, v2}, Lcom/samsung/android/feature/SemFloatingFeature;->getBoolean(Ljava/lang/String;)Z
++    invoke-virtual {v0, v1}, Lcom/samsung/android/feature/SemFloatingFeature;->getBoolean(Ljava/lang/String;)Z
+ 
+-    move-result v1
++    move-result v0
+ 
+-    if-eqz v1, :cond_0
++    if-eqz v0, :cond_1
+ 
+     invoke-static {}, Lcom/samsung/android/feature/SemFloatingFeature;->getInstance()Lcom/samsung/android/feature/SemFloatingFeature;
+ 
+-    move-result-object v1
++    move-result-object v0
+ 
+-    const-string v2, "SEC_FLOATING_FEATURE_LOCKSCREEN_CONFIG_SUBDISPLAY_POLICY"
++    const-string v1, "SEC_FLOATING_FEATURE_LOCKSCREEN_CONFIG_SUBDISPLAY_POLICY"
+ 
+-    invoke-virtual {v1, v2}, Lcom/samsung/android/feature/SemFloatingFeature;->getString(Ljava/lang/String;)Ljava/lang/String;
++    invoke-virtual {v0, v1}, Lcom/samsung/android/feature/SemFloatingFeature;->getString(Ljava/lang/String;)Ljava/lang/String;
+ 
+-    move-result-object v1
+-
+-    const-string v2, "LARGESCREEN"
++    move-result-object v0
+ 
+-    invoke-virtual {v1, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
++    const-string v1, "LARGESCREEN"
+ 
+-    move-result v1
++    invoke-virtual {v0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+ 
+-    if-eqz v1, :cond_0
++    move-result v0
+ 
+-    const/4 v0, 0x1
++    if-eqz v0, :cond_1
+ 
+-    goto :goto_0
++    goto :goto_1
+ 
+-    :cond_0
+-    nop
++    :cond_1
++    move v2, v3
+ 
+-    :goto_0
+-    sput-boolean v0, Landroid/view/accessibility/A11yRune;->A11Y_COMMON_BOOL_SUPPORT_LARGE_COVER_SCREEN_FLIP:Z
++    :goto_1
++    sput-boolean v2, Landroid/view/accessibility/A11yRune;->A11Y_COMMON_BOOL_SUPPORT_LARGE_COVER_SCREEN_FLIP:Z
+ 
+     const-string v0, "content://com.samsung.accessibility.provider/a11ysettings"
+ 
+-- 
+2.45.2
+

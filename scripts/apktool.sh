@@ -136,9 +136,9 @@ DO_DECOMPILE()
 
     echo "Decompiling $OUT_DIR"
     if [[ "$APK_PATH" == *rro_*.apk ]]; then
-        apktool -q d -b $FORCE -o "$APKTOOL_DIR$OUT_DIR" -p "$FRAMEWORK_DIR" -s "$APK_PATH"
+        apktool d -q $FORCE -o "$APKTOOL_DIR$OUT_DIR" -p "$FRAMEWORK_DIR" -s "$APK_PATH"
     else
-        apktool -q d -b $FORCE -o "$APKTOOL_DIR$OUT_DIR" -p "$FRAMEWORK_DIR" -r -s "$APK_PATH"
+        apktool d -q $FORCE -o "$APKTOOL_DIR$OUT_DIR" -p "$FRAMEWORK_DIR" -r -s "$APK_PATH"
     fi
 
     for f in "$APKTOOL_DIR$OUT_DIR/"*.dex
@@ -229,7 +229,7 @@ DO_RECOMPILE()
 
     mkdir -p "$APKTOOL_DIR$IN_DIR/build/apk"
     cp -a --preserve=all "$APKTOOL_DIR$IN_DIR/original/META-INF" "$APKTOOL_DIR$IN_DIR/build/apk/META-INF"
-    apktool -q b -p "$FRAMEWORK_DIR" -srp "$APKTOOL_DIR$IN_DIR"
+    apktool b -q -p "$FRAMEWORK_DIR" "$APKTOOL_DIR$IN_DIR"
     [[ -f "$APKTOOL_DIR$IN_DIR/classes.dex" ]] && rm "$APKTOOL_DIR$IN_DIR/"*.dex
 
     echo "Zipaligning $IN_DIR"
@@ -256,7 +256,7 @@ FRAMEWORK_DIR="$APKTOOL_DIR/bin/fw"
 if [ ! -d "$FRAMEWORK_DIR" ]; then
     if [ -f "$WORK_DIR/system/system/framework/framework-res.apk" ]; then
         echo "Set up apktool env"
-        apktool -q if -p "$FRAMEWORK_DIR" "$WORK_DIR/system/system/framework/framework-res.apk"
+        apktool if -q -p "$FRAMEWORK_DIR" "$WORK_DIR/system/system/framework/framework-res.apk"
     else
         echo "Please set up your work_dir first."
         exit 1

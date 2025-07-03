@@ -1,0 +1,47 @@
+From f7b40e9ea45f7545038e6009c163854dac0bd397 Mon Sep 17 00:00:00 2001
+From: Ksawlii <ksawery.blaszczak@proton.me>
+Date: Fri, 30 May 2025 14:29:44 +0000
+Subject: [PATCH] Always use ultrasonic FOD animation
+
+Signed-off-by: Ksawlii <ksawery.blaszczak@proton.me>
+---
+ .../setting/fingerprint/vi/VisualEffectContainer.smali    | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/smali/com/samsung/android/biometrics/app/setting/fingerprint/vi/VisualEffectContainer.smali b/smali/com/samsung/android/biometrics/app/setting/fingerprint/vi/VisualEffectContainer.smali
+index bca4210..0275f6e 100644
+--- a/smali/com/samsung/android/biometrics/app/setting/fingerprint/vi/VisualEffectContainer.smali
++++ b/smali/com/samsung/android/biometrics/app/setting/fingerprint/vi/VisualEffectContainer.smali
+@@ -4,9 +4,9 @@
+ 
+ 
+ # static fields
+-.field static final ASSET_NAME_OPTICAL_GREEN:Ljava/lang/String; = "indisplay_fingerprint_touch_effect_green_circle.json"
++.field static final ASSET_NAME_OPTICAL_GREEN:Ljava/lang/String; = "indisplay_fingerprint_touch_effect_ripple.json"
+ 
+-.field static final ASSET_NAME_OPTICAL_WHITE:Ljava/lang/String; = "indisplay_fingerprint_touch_effect_white_circle.json"
++.field static final ASSET_NAME_OPTICAL_WHITE:Ljava/lang/String; = "indisplay_fingerprint_touch_effect_ripple.json"
+ 
+ .field static final ASSET_NAME_ULTRASONIC:Ljava/lang/String; = "indisplay_fingerprint_touch_effect_ripple.json"
+ 
+@@ -469,7 +469,7 @@
+ 
+     iget-object p1, p0, Lcom/samsung/android/biometrics/app/setting/fingerprint/vi/VisualEffectContainer;->mEffectAnimationView:Lcom/airbnb/lottie/LottieAnimationView;
+ 
+-    const-string p2, "indisplay_fingerprint_touch_effect_white_circle.json"
++    const-string p2, "indisplay_fingerprint_touch_effect_ripple.json"
+ 
+     invoke-virtual {p1, p2}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(Ljava/lang/String;)V
+ 
+@@ -478,7 +478,7 @@
+     :cond_8
+     iget-object p1, p0, Lcom/samsung/android/biometrics/app/setting/fingerprint/vi/VisualEffectContainer;->mEffectAnimationView:Lcom/airbnb/lottie/LottieAnimationView;
+ 
+-    const-string p2, "indisplay_fingerprint_touch_effect_green_circle.json"
++    const-string p2, "indisplay_fingerprint_touch_effect_ripple.json"
+ 
+     invoke-virtual {p1, p2}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(Ljava/lang/String;)V
+ 
+-- 
+2.49.0
+

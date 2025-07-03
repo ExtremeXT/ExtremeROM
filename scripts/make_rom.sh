@@ -16,7 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-set -Eeuo pipefail
+set -Eeo pipefail
 START=$SECONDS
 
 # [
@@ -30,6 +30,8 @@ BUILD_ROM=false
 BUILD_ZIP=false
 BUILD_TAR=false
 
+export NO_COMPRESSION=false
+
 [[ "$TARGET_INSTALL_METHOD" == "zip" ]] && BUILD_ZIP=true
 [[ "$TARGET_INSTALL_METHOD" == "odin" ]] && BUILD_TAR=true
 
@@ -37,6 +39,9 @@ while [ "$#" != 0 ]; do
     case "$1" in
         "-f" | "--force")
             FORCE=true
+            ;;
+        "--no-compression")
+            NO_COMPRESSION=true
             ;;
         "--no-rom-zip")
             if $BUILD_TAR; then
@@ -55,6 +60,7 @@ while [ "$#" != 0 ]; do
         *)
             echo "Usage: make_rom [options]"
             echo " -f, --force : Force build"
+            echo " --no-compression : Disable brotli and zip file compression"
             echo " --no-rom-zip : Do not build ROM zip"
             echo " --no-rom-tar : Do not build ROM tar"
             exit 1
@@ -114,6 +120,10 @@ else
     echo -e "- Nothing to do in work dir.\n"
 fi
 
+if [ -n "$GITHUB_ACTIONS" ]; then
+    bash "$SRC_DIR/scripts/cleanup.sh" fw kernel_tmp_dir
+fi
+
 if $BUILD_ZIP; then
     echo "- Building ROM zip..."
     bash "$SRC_DIR/scripts/internal/build_flashable_zip.sh"
@@ -124,6 +134,7 @@ elif $BUILD_TAR; then
     echo ""
 fi
 
+unset NO_COMPRESSION
 ESTIMATED=$((SECONDS-START))
 echo "Build completed in $((ESTIMATED / 3600))hrs $(((ESTIMATED / 60) % 60))min $((ESTIMATED % 60))sec."
 

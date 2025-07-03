@@ -1,0 +1,4 @@
+id=bootlogo
+name=BootLogo mods
+author=ExtremeXT
+description=Replaces the Exynos boot logo file binary (up_param.bin) with a modified one.

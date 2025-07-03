@@ -13,12 +13,28 @@ jobs:
       fail-fast: false
       matrix:
         include:
+          - module: "Galaxy A26 (a26xxx)"
+            path: "prebuilts/samsung/a26xxx"
+          - module: "Galaxy A73 (a73xqxx)"
+            path: "prebuilts/samsung/a73xqxx"
+          - module: "Galaxy Flip 6 (b6qxxx)"
+            path: "prebuilts/samsung/b6qxxx"
+          - module: "Galaxy S23 Ultra (dm3qxxx)"
+            path: "prebuilts/samsung/dm3qxxx"
+          - module: "Galaxy S24 (e1sxxx)"
+            path: "prebuilts/samsung/e1sxxx"
+          - module: "Galaxy S24+ (e2sxxx)"
+            path: "prebuilts/samsung/e2sxxx"
+          - module: "Galaxy Tab S10 FE (gts10fewifixx)"
+            path: "prebuilts/samsung/gts10fewifixx"
+          - module: "Galaxy S21 Ultra (p3sxxx)"
+            path: "prebuilts/samsung/p3sxxx"
+          - module: "Galaxy S25 Ultra (China) (pa3qzcx)"
+            path: "prebuilts/samsung/pa3qzcx"
           - module: "Galaxy S22 (r0qxxx)"
             path: "prebuilts/samsung/r0qxxx"
-          - module: "Galaxy Fold 4 (q4qxxx)"
-            path: "prebuilts/samsung/q4qxxx"
-          - module: "Galaxy A73 5G (a73xqxx)"
-            path: "prebuilts/samsung/a73xqxx"
+          - module: "Galaxy S24 FE (r12sxxx)"
+            path: "prebuilts/samsung/r12sxxx"
 
     steps:
       - name: Checkout repo

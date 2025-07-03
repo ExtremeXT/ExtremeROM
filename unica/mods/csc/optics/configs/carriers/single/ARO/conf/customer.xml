@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0002</CSCEdition>
+    <Country>Argentina</Country>
+    <CountryISO>AR</CountryISO>
+    <Region>LA</Region>
+    <SalesCode>ARO</SalesCode>
+    <NbNetworkInfo>6</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>72234</MCCMNC>
+      <NetworkName>Personal AR</NetworkName>
+      <NWID>NW01037</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>72231</MCCMNC>
+      <NetworkName>Claro AR</NetworkName>
+      <NWID>NW00301</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>72207</MCCMNC>
+      <NetworkName>Movistar AR</NetworkName>
+      <NWID>NW00789</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>722341</MCCMNC>
+      <NetworkName>Personal AR</NetworkName>
+      <NWID>NW01037</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>722310</MCCMNC>
+      <NetworkName>Claro AR</NetworkName>
+      <NWID>NW00301</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>722070</MCCMNC>
+      <NetworkName>Movistar AR</NetworkName>
+      <NWID>NW00789</NWID>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>8</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>Personal AR</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Personal AR</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Claro AR</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Claro AR</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Movistar AR</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Movistar AR</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Movistar AR</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Movistar AR</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>default</NetworkName>
+          <WbAmrCodec>off</WbAmrCodec>
+        </WbAmr>
+      </Network>
+      <Phone>
+        <DefLanguage>spanish_latin</DefLanguage>
+        <DefLanguageNoSIM>spanish_latin</DefLanguageNoSIM>
+        <T9Enabling>disable</T9Enabling>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Messages>
+      <NbVoicemail>3</NbVoicemail>
+      <Voicemail>
+        <NetworkName>Personal AR</NetworkName>
+        <TelNum>*555</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Claro AR</NetworkName>
+        <TelNum>*2747</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Movistar AR</NetworkName>
+        <TelNum>555</TelNum>
+      </Voicemail>
+      <PushMsg>
+        <RecOption>on</RecOption>
+      </PushMsg>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <CreationMode>free</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>1</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <NbWifiProfile>2</NbWifiProfile>
+    <WifiProfile>
+      <NetworkName>Claro AR</NetworkName>
+      <WifiSSID>CLARO WIFI</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>1</WifiPriority>
+    </WifiProfile>
+    <WifiProfile>
+      <NetworkName>Movistar AR</NetworkName>
+      <WifiSSID>MOVISTAR WIFI</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>sim</WifiEAPMethod>
+      <WifiPriority>1</WifiPriority>
+    </WifiProfile>
+    <Connections>
+      <NbProfileHandle>3</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Personal AR</NetworkName>
+        <ProfBrowser>Personal Datos AR</ProfBrowser>
+        <ProfIntSharing>Personal Internet AR</ProfIntSharing>
+        <ProfIMS>Personal IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Claro AR</NetworkName>
+        <ProfBrowser>Claro AR</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Claro AR</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Movistar AR</NetworkName>
+        <ProfBrowser>Movistar WAP</ProfBrowser>
+        <ProfMMS>Movistar MMS ar</ProfMMS>
+        <ProfIMS>Movistar IMS</ProfIMS>
+        <ProfXCAP>Movistar WAP</ProfXCAP>
+      </ProfileHandle>
+      <NbProfile>8</NbProfile>
+      <Profile>
+        <NetworkName>Personal AR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Personal Datos AR</ProfileName>
+        <URL>https://www.personal.com.ar</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>datos.personal.com</APN>
+          <UserId>datos</UserId>
+          <Password>datos</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Personal AR</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Personal Internet AR</ProfileName>
+        <URL>https://www.personal.com.ar</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.personal.com</APN>
+          <UserId>internet</UserId>
+          <Password>internet</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro AR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Claro AR</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>igprs.claro.com.ar</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Movistar AR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Movistar WAP</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>wap.gprs.unifon.com.ar</APN>
+          <UserId>wap</UserId>
+          <Password>wap</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Movistar AR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Movistar MMS ar</ProfileName>
+        <URL>http://mms.movistar.com.ar</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>200.68.32.239</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.gprs.unifon.com.ar</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Movistar AR</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>Movistar IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Personal AR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Personal IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro AR</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

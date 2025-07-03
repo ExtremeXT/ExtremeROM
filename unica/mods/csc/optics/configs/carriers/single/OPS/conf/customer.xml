@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0001</CSCEdition>
+    <Country>Australia</Country>
+    <CountryISO>AU</CountryISO>
+    <Region>SEA</Region>
+    <SalesCode>OPS</SalesCode>
+    <NbNetworkInfo>1</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>50502</MCCMNC>
+      <NetworkName>YES OPTUS</NetworkName>
+      <NWID>NW01560</NWID>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>2</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>YES OPTUS</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>YES OPTUS</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>YES OPTUS</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>on</AutoVoicemail>
+        <AutoEmailAccount>on</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>on</AutoFastDormancy>
+        <AutoWbAmr>on</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <AlertOnCall>off</AlertOnCall>
+        <DefLanguage>en_AU</DefLanguage>
+        <DefLanguageNoSIM>en_AU</DefLanguageNoSIM>
+        <ContinuousInput>enable</ContinuousInput>
+        <T9Language>english</T9Language>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Messages>
+      <NbVoicemail>1</NbVoicemail>
+      <Voicemail>
+        <NetworkName>YES OPTUS</NetworkName>
+        <TelNum>+61411000321</TelNum>
+      </Voicemail>
+      <SMS>
+        <MsgTypeThreshold>
+          <ThresholdValue>10</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
+        <DeleteOldMessage>off</DeleteOldMessage>
+        <PreviewMessage>on</PreviewMessage>
+        <MmsAlert>on</MmsAlert>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <MessageSize>300</MessageSize>
+          <CreationMode>warning</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+      <Email>
+        <NbAccount>1</NbAccount>
+        <Account>
+          <NetworkName>YES OPTUS</NetworkName>
+          <AccountName>OptusNet</AccountName>
+          <Incoming>
+            <MailboxType>pop3</MailboxType>
+            <ServAddr>mail.optusnet.com.au</ServAddr>
+            <Port>110</Port>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>mail.optusnet.com.au</ServAddr>
+            <Port>25</Port>
+          </Outgoing>
+        </Account>
+      </Email>
+    </Messages>
+    <Wifi>
+      <WifiEnableStatus>on</WifiEnableStatus>
+    </Wifi>
+    <Multimedia>
+      <Camera>
+        <ShutterSound>off</ShutterSound>
+      </Camera>
+    </Multimedia>
+    <Browser>
+      <NbBookmark>2</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Galaxy Shop</BookmarkName>
+        <URL>https://www.samsung.com/au/mobile/?cid=au_ow_app_s-internet_none_none_bookmark_bookmark_202008_none</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>1</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>5</NbNetProfile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <ProfBrowser>Optus Yes Internet</ProfBrowser>
+        <ProfMMS>Optus MMS</ProfMMS>
+        <ProfEmail>Optus Yes Internet</ProfEmail>
+        <ProfStreaming>Optus Yes Internet</ProfStreaming>
+        <ProfIntSharing>Optus Yes Internet</ProfIntSharing>
+        <ProfIMS>Optus IMS</ProfIMS>
+        <ProfXCAP>Optus HOS</ProfXCAP>
+        <ProfEmergencyIMSCall>Emergency</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <NbProfile>6</NbProfile>
+      <Profile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Optus Yes Internet</ProfileName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>yesinternet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Optus MMS</ProfileName>
+        <URL>http://mmsc.optus.com.au:8002/</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>61.88.190.10</ServAddr>
+          <Port>8070</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Optus Bus Mobile Broadband</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>yesbusiness</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>Optus IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>Optus HOS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>YES OPTUS</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>Emergency</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

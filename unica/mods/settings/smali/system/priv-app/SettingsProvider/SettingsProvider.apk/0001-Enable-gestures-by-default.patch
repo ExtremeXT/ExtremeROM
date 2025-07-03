@@ -1,0 +1,41 @@
+From 5d972a34fd939664acac2517d162760926fc2350 Mon Sep 17 00:00:00 2001
+From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date: Wed, 4 Jun 2025 17:27:58 +0300
+Subject: [PATCH] Enable gestures by default
+
+Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+---
+ .../providers/settings/SecUpgradeController.smali      | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+diff --git a/smali/com/android/providers/settings/SecUpgradeController.smali b/smali/com/android/providers/settings/SecUpgradeController.smali
+index 1bcc5d661..742634cec 100644
+--- a/smali/com/android/providers/settings/SecUpgradeController.smali
++++ b/smali/com/android/providers/settings/SecUpgradeController.smali
+@@ -4847,7 +4847,7 @@
+ 
+     move-result p0
+ 
+-    const/4 v0, 0x0
++    const/4 v0, 0x1
+ 
+     if-eqz p0, :cond_a
+ 
+@@ -4974,6 +4974,14 @@
+ 
+     invoke-virtual/range {v3 .. v8}, Lcom/android/providers/settings/SettingsState;->insertSettingLocked(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+ 
++    const-string v8, "android"
++
++    const-string v4, "navigationbar_splugin_flags"
++
++    const-string v5, "4"
++
++    invoke-virtual/range {v3 .. v8}, Lcom/android/providers/settings/SettingsState;->insertSettingLocked(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
++
+     invoke-static {}, Lcom/samsung/android/feature/SemFloatingFeature;->getInstance()Lcom/samsung/android/feature/SemFloatingFeature;
+ 
+     move-result-object p0
+-- 
+2.45.2
+

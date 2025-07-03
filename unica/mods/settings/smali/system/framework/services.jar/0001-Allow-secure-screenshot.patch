@@ -1,8 +1,9 @@
 From 84631a3bdf9d4ab64e26d1f2717fbd17d17ddabc Mon Sep 17 00:00:00 2001
-From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+From: Salvo Giangreco <giangrecosalvo9@gmail.com>
 Date: Sun, 20 Apr 2025 19:18:14 +0300
 Subject: [PATCH] Allow secure screenshot
 
+Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
 ---
  .../com/android/server/wm/WindowState.smali   | 134 +-----------------
  1 file changed, 2 insertions(+), 132 deletions(-)

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_MOB_15_0005</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0001</customerEdition>
+    <carrierListVersion>150031</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>6</carrierCount>
+    <carrier>
+      <mcc>232</mcc>
+      <mnc>01</mnc>
+      <networkName>A1</networkName>
+    </carrier>
+    <carrier>
+      <mcc>232</mcc>
+      <mnc>02</mnc>
+      <networkName>A1</networkName>
+    </carrier>
+    <carrier>
+      <mcc>232</mcc>
+      <mnc>09</mnc>
+      <networkName>A1</networkName>
+    </carrier>
+    <carrier>
+      <mcc>232</mcc>
+      <mnc>11</mnc>
+      <networkName>bob</networkName>
+    </carrier>
+    <carrier>
+      <mcc>232</mcc>
+      <mnc>12</mnc>
+      <networkName>yesss!</networkName>
+    </carrier>
+    <carrier>
+      <mcc>232</mcc>
+      <mnc>12</mnc>
+      <spn>Ge org!</spn>
+      <networkName>Ge org!</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

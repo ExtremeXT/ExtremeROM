@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+
+  <privapp-permissions package="com.sfr.android.sfrjeux.samsung">
+	<permission name="android.permission.INSTALL_PACKAGES"/>
+	<permission name="android.permission.DELETE_PACKAGES"/>
+  </privapp-permissions>
+
+</permissions>

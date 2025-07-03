@@ -195,7 +195,7 @@
 	
     <local name="SUPPORT_ZOOM_MAP_VIEW" value="true"/>
 
-    <local name="SUPPORT_POST_PROCESSING_MOTION_PHOTO" value="true"/>
+    <local name="SUPPORT_POST_PROCESSING_MOTION_PHOTO" value="false"/>
 
     <local name="SUPPORT_FLASH_IN_WIDE_LENS" value="true"/>
 

@@ -1,0 +1,6 @@
+system 0 0 755 capabilities=0x0
+system/preload 0 0 755 capabilities=0x0
+system/preload/SafetyCore 0 0 755 capabilities=0x0
+system/preload/SafetyCore/SafetyCore.apk 0 0 644 capabilities=0x0
+system/preload/ContactKeys 0 0 755 capabilities=0x0
+system/preload/ContactKeys/ContactKeys.apk 0 0 644 capabilities=0x0

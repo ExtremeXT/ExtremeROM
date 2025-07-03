@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_SFR_15_0011</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0003</customerEdition>
+    <carrierListVersion>150031</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>7</carrierCount>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>09</mnc>
+      <spn>SFR REUNION Roaming</spn>
+      <networkName>SFR RU Roaming</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>10</mnc>
+      <networkName>F SFR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>10</mnc>
+      <spn>Coriolis.</spn>
+      <codeType>HEX</codeType>
+      <gid>434F5249</gid>
+      <iccid>893327</iccid>
+      <networkName>CORIOLIS light</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>11</mnc>
+      <spn>F SFR</spn>
+      <networkName>F SFR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>23</mnc>
+      <spn>Virgin</spn>
+      <networkName>Virgin (OMEA)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>340</mcc>
+      <mnc>02</mnc>
+      <networkName>Outremer</networkName>
+    </carrier>
+    <carrier>
+      <mcc>647</mcc>
+      <mnc>10</mnc>
+      <networkName>SFR RU</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

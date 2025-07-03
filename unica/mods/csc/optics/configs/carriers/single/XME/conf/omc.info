@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_XME_15_0004</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0001</customerEdition>
+    <carrierListVersion>150032</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>6</carrierCount>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>12</mnc>
+      <networkName>MAXIS</networkName>
+    </carrier>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>152</mnc>
+      <networkName>Yes 4G</networkName>
+    </carrier>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>153</mnc>
+      <networkName>Unifi</networkName>
+    </carrier>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>16</mnc>
+      <networkName>DIGI</networkName>
+    </carrier>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>18</mnc>
+      <networkName>U MOBILE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>19</mnc>
+      <networkName>CELCOM</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

@@ -1,0 +1,26 @@
+From a2683ec526767aff6427f18d63ca854305c4bb3d Mon Sep 17 00:00:00 2001
+From: dupazlasu <dupazlasu66@gmail.com>
+Date: Thu, 26 Jun 2025 20:28:20 +0200
+Subject: [PATCH] Fix 60hz refresh rate
+
+Signed-off-by: dupazlasu <dupazlasu66@gmail.com>
+---
+ .../samsung/android/hardware/display/RefreshRateConfig.smali    | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/smali_classes6/com/samsung/android/hardware/display/RefreshRateConfig.smali b/smali_classes6/com/samsung/android/hardware/display/RefreshRateConfig.smali
+index 695b4810..76d034b8 100644
+--- a/smali_classes6/com/samsung/android/hardware/display/RefreshRateConfig.smali
++++ b/smali_classes6/com/samsung/android/hardware/display/RefreshRateConfig.smali
+@@ -503,6 +503,8 @@
+ 
+     move-result-object v0
+ 
++    const-string v1, "60"
++
+     invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+ 
+     move-result-object v0
+-- 
+2.43.0
+

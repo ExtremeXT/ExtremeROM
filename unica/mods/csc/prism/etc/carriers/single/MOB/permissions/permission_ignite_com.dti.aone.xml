@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><permissions>
+  <privapp-permissions package="com.dti.aone">
+    <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <permission name="android.permission.STATUS_BAR"/>
+  </privapp-permissions>
+</permissions>

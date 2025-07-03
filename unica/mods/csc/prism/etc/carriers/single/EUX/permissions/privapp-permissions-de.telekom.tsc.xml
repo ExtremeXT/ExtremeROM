@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+
+  <privapp-permissions package="de.telekom.tsc">
+	<permission name="android.permission.INSTALL_PACKAGES" />
+	<permission name="android.permission.DELETE_PACKAGES" />
+	<permission name="android.permission.READ_PHONE_STATE" />
+	<permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+	<permission name="android.permission.REAL_GET_TASKS"/>
+	<permission name="android.permission.PACKAGE_VERIFICATION_AGENT"/>
+	<permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+  </privapp-permissions>
+
+</permissions>

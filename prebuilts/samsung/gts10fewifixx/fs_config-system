@@ -1,3 +1,3 @@
 system 0 0 755 capabilities=0x0
 system/lib64 0 0 755 capabilities=0x0
-system/lib64/libandroid_servers.so 0 0 0644
+system/lib64/libandroid_servers.so 0 0 644 capabilities=0x0

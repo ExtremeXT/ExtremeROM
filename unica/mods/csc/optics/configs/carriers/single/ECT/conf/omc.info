@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_ECT_15_0006</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0001</customerEdition>
+    <carrierListVersion>150038</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>8</carrierCount>
+    <carrier>
+      <mcc>616</mcc>
+      <mnc>03</mnc>
+      <networkName>MTN Benin</networkName>
+    </carrier>
+    <carrier>
+      <mcc>618</mcc>
+      <mnc>01</mnc>
+      <networkName>MtnLonestarcell</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>20</mnc>
+      <networkName>Airtel</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>27</mnc>
+      <networkName>Smile NG</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>30</mnc>
+      <networkName>MTN Nigeria</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>40</mnc>
+      <networkName>ntel Nigeria</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>50</mnc>
+      <networkName>Glo Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>60</mnc>
+      <networkName>9mobile</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

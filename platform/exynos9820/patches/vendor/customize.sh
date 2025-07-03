@@ -25,6 +25,25 @@ do
     DELETE_FROM_WORK_DIR "vendor" "$blob"
 done
 
+echo "Removing RenderScript..."
+BLOBS_LIST="
+bin/bcc_mali
+lib/libmalicore.bc
+lib/libclcore.bc
+lib/libclcore_neon.bc
+lib/libRSDriverArm.so
+lib64/libLLVM_android_mali.so
+lib64/libbcc_mali.so
+lib64/libbccArm.so
+lib64/libclcore.bc
+lib64/libmalicore.bc
+lib64/libRSDriverArm.so
+"
+for blob in $BLOBS_LIST
+do
+    DELETE_FROM_WORK_DIR "vendor" "$blob"
+done
+
 # Fix SNAP AIDL SELinux rule
 sed -i "s/(allow snap_hidl hal_snap_service (service_manager (find)))/(allow snap_hidl hal_snap_service (service_manager (add find)))/g" "$WORK_DIR/vendor/etc/selinux/vendor_sepolicy.cil"
 

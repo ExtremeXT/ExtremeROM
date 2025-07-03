@@ -1,5 +1,0 @@
-libBestComposition.polarr.so
-libTracking.polarr.so
-libFeature.polarr.so
-libPolarrSnap.polarr.so
-libYuv.polarr.so

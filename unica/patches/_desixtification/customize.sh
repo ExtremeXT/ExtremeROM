@@ -1,34 +1,34 @@
 if [[ $TARGET_SINGLE_SYSTEM_IMAGE == "qssi" || $TARGET_SINGLE_SYSTEM_IMAGE == "essi" ]]; then
     echo "Target device with 32-Bit HALs detected! Patching..."
 
-    ADD_TO_WORK_DIR "dm3qxxx" "system" "system/lib" 0 0 644 "u:object_r:system_lib_file:s0"
+    ADD_TO_WORK_DIR "r11sxxx" "system" "system/lib" 0 0 644
 
     BLOBS_LIST="
     system/apex/com.android.i18n.apex
     system/apex/com.android.runtime.apex
     system/apex/com.google.android.tzdata6.apex
-    system/bin/linker
-    system/bin/linker_asan
     system/bin/bootstrap/linker
     system/bin/bootstrap/linker_asan
     "
     for blob in $BLOBS_LIST
     do
-        ADD_TO_WORK_DIR "dm3qxxx" "system" "$blob" 0 0 644 "u:object_r:system_file:s0"
+        ADD_TO_WORK_DIR "r11sxxx" "system" "$blob"
     done
 
-    BLOBS_LIST="
-    system/bin/linker
-    system/bin/bootstrap/linker
-    "
-    for blob in $BLOBS_LIST
-    do
-        ADD_TO_WORK_DIR "dm3qxxx" "system" "$blob" 0 0 644 "u:object_r:system_linker_exec:s0"
-    done
+    # Creating symlinks
+    ln -sf "/apex/com.android.runtime/bin/linker" "$WORK_DIR/system/system/bin/linker"
+    ln -sf "/apex/com.android.runtime/bin/linker" "$WORK_DIR/system/system/bin/linker_asan"
+    SET_METADATA "system" "system/bin/linker" 0 0 755 "u:object_r:system_file:s0"
+    SET_METADATA "system" "system/bin/linker_asan" 0 0 755 "u:object_r:system_file:s0"
 
-    # Downgrade ENGMODE for 32bit HAL version
-    ADD_TO_WORK_DIR "dm3qxxx" "system" "lib64/lib.engmode.samsung.so" 0 0 644 "u:object_r:system_lib_file:s0"
-    ADD_TO_WORK_DIR "dm3qxxx" "system" "lib64/lib.engmodejni.samsung.so" 0 0 644 "u:object_r:system_lib_file:s0"
+    ln -sf "/apex/com.android.runtime/lib/bionic/libc.so" "$WORK_DIR/system/system/lib/libc.so"
+    ln -sf "/apex/com.android.runtime/lib/bionic/libdl.so" "$WORK_DIR/system/system/lib/libdl.so"
+    ln -sf "/apex/com.android.runtime/lib/bionic/libdl_android.so" "$WORK_DIR/system/system/lib/libdl_android.so"
+    ln -sf "/apex/com.android.runtime/lib/bionic/libm.so" "$WORK_DIR/system/system/lib/libm.so"
+    SET_METADATA "system" "system/lib/libc.so" 0 0 644 "u:object_r:system_lib_file:s0"
+    SET_METADATA "system" "system/lib/libdl.so" 0 0 644 "u:object_r:system_lib_file:s0"
+    SET_METADATA "system" "system/lib/libdl_android.so" 0 0 644 "u:object_r:system_lib_file:s0"
+    SET_METADATA "system" "system/lib/libm.so" 0 0 644 "u:object_r:system_lib_file:s0"
 
     # Set props
     echo "Setting props..."

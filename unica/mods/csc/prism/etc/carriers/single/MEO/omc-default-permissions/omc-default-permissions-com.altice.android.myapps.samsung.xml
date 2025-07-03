@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+    <activated-id code="MEO" firstboot="true">
+        <package name="com.altice.android.myapps.samsung">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+    <activated-id code="SFR" firstboot="true">
+        <package name="com.altice.android.myapps.samsung">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+</omc-default-permissions>

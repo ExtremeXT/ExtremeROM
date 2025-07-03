@@ -16,42 +16,47 @@
 #
 
 # UN1CA configuration file
-ROM_VERSION="1.0.0-nxt"
+ROM_VERSION="2.5.0-nxt"
 ROM_VERSION+="-$(git rev-parse --short HEAD)"
 ROM_CODENAME="Nexus"
 
 # Source ROM firmware
 case "$TARGET_SINGLE_SYSTEM_IMAGE" in
     "essi")
-        # Galaxy S25 Ultra (One UI 7)
-        SOURCE_CODENAME="pa3q"
-        SOURCE_FIRMWARE="SM-S938B/EUX/356597450035295"
+        # Galaxy S24 FE (One UI 7)
+        SOURCE_CODENAME="r12s"
+        SOURCE_FIRMWARE="SM-S721B/EUX/351273090276500"
         SOURCE_EXTRA_FIRMWARES=()
         SOURCE_API_LEVEL=35
-        SOURCE_PRODUCT_FIRST_API_LEVEL=35
-        SOURCE_VNDK_VERSION="none"
-        SOURCE_HAS_SYSTEM_EXT=true
-        SOURCE_SUPER_GROUP_NAME="qti_dynamic_partitions"
+        SOURCE_PRODUCT_FIRST_API_LEVEL=34
+        SOURCE_VNDK_VERSION="34"
+        SOURCE_HAS_SYSTEM_EXT=false
+        SOURCE_SUPER_GROUP_NAME="group_basic"
         # SEC Product Feature
         SOURCE_AUTO_BRIGHTNESS_TYPE="5"
         SOURCE_DVFS_CONFIG_NAME="dvfs_policy_default"
-        SOURCE_NFC_CHIP_VENDOR="NXP"
-        SOURCE_FP_SENSOR_CONFIG="google_touch_display_ultrasonic,wireless_charging_notifier"
-        SOURCE_HAS_MASS_CAMERA_APP=false
-        SOURCE_HAS_QHD_DISPLAY=true
-        SOURCE_HFR_MODE="3"
-        SOURCE_HFR_SUPPORTED_REFRESH_RATE="24,10,30,48,60,80,120"
+        SOURCE_NFC_CHIP_VENDOR="SLSI"
+        SOURCE_FP_SENSOR_CONFIG="google_touch_display_optical,settings=3,aod_transition_animation"
+        SOURCE_HAS_MASS_CAMERA_APP=true
+        SOURCE_HAS_QHD_DISPLAY=false
+        SOURCE_HFR_MODE="2"
+        SOURCE_HFR_SUPPORTED_REFRESH_RATE="60,120"
         SOURCE_HFR_DEFAULT_REFRESH_RATE="120"
         SOURCE_DISPLAY_CUTOUT_TYPE="center"
+        SOURCE_HFR_SEAMLESS_BRT="89,91"
+        SOURCE_HFR_SEAMLESS_LUX="260,2500"
         SOURCE_IS_ESIM_SUPPORTED=true
-        SOURCE_MDNIE_SUPPORTED_MODES="65303"
-        SOURCE_SUPPORT_CUTOUT_PROTECTION=false
-        SOURCE_SUPPORT_WIFI_7=true
+        SOURCE_HAS_HW_MDNIE=false
+        SOURCE_MDNIE_SUPPORTED_MODES="37905"
+        SOURCE_MDNIE_WEAKNESS_SOLUTION_FUNCTION="0"
+        SOURCE_SUPPORT_WIFI_7=false
         SOURCE_SUPPORT_HOTSPOT_DUALAP=true
         SOURCE_SUPPORT_HOTSPOT_WPA3=true
         SOURCE_SUPPORT_HOTSPOT_6GHZ=true
         SOURCE_SUPPORT_HOTSPOT_WIFI_6=true
         SOURCE_SUPPORT_HOTSPOT_ENHANCED_OPEN=true
+        SOURCE_AUDIO_SUPPORT_ACH_RINGTONE=false
+        SOURCE_AUDIO_SUPPORT_VIRTUAL_VIBRATION=true
         ;;
     *)
         echo "\"$TARGET_SINGLE_SYSTEM_IMAGE\" is not a valid system image."

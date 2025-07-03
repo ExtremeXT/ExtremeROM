@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- The OMA DM service must be whitelisted so they are always able to run. --> 
+<config>
+    <allow-in-power-save package="com.telcel.contenedor"/>
+    <app-link package="com.telcel.contenedor"/> 
+</config>

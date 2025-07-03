@@ -4,10 +4,11 @@
 /system/bin/surfaceflinger u:object_r:surfaceflinger_exec:s0
 /system/lib64 u:object_r:system_lib_file:s0
 /system/lib64/libgui\.so u:object_r:system_lib_file:s0
+/system/lib64/libui\.so u:object_r:system_lib_file:s0
 /system/media u:object_r:system_file:s0
 /system/media/battery_error\.spi u:object_r:system_file:s0
-/system/media/battery_lightning\.spi u:object_r:system_file:s0
 /system/media/battery_lightning_fast\.spi u:object_r:system_file:s0
+/system/media/battery_lightning\.spi u:object_r:system_file:s0
 /system/media/battery_low\.spi u:object_r:system_file:s0
 /system/media/battery_temperature_error\.spi u:object_r:system_file:s0
 /system/media/battery_temperature_limit\.spi u:object_r:system_file:s0

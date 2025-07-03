@@ -126,7 +126,7 @@
     <!-- Photo features -->
     <local name="MOTION_PHOTO_RECORDING_FPS" value="30"/>
     <local name="SUPPORT_POST_PICTURE_PROCESSING" value="true"/>
-    <local name="SUPPORT_POST_PROCESSING_MOTION_PHOTO" value="true"/>
+    <local name="SUPPORT_POST_PROCESSING_MOTION_PHOTO" value="false"/>
 
     <!-- Intelligent features -->
     <local name="SUPPORT_INTELLIGENT_RECOGNITION_TIPS" value="true" />

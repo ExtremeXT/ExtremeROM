@@ -29,8 +29,6 @@ ADD_TO_WORK_DIR "p3sxxx" "vendor" "etc/pdpcnt-conf.xml"
 # WPA Supplicant HAL
 if [[ "$TARGET_CODENAME" != "r8s" ]]; then
     ADD_TO_WORK_DIR "p3sxxx" "vendor" "bin/hw/wpa_supplicant"
-else
-    ADD_TO_WORK_DIR "a52sxqxx" "vendor" "bin/hw/wpa_supplicant"
 fi
 
 # Light HAL

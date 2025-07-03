@@ -1,0 +1,80 @@
+From ff1c4a39adf5435829c688adfacae2c41efa681f Mon Sep 17 00:00:00 2001
+From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date: Fri, 6 Jun 2025 20:48:43 +0300
+Subject: [PATCH] Disable 5GHz Hotspot Country Check
+
+Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+---
+ .../server/wifi/ap/SemWifiApServiceImpl.smali | 34 +++++++++----------
+ 1 file changed, 17 insertions(+), 17 deletions(-)
+
+diff --git a/smali/com/samsung/android/server/wifi/ap/SemWifiApServiceImpl.smali b/smali/com/samsung/android/server/wifi/ap/SemWifiApServiceImpl.smali
+index 4c0cedc0e..be51023b9 100644
+--- a/smali/com/samsung/android/server/wifi/ap/SemWifiApServiceImpl.smali
++++ b/smali/com/samsung/android/server/wifi/ap/SemWifiApServiceImpl.smali
+@@ -7372,23 +7372,23 @@
+ 
+     if-ge v7, v6, :cond_2
+ 
+-    const-string v15, "IR"
++    const-string v15, "XY"
+ 
+-    const-string v16, "SD"
++    const-string v16, "XY"
+ 
+-    const-string v8, "BO"
++    const-string v8, "XY"
+ 
+-    const-string v9, "QA"
++    const-string v9, "XY"
+ 
+-    const-string v10, "KZ"
++    const-string v10, "XY"
+ 
+-    const-string v11, "RU"
++    const-string v11, "XY"
+ 
+-    const-string v12, "KP"
++    const-string v12, "XY"
+ 
+-    const-string v13, "SY"
++    const-string v13, "XY"
+ 
+-    const-string v14, "CU"
++    const-string v14, "XY"
+ 
+     filled-new-array/range {v8 .. v16}, [Ljava/lang/String;
+ 
+@@ -7399,21 +7399,21 @@
+     goto :goto_0
+ 
+     :cond_2
+-    const-string v13, "IR"
++    const-string v13, "XY"
+ 
+-    const-string v14, "SD"
++    const-string v14, "XY"
+ 
+-    const-string v7, "QA"
++    const-string v7, "XY"
+ 
+-    const-string v8, "KZ"
++    const-string v8, "XY"
+ 
+-    const-string v9, "RU"
++    const-string v9, "XY"
+ 
+-    const-string v10, "KP"
++    const-string v10, "XY"
+ 
+-    const-string v11, "SY"
++    const-string v11, "XY"
+ 
+-    const-string v12, "CU"
++    const-string v12, "XY"
+ 
+     filled-new-array/range {v7 .. v14}, [Ljava/lang/String;
+ 
+-- 
+2.45.2
+

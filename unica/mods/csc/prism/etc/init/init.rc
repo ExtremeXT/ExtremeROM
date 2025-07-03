@@ -1,0 +1,20 @@
+on fs
+    wait /dev/block/by-name/omr
+    mount ext4 /dev/block/by-name/omr /omr nosuid nodev noatime noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic
+    chown radio system /omr
+    chmod 0775 /omr
+on property:vendor.security.vaultkeeper.native=1
+    start scs
+on property:mdc.singlesku.activated=*
+    oem_key_update
+on property:mdc.unified.activated=true
+    oem_key_update
+on post-fs
+    setprop ro.omc.build.version S938BOXM4AYF1
+    setprop ro.omc.build.id 96947748
+    setprop ro.omc.changetype DATA_RESET_ON,TRUE
+    setprop ro.simbased.changetype NO_DFLT_CSC,OMC
+    setprop ro.omc.disabler FALSE
+    setprop ro.omc.multi_csc OXM
+    chown radio system /efs/imei/countryiso_code.json
+    chmod 0664 /efs/imei/countryiso_code.json

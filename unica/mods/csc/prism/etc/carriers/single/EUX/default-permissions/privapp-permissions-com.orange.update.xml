@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+
+    <exception package="com.orange.update">
+        <permission name="android.permission.POST_NOTIFICATIONS" whitelisted="true" />
+    </exception>
+
+</exceptions>

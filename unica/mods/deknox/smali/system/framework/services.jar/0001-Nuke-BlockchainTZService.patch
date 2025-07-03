@@ -1,0 +1,55 @@
+From 05b9a1483c3852080efcbcb7a279605868158fbf Mon Sep 17 00:00:00 2001
+From: Louis Poier <lpoier7@proton.me>
+Date: Sat, 21 Jun 2025 20:16:14 +0200
+Subject: [PATCH] Nuke BlockchainTZService
+
+Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+---
+ ...temServer$$ExternalSyntheticLambda10.smali | 31 -------------------
+ 1 file changed, 31 deletions(-)
+
+diff --git a/smali/com/android/server/SystemServer$$ExternalSyntheticLambda10.smali b/smali/com/android/server/SystemServer$$ExternalSyntheticLambda10.smali
+index 6a02a8fe77..8c7a2c6c7f 100644
+--- a/smali/com/android/server/SystemServer$$ExternalSyntheticLambda10.smali
++++ b/smali/com/android/server/SystemServer$$ExternalSyntheticLambda10.smali
+@@ -69,37 +69,6 @@
+     :goto_0
+     invoke-virtual {v2}, Landroid/util/TimingsTraceLog;->traceEnd()V
+ 
+-    const-string v3, "Blockchain Service"
+-
+-    invoke-virtual {v2, v3}, Lcom/android/server/utils/TimingsTraceAndSlog;->traceBegin(Ljava/lang/String;)V
+-
+-    :try_start_1
+-    invoke-static {v1, v3}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
+-
+-    const-string/jumbo v3, "blockchain"
+-
+-    new-instance v4, Lcom/android/server/SystemServer$4;
+-
+-    const/4 v5, 0x4
+-
+-    invoke-direct {v4, v5}, Lcom/android/server/SystemServer$4;-><init>(I)V
+-
+-    invoke-static {v3, v4}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IServiceCreator;)V
+-    :try_end_1
+-    .catchall {:try_start_1 .. :try_end_1} :catchall_1
+-
+-    goto :goto_1
+-
+-    :catchall_1
+-    move-exception v3
+-
+-    const-string v4, "Failure starting Blockchain TZ Service"
+-
+-    invoke-static {v1, v4, v3}, Landroid/util/Slog;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+-
+-    :goto_1
+-    invoke-virtual {v2}, Landroid/util/TimingsTraceLog;->traceEnd()V
+-
+     const-string v3, "SemAuthnrService"
+ 
+     invoke-virtual {v2, v3}, Lcom/android/server/utils/TimingsTraceAndSlog;->traceBegin(Ljava/lang/String;)V
+-- 
+2.43.0
+

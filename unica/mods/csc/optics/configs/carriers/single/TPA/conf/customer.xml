@@ -1,0 +1,2940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0004</CSCEdition>
+    <Country>PANAMA</Country>
+    <CountryISO>PA</CountryISO>
+    <Region>LA</Region>
+    <SalesCode>TPA</SalesCode>
+    <NbNetworkInfo>88</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>71201</MCCMNC>
+      <NetworkName>TPA_PA</NetworkName>
+      <NWID>NW01342</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>71202</MCCMNC>
+      <NetworkName>TPA_PA</NetworkName>
+      <NWID>NW01342</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>71401</MCCMNC>
+      <NetworkName>PCW_PA</NetworkName>
+      <NWID>NW01028</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>714020</MCCMNC>
+      <NetworkName>tigo_PA</NetworkName>
+      <NWID>NW02015</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>71403</MCCMNC>
+      <NetworkName>Claro_PA</NetworkName>
+      <NWID>NW00271</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>70401</MCCMNC>
+      <NetworkName>Claro_GT</NetworkName>
+      <NWID>NW00310</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>70403</MCCMNC>
+      <NetworkName>movistar_GT</NetworkName>
+      <NWID>NW00779</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>704030</MCCMNC>
+      <NetworkName>movistar_GT</NetworkName>
+      <NWID>NW00779</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>70402</MCCMNC>
+      <NetworkName>TIGO_CGU</NetworkName>
+      <NWID>NW01307</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>70604</MCCMNC>
+      <NetworkName>movistar_SV</NetworkName>
+      <NWID>NW00783</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>706040</MCCMNC>
+      <NetworkName>movistar_SV</NetworkName>
+      <NWID>NW00783</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>70601</MCCMNC>
+      <NetworkName>Claro_SV</NetworkName>
+      <NWID>NW00315</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>70603</MCCMNC>
+      <NetworkName>TIGO_ETE</NetworkName>
+      <NWID>NW01309</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>71204</MCCMNC>
+      <NetworkName>movistar_CR</NetworkName>
+      <NWID>NW00776</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>71203</MCCMNC>
+      <NetworkName>Claro_CR</NetworkName>
+      <NWID>NW00258</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>712030</MCCMNC>
+      <NetworkName>Claro_CR</NetworkName>
+      <NWID>NW00258</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>70802</MCCMNC>
+      <NetworkName>TIGO_CTE</NetworkName>
+      <NWID>NW01308</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>708020</MCCMNC>
+      <NetworkName>TIGO_CTE</NetworkName>
+      <NWID>NW01308</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>708001</MCCMNC>
+      <NetworkName>Claro_HN</NetworkName>
+      <NWID>NW00311</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>710300</MCCMNC>
+      <NetworkName>TIGO_NI</NetworkName>
+      <NWID>NW01990</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>71021</MCCMNC>
+      <NetworkName>Claro_NI_NEN</NetworkName>
+      <NWID>NW00269</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>330110</MCCMNC>
+      <NetworkName>Claro_PR</NetworkName>
+      <NWID>NW00314</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>36291</MCCMNC>
+      <NetworkName>UTS CW</NetworkName>
+      <NWID>NW02137</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>350000</MCCMNC>
+      <NetworkName>Cellone_BM</NetworkName>
+      <NWID>NW02157</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>36449</MCCMNC>
+      <NetworkName>ALV_BS</NetworkName>
+      <NWID>NW01610</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20809</MCCMNC>
+      <NetworkName>ALV_BS</NetworkName>
+      <NWID>NW01610</NWID>
+      <SPCode>0021</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>338180</MCCMNC>
+      <NetworkName>CWW_JM</NetworkName>
+      <NWID>NW00340</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>365840</MCCMNC>
+      <NetworkName>CWW_ETC</NetworkName>
+      <NWID>NW00339</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>344920</MCCMNC>
+      <NetworkName>CWW_ETC</NetworkName>
+      <NWID>NW00339</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>342600</MCCMNC>
+      <NetworkName>CWW_ETC</NetworkName>
+      <NWID>NW00339</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>348170</MCCMNC>
+      <NetworkName>CWW_ETC</NetworkName>
+      <NWID>NW00339</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>346140</MCCMNC>
+      <NetworkName>CWW_ETC</NetworkName>
+      <NWID>NW00339</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>366110</MCCMNC>
+      <NetworkName>CWW_ETC</NetworkName>
+      <NWID>NW00339</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>352110</MCCMNC>
+      <NetworkName>CWW_ETC</NetworkName>
+      <NWID>NW00339</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>354860</MCCMNC>
+      <NetworkName>CWW_ETC</NetworkName>
+      <NWID>NW00339</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>356110</MCCMNC>
+      <NetworkName>CWW_ETC</NetworkName>
+      <NWID>NW00339</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>358110</MCCMNC>
+      <NetworkName>CWW_ETC</NetworkName>
+      <NWID>NW00339</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>360110</MCCMNC>
+      <NetworkName>CWW_ETC</NetworkName>
+      <NWID>NW00339</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>376350</MCCMNC>
+      <NetworkName>CWW_ETC</NetworkName>
+      <NWID>NW00339</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>36439</MCCMNC>
+      <NetworkName>BTC_BS</NetworkName>
+      <NWID>NW00251</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>338050</MCCMNC>
+      <NetworkName>Digicel Anguilla</NetworkName>
+      <NWID>NW00390</NWID>
+      <SPCode>830</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>33805</MCCMNC>
+      <NetworkName>Digicel Anguilla</NetworkName>
+      <NWID>NW00390</NWID>
+      <SPCode>0830</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>338050</MCCMNC>
+      <NetworkName>Digicel Antigua</NetworkName>
+      <NWID>NW00360</NWID>
+      <SPCode>834</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>33805</MCCMNC>
+      <NetworkName>Digicel Antigua</NetworkName>
+      <NWID>NW00360</NWID>
+      <SPCode>0834</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>36302</MCCMNC>
+      <NetworkName>Digicel Aruba</NetworkName>
+      <NWID>NW00391</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>33805</MCCMNC>
+      <NetworkName>Digicel Barbados</NetworkName>
+      <NWID>NW00392</NWID>
+      <SPCode>05</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>338050</MCCMNC>
+      <NetworkName>Digicel Bermuda</NetworkName>
+      <NWID>NW00361</NWID>
+      <SPCode>833</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>33805</MCCMNC>
+      <NetworkName>Digicel Bermuda</NetworkName>
+      <NWID>NW00361</NWID>
+      <SPCode>0833</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>338050</MCCMNC>
+      <NetworkName>Digicel British Virgin Islands</NetworkName>
+      <NWID>NW00394</NWID>
+      <SPCode>842</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>33805</MCCMNC>
+      <NetworkName>Digicel British Virgin Islands</NetworkName>
+      <NWID>NW00394</NWID>
+      <SPCode>0842</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>348770</MCCMNC>
+      <NetworkName>Digicel British Virgin Islands</NetworkName>
+      <NWID>NW00394</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>338050</MCCMNC>
+      <NetworkName>Digicel Cayman</NetworkName>
+      <NWID>NW00395</NWID>
+      <SPCode>6</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>33805</MCCMNC>
+      <NetworkName>Digicel Cayman</NetworkName>
+      <NWID>NW00395</NWID>
+      <SPCode>06</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>36269</MCCMNC>
+      <NetworkName>Digicel Curacao</NetworkName>
+      <NWID>NW00402</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>338050</MCCMNC>
+      <NetworkName>Digicel Dominica</NetworkName>
+      <NWID>NW00362</NWID>
+      <SPCode>3</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>33805</MCCMNC>
+      <NetworkName>Digicel Grenada</NetworkName>
+      <NWID>NW02097</NWID>
+      <SPCode>03</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>70602</MCCMNC>
+      <NetworkName>Digicel El Salvador</NetworkName>
+      <NWID>NW00403</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>34020</MCCMNC>
+      <NetworkName>Digicel French West Indies</NetworkName>
+      <NWID>NW00364</NWID>
+      <SPCode>01</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>34020</MCCMNC>
+      <NetworkName>Wizzee FWI</NetworkName>
+      <NWID>NW02263</NWID>
+      <SPCode>02</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>73801</MCCMNC>
+      <NetworkName>Digicel Guyana</NetworkName>
+      <NWID>NW00377</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>338050</MCCMNC>
+      <NetworkName>Digicel Haiti</NetworkName>
+      <NWID>NW00413</NWID>
+      <SPCode>9</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>33805</MCCMNC>
+      <NetworkName>Digicel Haiti</NetworkName>
+      <NWID>NW00413</NWID>
+      <SPCode>09</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>37201</MCCMNC>
+      <NetworkName>Digicel Haiti</NetworkName>
+      <NWID>NW00413</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>338050</MCCMNC>
+      <NetworkName>Digicel Jamaica</NetworkName>
+      <NWID>NW00378</NWID>
+      <SPCode>0</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>33805</MCCMNC>
+      <NetworkName>Digicel Jamaica</NetworkName>
+      <NWID>NW00378</NWID>
+      <SPCode>00</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>71404</MCCMNC>
+      <NetworkName>Digicel Panama</NetworkName>
+      <NWID>NW00380</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>338050</MCCMNC>
+      <NetworkName>Digicel St.Kitts &amp; Nevis</NetworkName>
+      <NWID>NW00415</NWID>
+      <SPCode>831</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>33805</MCCMNC>
+      <NetworkName>Digicel St.Kitts &amp; Nevis</NetworkName>
+      <NWID>NW00415</NWID>
+      <SPCode>0831</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>338050</MCCMNC>
+      <NetworkName>Digicel St.Lucia</NetworkName>
+      <NWID>NW00382</NWID>
+      <SPCode>1</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>33805</MCCMNC>
+      <NetworkName>Digicel St.Lucia</NetworkName>
+      <NWID>NW00382</NWID>
+      <SPCode>01</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>338050</MCCMNC>
+      <NetworkName>Digicel St.Vincent</NetworkName>
+      <NWID>NW00383</NWID>
+      <SPCode>2</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>33805</MCCMNC>
+      <NetworkName>Digicel St.Vincent</NetworkName>
+      <NWID>NW00383</NWID>
+      <SPCode>02</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>74603</MCCMNC>
+      <NetworkName>Digicel Suriname</NetworkName>
+      <NWID>NW00384</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>374130</MCCMNC>
+      <NetworkName>Digicel Trinidad</NetworkName>
+      <NWID>NW00385</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>338050</MCCMNC>
+      <NetworkName>Digicel Turks &amp; Caicos</NetworkName>
+      <NWID>NW00419</NWID>
+      <SPCode>837</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>33805</MCCMNC>
+      <NetworkName>Digicel Turks &amp; Caicos</NetworkName>
+      <NWID>NW00419</NWID>
+      <SPCode>0837</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>376360</MCCMNC>
+      <NetworkName>Digicel Turks &amp; Caicos</NetworkName>
+      <NWID>NW00419</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>37412</MCCMNC>
+      <NetworkName>BMobile_TT</NetworkName>
+      <NWID>NW02196</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>374120</MCCMNC>
+      <NetworkName>BMobile_TT</NetworkName>
+      <NWID>NW02196</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>374129</MCCMNC>
+      <NetworkName>BMobile_TT</NetworkName>
+      <NWID>NW02196</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>74602</MCCMNC>
+      <NetworkName>Telesur</NetworkName>
+      <NWID>NW02242</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>738040</MCCMNC>
+      <NetworkName>ENet_GY</NetworkName>
+      <NWID>NW02243</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>34008</MCCMNC>
+      <NetworkName>Dauphin</NetworkName>
+      <NWID>NW02284</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>313790</MCCMNC>
+      <NetworkName>LLA PR</NetworkName>
+      <NWID>NW02204</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>350007</MCCMNC>
+      <NetworkName>Paradise_BM</NetworkName>
+      <NWID>NW02279</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>738002</MCCMNC>
+      <NetworkName>GTT_GY</NetworkName>
+      <NWID>NW02317</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>36301</MCCMNC>
+      <NetworkName>SETAR</NetworkName>
+      <NWID>NW01119</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>34403</MCCMNC>
+      <NetworkName>APUA inet</NetworkName>
+      <NWID>NW02383</NWID>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>60</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>TPA_PA</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>TPA_PA</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>ALV_BS</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>ALV_BS</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>CWW_JM</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>CWW_JM</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>CWW_ETC</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>CWW_ETC</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>BTC_BS</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>BTC_BS</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Anguilla</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Anguilla</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Antigua</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Antigua</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Aruba</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Aruba</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Barbados</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Barbados</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Bermuda</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Bermuda</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel British Virgin Islands</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel British Virgin Islands</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Cayman</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Cayman</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Curacao</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Curacao</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Dominica</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Dominica</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Grenada</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Grenada</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel El Salvador</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel El Salvador</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel French West Indies</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel French West Indies</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Wizzee FWI</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Wizzee FWI</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Guyana</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Guyana</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Haiti</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Haiti</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Jamaica</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Jamaica</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Panama</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Panama</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel St.Kitts &amp; Nevis</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel St.Kitts &amp; Nevis</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel St.Lucia</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel St.Lucia</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel St.Vincent</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel St.Vincent</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Suriname</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Suriname</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Trinidad</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Trinidad</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Turks &amp; Caicos</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Digicel Turks &amp; Caicos</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Telesur</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Telesur</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>ENet_GY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>ENet_GY</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>default</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+      </Network>
+      <Phone>
+        <DefLanguage>spanish_latin</DefLanguage>
+        <DefLanguageNoSIM>spanish_latin</DefLanguageNoSIM>
+        <T9Enabling>disable</T9Enabling>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Messages>
+      <NbVoicemail>26</NbVoicemail>
+      <Voicemail>
+        <NetworkName>ALV_BS</NetworkName>
+        <VoicemailName>Voicemail</VoicemailName>
+        <TelNum>*86</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>CWW_JM</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>CWW_ETC</NetworkName>
+        <TelNum>*123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>BTC_BS</NetworkName>
+        <TelNum>*86</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Anguilla</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Antigua</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Aruba</NetworkName>
+        <TelNum>144</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Barbados</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Bermuda</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel British Virgin Islands</NetworkName>
+        <TelNum>#123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Cayman</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Curacao</NetworkName>
+        <TelNum>144</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Dominica</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Grenada</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel El Salvador</NetworkName>
+        <TelNum>*123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel French West Indies</NetworkName>
+        <TelNum>660</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Guyana</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Haiti</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Jamaica</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Panama</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel St.Kitts &amp; Nevis</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel St.Lucia</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel St.Vincent</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Suriname</NetworkName>
+        <TelNum>143</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Trinidad</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Digicel Turks &amp; Caicos</NetworkName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+    </Messages>
+    <Browser>
+      <NbBookmark>2</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Galaxy Shop</BookmarkName>
+        <URL>https://www.samsung.com/mobile/?cid=global_ow_app_s-internet_none_none_bookmark_bookmark_202008_none</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>57</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>TPA_PA</NetworkName>
+        <ProfBrowser>Internet</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>PCW_PA</NetworkName>
+        <ProfBrowser>Wap</ProfBrowser>
+        <ProfIMS>PCW IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>tigo_PA</NetworkName>
+        <ProfBrowser>INTERNET</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+        <ProfEmergencyIMSCall>EMERGENCY TIGO PA</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Claro_PA</NetworkName>
+        <ProfBrowser>WEB Claro</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Claro_GT</NetworkName>
+        <ProfBrowser>INTERNET CLARO</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>movistar_GT</NetworkName>
+        <ProfBrowser>Movistar INTERNET</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>TIGO_CGU</NetworkName>
+        <ProfBrowser>BROADBAND TIGO GT</ProfBrowser>
+        <ProfMMS>MMS TIGO GT</ProfMMS>
+        <ProfIMS>IMS TIGO GT</ProfIMS>
+        <ProfXCAP>XCAP TIGO GT</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>movistar_SV</NetworkName>
+        <ProfBrowser>Movistar INTERNET</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Claro_SV</NetworkName>
+        <ProfBrowser>INTERNET CLARO</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>TIGO_ETE</NetworkName>
+        <ProfBrowser>INTERNET TIGO</ProfBrowser>
+        <ProfMMS>MMS TIGO</ProfMMS>
+        <ProfIMS>IMS TIGO SV</ProfIMS>
+        <ProfEmergencyIMSCall>EMERGENCY TIGO SV</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>movistar_CR</NetworkName>
+        <ProfBrowser>Movistar INTERNET</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Claro_CR</NetworkName>
+        <ProfBrowser>INTERNET CLARO</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>5</NbNetProfile>
+        <NetworkName>TIGO_CTE</NetworkName>
+        <ProfBrowser>INTERNET TIGO</ProfBrowser>
+        <ProfMMS>MMS TIGO</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+        <ProfEmergencyIMSCall>EMERGENCY TIGO HN</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Claro_HN</NetworkName>
+        <ProfBrowser>Internet Claro</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>TIGO_NI</NetworkName>
+        <ProfBrowser>Tigo Internet</ProfBrowser>
+        <ProfIMS>IMS TIGO NI</ProfIMS>
+        <ProfEmergencyIMSCall>EMERGENCY TIGO NI</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Claro_NI_NEN</NetworkName>
+        <ProfBrowser>INTERNET CLARO</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Claro_PR</NetworkName>
+        <ProfBrowser>Internet Claro</ProfBrowser>
+        <ProfMMS>MMS CLARO</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Internet Claro</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>UTS CW</NetworkName>
+        <ProfBrowser>Internet</ProfBrowser>
+        <ProfIMS>UTS Curacao IMS</ProfIMS>
+        <ProfEmergencyIMSCall>UTS Curacao Emergency</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Cellone_BM</NetworkName>
+        <ProfBrowser>web cellone</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>hos</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>ALV_BS</NetworkName>
+        <ProfBrowser>Internet</ProfBrowser>
+        <ProfMMS>Aliv MMS</ProfMMS>
+        <ProfIMS>Aliv IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>CWW_JM</NetworkName>
+        <ProfBrowser>FLOW Postpaid Internet</ProfBrowser>
+        <ProfIMS>jamims</ProfIMS>
+        <ProfXCAP>FLOW Postpaid Internet</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>CWW_JM</NetworkName>
+        <ProfBrowser>FLOW Prepaid Internet</ProfBrowser>
+        <ProfIMS>jamims</ProfIMS>
+        <ProfXCAP>FLOW Prepaid Internet</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>CWW_ETC</NetworkName>
+        <ProfBrowser>FLOW Postpaid Internet</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>FLOW Postpaid Internet</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>CWW_ETC</NetworkName>
+        <ProfBrowser>FLOW Prepaid Internet</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>FLOW Prepaid Internet</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>BTC_BS</NetworkName>
+        <ProfBrowser>INTERNET</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Anguilla</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfMMS>Digicel MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Antigua</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfMMS>Digicel MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Aruba</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfMMS>Digicel MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Digicel Barbados</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Bermuda</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfMMS>Digicel MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel British Virgin Islands</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfMMS>Digicel MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Cayman</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfMMS>Digicel MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Curacao</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfMMS>Digicel MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Digicel Dominica</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Digicel Grenada</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel El Salvador</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfMMS>Digicel MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel French West Indies</NetworkName>
+        <ProfBrowser>Digicel</ProfBrowser>
+        <ProfMMS>Digicel MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Wizzee FWI</NetworkName>
+        <ProfBrowser>Wizzee</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Digicel Guyana</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Digicel Haiti</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Digicel Jamaica</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfMMS>Digicel MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>HOS</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Digicel Panama</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel St.Kitts &amp; Nevis</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfMMS>Digicel MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Digicel St.Lucia</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel St.Vincent</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfMMS>Digicel MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Digicel Suriname</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Trinidad</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfMMS>Digicel MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Digicel Turks &amp; Caicos</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>5</NbNetProfile>
+        <NetworkName>BMobile_TT</NetworkName>
+        <ProfBrowser>bmobile internet</ProfBrowser>
+        <ProfMMS>bmobile mms</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+        <ProfEmergencyIMSCall>SOS</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Telesur</NetworkName>
+        <ProfBrowser>Prepaid</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>ENet_GY</NetworkName>
+        <ProfBrowser>enet</ProfBrowser>
+        <ProfIMS>ims</ProfIMS>
+        <ProfEmergencyIMSCall>ims</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Dauphin</NetworkName>
+        <ProfBrowser>internet</ProfBrowser>
+        <ProfMMS>mms</ProfMMS>
+        <ProfIMS>ims</ProfIMS>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>6</NbNetProfile>
+        <NetworkName>LLA PR</NetworkName>
+        <ProfBrowser>Liberty Internet</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+        <ProfIntSharing>hotspot</ProfIntSharing>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfFOTA>Liberty Internet</ProfFOTA>
+        <ProfXCAP>HOS</ProfXCAP>
+        <ProfEmergencyIMSCall>sos</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Paradise_BM</NetworkName>
+        <ProfBrowser>Paradise</ProfBrowser>
+        <ProfMMS>Paradise MMS</ProfMMS>
+        <ProfIMS>Paradise IMS</ProfIMS>
+        <ProfXCAP>Paradise</ProfXCAP>
+        <ProfEmergencyIMSCall>sos</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>GTT_GY</NetworkName>
+        <ProfBrowser>OneComm</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>SETAR</NetworkName>
+        <ProfBrowser>SETAR Internet</ProfBrowser>
+        <ProfMMS>SETAR MMS</ProfMMS>
+        <ProfIMS>SETAR IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>APUA inet</NetworkName>
+        <ProfBrowser>Internet</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <NbProfile>128</NbProfile>
+      <Profile>
+        <NetworkName>TPA_PA</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>kolbi3g</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TPA_PA</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://mmsice</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.184.202.24</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>kolbimundo</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>PCW_PA</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Wap</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>apn01.cwpanama.com.pa</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>PCW_PA</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>PCW IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>tigo_PA</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>INTERNET</ProfileName>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.tigo.pa</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_PA</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>WEB Claro</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>web.claro.com.pa</APN>
+          <UserId>CLAROWEB</UserId>
+          <Password>CLAROWEB</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_PA</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_GT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>INTERNET CLARO</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.ideasclaro</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_GT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>movistar_GT</NetworkName>
+        <ProfileName>Movistar INTERNET</ProfileName>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.movistar.gt</APN>
+          <UserId>movistargt</UserId>
+          <Password>movistargt</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_CGU</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>BROADBAND TIGO GT</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>broadband.tigo.gt</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_CGU</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MMS TIGO GT</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.16.17.12</ServAddr>
+          <Port>8888</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.tigo.gt</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_CGU</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS TIGO GT</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_CGU</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>XCAP TIGO GT</ProfileName>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>movistar_SV</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Movistar INTERNET</ProfileName>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.movistar.sv</APN>
+          <UserId>movistarsv</UserId>
+          <Password>movistarsv</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_SV</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>INTERNET CLARO</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.ideasclaro</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_SV</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_ETE</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>INTERNET TIGO</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.tigo.sv</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_ETE</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MMS TIGO</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.16.17.12</ServAddr>
+          <Port>8888</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.tigo.sv</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>movistar_CR</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Movistar INTERNET</ProfileName>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.movistar.cr</APN>
+          <UserId>movistarcr</UserId>
+          <Password>movistarcr</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_CR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>INTERNET CLARO</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.ideasclaro</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_CR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_CTE</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>INTERNET TIGO</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.tigo.hn</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_CTE</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MMS TIGO</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.16.17.12</ServAddr>
+          <Port>8888</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.tigo.hn</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_HN</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Internet Claro</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.ideasclaro</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_HN</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_NI</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Tigo Internet</ProfileName>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.tigo.ni</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_NI_NEN</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>INTERNET CLARO</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.ideasclaro</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_NI_NEN</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_PR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Internet Claro</ProfileName>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>lte.claropr.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_PR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>MMS CLARO</ProfileName>
+        <URL>http://mmsg.claropr.com:10021/mmsc</URL>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>lte.claropr.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_PR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>UTS CW</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>premium</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>UTS CW</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>UTS Curacao IMS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>UTS CW</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>UTS Curacao Emergency</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_ETE</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS TIGO SV</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_ETE</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>EMERGENCY TIGO SV</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_CTE</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <MTUSize>1450</MTUSize>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_CTE</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>EMERGENCY TIGO HN</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_CTE</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>XCAP</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>tigo_PA</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>tigo_PA</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>XCAP</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>tigo_PA</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>EMERGENCY TIGO PA</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cellone_BM</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>web cellone</ProfileName>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>web.c1.bm</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cellone_BM</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cellone_BM</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>hos</ProfileName>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_NI</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS TIGO NI</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO_NI</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>EMERGENCY TIGO NI</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ALV_BS</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Internet</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>pda.newcomobile.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ALV_BS</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Aliv IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ALV_BS</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Aliv MMS</ProfileName>
+        <URL>http://mms.bealiv.com</URL>
+        <PSparam>
+          <APN>pda.newcomobile.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CWW_JM</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>FLOW Postpaid Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CWW_JM</NetworkName>
+        <ProfileName>FLOW Prepaid Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>ppinternet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CWW_JM</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>jamims</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CWW_ETC</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>FLOW Postpaid Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CWW_ETC</NetworkName>
+        <ProfileName>FLOW Prepaid Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>ppinternet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CWW_ETC</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <MTUSize>1280</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BTC_BS</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>INTERNET</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.btcbahamas.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BTC_BS</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Anguilla</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.ag</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Anguilla</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Digicel MMS</ProfileName>
+        <URL>http://mms.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.7.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Antigua</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Antigua</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Digicel MMS</ProfileName>
+        <URL>http://mms.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.7.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Aruba</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>web.digicelaruba.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Aruba</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Digicel MMS</ProfileName>
+        <URL>http://mms.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.7.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap</APN>
+          <UserId>waparuba</UserId>
+          <Password>wap03aruba</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Barbados</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.bb</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Bermuda</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.bm</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Bermuda</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Digicel MMS</ProfileName>
+        <URL>http://mms.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.7.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel British Virgin Islands</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.vg</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel British Virgin Islands</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Digicel MMS</ProfileName>
+        <URL>http://mms.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.7.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Cayman</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.ky</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Cayman</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Digicel MMS</ProfileName>
+        <URL>http://mms.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.7.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Curacao</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>web.digicelcuracao.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Curacao</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Digicel MMS</ProfileName>
+        <URL>http://mms.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.7.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap</APN>
+          <UserId>wapcu</UserId>
+          <Password>wap03cur</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Dominica</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.oecs</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Grenada</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.oecs</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel El Salvador</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>web.digicelsv.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel El Salvador</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Digicel MMS</ProfileName>
+        <URL>http://mms.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.26.5.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.digicelsv.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel French West Indies</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Digicel</ProfileName>
+        <PSparam>
+          <APN>digicel</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel French West Indies</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Digicel MMS</ProfileName>
+        <URL>http://mmc.digicelfr.com/servlets/mms</URL>
+        <Proxy>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>digicel</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Wizzee FWI</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Wizzee</ProfileName>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Guyana</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>web.digicelguyana.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Haiti</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.ha</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Jamaica</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>web.digiceljamaica.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Jamaica</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Digicel MMS</ProfileName>
+        <URL>http://mms.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.7.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Jamaica</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Jamaica</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <ProfileName>HOS</ProfileName>
+        <PSparam>
+          <APN>HOS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Panama</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>web.digicelpanama.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel St.Kitts &amp; Nevis</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel St.Kitts &amp; Nevis</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Digicel MMS</ProfileName>
+        <URL>http://mms.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.7.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel St.Lucia</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.oecs</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel St.Vincent</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.oecs</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel St.Vincent</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Digicel MMS</ProfileName>
+        <URL>http://mms.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.7.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Suriname</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>web.digicelsr.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Trinidad</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>web.digiceltt.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Trinidad</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Digicel MMS</ProfileName>
+        <URL>http://mmc.digiceltt.com/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.20.6.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.digiceltt.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Turks &amp; Caicos</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.tc</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BMobile_TT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>bmobile internet</ProfileName>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BMobile_TT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>bmobile prepaid</ProfileName>
+        <PSparam>
+          <APN>bconnected</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BMobile_TT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>bmobile LTE</ProfileName>
+        <PSparam>
+          <APN>bmobile</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BMobile_TT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <ProfileName>bmobile mms</ProfileName>
+        <URL>http://192.168.210.104/mmrelay.app</URL>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.210.104</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BMobile_TT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BMobile_TT</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>SOS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>SOS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BMobile_TT</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>XCAP</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telesur</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Prepaid</ProfileName>
+        <PSparam>
+          <APN>win.teleg.sr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telesur</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Postpaid</ProfileName>
+        <PSparam>
+          <APN>int.teleg.sr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ENet_GY</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>enet</ProfileName>
+        <PSparam>
+          <APN>enet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ENet_GY</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>ims</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Dauphin</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>internet</ProfileName>
+        <URL>www.dauphintelecom.fr</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Dauphin</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>mms</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Dauphin</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>ims</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Dauphin</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>ims-emergency</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LLA PR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Liberty Internet</ProfileName>
+        <URL>http://home.libertypr.com</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1280</MTUSize>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LLA PR</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://mmsc.mobilecore.lla.com</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1280</MTUSize>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>proxy.mobilecore.lla.com</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LLA PR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <MTUSize>1280</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LLA PR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>hotspot</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1280</MTUSize>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>hotspot</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LLA PR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>HOS</ProfileName>
+        <MTUSize>1280</MTUSize>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LLA PR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>sos</ProfileName>
+        <MTUSize>1280</MTUSize>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Paradise_BM</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Paradise</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Paradise_BM</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Paradise MMS</ProfileName>
+        <URL>http://mmsc.paradisemobile.com</URL>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <ServAddr>10.10.83.66</ServAddr>
+          <Port>10021</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Paradise_BM</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Paradise IMS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Paradise_BM</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>sos</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>GTT_GY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>OneComm</ProfileName>
+        <PSparam>
+          <APN>Onecomm</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SETAR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>SETAR Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.setar.aw</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SETAR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>SETAR MMS</ProfileName>
+        <URL>http://mms.setar.aw</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>201.229.65.204</ServAddr>
+          <Port>8081</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.setar.aw</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SETAR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>SETAR IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>APUA inet</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>net</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>APUA inet</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

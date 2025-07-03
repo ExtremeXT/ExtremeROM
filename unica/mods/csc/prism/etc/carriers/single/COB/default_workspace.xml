@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Copyright (C) 2016 The Android Open Source Project
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+  http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<favorites>
+    <homeGridInfo
+      default="4x6"/>
+    <home>
+        <!--appwidget : Weather-->
+        <appwidget
+          screen="0"
+          packageName="com.sec.android.daemonapp"
+          className="com.sec.android.daemonapp.appwidget.WeatherForecastWidget"
+          x="0"
+          y="2"
+          spanX="2"
+          spanY="2"/>
+        <!--appwidget:Smart  suggestions-->
+        <appwidget
+          screen="0"
+          packageName="com.samsung.android.smartsuggestions"
+          className="com.samsung.android.smartsuggestions.feature.aisuggestion.ui.appwidget.AiSuggestionAppWidgetReceiver"
+          x="2"
+          y="2"
+          spanX="2"
+          spanY="1"/>
+        <!--appwidget:Samsung  Health-->
+        <appwidget
+          screen="0"
+          packageName="com.sec.android.app.shealth"
+          className="com.samsung.android.app.shealth.tracker.dailyactivity.widget.DaWidgetReceiver"
+          x="2"
+          y="3"
+          spanX="2"
+          spanY="1"/>
+        <!--appwidget : Google-->
+        <appwidget
+          screen="0"
+          packageName="com.google.android.googlequicksearchbox"
+          className="com.google.android.googlequicksearchbox.SearchWidgetProvider"
+          x="0"
+          y="4"
+          spanX="4"
+          spanY="1"/>
+        <!--Store-->
+        <favorite
+          screen="0"
+          packageName="com.sec.android.app.samsungapps"
+          className="com.sec.android.app.samsungapps.SamsungAppsMainActivity"
+          x="0"
+          y="5"/>
+        <!--Play Store-->
+        <favorite
+          screen="0"
+          packageName="com.android.vending"
+          className="com.android.vending.AssetBrowserActivity"
+          x="1"
+          y="5"/>
+        <!--Google-->
+        <folder
+          screen="0"
+          title="Google"
+          x="2"
+          y="5">
+            <!--Google-->
+            <favorite
+              screen="0"
+              packageName="com.google.android.googlequicksearchbox"
+              className="com.google.android.googlequicksearchbox.SearchActivity"/>
+            <!--Chrome-->
+            <favorite
+              screen="1"
+              packageName="com.android.chrome"
+              className="com.google.android.apps.chrome.Main"/>
+            <!--Gmail-->
+            <favorite
+              screen="2"
+              packageName="com.google.android.gm"
+              className="com.google.android.gm.ConversationListActivityGmail"/>
+            <!--Maps-->
+            <favorite
+              screen="3"
+              packageName="com.google.android.apps.maps"
+              className="com.google.android.maps.MapsActivity"/>
+            <!--YouTube-->
+            <favorite
+              screen="4"
+              packageName="com.google.android.youtube"
+              className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"/>
+            <!--Drive-->
+            <favorite
+              screen="5"
+              packageName="com.google.android.apps.docs"
+              className="com.google.android.apps.docs.app.NewMainProxyActivity"/>
+            <!--YT Music-->
+            <favorite
+              screen="6"
+              packageName="com.google.android.apps.youtube.music"
+              className="com.google.android.apps.youtube.music.activities.MusicActivity"/>
+            <!--Google TV-->
+            <favorite
+              screen="7"
+              packageName="com.google.android.videos"
+              className="com.google.android.videos.GoogleTvEntryPoint"/>
+            <!--Meet-->
+            <favorite
+              screen="8"
+              packageName="com.google.android.apps.tachyon"
+              className="com.google.android.apps.tachyon.MainActivity"/>
+            <!--Photos-->
+            <favorite
+              screen="9"
+              packageName="com.google.android.apps.photos"
+              className="com.google.android.apps.photos.home.HomeActivity"/>
+            <!--Gemini-->
+            <favorite
+              screen="10"
+              packageName="com.google.android.apps.bard"
+              className="com.google.android.apps.bard.shellapp.BardEntryPointActivity"/>
+        </folder>
+        <!--Microsoft-->
+        <folder
+          screen="0"
+          title="Microsoft"
+          x="3"
+          y="5">
+            <!--Microsoft 365-->
+            <favorite
+              screen="0"
+              packageName="com.microsoft.office.officehubrow"
+              className="com.microsoft.office.officesuite.OfficeSuiteActivity"/>
+            <!--OneDrive-->
+            <favorite
+              screen="1"
+              packageName="com.microsoft.skydrive"
+              className="com.microsoft.skydrive.MainActivity"/>
+            <!--LinkedIn-->
+            <favorite
+              screen="2"
+              packageName="com.linkedin.android"
+              className="com.linkedin.android.authenticator.LaunchActivityDefault"/>
+            <!--Outlook-->
+            <favorite
+              screen="3"
+              packageName="com.microsoft.office.outlook"
+              className="com.microsoft.office.outlook.MainActivity"/>
+        </folder>
+        <!--Facebook-->
+        <favorite
+          screen="1"
+          packageName="com.facebook.katana"
+          className="com.facebook.katana.LoginActivity"
+          x="2"
+          y="5"/>
+        <!--Movistar-->
+        <folder
+          screen="1"
+          title="Movistar"
+          x="3"
+          y="5">
+            <!--Mi Movistar-->
+            <favorite
+              screen="0"
+              packageName="movistar.android.app"
+              className="movistar.android.app.MainActivity"
+              postPosition="true"/>
+            <!--Movistar TV-->
+            <favorite
+              screen="1"
+              packageName="co.movistar.go"
+              className="com.pdi.mca.go.login.activities.SplashActivity"
+              postPosition="true"/>
+            <!--Movistar Cloud-->
+            <favorite
+              screen="2"
+              packageName="co.movistar.cloud"
+              className="com.funambol.android.activities.AndroidHomeScreen"
+              postPosition="true"/>
+            <!--Amazon compras-->
+            <favorite
+              screen="3"
+              packageName="com.amazon.mShop.android.shopping"
+              className="com.amazon.mShop.home.HomeActivity"
+              postPosition="true"/>
+            <!--Movistar Musica-->
+            <favorite
+              screen="4"
+              packageName="com.movistar.musica"
+              className="com.movistar.musica.MainActivity"
+              postPosition="true"/>
+        </folder>
+    </home>
+    <hotseat>
+        <!--Phone-->
+        <favorite
+          screen="0"
+          packageName="com.samsung.android.dialer"
+          className="com.samsung.android.dialer.DialtactsActivity"/>
+        <!--(Android) Messages-->
+        <favorite
+          screen="1"
+          packageName="com.google.android.apps.messaging"
+          className="com.google.android.apps.messaging.ui.ConversationListActivity"/>
+        <!--Internet-->
+        <favorite
+          screen="2"
+          packageName="com.sec.android.app.sbrowser"
+          className="com.sec.android.app.sbrowser.SBrowserMainActivity"/>
+        <!--Camera-->
+        <favorite
+          screen="3"
+          packageName="com.sec.android.app.camera"
+          className="com.sec.android.app.camera.Camera"/>
+    </hotseat>
+</favorites>
