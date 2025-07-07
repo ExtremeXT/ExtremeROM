@@ -574,6 +574,7 @@ GENERATE_BUILD_INFO()
     {
         echo "device=$TARGET_CODENAME"
         echo "version=$ROM_VERSION"
+        echo "commit=$ROM_COMMIT"
         echo "timestamp=$ROM_BUILD_TIMESTAMP"
         echo "security_patch_version=$(GET_PROP "ro.build.version.security_patch" "$WORK_DIR/system/system/build.prop")"
     } >> "$BUILD_INFO_FILE"
@@ -581,7 +582,7 @@ GENERATE_BUILD_INFO()
     true
 }
 
-FILE_NAME="EternityROM_${ROM_VERSION}_$(date +%Y%m%d)_${TARGET_CODENAME}"
+FILE_NAME="EternityROM_${ROM_VERSION}_${ROM_COMMIT}_$(date +%Y%m%d)_${TARGET_CODENAME}"
 # ]
 
 echo "Set up tmp dir"

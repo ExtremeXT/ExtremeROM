@@ -17,7 +17,7 @@
 
 # UN1CA configuration file
 ROM_VERSION="v5.3"
-ROM_VERSION+="-$(git rev-parse --short HEAD)"
+ROM_COMMIT="@$(git rev-parse --short HEAD)"
 DEBUG=0
 
 # Source ROM firmware
