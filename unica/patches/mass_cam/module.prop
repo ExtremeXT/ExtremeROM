@@ -1,4 +1,0 @@
-id=mass_cam
-name=Low-end Samsung Camera app
-author=salvogiangri
-description=Checks for target camera app variant and replace accordingly if required.
