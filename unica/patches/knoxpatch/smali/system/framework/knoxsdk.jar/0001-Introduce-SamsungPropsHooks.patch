@@ -1,7 +1,7 @@
-From f93edc0ccfb3a790ae7599f01567fe2070650401 Mon Sep 17 00:00:00 2001
+From d81ab92c354c442a2e9b379b5bc77b353d2a0727 Mon Sep 17 00:00:00 2001
 From: Salvo Giangreco <giangrecosalvo9@gmail.com>
-Date: Sat, 12 Apr 2025 23:57:32 +0200
-Subject: [PATCH] Introduce-SamsungPropsHooks
+Date: Sat, 21 Jun 2025 19:49:06 +0200
+Subject: [PATCH] Introduce SamsungPropsHooks
 
 Signed-off-by: Ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
 ---
@@ -9,7 +9,7 @@ Signed-off-by: Ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
  1 file changed, 2 insertions(+), 20 deletions(-)
 
 diff --git a/smali/com/samsung/android/knox/EnterpriseDeviceManager.smali b/smali/com/samsung/android/knox/EnterpriseDeviceManager.smali
-index f6984e555..4abfc97e7 100644
+index 20510f1925..161ed3d141 100644
 --- a/smali/com/samsung/android/knox/EnterpriseDeviceManager.smali
 +++ b/smali/com/samsung/android/knox/EnterpriseDeviceManager.smali
 @@ -605,29 +605,11 @@

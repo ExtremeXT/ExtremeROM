@@ -1,11 +1,15 @@
-From dce81154f4cc2e9503eb80cbe1a755cd81676a08 Mon Sep 17 00:00:00 2001
+From 9357afdfb2434dc1ad6296d52f35c552a40846c0 Mon Sep 17 00:00:00 2001
 From: Salvo Giangreco <giangrecosalvo9@gmail.com>
-Date: Sat, 3 May 2025 22:43:27 +0200
-Subject: [PATCH] Bypass-ICD-verification
+Date: Sat, 21 Jun 2025 19:54:44 +0200
+Subject: [PATCH] Bypass ICD verification
 
 Signed-off-by: Ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
+---
+ .../samsung/android/security/keystore/AttestParameterSpec.smali | 2 ++
+ 1 file changed, 2 insertions(+)
+
 diff --git a/smali_classes2/com/samsung/android/security/keystore/AttestParameterSpec.smali b/smali_classes2/com/samsung/android/security/keystore/AttestParameterSpec.smali
-index 874fd614f5..35085dd810 100644
+index 0096ea4956..c4d365fd6d 100644
 --- a/smali_classes2/com/samsung/android/security/keystore/AttestParameterSpec.smali
 +++ b/smali_classes2/com/samsung/android/security/keystore/AttestParameterSpec.smali
 @@ -67,6 +67,8 @@

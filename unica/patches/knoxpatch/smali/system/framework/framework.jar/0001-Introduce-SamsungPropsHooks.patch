@@ -1,6 +1,6 @@
-From e77c676ca155c4881c213a04a5350c2d949fb7ee Mon Sep 17 00:00:00 2001
+From 9efe2460dd538db3c46e72a18086a1992cd5d920 Mon Sep 17 00:00:00 2001
 From: Salvo Giangreco <giangrecosalvo9@gmail.com>
-Date: Wed, 28 May 2025 20:11:39 +0200
+Date: Sat, 21 Jun 2025 19:44:23 +0200
 Subject: [PATCH] Introduce SamsungPropsHooks
 
 Signed-off-by: Ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
@@ -8,12 +8,12 @@ Signed-off-by: Ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
  .../smali/android/app/Instrumentation.smali   |   4 +
  .../android/os/SystemProperties.smali         |  14 +
  .../android/provider/Settings$Global.smali    |   9 +
- .../ocin4ever/spoof/SamsungPropsHooks.smali   | 868 ++++++++++++++++++
- 4 files changed, 895 insertions(+)
+ .../ocin4ever/spoof/SamsungPropsHooks.smali   | 826 ++++++++++++++++++
+ 4 files changed, 853 insertions(+)
  create mode 100644 smali_classes6/com/ocin4ever/spoof/SamsungPropsHooks.smali
 
 diff --git a/smali/android/app/Instrumentation.smali b/smali/android/app/Instrumentation.smali
-index 0d935febf..36c0eed9d 100644
+index 0d935febf0..36c0eed9d2 100644
 --- a/smali/android/app/Instrumentation.smali
 +++ b/smali/android/app/Instrumentation.smali
 @@ -780,6 +780,8 @@
@@ -35,7 +35,7 @@ index 0d935febf..36c0eed9d 100644
  .end method
  
 diff --git a/smali_classes3/android/os/SystemProperties.smali b/smali_classes3/android/os/SystemProperties.smali
-index 63e0dd64c..6204c0ab3 100644
+index 63e0dd64c5..6204c0ab39 100644
 --- a/smali_classes3/android/os/SystemProperties.smali
 +++ b/smali_classes3/android/os/SystemProperties.smali
 @@ -383,10 +383,17 @@
@@ -75,7 +75,7 @@ index 63e0dd64c..6204c0ab3 100644
  .end method
  
 diff --git a/smali_classes3/android/provider/Settings$Global.smali b/smali_classes3/android/provider/Settings$Global.smali
-index ca35db8a7..84a6ae23b 100644
+index ca35db8a77..84a6ae23bb 100644
 --- a/smali_classes3/android/provider/Settings$Global.smali
 +++ b/smali_classes3/android/provider/Settings$Global.smali
 @@ -4487,6 +4487,15 @@
@@ -96,10 +96,10 @@ index ca35db8a7..84a6ae23b 100644
      invoke-virtual {v0, p0, p1, p2}, Landroid/provider/Settings$NameValueCache;->getStringForUser(Landroid/content/ContentResolver;Ljava/lang/String;I)Ljava/lang/String;
 diff --git a/smali_classes6/com/ocin4ever/spoof/SamsungPropsHooks.smali b/smali_classes6/com/ocin4ever/spoof/SamsungPropsHooks.smali
 new file mode 100644
-index 000000000..b6e3e1658
+index 0000000000..36bce6bb73
 --- /dev/null
 +++ b/smali_classes6/com/ocin4ever/spoof/SamsungPropsHooks.smali
-@@ -0,0 +1,868 @@
+@@ -0,0 +1,826 @@
 +.class public final Lcom/ocin4ever/spoof/SamsungPropsHooks;
 +.super Ljava/lang/Object;
 +.source "SamsungPropsHooks.java"
@@ -147,6 +147,8 @@ index 000000000..b6e3e1658
 +.field private static volatile sSpoofKeystoreProp:Z
 +
 +.field private static volatile sSpoofProductName:Z
++
++.field private static volatile sSpoofRoutines:Z
 +
 +
 +# direct methods
@@ -259,6 +261,8 @@ index 000000000..b6e3e1658
 +
 +    sget-object p0, Lcom/ocin4ever/spoof/SamsungPropsHooks;->sPackageName:Ljava/lang/String;
 +
++    const-string v2, "com.samsung.accessibility"
++
 +    invoke-virtual {p0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 +
 +    move-result p0
@@ -267,9 +271,9 @@ index 000000000..b6e3e1658
 +
 +    sget-object p0, Lcom/ocin4ever/spoof/SamsungPropsHooks;->sPackageName:Ljava/lang/String;
 +
-+    const-string v2, "com.samsung.android.scpm"
++    const-string v3, "com.samsung.android.scpm"
 +
-+    invoke-virtual {p0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++    invoke-virtual {p0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 +
 +    move-result p0
 +
@@ -277,13 +281,13 @@ index 000000000..b6e3e1658
 +
 +    sget-object p0, Lcom/ocin4ever/spoof/SamsungPropsHooks;->sPackageName:Ljava/lang/String;
 +
-+    const-string v2, "com.samsung.android.app.routines"
++    const-string v3, "com.samsung.android.app.routines"
 +
-+    invoke-virtual {p0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++    invoke-virtual {p0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 +
 +    move-result p0
 +
-+    if-nez p0, :cond_3
++    sput-boolean p0, Lcom/ocin4ever/spoof/SamsungPropsHooks;->sSpoofRoutines:Z
 +
 +    sget-object p0, Lcom/ocin4ever/spoof/SamsungPropsHooks;->sPackageName:Ljava/lang/String;
 +
@@ -381,7 +385,9 @@ index 000000000..b6e3e1658
 +    goto :goto_7
 +
 +    :sswitch_0
-+    invoke-virtual {p0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++    const-string v0, "com.netflix.mediaclient"
++
++    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 +
 +    move-result p0
 +
@@ -390,12 +396,21 @@ index 000000000..b6e3e1658
 +    goto :goto_6
 +
 +    :cond_6
-+    const/4 v0, 0x3
++    const/4 v0, 0x2
 +
 +    goto :goto_7
 +
 +    :sswitch_1
-+    const-string v0, "com.netflix.mediaclient"
++    invoke-virtual {p0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++
++    move-result p0
++
++    if-nez p0, :cond_8
++
++    goto :goto_6
++
++    :sswitch_2
++    const-string v0, "com.samsung.android.smartmirroring"
 +
 +    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 +
@@ -406,36 +421,9 @@ index 000000000..b6e3e1658
 +    goto :goto_6
 +
 +    :cond_7
-+    const/4 v0, 0x2
-+
-+    goto :goto_7
-+
-+    :sswitch_2
-+    const-string v1, "com.samsung.accessibility"
-+
-+    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-+
-+    move-result p0
-+
-+    if-nez p0, :cond_9
-+
-+    goto :goto_6
-+
-+    :sswitch_3
-+    const-string v0, "com.samsung.android.smartmirroring"
-+
-+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-+
-+    move-result p0
-+
-+    if-nez p0, :cond_8
-+
-+    goto :goto_6
-+
-+    :cond_8
 +    move v0, v1
 +
-+    :cond_9
++    :cond_8
 +    :goto_7
 +    packed-switch v0, :pswitch_data_0
 +
@@ -445,15 +433,15 @@ index 000000000..b6e3e1658
 +
 +    move-result p0
 +
-+    if-eqz p0, :cond_a
++    if-eqz p0, :cond_9
 +
 +    :goto_8
 +    return-void
 +
-+    :cond_a
++    :cond_9
 +    const-string p0, "ro.boot.em.model"
 +
-+    const-string v0, "SM-S926B"
++    const-string v0, "SM-S721B"
 +
 +    invoke-static {p0, v0}, Landroid/os/SemSystemProperties;->get(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 +
@@ -466,18 +454,11 @@ index 000000000..b6e3e1658
 +    return-void
 +
 +    :pswitch_0
-+    const-string p0, "CHINA"
-+
-+    sput-object p0, Lcom/ocin4ever/spoof/SamsungPropsHooks;->sSpoofCountryCode:Ljava/lang/String;
-+
-+    return-void
-+
-+    :pswitch_1
 +    invoke-static {}, Lcom/ocin4ever/spoof/SamsungPropsHooks;->spoofAsPixel6Pro()V
 +
 +    return-void
 +
-+    :pswitch_2
++    :pswitch_1
 +    const-string p0, "NAME"
 +
 +    const-string v0, "e2sxxx"
@@ -486,7 +467,7 @@ index 000000000..b6e3e1658
 +
 +    return-void
 +
-+    :pswitch_3
++    :pswitch_2
 +    const-string p0, "TYPE"
 +
 +    const-string v0, "userdebug"
@@ -497,15 +478,13 @@ index 000000000..b6e3e1658
 +
 +    :sswitch_data_0
 +    .sparse-switch
-+        -0x6963b406 -> :sswitch_3
-+        -0x12a53e53 -> :sswitch_2
-+        0x1dd9a466 -> :sswitch_1
-+        0x1e55cd3c -> :sswitch_0
++        -0x6963b406 -> :sswitch_2
++        -0x12a53e53 -> :sswitch_1
++        0x1dd9a466 -> :sswitch_0
 +    .end sparse-switch
 +
 +    :pswitch_data_0
 +    .packed-switch 0x0
-+        :pswitch_3
 +        :pswitch_2
 +        :pswitch_1
 +        :pswitch_0
@@ -664,7 +643,7 @@ index 000000000..b6e3e1658
 +    goto :goto_0
 +
 +    :sswitch_0
-+    const-string v0, "ro.csc.country_code"
++    const-string v0, "ro.surface_flinger.protected_contents"
 +
 +    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 +
@@ -675,12 +654,12 @@ index 000000000..b6e3e1658
 +    goto :goto_0
 +
 +    :cond_0
-+    const/4 v1, 0x4
++    const/4 v1, 0x3
 +
 +    goto :goto_0
 +
 +    :sswitch_1
-+    const-string v0, "ro.surface_flinger.protected_contents"
++    const-string v0, "ro.build.type"
 +
 +    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 +
@@ -691,12 +670,12 @@ index 000000000..b6e3e1658
 +    goto :goto_0
 +
 +    :cond_1
-+    const/4 v1, 0x3
++    const/4 v1, 0x2
 +
 +    goto :goto_0
 +
 +    :sswitch_2
-+    const-string v0, "ro.build.type"
++    const-string v0, "ro.security.keystore.keytype"
 +
 +    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 +
@@ -707,12 +686,12 @@ index 000000000..b6e3e1658
 +    goto :goto_0
 +
 +    :cond_2
-+    const/4 v1, 0x2
++    const/4 v1, 0x1
 +
 +    goto :goto_0
 +
 +    :sswitch_3
-+    const-string v0, "ro.security.keystore.keytype"
++    const-string v0, "ro.product.product.name"
 +
 +    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 +
@@ -723,22 +702,6 @@ index 000000000..b6e3e1658
 +    goto :goto_0
 +
 +    :cond_3
-+    const/4 v1, 0x1
-+
-+    goto :goto_0
-+
-+    :sswitch_4
-+    const-string v0, "ro.product.product.name"
-+
-+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-+
-+    move-result v0
-+
-+    if-nez v0, :cond_4
-+
-+    goto :goto_0
-+
-+    :cond_4
 +    const/4 v1, 0x0
 +
 +    :goto_0
@@ -747,56 +710,53 @@ index 000000000..b6e3e1658
 +    goto :goto_1
 +
 +    :pswitch_0
-+    sget-boolean v0, Lcom/ocin4ever/spoof/SamsungPropsHooks;->sSpoofChina:Z
-+
-+    if-eqz v0, :cond_5
-+
-+    sget-object v0, Lcom/ocin4ever/spoof/SamsungPropsHooks;->sSpoofCountryCode:Ljava/lang/String;
-+
-+    goto :goto_2
-+
-+    :pswitch_1
 +    sget-boolean v0, Lcom/ocin4ever/spoof/SamsungPropsHooks;->sSpoofAccessibility:Z
 +
-+    if-eqz v0, :cond_5
++    if-eqz v0, :cond_4
 +
 +    const-string v0, "1"
 +
 +    goto :goto_2
 +
-+    :pswitch_2
++    :pswitch_1
 +    sget-boolean v0, Lcom/ocin4ever/spoof/SamsungPropsHooks;->sSpoofBuildTypeProp:Z
 +
-+    if-eqz v0, :cond_5
++    if-eqz v0, :cond_4
 +
 +    const-string v0, "eng"
 +
 +    goto :goto_2
 +
-+    :pswitch_3
++    :pswitch_2
 +    sget-boolean v0, Lcom/ocin4ever/spoof/SamsungPropsHooks;->sSpoofKeystoreProp:Z
 +
-+    if-eqz v0, :cond_5
++    if-eqz v0, :cond_4
 +
 +    const-string v0, ""
 +
 +    goto :goto_2
 +
-+    :pswitch_4
++    :pswitch_3
 +    sget-boolean v0, Lcom/ocin4ever/spoof/SamsungPropsHooks;->sSpoofProductName:Z
 +
-+    if-eqz v0, :cond_5
++    if-eqz v0, :cond_4
 +
-+    const-string v0, "p3sxxx"
++    const-string v0, "ro.nexus.expertraw"
++
++    const-string v1, "pa3qxxx"
++
++    invoke-static {v0, v1}, Landroid/os/SemSystemProperties;->get(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
++
++    move-result-object v0
 +
 +    goto :goto_2
 +
-+    :cond_5
++    :cond_4
 +    :goto_1
 +    const/4 v0, 0x0
 +
 +    :goto_2
-+    if-eqz v0, :cond_6
++    if-eqz v0, :cond_5
 +
 +    new-instance v1, Ljava/lang/StringBuilder;
 +
@@ -830,23 +790,21 @@ index 000000000..b6e3e1658
 +
 +    invoke-static {p0}, Lcom/ocin4ever/spoof/SamsungPropsHooks;->dlog(Ljava/lang/String;)V
 +
-+    :cond_6
++    :cond_5
 +    return-object v0
 +
 +    nop
 +
 +    :sswitch_data_0
 +    .sparse-switch
-+        -0x6ed5fa26 -> :sswitch_4
-+        0xc90c28a -> :sswitch_3
-+        0x2ebb8f0b -> :sswitch_2
-+        0x602047b3 -> :sswitch_1
-+        0x753780a2 -> :sswitch_0
++        -0x6ed5fa26 -> :sswitch_3
++        0xc90c28a -> :sswitch_2
++        0x2ebb8f0b -> :sswitch_1
++        0x602047b3 -> :sswitch_0
 +    .end sparse-switch
 +
 +    :pswitch_data_0
 +    .packed-switch 0x0
-+        :pswitch_4
 +        :pswitch_3
 +        :pswitch_2
 +        :pswitch_1
@@ -969,5 +927,5 @@ index 000000000..b6e3e1658
 +    return-void
 +.end method
 -- 
-2.39.5 (Apple Git-154)
+2.43.0
 
