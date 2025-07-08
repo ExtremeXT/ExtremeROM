@@ -72,6 +72,9 @@ mtuTableEntry attributes:
 <!-- DT Czech -->
     <mtuTableEntry numeric="23001" mtu="1280" rat="4"/>
 
+<!-- VF Czech -->
+    <mtuTableEntry numeric="23003" mtu="1358" profile="2"/>
+
 <!-- DT Romania -->
     <mtuTableEntry numeric="22603" mtu="1280" rat="4"/>
     <mtuTableEntry numeric="22606" mtu="1280" rat="4"/>
@@ -149,12 +152,18 @@ mtuTableEntry attributes:
 <!-- Digi Mobil Hungary -->
     <mtuTableEntry numeric="21603" mtu="1400" profile="2"/>
 
+<!-- Avatel Spain -->
+    <mtuTableEntry numeric="21405" mtu="1280"  rat="4"/>
+
 <!-- DIGI Spain -->
     <mtuTableEntry numeric="21422" mtu="1280"  rat="4"/>
 
 <!-- VIPnet -->
     <mtuTableEntry numeric="21910" mtu="1330" profile="2"/>
     <mtuTableEntry numeric="21910" mtu="1330" rat="4"/>
+
+<!-- Fastweb IT -->
+    <mtuTableEntry numeric="22208" mtu="1280" rat="4"/>
 
 <!-- Spusu IT -->
     <mtuTableEntry numeric="22256" mtu="1280" rat="4"/>
@@ -205,6 +214,9 @@ mtuTableEntry attributes:
 <!-- Sky -->
     <mtuTableEntry numeric="23457" mtu="1300" profile="2"/>
     <mtuTableEntry numeric="23457" mtu="1300" rat="4"/>    
+
+<!-- Lebara United Kingdom -->
+    <mtuTableEntry numeric="23487" mtu="1280" rat="4"/>
 
 <!-- TDC Denmark -->
     <mtuTableEntry numeric="23801" mtu="1398" rat="4" proto="2"/>
@@ -260,6 +272,9 @@ mtuTableEntry attributes:
 <!-- TELE2 LT (Lithuania) VoWiFi -->
     <mtuTableEntry numeric="24603" mtu="1280" rat="4"/>
 
+<!-- LMT LV (Latvia) VoWiFi -->
+    <mtuTableEntry numeric="24701" mtu="1280" rat="4"/>
+
 <!-- TELE2 LV (Latvia) VoWiFi -->
     <mtuTableEntry numeric="24702" mtu="1280" rat="4"/>
 
@@ -285,6 +300,9 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="25506" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="25506" mtu="1280" rat="4"/>
 
+<!-- Vodafone Ukraine -->
+    <mtuTableEntry numeric="25501" mtu="1280" rat="4"/>
+
 <!-- PLAY -->
     <mtuTableEntry numeric="26006" mtu="1280" rat="4"/>
 
@@ -302,6 +320,9 @@ mtuTableEntry attributes:
 <!-- VF DE for Test lab -->
     <mtuTableEntry numeric="26209" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="26209" mtu="1280" rat="4"/>    
+
+<!-- Portugal-Digi -->
+    <mtuTableEntry numeric="26802" mtu="1280" rat="4"/>
 
 <!-- Portugal-MEO -->
     <mtuTableEntry numeric="26806" mtu="1280" rat="4"/>
@@ -323,7 +344,7 @@ mtuTableEntry attributes:
 
 <!-- Sky_IE(Ireland)-->
     <mtuTableEntry numeric="27225" mtu="1300" profile="2"/>
-    <mtuTableEntry numeric="27225" mtu="1300" rat="4"/>
+    <mtuTableEntry numeric="27225" mtu="1280" rat="4"/>
 
 <!-- Siminn -->
     <mtuTableEntry numeric="27401" mtu="1452" profile="2"/>
@@ -331,6 +352,9 @@ mtuTableEntry attributes:
 
 <!-- Nova IS -->
     <mtuTableEntry numeric="27411" mtu="1280" profile="2"/>
+
+<!-- Vodafone Cyprus -->
+    <mtuTableEntry numeric="28001" mtu="1280" rat="4"/>
 
 <!-- A1 Bulgaria -->
     <mtuTableEntry numeric="28401" mtu="1330" profile="2"/>
@@ -356,8 +380,14 @@ mtuTableEntry attributes:
 <!-- Telemach (Slovenia) -->
     <mtuTableEntry numeric="29370" mtu="1300" profile="2"/>
 
+<!-- A1 Slovenia -->
+    <mtuTableEntry numeric="29340" mtu="1280" rat="4"/>
+
 <!-- T-2 Slovenia -->
     <mtuTableEntry numeric="29364" mtu="1280" rat="4"/>
+
+<!-- Salt Liechtenstein -->
+    <mtuTableEntry numeric="29502" mtu="1280" rat="4"/>
 
 <!-- Telus -->
     <mtuTableEntry numeric="302220" mtu="1440" profile="2"/>
@@ -417,10 +447,10 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="310950" mtu="1430"/>
     <mtuTableEntry numeric="310980" mtu="1430"/>
     <mtuTableEntry numeric="311180" mtu="1430"/>
-    <mtuTableEntry numeric="312670" mtu="1430"/>
-    <mtuTableEntry numeric="313100" mtu="1430"/>
-    <mtuTableEntry numeric="313130" mtu="1430"/>
-    <mtuTableEntry numeric="313140" mtu="1430"/>    
+    <mtuTableEntry numeric="312670" mtu="1342"/>
+    <mtuTableEntry numeric="313100" mtu="1342"/>
+    <mtuTableEntry numeric="313130" mtu="1342"/>
+    <mtuTableEntry numeric="313140" mtu="1342"/>    
     <mtuTableEntry numeric="310030" mtu="1300" rat="4"/>
     <mtuTableEntry numeric="310070" mtu="1300" rat="4"/>
     <mtuTableEntry numeric="310090" mtu="1300" rat="4"/>
@@ -494,6 +524,9 @@ mtuTableEntry attributes:
 <!-- Beeline Kazakhstan -->
     <mtuTableEntry numeric="40101" mtu="1280" rat="4"/>
 
+<!-- Beeline Kyrgyzstan -->
+    <mtuTableEntry numeric="43701" mtu="1280" rat="4"/>
+
 <!-- RJIL -->
     <mtuTableEntry numeric="40578" mtu="1280" rat="4"/>
     <mtuTableEntry numeric="40587" mtu="1280" rat="4"/>
@@ -556,11 +589,20 @@ mtuTableEntry attributes:
 <!-- Vodafone QATAR -->
     <mtuTableEntry numeric="42702" mtu="1390" rat="4"/>
 
-<!-- Uztelecom UZBEKISTAN -->
+<!-- Beeline Uzbekistan -->
+    <mtuTableEntry numeric="43404" mtu="1280" rat="4"/>
+
+<!-- Ucell Uzbekistan -->
+    <mtuTableEntry numeric="43405" mtu="1280" rat="4"/>
+
+<!-- Mobiuz Uzbekistan -->
+    <mtuTableEntry numeric="43407" mtu="1280" rat="4"/>
+
+<!-- Uztelecom Uzbekistan -->
     <mtuTableEntry numeric="43408" mtu="1280" rat="4"/>
 
 <!--  JPN SBM -->
-    <mtuTableEntry numeric="44020" mtu="1422"/>
+    <mtuTableEntry numeric="44020" mtu="1358"/>
 
 <!-- JPN KDDI -->
     <mtuTableEntry numeric="44050" mtu="1420"/>
@@ -834,6 +876,9 @@ mtuTableEntry attributes:
 <!-- Mobicom Mongolia -->
     <mtuTableEntry numeric="42899" mtu="1300" profile="2"/>
 
+<!-- GMobile Mongolia -->
+    <mtuTableEntry numeric="42806" mtu="1300" profile="2"/>
+
 <!-- WIND Greece -->
     <mtuTableEntry numeric="20209" mtu="1390" profile="2"/>
     <mtuTableEntry numeric="20210" mtu="1390" profile="2"/>
@@ -848,4 +893,10 @@ mtuTableEntry attributes:
 
 <!-- TNT - Smart - PHILIPPINES -->
     <mtuTableEntry numeric="51503" mtu="1280" profile="2"/>
+
+<!-- Almadar_LY -->
+    <mtuTableEntry numeric="60601" mtu="1358" profile="2"/>
+    
+<!-- DITO - PHILIPPINES -->
+    <mtuTableEntry numeric="51566" mtu="1280" profile="2"/>
 </mtuTableEntry>
