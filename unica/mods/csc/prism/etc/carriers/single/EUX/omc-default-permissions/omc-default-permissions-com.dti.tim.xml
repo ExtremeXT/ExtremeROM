@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<omc-default-permissions>
+    <activated-id code="TIM" firstboot="true">
+        <package name="com.dti.tim">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+</omc-default-permissions>

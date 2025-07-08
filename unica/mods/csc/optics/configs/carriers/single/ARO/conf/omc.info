@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_ARO_15_0009</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0002</customerEdition>
+    <carrierListVersion>150032</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>6</carrierCount>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>07</mnc>
+      <networkName>Movistar AR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>070</mnc>
+      <networkName>Movistar AR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>31</mnc>
+      <networkName>Claro AR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>310</mnc>
+      <networkName>Claro AR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>34</mnc>
+      <networkName>Personal AR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>341</mnc>
+      <networkName>Personal AR</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0003</CSCEdition>
+    <Country>New Zealand</Country>
+    <CountryISO>NZ</CountryISO>
+    <Region>SEA</Region>
+    <SalesCode>XNZ</SalesCode>
+    <NbNetworkInfo>29</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>55301</MCCMNC>
+      <NetworkName>Tuvalu Telecom</NetworkName>
+      <NWID>NW02287</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54715</MCCMNC>
+      <NetworkName>Vodafone PF</NetworkName>
+      <NWID>NW02193</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311780</MCCMNC>
+      <NetworkName>ASTCA</NetworkName>
+      <NWID>NW01977</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54705</MCCMNC>
+      <NetworkName>ORA MOBILE</NetworkName>
+      <NWID>NW02087</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>53001</MCCMNC>
+      <NetworkName>Vodafone NZ</NetworkName>
+      <NWID>NW01503</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>53005</MCCMNC>
+      <NetworkName>Spark NZ</NetworkName>
+      <NWID>NW01158</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>53099</MCCMNC>
+      <NetworkName>Spark NZ</NetworkName>
+      <NWID>NW01158</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>53005</MCCMNC>
+      <NetworkName>Skinny</NetworkName>
+      <NWID>NW01139</NWID>
+      <SPCode>204</SPCode>
+      <SPName>Skinny</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>53024</MCCMNC>
+      <NetworkName>2degrees</NetworkName>
+      <NWID>NW00013</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>53024</MCCMNC>
+      <NetworkName>Warehouse</NetworkName>
+      <NWID>NW01912</NWID>
+      <SPCode>10</SPCode>
+      <SPName>Warehouse</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54201</MCCMNC>
+      <NetworkName>Vodafone FJ</NetworkName>
+      <NWID>NW01484</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>53703</MCCMNC>
+      <NetworkName>Digicel PNG</NetworkName>
+      <NWID>NW00381</NWID>
+      <SPName>DIGICEL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54202</MCCMNC>
+      <NetworkName>Digicel Fiji</NetworkName>
+      <NWID>NW00404</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54202</MCCMNC>
+      <NetworkName>Digicel Nauru</NetworkName>
+      <NWID>NW00379</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54900</MCCMNC>
+      <NetworkName>Digicel Samoa</NetworkName>
+      <NWID>NW00414</NWID>
+      <SPName>DIGICEL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>53988</MCCMNC>
+      <NetworkName>Digicel Tonga</NetworkName>
+      <NWID>NW00418</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54105</MCCMNC>
+      <NetworkName>Digicel Vanuatu</NetworkName>
+      <NWID>NW00420</NWID>
+      <SPName>DIGICEL</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54601</MCCMNC>
+      <NetworkName>OPT-NC</NetworkName>
+      <NWID>NW00957</NWID>
+      <SPName>MOBILIS</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54720</MCCMNC>
+      <NetworkName>VINI</NetworkName>
+      <NWID>NW01437</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54501</MCCMNC>
+      <NetworkName>Vodafone Kiribati</NetworkName>
+      <NWID>NW02001</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51402</MCCMNC>
+      <NetworkName>Timor Telecom</NetworkName>
+      <NWID>NW01300</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54927</MCCMNC>
+      <NetworkName>Vodafone Samoa</NetworkName>
+      <NWID>NW02002</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54801</MCCMNC>
+      <NetworkName>Vodafone CK</NetworkName>
+      <NWID>NW02000</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51401</MCCMNC>
+      <NetworkName>Timor Telkomcel</NetworkName>
+      <NWID>NW01301</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54101</MCCMNC>
+      <NetworkName>Vodafone VU</NetworkName>
+      <NWID>NW02320</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>544110</MCCMNC>
+      <NetworkName>Bluesky Am Samoa</NetworkName>
+      <NWID>NW02321</NWID>
+      <SPName>Bluesky</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>53704</MCCMNC>
+      <NetworkName>Vodafone PNG</NetworkName>
+      <NWID>NW02033</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51403</MCCMNC>
+      <NetworkName>TELEMOR</NetworkName>
+      <NWID>NW01599</NWID>
+      <SPName>TELEMOR</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>54301</MCCMNC>
+      <NetworkName>MANUIA</NetworkName>
+      <NWID>NW01594</NWID>
+      <SPName>MANUIA</SPName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>1</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>default</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+        </FastDormancy>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>default</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+      </Network>
+      <Phone>
+        <DefLanguage>en_NZ</DefLanguage>
+        <DefLanguageNoSIM>en_NZ</DefLanguageNoSIM>
+        <T9Language>english</T9Language>
+      </Phone>
+    </Main>
+    <Calendar>
+      <StartDay>sunday</StartDay>
+    </Calendar>
+    <Messages>
+      <NbVoicemail>5</NbVoicemail>
+      <Voicemail>
+        <NetworkName>Vodafone NZ</NetworkName>
+        <VoicemailName>Voicemail</VoicemailName>
+        <TelNum>+6421700700</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Spark NZ</NetworkName>
+        <VoicemailName>Voicemail</VoicemailName>
+        <TelNum>+6483083210</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Skinny</NetworkName>
+        <VoicemailName>Voicemail</VoicemailName>
+        <TelNum>+64204864236</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>2degrees</NetworkName>
+        <VoicemailName>Voicemail</VoicemailName>
+        <TelNum>+64222022002</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Warehouse</NetworkName>
+        <VoicemailName>Voicemail</VoicemailName>
+        <TelNum>+64284808808</TelNum>
+      </Voicemail>
+      <PushMsg>
+        <RecOption>on</RecOption>
+        <PushLoading>prompt</PushLoading>
+      </PushMsg>
+      <SMS>
+        <MsgTypeThreshold>
+          <ThresholdValue>5</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
+        <PreviewMessage>on</PreviewMessage>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>300</MessageSize>
+          <CreationMode>warning</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>auto</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>2</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Index>1</Index>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Galaxy Shop</BookmarkName>
+        <URL>https://www.samsung.com/nz/mobile/?cid=nz_ow_app_s-internet_none_none_bookmark_bookmark_202008_none</URL>
+      </Bookmark>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>28</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Tuvalu Telecom</NetworkName>
+        <ProfBrowser>TTC Internet</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Vodafone PF</NetworkName>
+        <ProfBrowser>Vodafone Mobile</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>5</NbNetProfile>
+        <NetworkName>Vodafone NZ</NetworkName>
+        <ProfBrowser>VFNZ Internet</ProfBrowser>
+        <ProfMMS>VFNZ PXT</ProfMMS>
+        <ProfEmail>VFNZ Internet</ProfEmail>
+        <ProfIM>VFNZ Internet</ProfIM>
+        <ProfStreaming>VFNZ Internet</ProfStreaming>
+        <ProfSyncDS>VFNZ Internet</ProfSyncDS>
+        <ProfActiveSync>VFNZ Internet</ProfActiveSync>
+        <ProfSyncDM>VFNZ Internet</ProfSyncDM>
+        <ProfAGPS>VFNZ Internet</ProfAGPS>
+        <ProfSGPS>VFNZ Internet</ProfSGPS>
+        <ProfWidget>VFNZ Internet</ProfWidget>
+        <ProfIntSharing>VFNZ Internet</ProfIntSharing>
+        <ProfRCS>VFNZ Internet</ProfRCS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+        <ProfEmergencyIMSCall>SOS</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Spark NZ</NetworkName>
+        <ProfBrowser>Data</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+        <ProfEmail>Data</ProfEmail>
+        <ProfIM>Data</ProfIM>
+        <ProfStreaming>Data</ProfStreaming>
+        <ProfSyncDS>Data</ProfSyncDS>
+        <ProfActiveSync>Data</ProfActiveSync>
+        <ProfSyncDM>Data</ProfSyncDM>
+        <ProfAGPS>Data</ProfAGPS>
+        <ProfSGPS>Data</ProfSGPS>
+        <ProfWidget>Data</ProfWidget>
+        <ProfIntSharing>Data</ProfIntSharing>
+        <ProfRCS>Data</ProfRCS>
+        <ProfIMS>ims</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Skinny</NetworkName>
+        <ProfBrowser>Data</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+        <ProfEmail>Data</ProfEmail>
+        <ProfIM>Data</ProfIM>
+        <ProfStreaming>Data</ProfStreaming>
+        <ProfSyncDS>Data</ProfSyncDS>
+        <ProfActiveSync>Data</ProfActiveSync>
+        <ProfSyncDM>Data</ProfSyncDM>
+        <ProfAGPS>Data</ProfAGPS>
+        <ProfSGPS>Data</ProfSGPS>
+        <ProfWidget>Data</ProfWidget>
+        <ProfIntSharing>Data</ProfIntSharing>
+        <ProfRCS>Data</ProfRCS>
+        <ProfIMS>ims</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>5</NbNetProfile>
+        <NetworkName>2degrees</NetworkName>
+        <ProfBrowser>Internet</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+        <ProfEmail>Internet</ProfEmail>
+        <ProfIM>Internet</ProfIM>
+        <ProfStreaming>Internet</ProfStreaming>
+        <ProfSyncDS>Internet</ProfSyncDS>
+        <ProfActiveSync>Internet</ProfActiveSync>
+        <ProfSyncDM>Internet</ProfSyncDM>
+        <ProfAGPS>Internet</ProfAGPS>
+        <ProfSGPS>Internet</ProfSGPS>
+        <ProfWidget>Internet</ProfWidget>
+        <ProfIntSharing>Internet</ProfIntSharing>
+        <ProfRCS>Internet</ProfRCS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>hos</ProfXCAP>
+        <ProfEmergencyIMSCall>2d emergency</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>5</NbNetProfile>
+        <NetworkName>Warehouse</NetworkName>
+        <ProfBrowser>Internet</ProfBrowser>
+        <ProfMMS>MMS</ProfMMS>
+        <ProfEmail>Internet</ProfEmail>
+        <ProfIM>Internet</ProfIM>
+        <ProfStreaming>Internet</ProfStreaming>
+        <ProfSyncDS>Internet</ProfSyncDS>
+        <ProfActiveSync>Internet</ProfActiveSync>
+        <ProfSyncDM>Internet</ProfSyncDM>
+        <ProfAGPS>Internet</ProfAGPS>
+        <ProfSGPS>Internet</ProfSGPS>
+        <ProfWidget>Internet</ProfWidget>
+        <ProfIntSharing>Internet</ProfIntSharing>
+        <ProfRCS>Internet</ProfRCS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>hos</ProfXCAP>
+        <ProfEmergencyIMSCall>2d emergency</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Vodafone FJ</NetworkName>
+        <ProfBrowser>VF Fiji Internet</ProfBrowser>
+        <ProfEmail>VF Fiji Internet</ProfEmail>
+        <ProfIM>VF Fiji Internet</ProfIM>
+        <ProfStreaming>VF Fiji Internet</ProfStreaming>
+        <ProfSyncDS>VF Fiji Internet</ProfSyncDS>
+        <ProfActiveSync>VF Fiji Internet</ProfActiveSync>
+        <ProfSyncDM>VF Fiji Internet</ProfSyncDM>
+        <ProfAGPS>VF Fiji Internet</ProfAGPS>
+        <ProfSGPS>VF Fiji Internet</ProfSGPS>
+        <ProfWidget>VF Fiji Internet</ProfWidget>
+        <ProfIntSharing>VF Fiji Internet</ProfIntSharing>
+        <ProfRCS>VF Fiji Internet</ProfRCS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Digicel PNG</NetworkName>
+        <ProfBrowser>PNG Internet</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Fiji</NetworkName>
+        <ProfBrowser>Fiji Internet</ProfBrowser>
+        <ProfMMS>Fiji MMS</ProfMMS>
+        <ProfIntSharing>Fiji Internet</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Nauru</NetworkName>
+        <ProfBrowser>Nauru Internet</ProfBrowser>
+        <ProfMMS>Nauru MMS</ProfMMS>
+        <ProfIntSharing>Nauru Internet</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Samoa</NetworkName>
+        <ProfBrowser>Samoa Internet</ProfBrowser>
+        <ProfMMS>Samoa MMS</ProfMMS>
+        <ProfIntSharing>Samoa Internet</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Tonga</NetworkName>
+        <ProfBrowser>Tonga Internet</ProfBrowser>
+        <ProfMMS>Tonga MMS</ProfMMS>
+        <ProfIntSharing>Tonga Internet</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel Vanuatu</NetworkName>
+        <ProfBrowser>Vanuatu Internet</ProfBrowser>
+        <ProfMMS>Vanuatu MMS</ProfMMS>
+        <ProfIntSharing>Vanuatu Internet</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>OPT-NC</NetworkName>
+        <ProfBrowser>MOBILIS</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>VINI</NetworkName>
+        <ProfBrowser>internet</ProfBrowser>
+        <ProfEmail>internet</ProfEmail>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Vodafone Kiribati</NetworkName>
+        <ProfBrowser>Vodafone Kiribati</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Timor Telecom</NetworkName>
+        <ProfBrowser>Timor Telecom</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Vodafone CK</NetworkName>
+        <ProfBrowser>Vodafone Cook Islands</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Vodafone Samoa</NetworkName>
+        <ProfBrowser>Vodafone Samoa</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Timor Telkomcel</NetworkName>
+        <ProfBrowser>TCEL INTERNET</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Vodafone VU</NetworkName>
+        <ProfBrowser>Vodafone VU</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Bluesky Am Samoa</NetworkName>
+        <ProfBrowser>Bluesky AS</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Vodafone PNG</NetworkName>
+        <ProfBrowser>VF PNG Internet</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>TELEMOR</NetworkName>
+        <ProfBrowser>Telemor</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>MANUIA</NetworkName>
+        <ProfBrowser>MANUIA</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>ASTCA</NetworkName>
+        <ProfBrowser>internet.astca</ProfBrowser>
+        <ProfEmail>internet.astca</ProfEmail>
+        <ProfIMS>ims</ProfIMS>
+        <ProfXCAP>service</ProfXCAP>
+        <ProfEmergencyIMSCall>SOS</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>ORA MOBILE</NetworkName>
+        <ProfBrowser>Internet</ProfBrowser>
+        <ProfEmail>Internet</ProfEmail>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfEmergencyIMSCall>SOS</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <NbProfile>64</NbProfile>
+      <Profile>
+        <NetworkName>Tuvalu Telecom</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>TTC Internet</ProfileName>
+        <URL>www.tuvalutelecom.tv</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ttc</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tuvalu Telecom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone NZ</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>VFNZ PXT</ProfileName>
+        <URL>http://pxt.vodafone.net.nz/pxtsend</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.030.038.003</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>live.vodafone.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone NZ</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>VFNZ Internet</ProfileName>
+        <URL>http://www.vodafone.co.nz</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>vodafone</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Spark NZ</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://mms.spark.co.nz</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>210.55.11.73</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Spark NZ</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Data</ProfileName>
+        <URL>http://m.spark.co.nz</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>other</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Skinny</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://mms.spark.co.nz</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>210.55.11.73</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Skinny</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Data</ProfileName>
+        <URL>http://skinny.co.nz</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>other</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>2degrees</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://mms.2degreesmobile.net.nz:48090</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>118.148.1.118</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>2degrees</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet</ProfileName>
+        <URL>www.google.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Warehouse</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS</ProfileName>
+        <URL>http://mms.warehousemobile.co.nz:48090</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>118.148.1.118</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>warehouse-mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Warehouse</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet</ProfileName>
+        <URL>http://www.google.co.nz</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>warehouse</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <Editable>yes</Editable>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone FJ</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>VF Fiji Internet</ProfileName>
+        <URL>http://www.vodafone.com.fj</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel PNG</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>PNG Internet</ProfileName>
+        <URL>https://www.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.digicelpng.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Fiji</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Fiji MMS</ProfileName>
+        <URL>http://mms.digicelpacific.com:8990</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.150.122.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Fiji</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Fiji Internet</ProfileName>
+        <URL>https://www.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Nauru</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Nauru MMS</ProfileName>
+        <URL>http://mms.digicelpacific.com:8990</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.150.122.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Nauru</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Nauru Internet</ProfileName>
+        <URL>https://www.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Samoa</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Samoa MMS</ProfileName>
+        <URL>http://mms.digicelsamoa.net:8990</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.148.122.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.digicelsamoa.ws</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Samoa</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Samoa Internet</ProfileName>
+        <URL>https://www.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.digicelsamoa.ws</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Tonga</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Tonga MMS</ProfileName>
+        <URL>http://mms.digicelpacific.com:8990</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.150.122.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Tonga</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Tonga Internet</ProfileName>
+        <URL>https://www.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Vanuatu</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Vanuatu MMS</ProfileName>
+        <URL>http://mms.digicelpacific.com:8990</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.150.122.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Vanuatu</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Vanuatu Internet</ProfileName>
+        <URL>https://www.digicelgroup.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.digicelpacific.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>OPT-NC</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MOBILIS</ProfileName>
+        <URL>www.opt.nc</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>IM</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VINI</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>internet</ProfileName>
+        <URL>http://www.vini.pf</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone Kiribati</NetworkName>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Vodafone Kiribati</ProfileName>
+        <URL>https://www.vodafone.com.ki</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Timor Telecom</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Timor Telecom</ProfileName>
+        <URL>www.timortelecom.tl</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone Samoa</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Vodafone Samoa</ProfileName>
+        <URL>https://www.vodafone.com.ws</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>4g.vodafone</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Bluesky Am Samoa</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Bluesky AS</ProfileName>
+        <URL>www.bluesky.as</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>4g.bluesky</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone PNG</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>VF PNG Internet</ProfileName>
+        <URL>www.vodafone.com.pg</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone CK</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Vodafone Cook Islands</ProfileName>
+        <URL>https://www.vodafone.co.ck</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Timor Telkomcel</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>TCEL INTERNET</ProfileName>
+        <URL>WWW.TELKOMCEL.TL</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <Editable>yes</Editable>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone VU</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Vodafone VU</ProfileName>
+        <URL>https://www.vodafone.com.vu</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>data.vodafone.vu</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TELEMOR</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Telemor</ProfileName>
+        <URL>http://telemor.tl</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>t-internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MANUIA</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MANUIA</ProfileName>
+        <URL>www.spt.wf</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>MANUIA</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone NZ</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone NZ</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone NZ</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>SOS</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Spark NZ</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>ims</ProfileName>
+        <Bearer>ps</Bearer>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Spark NZ</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Bearer>ps</Bearer>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>2degrees</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Warehouse</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Skinny</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>ims</ProfileName>
+        <Bearer>ps</Bearer>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Skinny</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Bearer>ps</Bearer>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>2degrees</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>hos</ProfileName>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Warehouse</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>hos</ProfileName>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>2degrees</NetworkName>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>2d emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Warehouse</NetworkName>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>2d emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone PNG</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Bearer>ps</Bearer>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone PNG</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Bearer>ps</Bearer>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone FJ</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Bearer>ps</Bearer>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone FJ</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Bearer>ps</Bearer>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone PF</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Vodafone Mobile</ProfileName>
+        <URL>www.vodafone.pf</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone PF</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Vodacard/Nomad</ProfileName>
+        <URL>www.vodafone.pf</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>nomad</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ASTCA</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>internet.astca</ProfileName>
+        <URL>https://www.astca.net/</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.astca</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ASTCA</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>ims</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ASTCA</NetworkName>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>SOS</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ASTCA</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>service</ProfileName>
+        <PSparam>
+          <APN>service</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ORA MOBILE</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet</ProfileName>
+        <URL>www.ora.pf</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ORA MOBILE</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Bearer>ps</Bearer>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ORA MOBILE</NetworkName>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>SOS</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

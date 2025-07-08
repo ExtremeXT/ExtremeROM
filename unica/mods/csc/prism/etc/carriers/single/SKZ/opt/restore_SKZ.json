@@ -1,0 +1,137 @@
+{
+    "modelName": "SM-S938B",
+    "oemKey": "SKZ",
+    "version": "1004",
+    "app": [
+        {
+            "appId": "com.sec.android.app.popupcalculator",
+            "appName": "Calculator",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.sec.android.app.clockpackage",
+            "appName": "Clock",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.app.notes",
+            "appName": "Samsung Notes",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.app.watchmanager",
+            "appName": "Galaxy Wearable",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.oneconnect",
+            "appName": "SmartThings",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.sec.android.app.shealth",
+            "appName": "Samsung Health",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.calendar",
+            "appName": "Calendar",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.app.reminder",
+            "appName": "Reminder",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.sree",
+            "appName": "Samsung Global Goals",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.spay",
+            "appName": "Samsung Wallet",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.app.spage",
+            "appName": "Samsung Free",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.game.gamehome",
+            "appName": "Game Launcher",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.voc",
+            "appName": "Samsung Members",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.sec.android.app.sbrowser",
+            "appName": "Internet",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.sec.android.app.voicenote",
+            "appName": "Voice Recorder",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.sec.android.app.kidshome",
+            "appName": "Samsung Kids",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.app.tips",
+            "appName": "Tips",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.app.find",
+            "appName": "Find",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.vision.model",
+            "appName": "Samsung Vision Model",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.offline.languagemodel",
+            "appName": "Samsung Language Core",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.SMT.lang_en_us_l03",
+            "appName": "Samsung TTS US English Voice 1",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.bixby.ondevice.enus",
+            "appName": "Samsung on-device Resource English (United states)",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.SMT.lang_ru_ru_f00",
+            "appName": "Samsung TTS Russian Voice 1",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.bixby.ondevice.ruxx",
+            "appName": "Samsung on-device Resource Русский (СНГ)",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.nmt.apps.t2t.languagepack.enru",
+            "appName": "En-Ru Language Pack",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.sec.penup",
+            "appName": "PENUP",
+            "supportSubUser": "true"
+        }
+    ]
+}

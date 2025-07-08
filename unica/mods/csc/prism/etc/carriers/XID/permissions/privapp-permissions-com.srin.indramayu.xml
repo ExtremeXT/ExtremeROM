@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<permissions>
+		<privapp-permissions package="com.srin.indramayu">
+			<permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+			<permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+			<permission name="android.permission.PACKAGE_USAGE_STATS"/>
+			<permission name="android.permission.BLUETOOTH_SCAN"/>
+			<permission name="android.permission.POST_NOTIFICATIONS"/>
+			<permission name="com.google.android.gms.permission.AD_ID"/>
+			<permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+		</privapp-permissions>
+	</permissions>

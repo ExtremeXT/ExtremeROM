@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<omc-default-permissions>
+
+    <!-- Non-TSS -->
+    <sales-code code="CHT" firstboot="true">
+        <package name="com.dti.telefonica">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+    <sales-code code="UFN" firstboot="true">
+        <package name="com.dti.telefonica">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+    <sales-code code="COB" firstboot="true">
+        <package name="com.dti.telefonica">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+    <sales-code code="EBE" firstboot="true">
+        <package name="com.dti.telefonica">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+    <sales-code code="TMM" firstboot="true">
+        <package name="com.dti.telefonica">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+    <sales-code code="ZVV" firstboot="true">
+        <package name="com.dti.telefonica">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+
+    <!-- TSS -->
+    <activated-id code="CHT" firstboot="true">
+        <package name="com.dti.telefonica">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+    <activated-id code="UFN" firstboot="true">
+        <package name="com.dti.telefonica">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+    <activated-id code="COB" firstboot="true">
+        <package name="com.dti.telefonica">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+    <activated-id code="EBE" firstboot="true">
+        <package name="com.dti.telefonica">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+    <activated-id code="TMM" firstboot="true">
+        <package name="com.dti.telefonica">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+    <activated-id code="ZVV" firstboot="true">
+        <package name="com.dti.telefonica">
+            <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+
+</omc-default-permissions>

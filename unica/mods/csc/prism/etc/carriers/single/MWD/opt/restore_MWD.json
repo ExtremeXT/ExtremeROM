@@ -1,0 +1,142 @@
+{
+    "modelName": "SM-S938B",
+    "oemKey": "MWD",
+    "version": "1003",
+    "app": [
+        {
+            "appId": "com.sec.android.app.popupcalculator",
+            "appName": "Calculator",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.sec.android.app.clockpackage",
+            "appName": "Clock",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.app.notes",
+            "appName": "Samsung Notes",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.app.watchmanager",
+            "appName": "Galaxy Wearable",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.oneconnect",
+            "appName": "SmartThings",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.sec.android.app.shealth",
+            "appName": "Samsung Health",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.calendar",
+            "appName": "Calendar",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.app.reminder",
+            "appName": "Reminder",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.sree",
+            "appName": "Samsung Global Goals",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.spay",
+            "appName": "Samsung  Wallet",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.app.spage",
+            "appName": "Samsung Free",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.game.gamehome",
+            "appName": "Game Launcher",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.voc",
+            "appName": "Samsung Members",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.sec.android.app.sbrowser",
+            "appName": "Internet",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.sec.android.app.voicenote",
+            "appName": "Voice Recorder",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.sec.penup",
+            "appName": "PENUP",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.sec.android.app.kidshome",
+            "appName": "Samsung Kids",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.app.tips",
+            "appName": "Tips",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.galaxy",
+            "appName": "Galaxy Shop",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.app.find",
+            "appName": "Find",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.vision.model",
+            "appName": "Samsung Vision Model",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.offline.languagemodel",
+            "appName": "Samsung Language Core",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.SMT.lang_en_gb_l02",
+            "appName": "Samsung TTS UK English Voice 1",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.SMT.lang_ar_ae_m00",
+            "appName": "Samsung TTS Arabic (MSA) Voice 1",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.nmt.apps.t2t.languagepack.enar",
+            "appName": "En-Ar Language Pack",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.bixby.ondevice.engb",
+            "appName": "Samsung on-device Resource English (United Kingdom)",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.bixby.ondevice.arae",
+            "appName": "Samsung on-device Resource العربية (الفصحى)",
+            "supportSubUser": "true"
+        }
+    ]
+}

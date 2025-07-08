@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_XSP_15_0006</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0003</customerEdition>
+    <carrierListVersion>150032</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>12</carrierCount>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>01</mnc>
+      <networkName>Singtel (Prepaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>01</mnc>
+      <networkName>Singtel (Postpaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>02</mnc>
+      <networkName>Singtel (Prepaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>02</mnc>
+      <networkName>Singtel (Postpaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>03</mnc>
+      <networkName>SGP-M1</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>05</mnc>
+      <networkName>StarHub</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>05</mnc>
+      <spn>giga</spn>
+      <networkName>giga</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>10</mnc>
+      <networkName>SIMBA</networkName>
+    </carrier>
+    <carrier>
+      <mcc>528</mcc>
+      <mnc>01</mnc>
+      <spn>Imagine</spn>
+      <networkName>Imagine</networkName>
+    </carrier>
+    <carrier>
+      <mcc>528</mcc>
+      <mnc>02</mnc>
+      <spn>PROGRESIF</spn>
+      <networkName>PROGRESIF</networkName>
+    </carrier>
+    <carrier>
+      <mcc>528</mcc>
+      <mnc>03</mnc>
+      <spn>UNN</spn>
+      <networkName>UNN</networkName>
+    </carrier>
+    <carrier>
+      <mcc>528</mcc>
+      <mnc>11</mnc>
+      <spn>DSTCom</spn>
+      <networkName>DSTCom</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_PSN_15_0009</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0003</customerEdition>
+    <carrierListVersion>150032</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>2</carrierCount>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>34</mnc>
+      <networkName>Personal</networkName>
+    </carrier>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>341</mnc>
+      <networkName>Personal</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

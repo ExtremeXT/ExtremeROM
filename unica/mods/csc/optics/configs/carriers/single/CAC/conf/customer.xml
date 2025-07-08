@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0002</CSCEdition>
+    <Country>Central Asia</Country>
+    <CountryISO>KG</CountryISO>
+    <Region>CIS</Region>
+    <SalesCode>CAC</SalesCode>
+    <NbNetworkInfo>20</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43405</MCCMNC>
+      <NetworkName>UCELL</NetworkName>
+      <NWID>NW01356</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43404</MCCMNC>
+      <NetworkName>BEELINE UZ</NetworkName>
+      <NWID>NW00204</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43408</MCCMNC>
+      <NetworkName>UzMobile</NetworkName>
+      <NWID>NW01422</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43709</MCCMNC>
+      <NetworkName>O!</NetworkName>
+      <NWID>NW00878</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43701</MCCMNC>
+      <NetworkName>Beeline KG</NetworkName>
+      <NWID>NW00103</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43705</MCCMNC>
+      <NetworkName>Megacom</NetworkName>
+      <NWID>NW00732</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43710</MCCMNC>
+      <NetworkName>Saima4G</NetworkName>
+      <NWID>NW01078</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43604</MCCMNC>
+      <NetworkName>Babylon-Mobile</NetworkName>
+      <NWID>NW00182</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43603</MCCMNC>
+      <NetworkName>MegaFon TJ</NetworkName>
+      <NWID>NW02121</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43410</MCCMNC>
+      <NetworkName>Humans</NetworkName>
+      <NWID>NW02292</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43601</MCCMNC>
+      <NetworkName>Tcell</NetworkName>
+      <NWID>NW01211</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43602</MCCMNC>
+      <NetworkName>Tcell</NetworkName>
+      <NWID>NW01211</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43605</MCCMNC>
+      <NetworkName>Beeline TJ</NetworkName>
+      <NWID>NW00105</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>42899</MCCMNC>
+      <NetworkName>MobiCom</NetworkName>
+      <NWID>NW00736</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>42806</MCCMNC>
+      <NetworkName>G-Mobile</NetworkName>
+      <NWID>NW00540</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>42888</MCCMNC>
+      <NetworkName>Unitel</NetworkName>
+      <NWID>NW01402</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43802</MCCMNC>
+      <NetworkName>TMCELL</NetworkName>
+      <NWID>NW01303</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43801</MCCMNC>
+      <NetworkName>MTS-TM</NetworkName>
+      <NWID>NW00828</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>42833</MCCMNC>
+      <NetworkName>ONDO</NetworkName>
+      <NWID>NW02154</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43407</MCCMNC>
+      <NetworkName>Mobiuz</NetworkName>
+      <NWID>NW02233</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbWbAmr>4</NbWbAmr>
+        <WbAmr>
+          <NetworkName>G-Mobile</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <WbAmr>
+          <NetworkName>Unitel</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <WbAmr>
+          <NetworkName>Orange</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <WbAmr>
+          <NetworkName>Mobiuz</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>112,911</SOSNumber>
+        <NbSOSNumberNoSIM>1</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>112,911</SOSNumberNoSIM>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>on</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Sound>
+        <RngToneAlertType>melody</RngToneAlertType>
+        <ExtraSound>
+          <ConnectTone>on</ConnectTone>
+        </ExtraSound>
+      </Sound>
+      <Phone>
+        <DefLanguage>ru_RU</DefLanguage>
+        <DefLanguageNoSIM>ru_RU</DefLanguageNoSIM>
+        <T9Enabling>disable</T9Enabling>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+        </DateTimeFormat>
+        <WeekendSetting>satsun</WeekendSetting>
+        <RoamingClock>on</RoamingClock>
+      </Phone>
+    </Main>
+    <Contact>
+      <SavePosition>ask</SavePosition>
+    </Contact>
+    <Calendar>
+      <StartDay>monday</StartDay>
+    </Calendar>
+    <Messages>
+      <SMS>
+        <CharSupport>automatic</CharSupport>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <MessageSize>300</MessageSize>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+      <Email>
+        <EmailReceiving>
+          <KeepServer>on</KeepServer>
+        </EmailReceiving>
+      </Email>
+    </Messages>
+    <Browser>
+      <NbBookmark>1</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>19</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>UCELL</NetworkName>
+        <ProfBrowser>UCELL Internet</ProfBrowser>
+        <ProfMMS>UCELL MMS</ProfMMS>
+        <ProfIMS>UCELL IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>BEELINE UZ</NetworkName>
+        <ProfBrowser>BEELINE Internet</ProfBrowser>
+        <ProfMMS>BEELINE MMS</ProfMMS>
+        <ProfIMS>BEELINE IMS</ProfIMS>
+        <ProfXCAP>BEELINE XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>UzMobile</NetworkName>
+        <ProfBrowser>UzMobile Internet</ProfBrowser>
+        <ProfIMS>UzMobile IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>O!</NetworkName>
+        <ProfBrowser>O! Internet</ProfBrowser>
+        <ProfEmail>O! Internet</ProfEmail>
+        <ProfIMS>O! IMS</ProfIMS>
+        <ProfXCAP>O! XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Beeline KG</NetworkName>
+        <ProfBrowser>Beeline Internet</ProfBrowser>
+        <ProfEmail>Beeline Internet</ProfEmail>
+        <ProfIMS>Beeline IMS</ProfIMS>
+        <ProfXCAP>Beeline XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Megacom</NetworkName>
+        <ProfBrowser>Megacom Internet</ProfBrowser>
+        <ProfEmail>Megacom Internet</ProfEmail>
+        <ProfIMS>Megacom IMS</ProfIMS>
+        <ProfXCAP>Megacom XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Saima4G</NetworkName>
+        <ProfBrowser>Saima4G Internet</ProfBrowser>
+        <ProfEmail>Saima4G Internet</ProfEmail>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Babylon-Mobile</NetworkName>
+        <ProfBrowser>BM Internet</ProfBrowser>
+        <ProfMMS>BM MMS</ProfMMS>
+        <ProfIMS>Babylon-Mobile IMS</ProfIMS>
+        <ProfXCAP>Babylon-Mobile XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Tcell</NetworkName>
+        <ProfBrowser>Tcell Internet</ProfBrowser>
+        <ProfMMS>Tcell MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Beeline TJ</NetworkName>
+        <ProfBrowser>Beeline Internet</ProfBrowser>
+        <ProfMMS>Beeline MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>MobiCom</NetworkName>
+        <ProfBrowser>MobiCom Internet</ProfBrowser>
+        <ProfMMS>MobiCom MMS</ProfMMS>
+        <ProfEmail>MobiCom Internet</ProfEmail>
+        <ProfIMS>MobiCom IMS</ProfIMS>
+        <ProfXCAP>MobiCom XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>G-Mobile</NetworkName>
+        <ProfBrowser>G-Mobile Internet</ProfBrowser>
+        <ProfEmail>G-Mobile Internet</ProfEmail>
+        <ProfIMS>G-Mobile IMS</ProfIMS>
+        <ProfXCAP>G-Mobile XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Unitel</NetworkName>
+        <ProfBrowser>Unitel Internet</ProfBrowser>
+        <ProfMMS>Unitel MMS</ProfMMS>
+        <ProfEmail>Unitel Internet</ProfEmail>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>TMCELL</NetworkName>
+        <ProfBrowser>TMCELL</ProfBrowser>
+        <ProfEmail>TMCELL</ProfEmail>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>MTS-TM</NetworkName>
+        <ProfBrowser>MTS TM</ProfBrowser>
+        <ProfMMS>MTS MMS</ProfMMS>
+        <ProfEmail>MTS TM</ProfEmail>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Mobiuz</NetworkName>
+        <ProfBrowser>Mobiuz Internet</ProfBrowser>
+        <ProfMMS>Mobiuz MMS</ProfMMS>
+        <ProfEmail>Mobiuz Internet</ProfEmail>
+        <ProfIMS>Mobiuz IMS</ProfIMS>
+        <ProfXCAP>Mobiuz XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>MegaFon TJ</NetworkName>
+        <ProfBrowser>MegaFon TJ Internet</ProfBrowser>
+        <ProfIMS>MegaFon TJ IMS</ProfIMS>
+        <ProfXCAP>MegaFon TJ XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Humans</NetworkName>
+        <ProfBrowser>Humans Internet</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>ONDO</NetworkName>
+        <ProfBrowser>ONDO Internet</ProfBrowser>
+        <ProfEmail>ONDO Internet</ProfEmail>
+        <ProfIMS>ONDO IMS</ProfIMS>
+        <ProfXCAP>ONDO XCAP</ProfXCAP>
+      </ProfileHandle>
+      <NbProfile>50</NbProfile>
+      <Profile>
+        <NetworkName>UCELL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <ProfileName>UCELL Internet</ProfileName>
+        <URL>http://ucell.uz/ru.html</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>UCELL</NetworkName>
+        <ProfileName>UCELL MMS</ProfileName>
+        <URL>http://mmsc:8002/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.64.164.10</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>UCELL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <ProfileName>UCELL IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BEELINE UZ</NetworkName>
+        <ProfileName>BEELINE Internet</ProfileName>
+        <URL>http://internet.beeline.uz</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.beeline.uz</APN>
+          <UserId>beeline</UserId>
+          <Password>beeline</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BEELINE UZ</NetworkName>
+        <ProfileName>BEELINE MMS</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.30.30.166</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.beeline.uz</APN>
+          <UserId>beeline</UserId>
+          <Password>beeline</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BEELINE UZ</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <ProfileName>BEELINE IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BEELINE UZ</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <ProfileName>BEELINE XCAP</ProfileName>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>UzMobile</NetworkName>
+        <ProfileName>UzMobile Internet</ProfileName>
+        <URL>www.uzmobile.uz</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.uzmobile.uz</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>UzMobile</NetworkName>
+        <ProfileName>UzMobile IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>O!</NetworkName>
+        <ProfileName>O! Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>O!</NetworkName>
+        <ProfileName>O! IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>O!</NetworkName>
+        <ProfileName>O! XCAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Beeline KG</NetworkName>
+        <ProfileName>Beeline IMS</ProfileName>
+        <URL>http://www.beeline.kg</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Beeline KG</NetworkName>
+        <ProfileName>Beeline XCAP</ProfileName>
+        <URL>http://www.beeline.kg</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Beeline KG</NetworkName>
+        <ProfileName>Beeline Internet</ProfileName>
+        <URL>http://www.beeline.kg</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.beeline.kg</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Megacom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <ProfileName>Megacom IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Megacom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <ProfileName>Megacom XCAP</ProfileName>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Megacom</NetworkName>
+        <ProfileName>Megacom Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Saima4G</NetworkName>
+        <ProfileName>Saima4G Internet</ProfileName>
+        <URL>http://www.saima4g.kg</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Babylon-Mobile</NetworkName>
+        <ProfileName>BM Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>babilon</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Babylon-Mobile</NetworkName>
+        <ProfileName>BM MMS</ProfileName>
+        <URL>http://mmsdb</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>129.9.0.50</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Babylon-Mobile</NetworkName>
+        <ProfileName>Babylon-Mobile IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Babylon-Mobile</NetworkName>
+        <ProfileName>Babylon-Mobile XCAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tcell</NetworkName>
+        <ProfileName>Tcell Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Tcell</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tcell</NetworkName>
+        <ProfileName>Tcell MMS</ProfileName>
+        <URL>http://mms.somoncom.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.100.30</ServAddr>
+          <Port>3128</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Beeline TJ</NetworkName>
+        <ProfileName>Beeline Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.beeline.tj</APN>
+          <UserId>beeline</UserId>
+          <Password>beeline</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Beeline TJ</NetworkName>
+        <ProfileName>Beeline MMS</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.028.253.069</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.beeline.tj</APN>
+          <UserId>beeline</UserId>
+          <Password>beeline</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MegaFon TJ</NetworkName>
+        <ProfileName>MegaFon TJ Internet</ProfileName>
+        <Auth>normal</Auth>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MegaFon TJ</NetworkName>
+        <ProfileName>MegaFon TJ IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MegaFon TJ</NetworkName>
+        <ProfileName>MegaFon TJ XCAP</ProfileName>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MobiCom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <ProfileName>MobiCom IMS</ProfileName>
+        <MTUSize>1300</MTUSize>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MobiCom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <ProfileName>MobiCom XCAP</ProfileName>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MobiCom</NetworkName>
+        <ProfileName>MobiCom Internet</ProfileName>
+        <URL>http://i.mobicom.mn</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MobiCom</NetworkName>
+        <ProfileName>MobiCom MMS</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.10.10</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Unitel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <ProfileName>Unitel MMS</ProfileName>
+        <URL>http://10.10.1.20:19090</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.1.21</ServAddr>
+          <Port>8888</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Unitel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <ProfileName>Unitel Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>net</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>G-Mobile</NetworkName>
+        <ProfileName>G-Mobile Internet</ProfileName>
+        <URL>http://www.g-mobile.mn</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>G-Mobile</NetworkName>
+        <ProfileName>G-Mobile IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>G-Mobile</NetworkName>
+        <ProfileName>G-Mobile XCAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TMCELL</NetworkName>
+        <ProfileName>TMCELL</ProfileName>
+        <URL>http://www.tmcell.tm</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>gprs.tmcell</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTS-TM</NetworkName>
+        <ProfileName>MTS TM</ProfileName>
+        <URL>http://www.mts.tm/rus/mobil_inet/mobile-sett/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>net.mts.tm</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTS-TM</NetworkName>
+        <ProfileName>MTS MMS</ProfileName>
+        <URL>http://mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <ServAddr>10.192.35.1</ServAddr>
+          <Port>3128</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.mts.tm</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Mobiuz</NetworkName>
+        <ProfileName>Mobiuz Internet</ProfileName>
+        <URL>http://www.mobi.uz</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>net.ums.uz</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Mobiuz</NetworkName>
+        <ProfileName>Mobiuz MMS</ProfileName>
+        <URL>http://mmsc/was</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.0.10</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.ums.uz</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Mobiuz</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Mobiuz IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Mobiuz</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Mobiuz XCAP</ProfileName>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Humans</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <ProfileName>Humans Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ONDO</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <ProfileName>ONDO Internet</ProfileName>
+        <Auth>normal</Auth>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ONDO</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <ProfileName>ONDO IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.1.21</ServAddr>
+          <Port>8888</Port>
+        </Proxy>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ONDO</NetworkName>
+        <ProfileName>ONDO XCAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

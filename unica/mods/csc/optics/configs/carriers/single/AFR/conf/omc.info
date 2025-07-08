@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_AFR_15_0006</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0002</customerEdition>
+    <carrierListVersion>150038</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>23</carrierCount>
+    <carrier>
+      <mcc>630</mcc>
+      <mnc>01</mnc>
+      <networkName>Vodacom Congo RDC sprl</networkName>
+    </carrier>
+    <carrier>
+      <mcc>630</mcc>
+      <mnc>02</mnc>
+      <networkName>Airtel sprl</networkName>
+    </carrier>
+    <carrier>
+      <mcc>630</mcc>
+      <mnc>86</mnc>
+      <networkName>Orange RDC sarl</networkName>
+    </carrier>
+    <carrier>
+      <mcc>630</mcc>
+      <mnc>89</mnc>
+      <networkName>Orange RDC sarl</networkName>
+    </carrier>
+    <carrier>
+      <mcc>633</mcc>
+      <mnc>01</mnc>
+      <networkName>C&amp;W SEY</networkName>
+    </carrier>
+    <carrier>
+      <mcc>634</mcc>
+      <mnc>01</mnc>
+      <networkName>Zain Sudan</networkName>
+    </carrier>
+    <carrier>
+      <mcc>634</mcc>
+      <mnc>02</mnc>
+      <networkName>MTN Sudan</networkName>
+    </carrier>
+    <carrier>
+      <mcc>634</mcc>
+      <mnc>07</mnc>
+      <networkName>Sudani Network</networkName>
+    </carrier>
+    <carrier>
+      <mcc>635</mcc>
+      <mnc>17</mnc>
+      <networkName>KTRN</networkName>
+    </carrier>
+    <carrier>
+      <mcc>636</mcc>
+      <mnc>01</mnc>
+      <networkName>Ethiopia Ethio Telecom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>636</mcc>
+      <mnc>02</mnc>
+      <spn>Safaricom</spn>
+      <networkName>Safaricom Telecom munications Ethiopia</networkName>
+    </carrier>
+    <carrier>
+      <mcc>639</mcc>
+      <mnc>02</mnc>
+      <networkName>Safaricom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>639</mcc>
+      <mnc>03</mnc>
+      <networkName>Airtel</networkName>
+    </carrier>
+    <carrier>
+      <mcc>639</mcc>
+      <mnc>07</mnc>
+      <networkName>Telkom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>639</mcc>
+      <mnc>10</mnc>
+      <networkName>Faiba4G</networkName>
+    </carrier>
+    <carrier>
+      <mcc>639</mcc>
+      <mnc>11</mnc>
+      <networkName>Jambotel</networkName>
+    </carrier>
+    <carrier>
+      <mcc>640</mcc>
+      <mnc>02</mnc>
+      <networkName>tiGO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>640</mcc>
+      <mnc>03</mnc>
+      <networkName>Zantel</networkName>
+    </carrier>
+    <carrier>
+      <mcc>640</mcc>
+      <mnc>04</mnc>
+      <networkName>Vodacom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>640</mcc>
+      <mnc>05</mnc>
+      <networkName>Airtel TZ</networkName>
+    </carrier>
+    <carrier>
+      <mcc>640</mcc>
+      <mnc>11</mnc>
+      <networkName>Smile TZ</networkName>
+    </carrier>
+    <carrier>
+      <mcc>641</mcc>
+      <mnc>10</mnc>
+      <networkName>MTN Uganda</networkName>
+    </carrier>
+    <carrier>
+      <mcc>641</mcc>
+      <mnc>33</mnc>
+      <networkName>Smile UG</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

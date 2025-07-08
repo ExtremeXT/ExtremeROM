@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.altice.android.myapps.samsung">
+        <permission name="android.permission.POST_NOTIFICATIONS" whitelisted="true" />
+    </exception>
+</exceptions>
+

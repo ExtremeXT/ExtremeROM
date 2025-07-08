@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!--  App Starter (de.telekom.tsc) POST_NOTIFICATIONS : b/237304124 -->
+<!--  App Starter (de.telekom.tsc) PHONE permission : b/24494613 -->
+<omc-default-permissions>
+    <activated-id code="COS" firstboot="true">
+        <package name="de.telekom.tsc">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+	    <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+        </package>
+    </activated-id>
+
+    <activated-id code="CRO" firstboot="true">
+        <package name="de.telekom.tsc">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+	    <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+        </package>
+    </activated-id>
+
+    <activated-id code="DTM" firstboot="true">
+        <package name="de.telekom.tsc">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+	    <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+        </package>
+    </activated-id>
+
+    <activated-id code="MAX" firstboot="true">
+        <package name="de.telekom.tsc">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+	    <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+        </package>
+    </activated-id>
+
+    <activated-id code="MBM" firstboot="true">
+        <package name="de.telekom.tsc">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+	    <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+        </package>
+    </activated-id>
+
+    <activated-id code="TMH" firstboot="true">
+        <package name="de.telekom.tsc">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+	    <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+        </package>
+    </activated-id>
+
+    <activated-id code="TMS" firstboot="true">
+        <package name="de.telekom.tsc">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+	    <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+        </package>
+    </activated-id>
+    
+    <activated-id code="TMZ" firstboot="true">
+        <package name="de.telekom.tsc">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+	    <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+        </package>
+    </activated-id>
+
+    <activated-id code="TNL" firstboot="true">
+        <package name="de.telekom.tsc">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+	    <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+        </package>
+    </activated-id>
+
+    <activated-id code="TPL" firstboot="true">
+        <package name="de.telekom.tsc">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+	    <permission name="android.permission.READ_PHONE_STATE" systemfixed="false" />
+        </package>
+    </activated-id>
+</omc-default-permissions>

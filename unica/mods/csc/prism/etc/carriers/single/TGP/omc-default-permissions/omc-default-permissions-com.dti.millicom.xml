@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<omc-default-permissions>
+
+    <!-- Non-TSS -->
+    <sales-code csc="BVT" firstboot="true">
+        <package name="com.dti.millicom">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+    <sales-code csc="CGU" firstboot="true">
+        <package name="com.dti.millicom">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+    <sales-code csc="COL" firstboot="true">
+        <package name="com.dti.millicom">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+    <sales-code csc="NBS" firstboot="true">
+        <package name="com.dti.millicom">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+    <sales-code csc="TGP" firstboot="true">
+        <package name="com.dti.millicom">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+    <sales-code csc="PBS" firstboot="true">
+        <package name="com.dti.millicom">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </sales-code>
+
+    <!-- TSS -->
+    <activated-id code="BVT" firstboot="true">
+        <package name="com.dti.millicom">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+    <activated-id code="CGU" firstboot="true">
+        <package name="com.dti.millicom">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+    <activated-id code="COL" firstboot="true">
+        <package name="com.dti.millicom">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+    <activated-id code="NBS" firstboot="true">
+        <package name="com.dti.millicom">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+    <activated-id code="TGP" firstboot="true">
+        <package name="com.dti.millicom">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+    <activated-id code="PBS" firstboot="true">
+        <package name="com.dti.millicom">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+
+</omc-default-permissions>

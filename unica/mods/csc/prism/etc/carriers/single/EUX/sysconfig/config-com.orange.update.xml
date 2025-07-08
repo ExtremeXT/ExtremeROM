@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <allow-in-power-save package="com.orange.update" />
+    <initial-package-state package="com.orange.update" stopped="false"/>
+</config>

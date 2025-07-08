@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0004</CSCEdition>
+    <Country>Dominican Republic</Country>
+    <CountryISO>DO</CountryISO>
+    <Region>LA</Region>
+    <SalesCode>CDR</SalesCode>
+    <NbNetworkInfo>1</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>37002</MCCMNC>
+      <NetworkName>Claro_DR</NetworkName>
+      <NWID>NW00308</NWID>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <UnlockCnt>5</UnlockCnt>
+        <OneSIMLock>off</OneSIMLock>
+        <SeparateLock>on</SeparateLock>
+        <NbNetworkLock>1</NbNetworkLock>
+        <NetworkLock>37002</NetworkLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>2</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>Claro_DR</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Claro_DR</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>default</NetworkName>
+          <WbAmrCodec>off</WbAmrCodec>
+        </WbAmr>
+      </Network>
+      <Sound>
+        <ExtraSound>
+          <ConnectTone>off</ConnectTone>
+          <CallEndTone>off</CallEndTone>
+        </ExtraSound>
+        <NbMessageTone>1</NbMessageTone>
+        <MessageTone src="/Customer/CDR/Messagetone/Claro.ogg" default="true">
+          <Position>1</Position>
+          <FileType>OGG</FileType>
+        </MessageTone>
+        <NbRingTone>1</NbRingTone>
+        <RingTone src="/Customer/CDR/Ringtone/Claro.ogg" default="true">
+          <Position>1</Position>
+          <FileType>OGG</FileType>
+        </RingTone>
+      </Sound>
+      <Phone>
+        <DefLanguage>spanish_latin</DefLanguage>
+        <DefLanguageNoSIM>spanish_latin</DefLanguageNoSIM>
+        <T9Enabling>disable</T9Enabling>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+      <Display>
+        <NbWallpaper>5</NbWallpaper>
+        <Wallpaper src="/Customer/CDR/Wallpaper/ClaroWallpaper_w-01.png" width="1024" height="600">
+          <Position>1</Position>
+          <FileType>PNG</FileType>
+        </Wallpaper>
+        <Wallpaper src="/Customer/CDR/Wallpaper/ClaroWallpaper_w-14.png" width="1024" height="600">
+          <Position>2</Position>
+          <FileType>PNG</FileType>
+        </Wallpaper>
+        <Wallpaper src="/Customer/CDR/Wallpaper/ClaroWallpaper_w-15.png" width="1024" height="600">
+          <Position>3</Position>
+          <FileType>PNG</FileType>
+        </Wallpaper>
+        <Wallpaper src="/Customer/CDR/Wallpaper/ClaroWallpaper_w-17.png" width="1024" height="600">
+          <Position>4</Position>
+          <FileType>PNG</FileType>
+        </Wallpaper>
+        <Wallpaper src="/Customer/CDR/Wallpaper/default_wallpaper.png" width="1024" height="600" usedWithLockScreen="true" default="true">
+          <Position>5</Position>
+          <FileType>PNG</FileType>
+        </Wallpaper>
+      </Display>
+    </Main>
+    <Messages>
+      <NbVoicemail>1</NbVoicemail>
+      <Voicemail>
+        <NetworkName>Claro_DR</NetworkName>
+        <TelNum>*99</TelNum>
+      </Voicemail>
+      <Email>
+        <NbAccount>1</NbAccount>
+        <Account>
+          <NetworkName>Claro_DR</NetworkName>
+          <AccountName>CLARO</AccountName>
+          <EmailAddr>USER@claro.net.do</EmailAddr>
+          <UserId>USER ID</UserId>
+          <Password>PASSWORD</Password>
+          <LoginType>domain_type</LoginType>
+          <Incoming>
+            <MailboxType>imap4</MailboxType>
+            <ServAddr>imap.claro.net.do</ServAddr>
+            <Port>143</Port>
+          </Incoming>
+          <Outgoing>
+            <ServAddr>smtp.claro.net.do</ServAddr>
+            <Port>80</Port>
+            <SmtpAuth>on</SmtpAuth>
+          </Outgoing>
+        </Account>
+      </Email>
+    </Messages>
+    <ActiveSync>
+      <Signature>Enviado desde mi Samsung Mobile de Claro</Signature>
+    </ActiveSync>
+    <Browser>
+      <NbBookmark>4</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Claro</BookmarkName>
+        <URL>https://www.claro.com.do/personas/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Claro sports</BookmarkName>
+        <URL>https://la.clarosports.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Mi Claro</BookmarkName>
+        <URL>https://miclaro.claro.com.do</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Claro gaming</BookmarkName>
+        <URL>https://clarogaming.com.do/</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>1</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Claro_DR</NetworkName>
+        <ProfBrowser>CLARO INTERNET</ProfBrowser>
+        <ProfIMS>CLARO IMS</ProfIMS>
+        <ProfXCAP>CLARO INTERNET</ProfXCAP>
+        <ProfEmergencyIMSCall>SOS APN</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <NbProfile>3</NbProfile>
+      <Profile>
+        <NetworkName>Claro_DR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>CLARO INTERNET</ProfileName>
+        <URL>http://www.clarosva.com/do</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.ideasclaro.com.do</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_DR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>CLARO IMS</ProfileName>
+        <Auth>normal</Auth>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_DR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>SOS APN</ProfileName>
+        <PSparam>
+          <APN>SOS</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

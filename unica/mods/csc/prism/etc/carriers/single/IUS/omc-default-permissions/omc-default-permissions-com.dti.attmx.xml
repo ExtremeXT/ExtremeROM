@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<omc-default-permissions>
+    <!--  Non-TSS  -->
+    <sales-code csc="IUS" firstboot="true">
+        <package name="com.dti.attmx">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+     <sales-code csc="UNE" firstboot="true">
+        <package name="com.dti.attmx">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false"/>
+        </package>
+    </sales-code>
+    <!-- TSS -->
+    <activated-id code="IUS" firstboot="true">
+        <package name="com.dti.attmx">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+    <activated-id code="UNE" firstboot="true">
+        <package name="com.dti.attmx">
+            <permission name="android.permission.POST_NOTIFICATIONS" systemfixed="false" />
+        </package>
+    </activated-id>
+
+</omc-default-permissions>

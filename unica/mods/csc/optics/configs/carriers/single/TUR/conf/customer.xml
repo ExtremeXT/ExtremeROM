@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0001</CSCEdition>
+    <Country>TÜRKİYE</Country>
+    <CountryISO>TR</CountryISO>
+    <Region>MEA</Region>
+    <SalesCode>TUR</SalesCode>
+    <NbNetworkInfo>4</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>28601</MCCMNC>
+      <NetworkName>TR Turkcell</NetworkName>
+      <NWID>NW01349</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>28602</MCCMNC>
+      <NetworkName>VODAFONE TR</NetworkName>
+      <NWID>NW01511</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>28603</MCCMNC>
+      <NetworkName>Turk Telekom</NetworkName>
+      <NWID>NW01386</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>28601</MCCMNC>
+      <NetworkName>KKTCELL</NetworkName>
+      <NWID>NW00659</NWID>
+      <SPCode>590</SPCode>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>2</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>TR Turkcell</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>VODAFONE TR</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+        </FastDormancy>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>TR Turkcell, VODAFONE TR</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>on</AutoFastDormancy>
+        <AutoWbAmr>on</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Sound>
+        <RngToneAlertType>melody</RngToneAlertType>
+        <ExtraSound>
+          <ConnectTone>on</ConnectTone>
+        </ExtraSound>
+        <AMRVoiceCodec>on</AMRVoiceCodec>
+      </Sound>
+      <Phone>
+        <AlertOnCall>on</AlertOnCall>
+        <DefLanguage>tr_TR</DefLanguage>
+        <DefLanguageNoSIM>tr_TR</DefLanguageNoSIM>
+        <T9Enabling>enable</T9Enabling>
+        <T9Language>turkish</T9Language>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Calendar>
+      <StartDay>monday</StartDay>
+    </Calendar>
+    <Messages>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>300</MessageSize>
+          <CreationMode>free</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>restricted</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>3</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>no</Editable>
+        <Index>1</Index>
+        <BookmarkName>Samsung Apps Web</BookmarkName>
+        <URL>http://www.samsungapps.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>no</Editable>
+        <Index>2</Index>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>3</Index>
+        <BookmarkName>Galaxy Shop</BookmarkName>
+        <URL>https://www.samsung.com/tr/mobile/?cid=tr_ow_app_s-internet_none_none_bookmark_bookmark_202008_none</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <NbWifiProfile>1</NbWifiProfile>
+    <WifiProfile>
+      <NetworkName>TR Turkcell</NetworkName>
+      <WifiSSID>TURKCELL</WifiSSID>
+      <WifiKeyMgmt>WPA-EAP IEEE8021X</WifiKeyMgmt>
+      <WifiEAPMethod>aka</WifiEAPMethod>
+      <WifiPriority>1</WifiPriority>
+    </WifiProfile>
+    <Connections>
+      <NbProfileHandle>4</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>TR Turkcell</NetworkName>
+        <ProfBrowser>TURKCELL-ISP</ProfBrowser>
+        <ProfMMS>TURKCELL-MMS</ProfMMS>
+        <ProfEmail>TURKCELL-ISP</ProfEmail>
+        <ProfIMS>TURKCELL-IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>VODAFONE TR</NetworkName>
+        <ProfBrowser>Vodafone Internet</ProfBrowser>
+        <ProfMMS>Vodafone MMS</ProfMMS>
+        <ProfEmail>Vodafone Internet</ProfEmail>
+        <ProfIMS>VODAFONE IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Turk Telekom</NetworkName>
+        <ProfBrowser>Turk Telekom ISP</ProfBrowser>
+        <ProfMMS>Turk Telekom MMS</ProfMMS>
+        <ProfEmail>Turk Telekom ISP</ProfEmail>
+        <ProfIMS>TURK TELEKOM IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>KKTCELL</NetworkName>
+        <ProfBrowser>CEPTEN KKTCELL</ProfBrowser>
+        <ProfMMS>KKTCELL MMS</ProfMMS>
+        <ProfEmail>CEPTEN KKTCELL</ProfEmail>
+        <ProfIMS>KKTCELL-IMS</ProfIMS>
+      </ProfileHandle>
+      <NbProfile>12</NbProfile>
+      <Profile>
+        <NetworkName>TR Turkcell</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>TURKCELL-MMS</ProfileName>
+        <URL>http://mms.turkcell.com.tr/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>212.252.169.217</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TR Turkcell</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>TURKCELL-ISP</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+          <UserId>gprs</UserId>
+          <Password>gprs</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TR Turkcell</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>TURKCELL-IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VODAFONE TR</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Vodafone MMS</ProfileName>
+        <URL>http://217.31.233.18:6001/MM1Servlet</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>217.31.233.18</ServAddr>
+          <Port>9401</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>vodafone</UserId>
+          <Password>vodafone</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VODAFONE TR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Vodafone Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+          <UserId>vodafone</UserId>
+          <Password>vodafone</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VODAFONE TR</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>VODAFONE IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Turk Telekom</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Turk Telekom MMS</ProfileName>
+        <URL>http://mms.avea.com.tr/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>217.174.44.80</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Turk Telekom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Turk Telekom ISP</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+          <UserId>wap</UserId>
+          <Password>wap</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Turk Telekom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>TURK TELEKOM IMS</ProfileName>
+        <Auth>none</Auth>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>KKTCELL</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>KKTCELL MMS</ProfileName>
+        <URL>http://mms.kktcell.com/cmmsc/post</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>212.252.169.99</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.kktcell</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>KKTCELL</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>CEPTEN KKTCELL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>cepten.kktcell</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>KKTCELL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>KKTCELL-IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

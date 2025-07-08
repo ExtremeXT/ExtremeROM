@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0001</CSCEdition>
+    <Country>GHANA</Country>
+    <CountryISO>GH</CountryISO>
+    <Region>MEA</Region>
+    <SalesCode>ACR</SalesCode>
+    <NbNetworkInfo>15</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>62001</MCCMNC>
+      <NetworkName>MTN GH</NetworkName>
+      <NWID>NW00815</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>62002</MCCMNC>
+      <NetworkName>VODAFONE</NetworkName>
+      <NWID>NW01476</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>62006</MCCMNC>
+      <NetworkName>AIRTEL</NetworkName>
+      <NWID>NW00065</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>62007</MCCMNC>
+      <NetworkName>GLO</NetworkName>
+      <NWID>NW00492</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>62003</MCCMNC>
+      <NetworkName>TIGO</NetworkName>
+      <NWID>NW01306</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>62401</MCCMNC>
+      <NetworkName>MTN CM</NetworkName>
+      <NWID>NW00814</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>62402</MCCMNC>
+      <NetworkName>ORANGE CM</NetworkName>
+      <NWID>NW00972</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>61203</MCCMNC>
+      <NetworkName>ORANGE CI</NetworkName>
+      <NWID>NW00926</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>61205</MCCMNC>
+      <NetworkName>MTN CI</NetworkName>
+      <NWID>NW00813</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>61202</MCCMNC>
+      <NetworkName>MOOV</NetworkName>
+      <NWID>NW00770</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>61204</MCCMNC>
+      <NetworkName>KOZ (COMIUM)</NetworkName>
+      <NWID>NW00670</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>61206</MCCMNC>
+      <NetworkName>GREENN</NetworkName>
+      <NWID>NW00543</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>61801</MCCMNC>
+      <NetworkName>Lonestar Cell MTN</NetworkName>
+      <NWID>NW02173</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>61905</MCCMNC>
+      <NetworkName>Africell SierraLeone</NetworkName>
+      <NWID>NW02294</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63102</MCCMNC>
+      <NetworkName>Unitel</NetworkName>
+      <NWID>NW01402</NWID>
+      <SkipCscSelection>false</SkipCscSelection>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbSOSNumber>3</NbSOSNumber>
+        <SOSNumber>999</SOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <SOSNumber>911</SOSNumber>
+        <NbSOSNumberNoSIM>8</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>112</SOSNumberNoSIM>
+        <SOSNumberNoSIM>911</SOSNumberNoSIM>
+        <SOSNumberNoSIM>000</SOSNumberNoSIM>
+        <SOSNumberNoSIM>08</SOSNumberNoSIM>
+        <SOSNumberNoSIM>110</SOSNumberNoSIM>
+        <SOSNumberNoSIM>118</SOSNumberNoSIM>
+        <SOSNumberNoSIM>119</SOSNumberNoSIM>
+        <SOSNumberNoSIM>999</SOSNumberNoSIM>
+      </Network>
+      <Sound>
+        <RngToneAlertType>melody</RngToneAlertType>
+      </Sound>
+      <Phone>
+        <DefLanguage>en_GB</DefLanguage>
+        <DefLanguageNoSIM>en_GB</DefLanguageNoSIM>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Browser>
+      <NbBookmark>8</NbBookmark>
+      <Bookmark>
+        <NetworkName>AIRTEL</NetworkName>
+        <Editable>yes</Editable>
+        <Index>3</Index>
+        <BookmarkName>AIRTEL</BookmarkName>
+        <URL>https://www.airteltigo.com.gh/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>4</Index>
+        <BookmarkName>GLO</BookmarkName>
+        <URL>https://www.gloworld.com/gh/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>5</Index>
+        <BookmarkName>MTN CAMEROON</BookmarkName>
+        <URL>https://mtn.cm/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>6</Index>
+        <BookmarkName>ORANGE</BookmarkName>
+        <URL>https://www.orange.cm/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>7</Index>
+        <BookmarkName>Oweb</BookmarkName>
+        <URL>https://www.orange.ci/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>8</Index>
+        <BookmarkName>MTN</BookmarkName>
+        <URL>https://www.mtn.ci/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>MOOV</NetworkName>
+        <Editable>yes</Editable>
+        <Index>9</Index>
+        <BookmarkName>Moov3G</BookmarkName>
+        <URL>https://www.moov.com/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>10</Index>
+        <BookmarkName>Google</BookmarkName>
+        <URL>https://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>15</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>MTN GH</NetworkName>
+        <ProfBrowser>MTN</ProfBrowser>
+        <ProfMMS>MTN Ghana MMS</ProfMMS>
+        <ProfEmail>MTN</ProfEmail>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>VODAFONE</NetworkName>
+        <ProfBrowser>Vodafone</ProfBrowser>
+        <ProfMMS>Vodafone Ghana MMS</ProfMMS>
+        <ProfEmail>Vodafone</ProfEmail>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>AIRTEL</NetworkName>
+        <ProfBrowser>Airtel</ProfBrowser>
+        <ProfMMS>Airtel MMS</ProfMMS>
+        <ProfEmail>Airtel</ProfEmail>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>GLO</NetworkName>
+        <ProfBrowser>Glo</ProfBrowser>
+        <ProfMMS>Glo MMS</ProfMMS>
+        <ProfEmail>Glo</ProfEmail>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>TIGO</NetworkName>
+        <ProfBrowser>Tigo</ProfBrowser>
+        <ProfMMS>Tigo MMS</ProfMMS>
+        <ProfEmail>Tigo</ProfEmail>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>MTN CM</NetworkName>
+        <ProfBrowser>MTN CM</ProfBrowser>
+        <ProfMMS>MTN CM MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>ORANGE CM</NetworkName>
+        <ProfBrowser>Orange</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>ORANGE CI</NetworkName>
+        <ProfBrowser>oweb</ProfBrowser>
+        <ProfMMS>Omms CI</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>MTN CI</NetworkName>
+        <ProfBrowser>MTN</ProfBrowser>
+        <ProfMMS>MTN MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>MOOV</NetworkName>
+        <ProfBrowser>Moov3G</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>KOZ (COMIUM)</NetworkName>
+        <ProfBrowser>koz</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>GREENN</NetworkName>
+        <ProfBrowser>DATA GREENN</ProfBrowser>
+        <ProfMMS>MMS GREENN</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Lonestar Cell MTN</NetworkName>
+        <ProfBrowser>Lonestar</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Africell SierraLeone</NetworkName>
+        <ProfBrowser>africell.sl</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Unitel</NetworkName>
+        <ProfBrowser>Unitel Internet</ProfBrowser>
+        <ProfIMS>ims.unitel.co.ao</ProfIMS>
+        <ProfXCAP>xcap.unitel.co.ao</ProfXCAP>
+      </ProfileHandle>
+      <NbProfile>28</NbProfile>
+      <Profile>
+        <NetworkName>MTN GH</NetworkName>
+        <ProfileName>MTN Ghana MMS</ProfileName>
+        <URL>172.17.3.7</URL>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.17.3.5</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mtn mms [mms]</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN GH</NetworkName>
+        <ProfileName>MTN</ProfileName>
+        <URL>www.mtnplay.com.gh</URL>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN GH</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN GH</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VODAFONE</NetworkName>
+        <ProfileName>Vodafone Ghana MMS</ProfileName>
+        <URL>http://mms.onetouch.com.gh/mmsc</URL>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.24.97.1</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VODAFONE</NetworkName>
+        <ProfileName>Vodafone</ProfileName>
+        <URL>www.vodafonelive.com.gh</URL>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>AIRTEL</NetworkName>
+        <ProfileName>Airtel MMS</ProfileName>
+        <URL>http://airtelmms/servlets/mms</URL>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.26.121.72</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>AIRTEL</NetworkName>
+        <ProfileName>Airtel</ProfileName>
+        <URL>www.gh.airtellive.com</URL>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>GLO</NetworkName>
+        <ProfileName>Glo MMS</ProfileName>
+        <URL>http://mmsc11/</URL>
+        <Auth>secure</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.161.85.4</ServAddr>
+          <Port>8799</Port>
+        </Proxy>
+        <PSparam>
+          <APN>glomms [mms]</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>GLO</NetworkName>
+        <ProfileName>Glo</ProfileName>
+        <URL>www.gloworld.com</URL>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO</NetworkName>
+        <ProfileName>Tigo MMS</ProfileName>
+        <URL>mmsc.tigo.com.gh/19090</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.4.1.7</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIGO</NetworkName>
+        <ProfileName>Tigo</ProfileName>
+        <URL>www.tigo.com.gh</URL>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>web.tigo.com.gh</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN CM</NetworkName>
+        <ProfileName>MTN CM MMS</ProfileName>
+        <URL>http://196.202.236.196:8080</URL>
+        <Auth>secure</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.202.236.196</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mtnwap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN CM</NetworkName>
+        <ProfileName>MTN CM</ProfileName>
+        <URL>http://www.mtn.cm</URL>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>mtnwap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ORANGE CM</NetworkName>
+        <ProfileName>Orange</ProfileName>
+        <URL>www.orange.cm</URL>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>orangecmgprs</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ORANGE CI</NetworkName>
+        <ProfileName>Omms CI</ProfileName>
+        <URL>http://172.20.61.1/servlets/mms</URL>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.20.4.33</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>orangecimms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ORANGE CI</NetworkName>
+        <ProfileName>oweb</ProfileName>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>orangeciweb</APN>
+          <UserId>web</UserId>
+          <Password>web</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN CI</NetworkName>
+        <ProfileName>MTN MMS</ProfileName>
+        <URL>http://mms.mtn.ci/mms/wapenc</URL>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.16.100.5</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.mtn.ci</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN CI</NetworkName>
+        <ProfileName>MTN</ProfileName>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>web.mtn.ci</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MOOV</NetworkName>
+        <ProfileName>Moov3G</ProfileName>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>moov</APN>
+          <UserId>web</UserId>
+          <Password>web</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>KOZ (COMIUM)</NetworkName>
+        <ProfileName>koz</ProfileName>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>gprs.koz.ci</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>GREENN</NetworkName>
+        <ProfileName>MMS GREENN</ProfileName>
+        <URL>http://10.20.2.10:38090</URL>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.20.3.67</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.greenn.ci</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>GREENN</NetworkName>
+        <ProfileName>DATA GREENN</ProfileName>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>web.greenn.ci</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Lonestar Cell MTN</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <ProfileName>Lonestar</ProfileName>
+        <URL>https://www.lonestarcell.com/</URL>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internetlcc</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Africell SierraLeone</NetworkName>
+        <ProfileName>africell.sl</ProfileName>
+        <URL>https://www.africell.sl</URL>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>africell.sl</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Unitel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Unitel Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.unitel.co.ao</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Unitel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>ims.unitel.co.ao</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims.unitel.co.ao</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Unitel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>xcap.unitel.co.ao</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1300</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>xcap.unitel.co.ao</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

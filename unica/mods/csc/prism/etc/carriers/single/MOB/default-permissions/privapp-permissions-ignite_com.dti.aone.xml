@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.dti.aone">
+        <permission name="android.permission.POST_NOTIFICATIONS"/>
+    </exception>
+</exceptions>
+

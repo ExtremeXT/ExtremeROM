@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The OMA DM service must be whitelisted so they are always able to run. -->
+<config>
+  <allow-in-power-save package="co.sitic.pp" />
+  <allow-in-data-usage-save package="co.sitic.pp" />
+  <system-user-whitelisted-app package="co.sitic.pp" />
+</config>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_ACR_15_0006</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0001</customerEdition>
+    <carrierListVersion>150038</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>15</carrierCount>
+    <carrier>
+      <mcc>612</mcc>
+      <mnc>02</mnc>
+      <networkName>MOOV</networkName>
+    </carrier>
+    <carrier>
+      <mcc>612</mcc>
+      <mnc>03</mnc>
+      <networkName>ORANGE CI</networkName>
+    </carrier>
+    <carrier>
+      <mcc>612</mcc>
+      <mnc>04</mnc>
+      <networkName>KOZ (COMIUM)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>612</mcc>
+      <mnc>05</mnc>
+      <networkName>MTN CI</networkName>
+    </carrier>
+    <carrier>
+      <mcc>612</mcc>
+      <mnc>06</mnc>
+      <networkName>GREENN</networkName>
+    </carrier>
+    <carrier>
+      <mcc>618</mcc>
+      <mnc>01</mnc>
+      <networkName>Lonestar Cell MTN</networkName>
+    </carrier>
+    <carrier>
+      <mcc>619</mcc>
+      <mnc>05</mnc>
+      <networkName>Africell SierraLeone</networkName>
+    </carrier>
+    <carrier>
+      <mcc>620</mcc>
+      <mnc>01</mnc>
+      <networkName>MTN GH</networkName>
+    </carrier>
+    <carrier>
+      <mcc>620</mcc>
+      <mnc>02</mnc>
+      <networkName>VODAFONE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>620</mcc>
+      <mnc>03</mnc>
+      <networkName>TIGO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>620</mcc>
+      <mnc>06</mnc>
+      <networkName>AIRTEL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>620</mcc>
+      <mnc>07</mnc>
+      <networkName>GLO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>624</mcc>
+      <mnc>01</mnc>
+      <networkName>MTN CM</networkName>
+    </carrier>
+    <carrier>
+      <mcc>624</mcc>
+      <mnc>02</mnc>
+      <networkName>ORANGE CM</networkName>
+    </carrier>
+    <carrier>
+      <mcc>631</mcc>
+      <mnc>02</mnc>
+      <networkName>Unitel</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

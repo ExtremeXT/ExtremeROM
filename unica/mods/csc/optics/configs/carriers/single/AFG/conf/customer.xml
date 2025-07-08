@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0001</CSCEdition>
+    <Country>Afghanistan</Country>
+    <CountryISO>AF</CountryISO>
+    <Region>MEA</Region>
+    <SalesCode>AFG</SalesCode>
+    <NbNetworkInfo>6</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>41201</MCCMNC>
+      <NetworkName>AWCC</NetworkName>
+      <NWID>NW00090</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>41220</MCCMNC>
+      <NetworkName>Roshan</NetworkName>
+      <NWID>NW01093</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>41240</MCCMNC>
+      <NetworkName>MTN</NetworkName>
+      <NWID>NW00807</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>41250</MCCMNC>
+      <NetworkName>Etisalat</NetworkName>
+      <NWID>NW00485</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>41280</MCCMNC>
+      <NetworkName>Salaam</NetworkName>
+      <NWID>NW01113</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>41288</MCCMNC>
+      <NetworkName>Salaam</NetworkName>
+      <NWID>NW01113</NWID>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Sound>
+        <RngToneAlertType>melody</RngToneAlertType>
+      </Sound>
+      <Phone>
+        <DefLanguage>en_GB</DefLanguage>
+        <DefLanguageNoSIM>en_GB</DefLanguageNoSIM>
+        <T9Language>english</T9Language>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Calendar>
+      <StartDay>sunday</StartDay>
+    </Calendar>
+    <Messages>
+      <SMS>
+        <MsgTypeThreshold>
+          <ThresholdValue>10</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
+        <MaxRecipient>50</MaxRecipient>
+      </SMS>
+      <MMS>
+        <MMSVersion>1.2</MMSVersion>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>300</MessageSize>
+          <CreationMode>free</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>2</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>no</Editable>
+        <Index>1</Index>
+        <BookmarkName>Samsung Apps Web</BookmarkName>
+        <URL>http://www.samsungapps.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>2</Index>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>5</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Etisalat</NetworkName>
+        <ProfBrowser>Etisalat internet</ProfBrowser>
+        <ProfMMS>Etisalat MMS</ProfMMS>
+        <ProfEmail>Etisalat internet</ProfEmail>
+        <ProfStreaming>Etisalat internet</ProfStreaming>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>MTN</NetworkName>
+        <ProfBrowser>MTN internet</ProfBrowser>
+        <ProfMMS>MTN MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Salaam</NetworkName>
+        <ProfBrowser>Salaam internet</ProfBrowser>
+        <ProfMMS>Salaam MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>AWCC</NetworkName>
+        <ProfBrowser>AWCC internet</ProfBrowser>
+        <ProfMMS>AWCC MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Roshan</NetworkName>
+        <ProfBrowser>Roshan internet</ProfBrowser>
+        <ProfMMS>Roshan MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>10</NbProfile>
+      <Profile>
+        <NetworkName>MTN</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>MTN MMS</ProfileName>
+        <URL>mms.mtn.com.af</URL>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.4.136</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>MTN mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Etisalat</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Etisalat internet</ProfileName>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.12.0.32</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>Etisalat</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Etisalat</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Etisalat MMS</ProfileName>
+        <URL>etisalat.af.mms</URL>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <ServAddr>10.0.0.72</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>Etisalat</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Salaam</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Salaam internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>salaam</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Salaam</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Salaam MMS</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>other</Protocol>
+        <PSparam>
+          <APN>salaam</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>AWCC</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>AWCC internet</ProfileName>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <ServAddr>0</ServAddr>
+          <Port>0</Port>
+        </Proxy>
+        <PSparam>
+          <APN>AWCC internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>AWCC</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>AWCC MMS</ProfileName>
+        <URL>https://afghan-wireless.com/</URL>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <ServAddr>172.17.81.2</ServAddr>
+          <Port>8002</Port>
+        </Proxy>
+        <PSparam>
+          <APN>AWCC MMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Roshan</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Roshan internet</ProfileName>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Roshan</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Roshan</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Roshan MMS</ProfileName>
+        <URL>https://www.roshan.af/</URL>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Roshan</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>MTN internet</ProfileName>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>MTN af</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

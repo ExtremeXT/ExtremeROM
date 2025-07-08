@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0002</CSCEdition>
+    <Country>Kenya</Country>
+    <CountryISO>AE</CountryISO>
+    <Region>MEA</Region>
+    <SalesCode>AFR</SalesCode>
+    <NbNetworkInfo>23</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63902</MCCMNC>
+      <NetworkName>Safaricom</NetworkName>
+      <NWID>NW01110</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>64011</MCCMNC>
+      <NetworkName>Smile TZ</NetworkName>
+      <NWID>NW01154</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>64133</MCCMNC>
+      <NetworkName>Smile UG</NetworkName>
+      <NWID>NW01143</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63903</MCCMNC>
+      <NetworkName>Airtel</NetworkName>
+      <NWID>NW00065</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63907</MCCMNC>
+      <NetworkName>Telkom</NetworkName>
+      <NWID>NW01788</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>64004</MCCMNC>
+      <NetworkName>Vodacom</NetworkName>
+      <NWID>NW01455</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63601</MCCMNC>
+      <NetworkName>Ethiopia Ethio Telecom</NetworkName>
+      <NWID>NW00484</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63401</MCCMNC>
+      <NetworkName>Zain Sudan</NetworkName>
+      <NWID>NW01582</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63402</MCCMNC>
+      <NetworkName>MTN Sudan</NetworkName>
+      <NWID>NW00819</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63407</MCCMNC>
+      <NetworkName>Sudani Network</NetworkName>
+      <NWID>NW02202</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63910</MCCMNC>
+      <NetworkName>Faiba4G</NetworkName>
+      <NWID>NW01997</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63602</MCCMNC>
+      <NetworkName>Safaricom Telecom munications Ethiopia</NetworkName>
+      <NWID>NW02197</NWID>
+      <SPName>Safaricom</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>64005</MCCMNC>
+      <NetworkName>Airtel TZ</NetworkName>
+      <NWID>NW02166</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>64110</MCCMNC>
+      <NetworkName>MTN Uganda</NetworkName>
+      <NWID>NW02167</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>64002</MCCMNC>
+      <NetworkName>tiGO</NetworkName>
+      <NWID>NW01306</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>64003</MCCMNC>
+      <NetworkName>Zantel</NetworkName>
+      <NWID>NW02220</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63001</MCCMNC>
+      <NetworkName>Vodacom Congo RDC sprl</NetworkName>
+      <NWID>NW02252</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63002</MCCMNC>
+      <NetworkName>Airtel sprl</NetworkName>
+      <NWID>NW02253</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63086</MCCMNC>
+      <NetworkName>Orange RDC sarl</NetworkName>
+      <NWID>NW02255</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63089</MCCMNC>
+      <NetworkName>Orange RDC sarl</NetworkName>
+      <NWID>NW02255</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63301</MCCMNC>
+      <NetworkName>C&amp;W SEY</NetworkName>
+      <NWID>NW02322</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63517</MCCMNC>
+      <NetworkName>KTRN</NetworkName>
+      <NWID>NW02338</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63911</MCCMNC>
+      <NetworkName>Jambotel</NetworkName>
+      <NWID>NW02378</NWID>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbSOSNumber>3</NbSOSNumber>
+        <SOSNumber>999</SOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <SOSNumber>911</SOSNumber>
+      </Network>
+      <Phone>
+        <DefLanguage>en_GB</DefLanguage>
+        <DefLanguageNoSIM>en_GB</DefLanguageNoSIM>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Browser>
+      <NbBookmark>2</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>1</Index>
+        <BookmarkName>Samsung Apps Web</BookmarkName>
+        <URL>http://www.samsungapps.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>2</Index>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>22</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Telkom</NetworkName>
+        <ProfBrowser>Telkom</ProfBrowser>
+        <ProfMMS>Telkom MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Safaricom</NetworkName>
+        <ProfBrowser>Safaricom Browse</ProfBrowser>
+        <ProfMMS>Safaricom MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Airtel</NetworkName>
+        <ProfBrowser>Airtel</ProfBrowser>
+        <ProfMMS>Airtel MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Airtel</ProfXCAP>
+        <ProfIA>IMS</ProfIA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Smile UG</NetworkName>
+        <ProfBrowser>Smile</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Smile TZ</NetworkName>
+        <ProfBrowser>Smile</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Vodacom</NetworkName>
+        <ProfBrowser>Vodacom INTERNET</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Ethiopia Ethio Telecom</NetworkName>
+        <ProfBrowser>etc</ProfBrowser>
+        <ProfMMS>etc MMS</ProfMMS>
+        <ProfIMS>ims</ProfIMS>
+        <ProfXCAP>internet</ProfXCAP>
+        <ProfIA>internet</ProfIA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Sudani Network</NetworkName>
+        <ProfBrowser>sudaninet</ProfBrowser>
+        <ProfEmail>sudaninet</ProfEmail>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>MTN Sudan</NetworkName>
+        <ProfBrowser>MTN sudan</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Zain Sudan</NetworkName>
+        <ProfBrowser>zain Sudan</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Faiba4G</NetworkName>
+        <ProfBrowser>Faiba</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Safaricom Telecom munications Ethiopia</NetworkName>
+        <ProfBrowser>Safaricom Telecom munications Ethiopia</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Airtel TZ</NetworkName>
+        <ProfBrowser>Airtel Internet TZ</ProfBrowser>
+        <ProfMMS>Airtel MMS TZ</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Airtel Internet TZ</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>MTN Uganda</NetworkName>
+        <ProfBrowser>MTN Uganda</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>tiGO</NetworkName>
+        <ProfBrowser>tiGO Internet</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Zantel</NetworkName>
+        <ProfBrowser>Zantel Internet</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Airtel sprl</NetworkName>
+        <ProfBrowser>airtel</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Orange RDC sarl</NetworkName>
+        <ProfBrowser>iew.orange.cd</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Vodacom Congo RDC sprl</NetworkName>
+        <ProfBrowser>Vodacom</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>C&amp;W SEY</NetworkName>
+        <ProfBrowser>C&amp;W SEY</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>KTRN</NetworkName>
+        <ProfBrowser>KTRN Internet</ProfBrowser>
+        <ProfIMS>ims</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Jambotel</NetworkName>
+        <ProfBrowser>Jambotel</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <NbProfile>43</NbProfile>
+      <Profile>
+        <NetworkName>Airtel</NetworkName>
+        <ProfileName>Airtel</ProfileName>
+        <URL>www.airtelkenya.com</URL>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Airtel</NetworkName>
+        <ProfileName>Airtel MMS</ProfileName>
+        <URL>http://104.131.29.74:1981/mms</URL>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <ServAddr>104.131.29.74</ServAddr>
+          <Port>1981</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Smile UG</NetworkName>
+        <ProfileName>Smile</ProfileName>
+        <URL>smile.co.ug</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Smile TZ</NetworkName>
+        <ProfileName>Smile</ProfileName>
+        <URL>Smile.co.tz</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Safaricom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <ProfileName>Safaricom Browse</ProfileName>
+        <URL>http://wap.safaricom.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Safaricom</APN>
+          <UserId>saf</UserId>
+          <Password>data</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Safaricom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <ProfileName>Safaricom MMS</ProfileName>
+        <URL>http://mms.gprs.safaricom.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>Safaricom</APN>
+          <UserId>saf</UserId>
+          <Password>data</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Safaricom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1400</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Safaricom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1400</MTUSize>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodacom</NetworkName>
+        <ProfileName>Vodacom INTERNET</ProfileName>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telkom</NetworkName>
+        <ProfileName>Telkom</ProfileName>
+        <URL>http://www.telkom.co.ke</URL>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>telkom</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telkom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <ProfileName>Telkom MMS</ProfileName>
+        <URL>http://mms.telkom.co.ke</URL>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <ServAddr>10.36.17.130</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.telkom.co.ke</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ethiopia Ethio Telecom</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>etc</ProfileName>
+        <URL>http://www.ethiotelecom.et</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>etc</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ethiopia Ethio Telecom</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>etc MMS</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>etc</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Sudani Network</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>sudaninet</ProfileName>
+        <URL>http://www.sudani.sd</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>sudaninet</APN>
+          <UserId>sudani</UserId>
+          <Password>sudani</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN Sudan</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MTN sudan</ProfileName>
+        <URL>http://www.mtn.sd</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Zain Sudan</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>zain Sudan</ProfileName>
+        <URL>www.sd.zain.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Faiba4G</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Faiba</ProfileName>
+        <URL>www.jtl.co.ke/mobile</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>faiba.co.ke</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Safaricom Telecom munications Ethiopia</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Safaricom Telecom munications Ethiopia</ProfileName>
+        <URL>http://wap.safaricom.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>safaricom</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Airtel TZ</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Airtel Internet TZ</ProfileName>
+        <URL>www.airtel.co.tz</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Airtel TZ</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Airtel MMS TZ</ProfileName>
+        <URL>http://mms.tz.airtel.com</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <ServAddr>10.87.248.136</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN Uganda</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>MTN Uganda</ProfileName>
+        <URL>https://www.mtn.co.ug/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>tiGO</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>tiGO Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>tigoweb</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Zantel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Zantel Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>znet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodacom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodacom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ethiopia Ethio Telecom</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>ims</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ethiopia Ethio Telecom</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>internet</ProfileName>
+        <PSparam>
+          <APN>etc.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Airtel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Airtel sprl</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>airtel</ProfileName>
+        <Auth>none</Auth>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange RDC sarl</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>iew.orange.cd</ProfileName>
+        <Auth>none</Auth>
+        <PSparam>
+          <APN>iew.orange.cd</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodacom Congo RDC sprl</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Vodacom</ProfileName>
+        <Auth>none</Auth>
+        <PSparam>
+          <APN>vodanet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Faiba4G</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Faiba4G</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>none</Auth>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Airtel TZ</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>C&amp;W SEY</NetworkName>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>C&amp;W SEY</ProfileName>
+        <URL>https://www.cwseychelles.com/</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>C&amp;W SEY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN Uganda</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>KTRN</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>KTRN Internet</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ktrn.rw</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>KTRN</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>ims</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>KTRN</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Jambotel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Jambotel</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>Jambo</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>tiGO</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Zantel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

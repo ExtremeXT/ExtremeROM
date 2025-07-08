@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-S938B_OXM_XXV_15_0004</version>
+  <model>
+    <name>SM-S938B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0002</customerEdition>
+    <carrierListVersion>150031</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>8</carrierCount>
+    <carrier>
+      <mcc>452</mcc>
+      <mnc>01</mnc>
+      <networkName>VN MobiFone</networkName>
+    </carrier>
+    <carrier>
+      <mcc>452</mcc>
+      <mnc>02</mnc>
+      <networkName>VN VINAPHONE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>452</mcc>
+      <mnc>04</mnc>
+      <networkName>VIETTEL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>452</mcc>
+      <mnc>05</mnc>
+      <networkName>VN Vietnamobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>452</mcc>
+      <mnc>06</mnc>
+      <networkName>VNSKY</networkName>
+    </carrier>
+    <carrier>
+      <mcc>452</mcc>
+      <mnc>07</mnc>
+      <networkName>Gmobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>452</mcc>
+      <mnc>08</mnc>
+      <networkName>iTel</networkName>
+    </carrier>
+    <carrier>
+      <mcc>452</mcc>
+      <mnc>09</mnc>
+      <networkName>reddi</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

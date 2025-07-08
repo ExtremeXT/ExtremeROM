@@ -1,0 +1,1 @@
+{"modelName":"SM-S938B","multiCsc":"OXM","salesCode":"TEL","osCode":"15","operator":"Telstra","version":"GRASSE_AR_SM-S938B_TEL_NONE_15_0001","networkCharge":"charge","networkBearer":"all","optionalApp":"checked","app":[{"appId":"com.telstra.mobile.android.mytelstra","appName":"My Telstra","mode":"mandatory","downloadType":"GA","providerType":"1"}],"resource":[]}

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0001</CSCEdition>
+    <Country>Nigeria</Country>
+    <CountryISO>NG</CountryISO>
+    <Region>MEA</Region>
+    <SalesCode>ECT</SalesCode>
+    <NbNetworkInfo>8</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>62130</MCCMNC>
+      <NetworkName>MTN Nigeria</NetworkName>
+      <NWID>NW00818</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>62127</MCCMNC>
+      <NetworkName>Smile NG</NetworkName>
+      <NWID>NW01152</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>62150</MCCMNC>
+      <NetworkName>Glo Mobile</NetworkName>
+      <NWID>NW00536</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>62120</MCCMNC>
+      <NetworkName>Airtel</NetworkName>
+      <NWID>NW00065</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>62160</MCCMNC>
+      <NetworkName>9mobile</NetworkName>
+      <NWID>NW00108</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>61801</MCCMNC>
+      <NetworkName>MtnLonestarcell</NetworkName>
+      <NWID>NW00825</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>62140</MCCMNC>
+      <NetworkName>ntel Nigeria</NetworkName>
+      <NWID>NW00874</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>61603</MCCMNC>
+      <NetworkName>MTN Benin</NetworkName>
+      <NWID>NW02316</NWID>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
+      <Network>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Sound>
+        <RngToneAlertType>melody</RngToneAlertType>
+      </Sound>
+      <Phone>
+        <DefLanguage>en_GB</DefLanguage>
+        <DefLanguageNoSIM>en_GB</DefLanguageNoSIM>
+        <T9Language>english</T9Language>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Messages>
+      <SMS>
+        <NbCellBroadcastChannel>1</NbCellBroadcastChannel>
+        <CellBroadcastChannel>0</CellBroadcastChannel>
+      </SMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>3</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>no</Editable>
+        <Index>1</Index>
+        <BookmarkName>Samsung Apps Web</BookmarkName>
+        <URL>http://www.samsungapps.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Index>2</Index>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>no</Editable>
+        <Index>4</Index>
+        <BookmarkName>Free Books</BookmarkName>
+        <URL>https://read.worldreader.org</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>8</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>MTN Nigeria</NetworkName>
+        <ProfBrowser>MTN WEB</ProfBrowser>
+        <ProfMMS>MTN MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Glo Mobile</NetworkName>
+        <ProfBrowser>Glo mobile internet</ProfBrowser>
+        <ProfMMS>GLOMMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Airtel</NetworkName>
+        <ProfBrowser>Internet</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Internet</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>9mobile</NetworkName>
+        <ProfBrowser>9mobile Internet</ProfBrowser>
+        <ProfMMS>9mobile MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>MtnLonestarcell</NetworkName>
+        <ProfBrowser>MtnLonestarcell Internet</ProfBrowser>
+        <ProfMMS>MtnLonestarcell MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Smile NG</NetworkName>
+        <ProfBrowser>Smile WAP</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>ntel Nigeria</NetworkName>
+        <ProfBrowser>ntel</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>MTN Benin</NetworkName>
+        <ProfBrowser>MTN</ProfBrowser>
+      </ProfileHandle>
+      <NbProfile>15</NbProfile>
+      <Profile>
+        <NetworkName>MTN Nigeria</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MTN MMS</ProfileName>
+        <URL>http://10.199.212.8/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.199.212.2</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>web.gprs.mtnnigeria.net</APN>
+          <UserId>web</UserId>
+          <Password>web</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN Nigeria</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN Nigeria</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>XCAP</ProfileName>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN Nigeria</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MTN WEB</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.gprs.mtnnigeria.net</APN>
+          <UserId>web</UserId>
+          <Password>web</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Glo Mobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>GLOMMS</ProfileName>
+        <URL>http://mms.gloworld.com/mmsc</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.100.114.144</ServAddr>
+          <Port>3130</Port>
+        </Proxy>
+        <PSparam>
+          <APN>glomms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Glo Mobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Glo mobile internet</ProfileName>
+        <URL>http://www.google.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>other</Protocol>
+        <PSparam>
+          <APN>gloflat</APN>
+          <UserId>flat</UserId>
+          <Password>flat</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Airtel</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Airtel</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>9mobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>9mobile MMS</ProfileName>
+        <URL>http://10.71.170.30:38090/was</URL>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.71.170.5</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>9mobile</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>9mobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>9mobile Internet</ProfileName>
+        <URL>http://mobile.9mobile.com.ng</URL>
+        <Bearer>ps</Bearer>
+        <PSparam>
+          <APN>9mobile</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MtnLonestarcell</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MtnLonestarcell Internet</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <PSparam>
+          <APN>lccgprs</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MtnLonestarcell</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>MtnLonestarcell MMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <PSparam>
+          <APN>lccgprs</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Smile NG</NetworkName>
+        <ProfileName>Smile WAP</ProfileName>
+        <URL>http://smile.com.ng/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ntel Nigeria</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>ntel</ProfileName>
+        <URL>http://www.ntel.com.ng</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>ntel</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN Benin</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <ProfileName>MTN</ProfileName>
+        <PSparam>
+          <APN>internet.mtn.bj</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

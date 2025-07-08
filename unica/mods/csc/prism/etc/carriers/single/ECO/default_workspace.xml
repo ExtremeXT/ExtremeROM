@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Copyright (C) 2016 The Android Open Source Project
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+  http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<favorites>
+    <homeGridInfo
+      default="4x6"/>
+    <home>
+        <!--appwidget : Weather-->
+        <appwidget
+          screen="0"
+          packageName="com.sec.android.daemonapp"
+          className="com.sec.android.daemonapp.appwidget.WeatherForecastWidget"
+          x="0"
+          y="2"
+          spanX="2"
+          spanY="2"/>
+        <!--appwidget:Smart  suggestions-->
+        <appwidget
+          screen="0"
+          packageName="com.samsung.android.smartsuggestions"
+          className="com.samsung.android.smartsuggestions.feature.aisuggestion.ui.appwidget.AiSuggestionAppWidgetReceiver"
+          x="2"
+          y="2"
+          spanX="2"
+          spanY="1"/>
+        <!--appwidget:Samsung  Health-->
+        <appwidget
+          screen="0"
+          packageName="com.sec.android.app.shealth"
+          className="com.samsung.android.app.shealth.tracker.dailyactivity.widget.DaWidgetReceiver"
+          x="2"
+          y="3"
+          spanX="2"
+          spanY="1"/>
+        <!--appwidget : Google-->
+        <appwidget
+          screen="0"
+          packageName="com.google.android.googlequicksearchbox"
+          className="com.google.android.googlequicksearchbox.SearchWidgetProvider"
+          x="0"
+          y="4"
+          spanX="4"
+          spanY="1"/>
+        <!--Servicios-->
+        <folder
+          screen="0"
+          title="Servicios"
+          x="0"
+          y="5">
+            <!--Mi Claro-->
+            <favorite
+              screen="0"
+              packageName="com.claroecuador.miclaro"
+              className="com.claroecuador.miclaro.view.SplashKTVC"
+              postPosition="true"/>
+            <!--Claro Musica-->
+            <favorite
+              screen="1"
+              packageName="com.claro.claromusica.latam"
+              className="com.amco.activities.NewSplashActivity"
+              postPosition="true"/>
+            <!--Claro Video-->
+            <favorite
+              screen="2"
+              packageName="com.dla.android"
+              className="com.clarovideo.app.ui.activities.SplashActivity"
+              postPosition="true"/>
+            <!--Claro Drive-->
+            <favorite
+              screen="3"
+              packageName="com.clarodrive.android"
+              className="com.owncloud.android.ui.splash.SplashActivity"
+              postPosition="true"/>
+            <!--Claro Juegos-->
+            <favorite
+              screen="4"
+              packageName="com.gameloft.android.gdc"
+              className="com.gameloft.android.gdc.MainActivity"/>
+        </folder>
+        <!--Galaxy Store-->
+        <favorite
+          screen="0"
+          packageName="com.sec.android.app.samsungapps"
+          className="com.sec.android.app.samsungapps.SamsungAppsMainActivity"
+          x="1"
+          y="5"/>
+        <!--Play Store-->
+        <favorite
+          screen="0"
+          packageName="com.android.vending"
+          className="com.android.vending.AssetBrowserActivity"
+          x="2"
+          y="5"/>
+        <!--Google-->
+        <folder
+          screen="0"
+          title="Google"
+          x="3"
+          y="5">
+            <!--Google-->
+            <favorite
+              screen="0"
+              packageName="com.google.android.googlequicksearchbox"
+              className="com.google.android.googlequicksearchbox.SearchActivity"/>
+            <!--Gmail-->
+            <favorite
+              screen="1"
+              packageName="com.google.android.gm"
+              className="com.google.android.gm.ConversationListActivityGmail"/>
+            <!--Maps-->
+            <favorite
+              screen="2"
+              packageName="com.google.android.apps.maps"
+              className="com.google.android.maps.MapsActivity"/>
+            <!--YouTube-->
+            <favorite
+              screen="3"
+              packageName="com.google.android.youtube"
+              className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"/>
+            <!--Drive-->
+            <favorite
+              screen="4"
+              packageName="com.google.android.apps.docs"
+              className="com.google.android.apps.docs.app.NewMainProxyActivity"/>
+            <!--YT Music-->
+            <favorite
+              screen="5"
+              packageName="com.google.android.apps.youtube.music"
+              className="com.google.android.apps.youtube.music.activities.MusicActivity"/>
+            <!--Google TV-->
+            <favorite
+              screen="6"
+              packageName="com.google.android.videos"
+              className="com.google.android.videos.GoogleTvEntryPoint"/>
+            <!--Meet-->
+            <favorite
+              screen="7"
+              packageName="com.google.android.apps.tachyon"
+              className="com.google.android.apps.tachyon.MainActivity"/>
+            <!--Photos-->
+            <favorite
+              screen="8"
+              packageName="com.google.android.apps.photos"
+              className="com.google.android.apps.photos.home.HomeActivity"/>
+            <!--Gemini-->
+            <favorite
+              screen="9"
+              packageName="com.google.android.apps.bard"
+              className="com.google.android.apps.bard.shellapp.BardEntryPointActivity"/>
+        </folder>
+        <!--Contenedor Widget-->
+        <appwidget
+          screen="1"
+          packageName="com.claroColombia.contenedor"
+          className="com.speedymovil.widget.AppWidget"
+          postPosition="true"
+          x="0"
+          y="1"
+          spanX="4"
+          spanY="4"/>
+        <!--Facebook-->
+        <favorite
+          screen="1"
+          packageName="com.facebook.katana"
+          className="com.facebook.katana.LoginActivity"
+          x="0"
+          y="5"/>
+        <!--Claro Drive-->
+        <favorite
+          screen="1"
+          packageName="com.clarodrive.android"
+          className="com.owncloud.android.ui.splash.SplashActivity"
+          postPosition="true"
+          x="1"
+          y="5"/>
+        <!--1Weather-->
+        <favorite
+          screen="1"
+          packageName="com.handmark.expressweather"
+          className="com.oneweather.app.MainActivity"
+          postPosition="true"
+          x="2"
+          y="5"/>
+        <!--Microsoft-->
+        <folder
+          screen="1"
+          title="Microsoft"
+          x="3"
+          y="5">
+            <!--Microsoft 365-->
+            <favorite
+              screen="0"
+              packageName="com.microsoft.office.officehubrow"
+              className="com.microsoft.office.officesuite.OfficeSuiteActivity"/>
+            <!--Outlook-->
+            <favorite
+              screen="1"
+              packageName="com.microsoft.office.outlook"
+              className="com.microsoft.office.outlook.MainActivity"/>
+        </folder>
+    </home>
+    <hotseat>
+        <!--Phone-->
+        <favorite
+          screen="0"
+          packageName="com.samsung.android.dialer"
+          className="com.samsung.android.dialer.DialtactsActivity"/>
+        <!--Claro Contenedor-->
+        <favorite
+          screen="1"
+          packageName="com.claroColombia.contenedor"
+          className="com.speedymovil.contenedor.gui.activities.AppsContainerActivity"
+          postPosition="true"/>
+        <!--(Android) Messages-->
+        <favorite
+          screen="2"
+          packageName="com.google.android.apps.messaging"
+          className="com.google.android.apps.messaging.ui.ConversationListActivity"/>
+        <!--Chrome-->
+        <favorite
+          screen="3"
+          packageName="com.android.chrome"
+          className="com.google.android.apps.chrome.Main"/>
+    </hotseat>
+</favorites>

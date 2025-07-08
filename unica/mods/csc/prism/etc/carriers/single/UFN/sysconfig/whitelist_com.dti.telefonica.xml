@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <!--The OMA DM service must be whitelisted so they are always able to run.-->
+  <allow-in-power-save package="com.dti.telefonica"/>
+  <allow-in-data-usage-save package="com.dti.telefonica"/>
+  <app-link package="com.dti.telefonica"/>
+</config>
