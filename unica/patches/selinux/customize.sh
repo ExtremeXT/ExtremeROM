@@ -12,6 +12,9 @@ attiqi_app_data_file
 ker_app
 kpp_app
 kpp_data_file
+perf_prop
+qb_id_prop
+teeregistryd_app
 "
 
 # One UI 6.1.1 additions
