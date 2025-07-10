@@ -140,7 +140,11 @@ if ! $SOURCE_HAS_HW_MDNIE; then
         SET_FLOATING_FEATURE_CONFIG "SEC_FLOATING_FEATURE_COMMON_SUPPORT_COLOR_LENS" "TRUE"
         APPLY_PATCH "system/framework/framework.jar" "mdnie/hw/framework.jar/0001-Enable-HW-mDNIe.patch"
         APPLY_PATCH "system/framework/services.jar" "mdnie/hw/services.jar/0001-Enable-HW-mDNIe.patch"
+        APPLY_PATCH "system/framework/services.jar" "mdnie/hw/services.apk/0001-Enable-EAD.patch"
+        APPLY_PATCH "system/priv-app/SecSettings/SecSettings.apk" "mdnie/hw/SecSettings.apk/0001-Enable-EAD.patch"
         ADD_TO_WORK_DIR "e2sxxx" "system" "system/bin/mafpc_write" 0 2000 755 "u:object_r:mafpc_write_exec:s0"
+        ADD_TO_WORK_DIR "e2sxxx" "system" "system/etc/permissions/privapp-permissions-com.samsung.android.sead.xml" 0 2000 755 "u:object_r:mafpc_write_exec:s0"
+        ADD_TO_WORK_DIR "e2sxxx" "system" "system/priv-app/EnvironmentAdaptiveDisplay" 0 2000 755 "u:object_r:mafpc_write_exec:s0"
     fi
 fi
 
