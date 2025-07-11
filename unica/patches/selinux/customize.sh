@@ -12,9 +12,6 @@ attiqi_app_data_file
 ker_app
 kpp_app
 kpp_data_file
-perf_prop
-qb_id_prop
-teeregistryd_app
 "
 
 # One UI 6.1.1 additions
@@ -32,9 +29,12 @@ audiomirroring
 audiomirroring_exec
 audiomirroring_service
 fabriccrypto
-fabriccrypto_exec
 fabriccrypto_data_file
+fabriccrypto_exec
 hal_dsms_service
+perf_prop
+qb_id_prop
+teeregistryd_app
 uwb_regulation_skip_prop
 "
 
