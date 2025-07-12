@@ -98,7 +98,7 @@ A big thanks goes to the following for their invaluable contributions in no part
 - **[Yagzie](https://github.com/Yagzie)** for engmode and misc fixes
 - **[Fred](https://github.com/xfwdrev)** for WFD, HDR10+, audiopolicy and more fixes
 - **[Saad](https://github.com/saadelasfur)** for help with build system
-- **[Vince](https://github.com/vinceboberly)** for help with kernel upstream
+- **[Vince](https://github.com/borbelyvince)** for help with kernel upstream
 - **Nhat Vo** for Google Telemetry app removal
 - **[Code Malaya](https://github.com/jomiejoshiro)** for SPen Air Actions
 - **[Renox](https://github.com/renoxtv)** for overlay patches and testing
