@@ -279,6 +279,9 @@ ADD_TO_WORK_DIR()
         if [ -e "$SOURCE_FILE.00" ]; then
             mkdir -p "$(dirname "$TARGET_FILE")"
             cat "$SOURCE_FILE.0"* > "$TARGET_FILE"
+        elif [ -e "$SOURCE_FILE.000" ]; then
+            mkdir -p "$(dirname "$TARGET_FILE")"
+            cat "$SOURCE_FILE.0"* > "$TARGET_FILE"
         else
             _ECHO_STDERR ERR "File not found: ${SOURCE_FILE//$SRC_DIR\//}"
             return 1
