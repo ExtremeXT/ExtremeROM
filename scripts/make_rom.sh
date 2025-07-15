@@ -29,6 +29,7 @@ FORCE=false
 BUILD_ROM=false
 BUILD_ZIP=false
 BUILD_TAR=false
+GITHUB_ACTIONS=${GITHUB_ACTIONS:-}
 
 [[ "$TARGET_INSTALL_METHOD" == "zip" ]] && BUILD_ZIP=true
 [[ "$TARGET_INSTALL_METHOD" == "odin" ]] && BUILD_TAR=true
