@@ -1,0 +1,5 @@
+/system u:object_r:system_file:s0
+/system/app/AirGlance u:object_r:system_file:s0
+/system/app/AirGlance/AirGlance.apk u:object_r:system_file:s0
+/system/app/LiveDrawing u:object_r:system_file:s0
+/system/app/LiveDrawing/LiveDrawing\.apk u:object_r:system_file:s0

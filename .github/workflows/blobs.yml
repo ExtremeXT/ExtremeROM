@@ -25,6 +25,8 @@ jobs:
             path: "prebuilts/samsung/e3qxxx"
           - module: "Galaxy S25 Ultra (pa3qxxx)"
             path: "prebuilts/samsung/pa3qxxx"
+          - module: "Galaxy S23 Ultra (dm3qxxx)"
+            path: "prebuilts/samsung/dm3qxxx"
           - module: "Galaxy S10 FE (gts10fewifixx)"
             path: "prebuilts/samsung/gts10fewifixx"
           - module: "Galaxy S23 FE (r11sxxx)"
