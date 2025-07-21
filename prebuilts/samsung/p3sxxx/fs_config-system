@@ -1,6 +1,9 @@
 system 0 0 755 capabilities=0x0
 system/bin 0 2000 0751 capabilities=0x0
 system/bin/remotedisplay 0 2000 0755 capabilities=0x0
+system/cameradata 0 0 755 capabilities=0x0
+system/cameradata/singletake 0 0 755 capabilities=0x0
+system/cameradata/singletake/service-feature.xml 0 0 644 capabilities=0x0
 system/etc 0 0 755 capabilities=0x0
 system/etc/permissions 0 0 755 capabilities=0x0
 system/etc/permissions/privapp-permissions-com.sec.android.cover.ledcover.xml 0 0 644 capabilities=0x0
@@ -42,3 +45,5 @@ system/priv-app/LedCoverService 0 0 755 capabilities=0x0
 system/priv-app/LedCoverService/LedCoverService.apk 0 0 644 capabilities=0x0
 system/priv-app/PhotoRemasterService 0 0 755 capabilities=0x0
 system/priv-app/PhotoRemasterService/PhotoRemasterService.apk 0 0 644 capabilities=0x0
+system/priv-app/SingleTakeService 0 0 755 capabilities=0x0
+system/priv-app/SingleTakeService/SingleTakeService.apk 0 0 644 capabilities=0x0

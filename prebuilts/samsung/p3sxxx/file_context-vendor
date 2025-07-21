@@ -1,3 +1,4 @@
+
 /vendor u:object_r:vendor_file:s0
 /vendor/bin u:object_r:vendor_file:s0
 /vendor/bin/hw u:object_r:vendor_file:s0
@@ -27,6 +28,23 @@
 /vendor/etc/midas/SRIBMQA_aiNOISEDETECT_V100_FP32\.tflite u:object_r:vendor_configs_file:s0
 /vendor/etc/mtu-conf\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/pdpcnt-conf\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/blur_detection u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/blur_detection/BlurDetectionModel_20210527\.tflite u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/candid u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/candid/candid\.db u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/ClarityScorer u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/ClarityScorer/ClarityScorer\.tflite u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/dynamic_viewing u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/dynamic_viewing/action172_t0_quantized\.tflite u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/dynamic_viewing/DynamicViewingModelHumanDetection\.tflite u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/dynamic_viewing/FaceEngine_model u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/dynamic_viewing/FaceEngine_model/FERDetModel\.dat u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/dynamic_viewing/FaceEngine_model/FERTrackModel\.dat u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/dynamic_viewing/movinet_t0\.tflite u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/dynamic_viewing/score_model_multi\.tflite u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/SmartCrop u:object_r:vendor_configs_file:s0
+/vendor/etc/singletake/SmartCrop/SmartCrop\.tflite u:object_r:vendor_configs_file:s0
 /vendor/etc/vintf u:object_r:vendor_configs_file:s0
 /vendor/etc/vintf/manifest u:object_r:vendor_configs_file:s0
 /vendor/etc/vintf/manifest/vendor\.samsung\.hardware\.radio_manifest_2_30\.xml u:object_r:vendor_configs_file:s0
@@ -38,12 +56,17 @@
 /vendor/etc/VslMesDetector/MesDetectorLowlight\.tflite u:object_r:vendor_configs_file:s0
 /vendor/etc/VslMesDetector/MesDetectorNoise\.tflite u:object_r:vendor_configs_file:s0
 /vendor/etc/VslMesDetector/moire_detection\.tflite u:object_r:vendor_configs_file:s0
+/vendor/lib u:object_r:vendor_file:s0
+/vendor/lib/libSingleTakeBlurDetection\.uniplugin@1\.0\.so u:object_r:vendor_file:s0
+/vendor/lib/libtensorflowLite\.singletake\.camera\.samsung\.so u:object_r:vendor_file:s0
 /vendor/lib64 u:object_r:vendor_file:s0
 /vendor/lib64/android\.hardware\.light-V1-ndk_platform\.so u:object_r:vendor_file:s0
 /vendor/lib64/libril_sem\.so u:object_r:vendor_file:s0
 /vendor/lib64/libsec-ril\.so u:object_r:vendor_file:s0
 /vendor/lib64/libsemnativecarrierfeature\.so u:object_r:vendor_file:s0
 /vendor/lib64/libSemTelephonyProps\.so u:object_r:vendor_file:s0
+/vendor/lib64/libSingleTakeBlurDetection\.uniplugin@1\.0\.so u:object_r:vendor_file:s0
+/vendor/lib64/libtensorflowLite\.singletake\.camera\.samsung\.so u:object_r:vendor_file:s0
 /vendor/lib64/vendor\.samsung\.hardware\.biometrics\.face@2\.0\.so u:object_r:vendor_file:s0
 /vendor/lib64/vendor\.samsung\.hardware\.biometrics\.face@3\.0\.so u:object_r:vendor_file:s0
 /vendor/lib64/vendor\.samsung\.hardware\.light-V1-ndk_platform\.so u:object_r:vendor_file:s0
