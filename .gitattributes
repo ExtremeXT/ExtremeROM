@@ -26,6 +26,7 @@ unica/mods/csc/*/** binary
 unica/mods/rezetprop/system/bin/rezetprop binary
 
 # Platform-specific prebuilt blobs
+platform/exynos1280/patches/vendor/vendor/** binary
 platform/exynos9820/patches/vendor/vendor/** binary
 platform/exynos990/patches/vendor/vendor/** binary
 

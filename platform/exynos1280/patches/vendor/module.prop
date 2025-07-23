@@ -1,0 +1,4 @@
+id=vendor
+name=Exynos 1280 related vendor mods
+author=Fede2782, SalvoGiangreco, @Ksawlii
+description=Adds Firmware, TEEgris and newer GPU blobs.
