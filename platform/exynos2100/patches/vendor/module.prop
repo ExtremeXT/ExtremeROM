@@ -1,0 +1,4 @@
+id=vendor
+name=Exynos 2100 related vendor mods
+author=Fede2782, SalvoGiangreco, @Ksawlii
+description=Adds Firmware and TEEgris blobs.
