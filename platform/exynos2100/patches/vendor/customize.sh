@@ -31,9 +31,10 @@ if [ ! -d "$WORK_DIR/vendor/firmware/$TARGET_MODEL" ]; then
           )
 
     mkdir -p "$WORK_DIR/vendor/firmware/$TARGET_MODEL"
+    mkdir -p "$WORK_DIR/vendor/firmware/$TARGET_MODEL/nfc"
     for b in "${BLOBS[@]}"; do
-        mv -f "$WORK_DIR/vendor/firmware/${b}.bin" "$WORK_DIR/vendor/firmware/$TARGET_MODEL/${b}.bin"
-        touch "$WORK_DIR/vendor/firmware/${b}.bin"
+        mv -f "$WORK_DIR/vendor/firmware/${b}" "$WORK_DIR/vendor/firmware/$TARGET_MODEL/${b}"
+        touch "$WORK_DIR/vendor/firmware/${b}"
     done
 fi
 
