@@ -31,7 +31,7 @@ etc/dpolicy
 # Samsung SIM Unlock
 SYSTEM_DEBLOAT+="
 system/bin/ssud
-system/etc/init/ssu_r12sxxx.rc
+system/etc/init/ssu_r0sxxx.rc
 system/etc/init/ssu.rc
 system/etc/permissions/privapp-permissions-com.samsung.ssu.xml
 system/etc/sysconfig/samsungsimunlock.xml
@@ -74,7 +74,7 @@ system/app/PlayAutoInstallConfig
 system/app/Rampart
 system/app/SamsungPassAutofill_v1
 system/app/SamsungTTS
-system/app/SamsungTTSVoice_ar_AE_m00
+system/app/SamsungTTSVoice_en_US_l03
 system/app/SamsungTTSVoice_de_DE_f00
 system/app/SamsungTTSVoice_en_GB_f00
 system/app/SamsungTTSVoice_es_ES_f00
@@ -82,7 +82,6 @@ system/app/SamsungTTSVoice_es_MX_f00
 system/app/SamsungTTSVoice_es_US_f00
 system/app/SamsungTTSVoice_fr_FR_f00
 system/app/SamsungTTSVoice_hi_IN_f00
-system/app/SamsungTTSVoice_id_ID_f00
 system/app/SamsungTTSVoice_it_IT_f00
 system/app/SamsungTTSVoice_pl_PL_f00
 system/app/SamsungTTSVoice_pt_BR_f00
@@ -120,7 +119,6 @@ system/etc/permissions/privapp-permissions-com.sec.spp.push.xml
 system/etc/permissions/privapp-permissions-com.skms.android.agent.xml
 system/etc/permissions/privapp-permissions-com.wssyncmldm.xml
 system/etc/permissions/privapp-permissions-meta.xml
-system/etc/PF_TA
 system/etc/sysconfig/digitalkey.xml
 system/etc/sysconfig/meta-hiddenapi-package-allowlist.xml
 system/etc/sysconfig/preinstalled-packages-com.samsung.android.dkey.xml

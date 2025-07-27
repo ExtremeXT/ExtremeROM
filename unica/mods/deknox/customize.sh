@@ -17,7 +17,7 @@ DELETE_FROM_WORK_DIR "system" "system/bin/dualdard"
 DELETE_FROM_WORK_DIR "system" "system/etc/init/dualdard.rc"
 DELETE_FROM_WORK_DIR "system" "system/lib64/libdualdar.so"
 DELETE_FROM_WORK_DIR "system" "system/lib64/aidl_comm_ddar_client.so"
-DELETE_FROM_WORK_DIR "system" "system/lib64/vendor.samsung.hardware.tlc.ddar-V1-ndk.so"
+DELETE_FROM_WORK_DIR "system" "system/lib64/vendor.samsung.hardware.tlc.ddar@1.0.so"
 
 # Blockchain
 DELETE_FROM_WORK_DIR "system" "system/app/BlockchainBasicKit"
@@ -53,12 +53,12 @@ DELETE_FROM_WORK_DIR "system" "system/lib64/libsec_semAidl.so"
 DELETE_FROM_WORK_DIR "system" "system/lib64/libsec_semRil.so"
 DELETE_FROM_WORK_DIR "system" "system/lib64/libsec_semTlc.so"
 DELETE_FROM_WORK_DIR "system" "system/lib64/libspictrl.so"
-DELETE_FROM_WORK_DIR "system" "system/lib64/vendor.samsung.hardware.security.sem-V1-ndk.so"
+DELETE_FROM_WORK_DIR "system" "system/lib64/vendor.samsung.hardware.security.sem@1.0.so"
 DELETE_FROM_WORK_DIR "system" "system/priv-app/SEMFactoryApp"
 
 # Weaver
 DELETE_FROM_WORK_DIR "system" "system/lib64/libhermes_cred.so"
-DELETE_FROM_WORK_DIR "system" "system/lib64/android.hardware.weaver-V2-ndk.so"
+DELETE_FROM_WORK_DIR "system" "system/lib64/android.hardware.weaver@1.0.so"
 
 # HDM
 DELETE_FROM_WORK_DIR "system" "system/priv-app/HdmApk"

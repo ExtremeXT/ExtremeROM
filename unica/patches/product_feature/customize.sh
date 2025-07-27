@@ -117,26 +117,7 @@ if [[ "$SOURCE_FP_SENSOR_CONFIG" != "$TARGET_FP_SENSOR_CONFIG" ]]; then
     fi
 fi
 
-if ! $SOURCE_HAS_QHD_DISPLAY; then
-    if $TARGET_HAS_QHD_DISPLAY; then
-        echo "Applying multi resolution patches"
 
-        DECODE_APK "system/framework/framework.jar"
-        DECODE_APK "system/framework/gamemanager.jar"
-        DECODE_APK "system/priv-app/SecSettings/SecSettings.apk"
-
-        ADD_TO_WORK_DIR "e2sxxx" "system" "system/bin/bootanimation"
-        ADD_TO_WORK_DIR "e2sxxx" "system" "system/bin/surfaceflinger"
-        ADD_TO_WORK_DIR "e2sxxx" "system" "system/lib64/libgui.so"
-        ADD_TO_WORK_DIR "e2sxxx" "system" "system/lib64/libui.so"
-        ADD_TO_WORK_DIR "e2sxxx" "system" "system/lib64/libandroid_runtime.so"
-        ADD_TO_WORK_DIR "e2sxxx" "system" "media"
-        APPLY_PATCH "system/framework/framework.jar" "resolution/framework.jar/0001-Enable-dynamic-resolution-control.patch"
-        APPLY_PATCH "system/framework/gamemanager.jar" "resolution/gamemanager.jar/0001-Enable-dynamic-resolution-control.patch"
-        APPLY_PATCH "system/priv-app/SecSettings/SecSettings.apk" "resolution/SecSettings.apk/0001-Enable-dynamic-resolution-control.patch"
-        SET_FLOATING_FEATURE_CONFIG "SEC_FLOATING_FEATURE_COMMON_CONFIG_DYN_RESOLUTION_CONTROL" "WQHD,FHD,HD"
-    fi
-fi
 
 if ! $SOURCE_HAS_HW_MDNIE; then
     if $TARGET_HAS_HW_MDNIE; then
