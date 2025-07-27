@@ -1,5 +1,5 @@
 # [
-EXTREMEKRNL_REPO="https://github.com/ExtremeXT/M62-backport/"
+EXTREMEKRNL_REPO="https://github.com/FSaurenbach/beyond1lte-kernel/"
 KERNELSU_MANAGER_APK="https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v1.0.9/KernelSU_Next_v1.0.9_12797-release.apk"
 
 BUILD_KERNEL()
