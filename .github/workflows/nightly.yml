@@ -1,7 +1,10 @@
-name: Build ExtremeROM V2.5.1-nxt Nightly from AndroidArtisan
+name: Build ExtremeROM V2.5.2 (Nightly script from AndroidArtisan)
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - 'fifteen'
 
 jobs:
   build:
