@@ -19,5 +19,5 @@ if [ -d "$FW_DIR/${MODEL}_${REGION}/system/system/media/audio/pensounds" ]; then
     ADD_TO_WORK_DIR "pa3qxxx" "system" "system/priv-app/AirReadingGlass"
     ADD_TO_WORK_DIR "pa3qxxx" "system" "system/priv-app/SmartEye"
 else
-    echo "SPen support detected in target device. Ignoring."
+    echo "SPen support not detected in target device. Ignoring."
 fi
