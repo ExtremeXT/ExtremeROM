@@ -103,6 +103,7 @@ run_cmd()
 }
 
 alias unica=run_cmd
+alias m="./scripts/make_rom.sh"
 
 # https://android.googlesource.com/platform/build/+/refs/tags/android-15.0.0_r1/envsetup.sh#806
 croot()
