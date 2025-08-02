@@ -1,3 +1,4 @@
+LOG_STEP_IN "- Replacing camera blobs"
 BLOBS_LIST="
 system/lib64/libenn_wrapper_system.so
 system/lib64/libpic_best.arcsoft.so
@@ -15,7 +16,6 @@ do
     DELETE_FROM_WORK_DIR "system" "$blob"
 done
 
-echo "Add stock camera libs"
 BLOBS_LIST="
 system/lib64/libPortraitDistortionCorrectionCali.arcsoft.so
 system/lib64/libMultiFrameProcessing10.camera.samsung.so
@@ -30,8 +30,9 @@ for blob in $BLOBS_LIST
 do
     ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0"
 done
+LOG_STEP_OUT
 
-# Patch S25U libstagefright.so to remove HDR10+ check
+LOG_STEP_IN "- Removing HDR10+ check"
 ADD_TO_WORK_DIR "pa3qxxx" "system" "system/lib64/libstagefright.so" 0 0 644 "u:object_r:system_lib_file:s0"
 HEX_PATCH "$WORK_DIR/system/system/lib64/libstagefright.so" "010140f9cf390594a0500034" "010140f91f2003d51f2003d5"
 
@@ -44,8 +45,9 @@ for blob in $BLOBS_LIST
 do
     ADD_TO_WORK_DIR "p3sxxx" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0"
 done
+LOG_STEP_OUT
 
-# S21 SWISP models
+LOG_STEP_OUT "- Adding S21 (p3sxxx) SWISP models"
 DELETE_FROM_WORK_DIR "vendor" "saiv/swisp_1.0"
 ADD_TO_WORK_DIR "p3sxxx" "vendor" "saiv/swisp_1.0"
 
@@ -57,19 +59,22 @@ for blob in $BLOBS_LIST
 do
     ADD_TO_WORK_DIR "p3sxxx" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0"
 done
+LOG_STEP_OUT
 
-# Polarr SDK
+LOG_STEP_IN "- Adding A26 (a26xxx) Polarr SDK blobs"
 ADD_TO_WORK_DIR "a26xxx" "system" "system/etc/public.libraries-polarr.txt" 0 0 644 "u:object_r:system_file:s0"
 ADD_TO_WORK_DIR "a26xxx" "system" "system/lib64/libBestComposition.polarr.so" 0 0 644 "u:object_r:system_lib_file:s0"
 ADD_TO_WORK_DIR "a26xxx" "system" "system/lib64/libFeature.polarr.so" 0 0 644 "u:object_r:system_lib_file:s0"
 ADD_TO_WORK_DIR "a26xxx" "system" "system/lib64/libTracking.polarr.so" 0 0 644 "u:object_r:system_lib_file:s0"
+LOG_STEP_OUT
 
-# Cleanup SamsungCamera OAT
+LOG_STEP_IN "- Cleaning SamsungCamera OAT"
 DELETE_FROM_WORK_DIR "system" "system/priv-app/SamsungCamera/oat"
 DELETE_FROM_WORK_DIR "system" "system/priv-app/SamsungCamera/SamsungCamera.apk.prof"
 DELETE_FROM_WORK_DIR "system" "system/app/FilterProvider/oat"
+LOG_STEP_OUT
 
-echo "Fix AI Photo Editor"
+LOG_STEP_IN "- Fixing AI Photo Editor"
 cp -a --preserve=all \
     "$WORK_DIR/system/system/cameradata/portrait_data/single_bokeh_feature.json" \
     "$WORK_DIR/system/system/cameradata/portrait_data/nexus_bokeh_feature.json"
@@ -79,8 +84,9 @@ sed -i "s/MODEL_TYPE_INSTANCE_CAPTURE/MODEL_TYPE_OBJ_INSTANCE_CAPTURE/g" \
 sed -i \
     's/system\/cameradata\/portrait_data\/single_bokeh_feature.json/system\/cameradata\/portrait_data\/nexus_bokeh_feature.json\x00/g' \
     "$WORK_DIR/system/system/lib64/libPortraitSolution.camera.samsung.so"
+LOG_STEP_OUT
 
-# S21 SingleTake models
+LOG_STEP_IN "- Adding S21 (p3sxxx) SingleTake models"
 DELETE_FROM_WORK_DIR "vendor" "etc/singletake"
 ADD_TO_WORK_DIR "p3sxxx" "vendor" "etc/singletake"
 
@@ -92,3 +98,4 @@ for blob in $BLOBS_LIST
 do
     ADD_TO_WORK_DIR "p3sxxx" "system" "$blob" 0 0 644 "u:object_r:system_file:s0"
 done
+LOG_STEP_OUT

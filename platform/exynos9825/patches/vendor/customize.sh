@@ -1,4 +1,4 @@
-echo "Updating Vendor HALs..."
+LOG_STEP_IN "- Updating Vendor HALs"
 BLOBS_LIST="
 bin/hw/android.hardware.health@2.1-service-samsung
 bin/hw/vendor.samsung.hardware.snap@1.2-service
@@ -34,8 +34,9 @@ for blob in $BLOBS_LIST
 do
     DELETE_FROM_WORK_DIR "vendor" "$blob"
 done
+LOG_STEP_OUT
 
-echo "Removing RenderScript..."
+LOG_STEP_IN "- Removing RenderScript"
 BLOBS_LIST="
 bin/bcc_mali
 lib/libmalicore.bc
@@ -53,14 +54,16 @@ for blob in $BLOBS_LIST
 do
     DELETE_FROM_WORK_DIR "vendor" "$blob"
 done
+LOG_STEP_OUT
 
-# Fix SNAP AIDL SELinux rule
+LOG "- Fixing SNAP AIDL SELinux rule"
 sed -i "s/(allow snap_hidl hal_snap_service (service_manager (find)))/(allow snap_hidl hal_snap_service (service_manager (add find)))/g" "$WORK_DIR/vendor/etc/selinux/vendor_sepolicy.cil"
 
-# Fix JSQZ node permission
+LOG "- Fixing JSQZ node permission"
 echo "/dev/jsqz                 0660   mediacodec     camera" >> $WORK_DIR/vendor/ueventd.rc
 
-# S21 Light HAL
+LOG_STEP_IN "- Adding S21 (p3sxxx) Light HAL"
 ADD_TO_WORK_DIR "p3sxxx" "vendor" "bin/hw/vendor.samsung.hardware.light-service"
 ADD_TO_WORK_DIR "p3sxxx" "vendor" "lib64/android.hardware.light-V1-ndk_platform.so"
 ADD_TO_WORK_DIR "p3sxxx" "vendor" "lib64/vendor.samsung.hardware.light-V1-ndk_platform.so"
+LOG_STEP_OUT
