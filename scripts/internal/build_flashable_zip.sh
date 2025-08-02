@@ -613,33 +613,6 @@ PRINT_HEADER()
     echo    'ui_print("Volume UP detected. Proceeding!");'
     echo    'ui_print("****************************************************");'
 }
-
-SIGN_IMAGE_WITH_AVB()
-{
-    local FILE="$1"
-
-    if ! avbtool info_image --image "$FILE" &> /dev/null; then
-        local PARTITION_NAME
-        PARTITION_NAME="$(basename "$FILE")"
-        PARTITION_NAME="${PARTITION_NAME//.img/}"
-
-        local PARTITION_SIZE
-        PARTITION_SIZE="TARGET_$(tr "[:lower:]" "[:upper:]" <<< "$PARTITION_NAME")_PARTITION_SIZE"
-        _CHECK_NON_EMPTY_PARAM "$PARTITION_SIZE" "${!PARTITION_SIZE//none/}" || exit 1
-
-        local CMD
-        CMD+="avbtool add_hash_footer "
-        CMD+="--image \"$FILE\" "
-        CMD+="--partition_size \"${!PARTITION_SIZE}\" "
-        CMD+="--partition_name \"$PARTITION_NAME\" "
-        CMD+="--hash_algorithm \"sha256\" "
-        CMD+="--algorithm \"SHA256_RSA4096\" "
-        CMD+="--key \"$SRC_DIR/security/avb/testkey_rsa4096.pem\""
-
-        LOG "- Signing image with AVB"
-        EVAL "$CMD" || exit 1
-    fi
-}
 # ]
 
 [ -d "$TMP_DIR" ] && rm -rf "$TMP_DIR"
@@ -699,10 +672,6 @@ if [ -d "$WORK_DIR/kernel" ]; then
         LOG_STEP_IN "- Copying $IMG"
 
         cp -a "$WORK_DIR/kernel/$IMG" "$TMP_DIR/$IMG"
-
-        if ! $TARGET_DISABLE_AVB_SIGNING; then
-            SIGN_IMAGE_WITH_AVB "$TMP_DIR/$IMG"
-        fi
 
         LOG_STEP_OUT
     done < <(find "$WORK_DIR/kernel" -maxdepth 1 -type f -name "*.img")
