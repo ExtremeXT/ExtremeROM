@@ -1,0 +1,38 @@
+List of maintainers
+-------------------
+
+Exynos 9820
+M: ExtremeXT (@ExtremeXT)
+S: Maintained
+F: platform/exynos9820/*
+F: target/beyond*/*
+
+Exynos 990
+M: ExtremeXT (@ExtremeXT)
+S: Maintained
+F: platform/exynos9830/*
+F: target/c1s/*
+F: target/c2s/*
+F: target/r8s/*
+F: target/x1s/*
+F: target/y2s/*
+F: target/z3s/*
+
+Exynos 2100
+M: Fred (@xfwdrev)
+S: Maintained
+F: platform/exynos2100/*
+F: target/o1s/*
+F: target/t2s/*
+F: target/p3s/*
+F: target/r9s/*
+
+Exynos 2200
+M: Dupa (@dupazlasu)
+S: Maintained
+F: platform/exynos2200/*
+F: target/b0s/*
+F: target/g0s/*
+F: target/r0s/*
+F: target/r11s/*
+
