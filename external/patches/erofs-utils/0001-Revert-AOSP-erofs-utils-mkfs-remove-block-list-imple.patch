@@ -1,20 +1,18 @@
-From c42d7621b9cb173fcac7e8aaec973c15a3085954 Mon Sep 17 00:00:00 2001
-From: Ksawlii <maja.blaszczak@proton.me>
-Date: Sat, 2 Aug 2025 21:37:46 +0200
+From c1dfa1dfb4b88216866afd92b37d915d3dc14c81 Mon Sep 17 00:00:00 2001
+From: Salvo Giangreco <giangrecosalvo9@gmail.com>
+Date: Fri, 16 May 2025 09:18:44 +0200
 Subject: [PATCH] Revert "AOSP: erofs-utils: mkfs: remove block list
  implementation"
 
 This reverts commit ef1dac4b81793b429aaed5d8edfb25583546f04f.
-
-Signed-off-by: Ksawlii <maja.blaszczak@proton.me>
 ---
  include/erofs/block_list.h | 20 ++++++++++
- lib/blobchunk.c            | 10 +++++
+ lib/blobchunk.c            | 11 ++++++
  lib/block_list.c           | 77 ++++++++++++++++++++++++++++++++++++++
  lib/compress.c             |  3 ++
  lib/inode.c                |  5 +++
  mkfs/main.c                | 13 +++++++
- 6 files changed, 128 insertions(+)
+ 6 files changed, 129 insertions(+)
 
 diff --git a/include/erofs/block_list.h b/include/erofs/block_list.h
 index 9d06c9c..8cc87d7 100644
@@ -48,10 +46,18 @@ index 9d06c9c..8cc87d7 100644
  }
  #endif
 diff --git a/lib/blobchunk.c b/lib/blobchunk.c
-index 3388ce0..ebe30de 100644
+index 4fc6c77..301f46a 100644
 --- a/lib/blobchunk.c
 +++ b/lib/blobchunk.c
-@@ -175,6 +175,11 @@ int erofs_blob_write_chunk_indexes(struct erofs_inode *inode,
+@@ -145,6 +145,7 @@ int erofs_blob_write_chunk_indexes(struct erofs_inode *inode,
+ 	erofs_blk_t extent_end, chunkblks;
+ 	erofs_off_t source_offset;
+ 	unsigned int dst, src, unit, zeroedlen;
++	bool first_extent = true;
+ 
+ 	if (inode->u.chunkformat & EROFS_CHUNK_FORMAT_INDEXES)
+ 		unit = sizeof(struct erofs_inode_chunk_index);
+@@ -175,6 +176,11 @@ int erofs_blob_write_chunk_indexes(struct erofs_inode *inode,
  				tarerofs_blocklist_write(extent_start,
  						extent_end - extent_start,
  						source_offset, 0);
@@ -61,9 +67,9 @@ index 3388ce0..ebe30de 100644
 +					first_extent, false);
 +				first_extent = false;
  			}
- 			extent_start = startblk;
+ 			extent_start = idx.blkaddr;
  			source_offset = chunk->sourceoffset;
-@@ -202,6 +207,11 @@ int erofs_blob_write_chunk_indexes(struct erofs_inode *inode,
+@@ -197,6 +203,11 @@ int erofs_blob_write_chunk_indexes(struct erofs_inode *inode,
  		tarerofs_blocklist_write(extent_start, extent_end - extent_start,
  					 source_offset, zeroedlen);
  	}
@@ -76,12 +82,12 @@ index 3388ce0..ebe30de 100644
  			       inode->extent_isize);
  }
 diff --git a/lib/block_list.c b/lib/block_list.c
-index f8dc913..80fec92 100644
+index 4a6466d..6bbe4ec 100644
 --- a/lib/block_list.c
 +++ b/lib/block_list.c
 @@ -44,3 +44,80 @@ void tarerofs_blocklist_write(erofs_blk_t blkaddr, erofs_blk_t nblocks,
- 		fprintf(block_list_fp, "%08llx %8llx %08" PRIx64 "\n",
- 			blkaddr | 0ULL, nblocks | 0ULL, srcoff);
+ 		fprintf(block_list_fp, "%08x %8x %08" PRIx64 "\n",
+ 			blkaddr, nblocks, srcoff);
  }
 +
 +#ifdef WITH_ANDROID
@@ -161,10 +167,10 @@ index f8dc913..80fec92 100644
 +}
 +#endif
 diff --git a/lib/compress.c b/lib/compress.c
-index a57bb6a..efe9f8a 100644
+index d046112..1742529 100644
 --- a/lib/compress.c
 +++ b/lib/compress.c
-@@ -1389,6 +1389,9 @@ int erofs_commit_compressed_file(struct z_erofs_compress_ictx *ictx,
+@@ -1238,6 +1238,9 @@ int erofs_commit_compressed_file(struct z_erofs_compress_ictx *ictx,
  		DBG_BUGON(ret);
  	}
  	inode->compressmeta = compressmeta;
@@ -175,10 +181,10 @@ index a57bb6a..efe9f8a 100644
  
  err_free_meta:
 diff --git a/lib/inode.c b/lib/inode.c
-index c14aa66..00da2ef 100644
+index f5ad546..e1b6c0b 100644
 --- a/lib/inode.c
 +++ b/lib/inode.c
-@@ -589,6 +589,7 @@ static int write_uncompressed_file_from_fd(struct erofs_inode *inode, int fd,
+@@ -564,6 +564,7 @@ static int write_uncompressed_file_from_fd(struct erofs_inode *inode, int fd)
  			return -EIO;
  		}
  	}
@@ -186,16 +192,16 @@ index c14aa66..00da2ef 100644
  	return 0;
  }
  
-@@ -924,6 +925,8 @@ static int erofs_write_tail_end(struct erofs_inode *inode)
+@@ -842,6 +843,8 @@ static int erofs_write_tail_end(struct erofs_inode *inode)
  
  		ibh->fsprivate = erofs_igrab(inode);
  		ibh->op = &erofs_write_inline_bhops;
 +
 +		erofs_droid_blocklist_write_tail_end(inode, NULL_ADDR);
  	} else {
- 		struct iovec iov[2];
- 		erofs_off_t pos;
-@@ -974,6 +977,8 @@ static int erofs_write_tail_end(struct erofs_inode *inode)
+ 		int ret;
+ 		erofs_off_t pos, zero_pos;
+@@ -896,6 +899,8 @@ static int erofs_write_tail_end(struct erofs_inode *inode)
  		inode->idata_size = 0;
  		free(inode->idata);
  		inode->idata = NULL;
@@ -205,7 +211,7 @@ index c14aa66..00da2ef 100644
  out:
  	/* now bh_data can drop directly */
 diff --git a/mkfs/main.c b/mkfs/main.c
-index fce2633..c63f7e8 100644
+index 2907789..6d1a2de 100644
 --- a/mkfs/main.c
 +++ b/mkfs/main.c
 @@ -63,6 +63,7 @@ static struct option long_options[] = {
@@ -216,7 +222,7 @@ index fce2633..c63f7e8 100644
  #endif
  	{"ovlfs-strip", optional_argument, NULL, 516},
  	{"offset", required_argument, NULL, 517},
-@@ -222,6 +223,7 @@ static void usage(int argc, char **argv)
+@@ -212,6 +213,7 @@ static void usage(int argc, char **argv)
  		"Android-specific options:\n"
  		" --product-out=X       X=product_out directory\n"
  		" --fs-config-file=X    X=fs_config file\n"
@@ -224,7 +230,7 @@ index fce2633..c63f7e8 100644
  #endif
  #ifdef EROFS_MT_ENABLED
  		, erofs_get_available_processors() /* --workers= */
-@@ -839,6 +841,9 @@ static int mkfs_parse_options_cfg(int argc, char *argv[])
+@@ -721,6 +723,9 @@ static int mkfs_parse_options_cfg(int argc, char *argv[])
  		case 514:
  			cfg.fs_config_file = optarg;
  			break;
@@ -234,7 +240,7 @@ index fce2633..c63f7e8 100644
  #endif
  		case 'C':
  			i = strtoull(optarg, &endptr, 0);
-@@ -1320,6 +1325,14 @@ int main(int argc, char **argv)
+@@ -1236,6 +1241,14 @@ int main(int argc, char **argv)
  		erofs_err("failed to load fs config %s", cfg.fs_config_file);
  		return 1;
  	}

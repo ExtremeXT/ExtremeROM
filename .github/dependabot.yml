@@ -4,6 +4,8 @@ updates:
     directory: "/"
     schedule:
         interval: "monthly"
+    ignore:
+      - dependency-name: "external/erofs-utils"
 
   - package-ecosystem: "github-actions"
     directory: "/"
