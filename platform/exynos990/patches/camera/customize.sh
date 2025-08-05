@@ -12,8 +12,11 @@ system/lib64/libDualCamBokehCapture.camera.samsung.so
 "
 for blob in $BLOBS_LIST
 do
-    DELETE_FROM_WORK_DIR "system" "$blob"
+    DELETE_FROM_WORK_DIR "system" "$blob" &
 done
+
+# shellcheck disable=SC2046
+wait $(jobs -p) || exit 1
 
 BLOBS_LIST="
 system/lib64/libPortraitDistortionCorrectionCali.arcsoft.so
@@ -31,7 +34,7 @@ system/lib64/libSwIsp_wrapper_v1.camera.samsung.so
 "
 for blob in $BLOBS_LIST
 do
-    ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0"
+    ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0" &
 done
 
 if [[ "$TARGET_CODENAME" == "c1s" || "$TARGET_CODENAME" == "c2s" ]]; then
@@ -47,9 +50,13 @@ if [[ "$TARGET_CODENAME" == "c1s" || "$TARGET_CODENAME" == "c2s" ]]; then
     "
     for blob in $BLOBS_LIST
     do
-        ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0"
+        ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0" &
     done
 fi
+
+# shellcheck disable=SC2046
+wait $(jobs -p) || exit 1
+
 LOG_STEP_OUT
 
 LOG_STEP_IN "- Adding libc++_shared.so dependency for __cxa_demangle symbol"
@@ -83,8 +90,12 @@ system/lib64/libsuperresolutionraw_wrapper_v2.camera.samsung.so
 "
 for blob in $BLOBS_LIST
 do
-    ADD_TO_WORK_DIR "p3sxxx" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0"
+    ADD_TO_WORK_DIR "p3sxxx" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0" &
 done
+
+# shellcheck disable=SC2046
+wait $(jobs -p) || exit 1
+
 LOG_STEP_OUT
 
 LOG_STEP_IN "- Adding S21 (p3sxxx) SWISP models"
@@ -111,6 +122,10 @@ system/cameradata/singletake/service-feature.xml
 "
 for blob in $BLOBS_LIST
 do
-    ADD_TO_WORK_DIR "p3sxxx" "system" "$blob" 0 0 644 "u:object_r:system_file:s0"
+    ADD_TO_WORK_DIR "p3sxxx" "system" "$blob" 0 0 644 "u:object_r:system_file:s0" &
 done
+
+# shellcheck disable=SC2046
+wait $(jobs -p) || exit 1
+
 LOG_STEP_OUT
