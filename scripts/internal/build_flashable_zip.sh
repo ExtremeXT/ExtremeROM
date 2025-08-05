@@ -315,12 +315,10 @@ GENERATE_UPDATER_SCRIPT()
             fi
             echo    '));'
         fi
+        echo    'show_progress(1, 200);'
         if $HAS_SYSTEM; then
             echo -e "\n# Patch partition system\n"
             echo    'ui_print("Patching system image unconditionally...");'
-            echo -n 'show_progress(0.'
-            echo -n "$(bc -l <<< "9 - $PARTITION_COUNT")"
-            echo    '00000, 0);'
             echo -n    'block_image_update('
             if [ "$TARGET_SUPER_PARTITION_SIZE" -ne 0 ]; then
                 echo -n    'map_partition("system"), '
@@ -588,8 +586,6 @@ PRINT_HEADER()
     echo -n "Target: $TARGET_FINGERPRINT"
     echo    '");'
     echo    'ui_print("****************************************************");'
-    echo    'ui_print(" ");'
-    echo    'ui_print(" ");'
     echo    'ui_print("After installation, it is highly recommended to FORMAT DATA as follows:");'
     echo    'ui_print("     Wipe -> Format Data");'
     echo    'ui_print("Hint: FORMAT, not WIPE or FACTORY RESET!");'
