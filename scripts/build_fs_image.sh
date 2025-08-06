@@ -294,15 +294,15 @@ ROUND_UP_TO_4K()
 
 PREPARE_SCRIPT "$@"
 
-if $SPARSE; then
-    LOG_STEP_IN "- Starting build_fs_image for $(basename "$OUTPUT_FILE") ($FS_TYPE+sparse)..."
-else
-    LOG_STEP_IN "- Starting build_fs_image for $(basename "$OUTPUT_FILE") ($FS_TYPE)..."
+if $DEBUG; then
+    if $SPARSE; then
+        LOG_STEP_IN "- Starting build_fs_image for $(basename "$OUTPUT_FILE") ($FS_TYPE+sparse)..."
+    else
+        LOG_STEP_IN "- Starting build_fs_image for $(basename "$OUTPUT_FILE") ($FS_TYPE)..."
+    fi
 fi
 
 if [ ! "$IMAGE_SIZE" ]; then
-    LOG_STEP_IN "! Partition size is not set, detecting minimum size"
-
     if [[ "$FS_TYPE" == "erofs" ]]; then
         BUILD_IMAGE_MKFS
         IMAGE_SIZE="$(GET_IMAGE_SIZE "$OUTPUT_FILE")"
@@ -310,7 +310,9 @@ if [ ! "$IMAGE_SIZE" ]; then
         IMAGE_SIZE="$(GET_DISK_USAGE "$INPUT_DIR")"
     fi
 
-    LOG "- The tree size of $(basename "$OUTPUT_FILE") is $IMAGE_SIZE bytes ($(bc -l <<< "scale=0; $IMAGE_SIZE / 1048576") MB)"
+    if $DEBUG; then
+        LOG "- The tree size of $(basename "$OUTPUT_FILE") is $IMAGE_SIZE bytes ($(bc -l <<< "scale=0; $IMAGE_SIZE / 1048576") MB)"
+    fi
 
     IMAGE_SIZE="$(CALCULATE_SIZE_AND_RESERVED "$IMAGE_SIZE")"
     IMAGE_SIZE="$(ROUND_UP_TO_4K "$IMAGE_SIZE")"
@@ -320,7 +322,10 @@ if [ ! "$IMAGE_SIZE" ]; then
             INODES="$(GET_INODE_USAGE "$INPUT_DIR")"
         fi
 
-        LOG "- First pass based on estimates of $IMAGE_SIZE bytes ($(bc -l <<< "scale=0; $IMAGE_SIZE / 1048576") MB) and $INODES inodes"
+        if $DEBUG; then
+            LOG "- First pass for $(basename "$OUTPUT_FILE") based on estimates of $IMAGE_SIZE bytes ($(bc -l <<< "scale=0; $IMAGE_SIZE / 1048576") MB) and $INODES inodes"
+        fi
+
         SPARSE=false BUILD_IMAGE_MKFS
 
         IMAGE_INFO="$(tune2fs -l "$OUTPUT_FILE")"
@@ -341,7 +346,9 @@ if [ ! "$IMAGE_SIZE" ]; then
         [[ "$SPARE_INODES" -lt 1 ]] && SPARE_INODES=1
         INODES="$(bc -l <<< "$INODES + $SPARE_INODES")"
 
-        LOG "- Allocating $INODES inodes for $(basename "$OUTPUT_FILE")"
+        if $DEBUG; then
+            LOG "- Allocating $INODES inodes for $(basename "$OUTPUT_FILE")"
+        fi
     elif [[ "$FS_TYPE" == "f2fs" ]]; then
         # HACK f2fs doesn't seems to like images smaller than 22 MB
         [[ "$IMAGE_SIZE" -lt "23068672" ]] && IMAGE_SIZE="23068672"
@@ -359,12 +366,13 @@ if [ ! "$IMAGE_SIZE" ]; then
         IMAGE_SIZE="$((BLOCK_COUNT << LOG_BLOCKSIZE))"
     fi
 
-    LOG "- Allocating $IMAGE_SIZE bytes ($(bc -l <<< "scale=0; $IMAGE_SIZE / 1048576") MB) for $(basename "$OUTPUT_FILE")"
+    if $DEBUG; then
+        LOG "- Allocating $IMAGE_SIZE bytes ($(bc -l <<< "scale=0; $IMAGE_SIZE / 1048576") MB) for $(basename "$OUTPUT_FILE")"
+    fi
 
     LOG_STEP_OUT
 fi
 
-LOG "- Building image"
 if [ ! -f "$OUTPUT_FILE" ]; then
     BUILD_IMAGE_MKFS
 fi
