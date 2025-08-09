@@ -604,7 +604,7 @@ while IFS= read -r f; do
             FILESYSTEM_TYPE="$TARGET_OS_FILE_SYSTEM"
         fi
         "$SRC_DIR/scripts/build_fs_image.sh" "$FILESYSTEM_TYPE" \
-            -o "$TMP_DIR/$PARTITION.img" -m -S \
+            -o "$TMP_DIR/$PARTITION.img" -S \
             "$WORK_DIR/$PARTITION" "$WORK_DIR/configs/file_context-$PARTITION" "$WORK_DIR/configs/fs_config-$PARTITION" || exit 1
         LOG_STEP_OUT
     ) &
@@ -628,8 +628,8 @@ while IFS= read -r f; do
 
     (
         LOG "- Converting $PARTITION.img to $PARTITION.new.dat"
-        EVAL "img2sdat -o \"$TMP_DIR\" -B \"$TMP_DIR/$PARTITION.map\" \"$f\"" || exit 1
-        rm -f "$f" "$TMP_DIR/$PARTITION.map"
+        EVAL "img2sdat -o \"$TMP_DIR\" \"$f\"" || exit 1
+        rm -f "$f"
 
         LOG "- Compressing $PARTITION.new.dat"
         # https://android.googlesource.com/platform/build/+/refs/tags/android-15.0.0_r1/tools/releasetools/common.py#3585
