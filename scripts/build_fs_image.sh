@@ -22,7 +22,6 @@ source "$SRC_DIR/scripts/utils/build_utils.sh" || exit 1
 FORCE=false
 FS_TYPE=""
 SPARSE=false
-MAP_FILE=false
 INPUT_DIR=""
 PARTITION=""
 IMAGE_SIZE=""
@@ -47,9 +46,6 @@ BUILD_IMAGE_MKFS()
             # https://android.googlesource.com/platform/build/+/refs/tags/android-15.0.0_r1/tools/releasetools/build_image.py#49
             BUILD_CMD+="-T \"1230735600\" "
             BUILD_CMD+="-C \"$FS_CONFIG_FILE\" "
-            if $MAP_FILE; then
-                BUILD_CMD+="-B \"${OUTPUT_FILE//.img/.map}\" "
-            fi
             BUILD_CMD+="-L \"$MOUNT_POINT\" "
             if [ "$INODES" ]; then
                 BUILD_CMD+="-i \"$INODES\" "
@@ -87,9 +83,6 @@ BUILD_IMAGE_MKFS()
             BUILD_CMD+="--file-contexts \"$FILE_CONTEXT_FILE\" "
             # Samsung uses a different default fixed timestamp for erofs/f2fs
             BUILD_CMD+="-T \"1640995200\" "
-            if $MAP_FILE; then
-                BUILD_CMD+="--block-list-file \"${OUTPUT_FILE//.img/.map}\" "
-            fi
             BUILD_CMD+="\"$OUTPUT_FILE\" \"$INPUT_DIR\""
             ;;
         "f2fs")
@@ -101,9 +94,6 @@ BUILD_IMAGE_MKFS()
             BUILD_CMD+="-t \"$MOUNT_POINT\" "
             # Samsung uses a different default fixed timestamp for erofs/f2fs
             BUILD_CMD+="-T \"1640995200\" "
-            if $MAP_FILE; then
-                BUILD_CMD+="-B \"${OUTPUT_FILE//.img/.map}\" "
-            fi
             BUILD_CMD+="-L \"$MOUNT_POINT\" "
             # https://android.googlesource.com/platform/build/+/refs/tags/android-15.0.0_r1/tools/releasetools/build_image.py#818
             BUILD_CMD+="--readonly "
@@ -175,8 +165,6 @@ PREPARE_SCRIPT()
     while [[ "$1" == "-"* ]]; do
         if [[ "$1" == "--force" ]] || [[ "$1" == "-f" ]]; then
             FORCE=true
-        elif [[ "$1" == "--generate-map" ]] || [[ "$1" == "-m" ]]; then
-            MAP_FILE=true
         elif [[ "$1" == "--inodes" ]] || [[ "$1" == "-i" ]]; then
             shift; INODES="$1"
             if ! [[ "$INODES" =~ ^[+-]?[0-9]+$ ]]; then
@@ -275,7 +263,6 @@ PRINT_USAGE()
     echo "Usage: build_fs_image <fs> [options] <dir> <file_context> <fs_config>" >&2
     echo " -f, --force : Force delete output file" >&2
     echo " -i, --inodes : (ext4 only) Specify the extfs inodes count" >&2
-    echo " -m, --generate-map : Generates block map file" >&2
     echo " -o, --output : Specify the output image path, defaults to the parent input directory" >&2
     echo " -p, --partition-name : Specify the partition name, defaults to the input directory name" >&2
     echo " -s, --partition-size : Specify the partition size, defaults to the smallest possible" >&2
