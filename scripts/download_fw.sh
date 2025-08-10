@@ -166,6 +166,7 @@ for i in "${FIRMWARES[@]}"; do
     [ -f "$ODIN_DIR/${MODEL}_${CSC}/.downloaded" ] && rm -rf "$ODIN_DIR/${MODEL}_${CSC}"
     mkdir -p "$ODIN_DIR/${MODEL}_${CSC}"
 
+    COUNT=1
     # Loop infinetely until download succeeds
     while true; do
         # shellcheck disable=SC2164
@@ -177,8 +178,14 @@ for i in "${FIRMWARES[@]}"; do
 
         ZIP_FILE="$(find "$ODIN_DIR/${MODEL}_${CSC}" -name "*.zip" | sort -r | head -n 1)"
         if [ ! "$ZIP_FILE" ] || [ ! -f "$ZIP_FILE" ]; then
-            LOG "\033[0;31m! Download failed, retrying in 5 seconds...\033[0m"
+            if [ $COUNT -gt 10 ]; then
+                LOGW "\033[0;31m! Download failed, check your network connection or device IMEI!\033[0m"
+                exit 1
+            fi
+
+            LOGW "\033[0;31m! [Attempt: $COUNT] Download failed, retrying in 5 seconds...\033[0m"
             sleep 5
+            ((COUNT++))
         else
             break
         fi
