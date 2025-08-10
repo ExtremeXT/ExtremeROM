@@ -648,7 +648,7 @@ while IFS= read -r f; do
 
         LOG "- Compressing $PARTITION.new.dat"
         # https://android.googlesource.com/platform/build/+/refs/tags/android-15.0.0_r1/tools/releasetools/common.py#3585
-        EVAL "brotli --quality=\"$([[ \"$DEBUG\" ]] && echo \"6\" || echo \"0\")\" --output=\"$TMP_DIR/$PARTITION.new.dat.br\" \"$TMP_DIR/$PARTITION.new.dat\"" || exit 1
+        EVAL "brotli --quality=6 --output=\"$TMP_DIR/$PARTITION.new.dat.br\" \"$TMP_DIR/$PARTITION.new.dat\"" || exit 1
         rm -f "$TMP_DIR/$PARTITION.new.dat"
     ) &
 done < <(find "$TMP_DIR" -maxdepth 1 -type f -name "*.img")
