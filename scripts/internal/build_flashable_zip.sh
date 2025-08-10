@@ -622,6 +622,9 @@ if [ "$TARGET_SUPER_PARTITION_SIZE" -ne 0 ]; then
     GENERATE_OP_LIST
 fi
 
+BROTLI_QUALITY=6
+$DEBUG && BROTLI_QUALITY=0
+
 while IFS= read -r f; do
     PARTITION="$(basename "$f" | sed "s/.img//g")"
     IS_VALID_PARTITION_NAME "$PARTITION" || continue
@@ -633,7 +636,7 @@ while IFS= read -r f; do
 
         LOG "- Compressing $PARTITION.new.dat"
         # https://android.googlesource.com/platform/build/+/refs/tags/android-15.0.0_r1/tools/releasetools/common.py#3585
-        EVAL "brotli --quality=6 --output=\"$TMP_DIR/$PARTITION.new.dat.br\" \"$TMP_DIR/$PARTITION.new.dat\"" || exit 1
+        EVAL "brotli --quality=\"$BROTLI_QUALITY\" --output=\"$TMP_DIR/$PARTITION.new.dat.br\" \"$TMP_DIR/$PARTITION.new.dat\"" || exit 1
         rm -f "$TMP_DIR/$PARTITION.new.dat"
     ) &
 done < <(find "$TMP_DIR" -maxdepth 1 -type f -name "*.img")
