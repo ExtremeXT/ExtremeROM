@@ -13,7 +13,7 @@
   <a href="https://t.me/extremerom">💬 Telegram</a>
   <a href="https://github.com/ExtremeXT/ExtremeROM/wiki">📖 Wiki</a>
   <a href="https://github.com/ExtremeXT/ExtremeROM/blob/fifteen/CHANGELOG.md">📝 Changelog</a>
-  <a href="https://github.com/ExtremeXT/ExtremeROM/blob/fifteen/MAINTAINERS.md">🧑‍💻 Maintainers</a>
+  <a href="https://github.com/ExtremeXT/ExtremeROM/blob/fifteen/MAINTAINERS">🧑‍💻 Maintainers</a>
 </p>
 
 # What is ExtremeROM Nexus?
