@@ -25,7 +25,6 @@ if [ ! -f "$WORK_DIR/system/system/lib64/libbluetooth_jni.so" ]; then
     LOG_STEP_OUT
 fi
 
-# https://github.com/3arthur6/BluetoothLibraryPatcher/blob/e22da26ae7eb0856f1342bb565e6aa26a5ccaa73/hexpatch.sh#L12
+# https://github.com/duhansysl/Bluetooth-Library-Patcher/blob/67e598ad142ed296b487a7a4585927c993d4f35d/hexpatcher.sh#L43
 HEX_PATCH "$WORK_DIR/system/system/lib64/libbluetooth_jni.so" \
-    "4805003528008052284b1e39" "2a00001428008052284b1e39"
-
+    "1ff828ab5e39480500352800805228ab" "1ff828ab5e392a0000142800805228ab"
