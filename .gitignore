@@ -7,10 +7,8 @@ out/
 *.Identifier
 
 # Cert
-security/unica_ota.x509.pem
-security/unica_ota.pk8
-security/unica_platform.x509.pem
-security/unica_platform.pk8
+security/extremerom_platform.x509.pem
+security/extremerom_platform.pk8
 
 #
 # We don't want to ignore the following even if they are dot-files
