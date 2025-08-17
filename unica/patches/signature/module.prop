@@ -1,0 +1,4 @@
+id=signature
+name=Platform signature spoof
+author=salvogiangri,ata-kaner
+description=Custom signature key spoofing for platform apks.
