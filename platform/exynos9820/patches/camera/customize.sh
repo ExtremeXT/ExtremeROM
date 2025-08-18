@@ -107,4 +107,7 @@ done
 # shellcheck disable=SC2046
 wait $(jobs -p) || exit 1
 
+LOG "- Decompiling SamsungCamera" # To fool build system into recompiling + signing it at the end
+DECODE_APK "system" "system/priv-app/SamsungCamera/SamsungCamera.apk"
+
 LOG_STEP_OUT
