@@ -72,7 +72,6 @@ system/app/MDMApp
 system/app/PlayAutoInstallConfig
 system/app/Rampart
 system/app/SamsungPassAutofill_v1
-system/app/SamsungTTS
 system/app/SamsungTTSVoice_ar_AE_m00
 system/app/SamsungTTSVoice_de_DE_f00
 system/app/SamsungTTSVoice_en_GB_f00
