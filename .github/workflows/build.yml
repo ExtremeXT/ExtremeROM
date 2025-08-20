@@ -38,7 +38,7 @@ jobs:
         run: |
           sudo apt update
           DEBIAN_FRONTEND=noninteractive sudo apt install -yq \
-            jq attr ccache clang ffmpeg golang \
+            p7zip-full jq attr ccache clang ffmpeg golang \
             libbrotli-dev libgtest-dev libprotobuf-dev libunwind-dev libpcre2-dev \
             libzstd-dev linux-modules-extra-$(uname -r) lld protobuf-compiler webp \
             curl xxd patchelf flex bison libarchive-tools build-essential pcre2-utils
