@@ -110,4 +110,16 @@ wait $(jobs -p) || exit 1
 LOG "- Decompiling SamsungCamera" # To fool build system into recompiling + signing it at the end
 DECODE_APK "system" "system/priv-app/SamsungCamera/SamsungCamera.apk"
 
+if [[ "$TARGET_CODENAME" == "beyond2lte" ]]; then
+    LOG "- Adding stock cutout assets"
+    cp -a "$MODPATH/assets/lottie_camera_punchcut_timer_b2.json" "$APKTOOL_DIR/system/priv-app/SamsungCamera/SamsungCamera.apk/res/raw/lottie_camera_punchcut_timer_b0.json"
+    cp -a "$MODPATH/assets/face_unlocking_cutout_ic_b2.json" "$APKTOOL_DIR/system/priv-app/SamsungCamera/SamsungCamera.apk/res/raw/face_unlocking_cutout_ic_b0.json"
+fi
+
+if [[ "$TARGET_CODENAME" == "beyondx" ]]; then
+    LOG "- Adding stock cutout assets"
+    cp -a "$MODPATH/assets/lottie_camera_punchcut_timer_bx.json" "$APKTOOL_DIR/system/priv-app/SamsungCamera/SamsungCamera.apk/res/raw/lottie_camera_punchcut_timer_b0.json"
+    cp -a "$MODPATH/assets/face_unlocking_cutout_ic_bx.json" "$APKTOOL_DIR/system/priv-app/SamsungCamera/SamsungCamera.apk/res/raw/face_unlocking_cutout_ic_b0.json"
+fi
+
 LOG_STEP_OUT
