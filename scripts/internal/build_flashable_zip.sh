@@ -26,11 +26,28 @@ TARGET_FINGERPRINT="${TARGET_FINGERPRINT//$(GET_PROP "$FW_DIR/$TARGET_FIRMWARE_P
 
 TMP_DIR="$OUT_DIR/zip"
 
-FILE_NAME="EternityROM_${ROM_VERSION}_${ROM_COMMIT}_$(date +%Y%m%d)_${TARGET_CODENAME}"
+ROM_STATUS="UNOFFICIAL"
+$ROM_IS_OFFICIAL && ROM_STATUS="OFFICIAL"
+
+ZIP_FILE_SUFFIX="-sign.zip"
+$DEBUG && ! $ROM_IS_OFFICIAL && ZIP_FILE_SUFFIX=".zip"
+FILE_NAME="EternityROM_${ROM_VERSION}_${ROM_COMMIT}_$(date +%Y%m%d)_${TARGET_CODENAME}${ZIP_FILE_SUFFIX}"
 while [ -f "$OUT_DIR/$FILE_NAME" ]; do
     INCREMENTAL=$((INCREMENTAL + 1))
-    FILE_NAME="EternityROM_${ROM_VERSION}_${ROM_COMMIT}_$(date +%Y%m%d)_${INCREMENTAL}_${TARGET_CODENAME}"
+    FILE_NAME="EternityROM_${ROM_VERSION}_${ROM_COMMIT}_$(date +%Y%m%d)_${INCREMENTAL}_${TARGET_CODENAME}${ZIP_FILE_SUFFIX}"
 done
+
+PRIVATE_KEY_PATH="$SRC_DIR/security/"
+PUBLIC_KEY_PATH="$SRC_DIR/security/"
+if $ROM_IS_OFFICIAL; then
+    PRIVATE_KEY_PATH+="eternityrom"
+    PUBLIC_KEY_PATH+="eternityrom"
+else
+    PRIVATE_KEY_PATH+="aosp"
+    PUBLIC_KEY_PATH+="aosp"
+fi
+PRIVATE_KEY_PATH+="_platform.pk8"
+PUBLIC_KEY_PATH+="_platform.x509.pem"
 
 trap 'rm -rf "$TMP_DIR"' EXIT INT
 
@@ -654,8 +671,13 @@ META_INF="./META-INF"
 EVAL "7z a -tzip -mx=9 -mmt=$(nproc --all) \"$TMP_DIR/rom.zip\" @\"compressed.txt\""
 EVAL "7z a -tzip -mx=0 -mmt=$(nproc --all) \"$TMP_DIR/rom.zip\" @\"stored.txt\" \"$META_INF\""
 
-# 3. Final move/rename
-mv -f "$TMP_DIR/rom.zip" "$OUT_DIR/$FILE_NAME.zip"
+if ! $DEBUG; then
+    LOG "- Signing zip"
+    EVAL "signapk -w \"$PUBLIC_KEY_PATH\" \"$PRIVATE_KEY_PATH\" \"$TMP_DIR/rom.zip\" \"$OUT_DIR/$FILE_NAME\"" || exit 1
+    rm -f "$TMP_DIR/rom.zip"
+else
+    mv -f "$TMP_DIR/rom.zip" "$OUT_DIR/$FILE_NAME"
+fi
 
 popd > /dev/null
 
