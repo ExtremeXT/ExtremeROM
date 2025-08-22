@@ -36,7 +36,7 @@ if [[ "$TARGET_CODENAME" != "r11s" ]]; then # TODO: add r11s support to ExtremeK
             LOG "- Local branch is ahead of remote. Not doing anything."
         else
             cd "$PARENT"
-            LOGE "Remote history has diverged (possible force-push)."
+            ABORT "Remote history has diverged (possible force-push)."
         fi
 
         cd "$PARENT"
@@ -54,7 +54,7 @@ if [[ "$TARGET_CODENAME" != "r11s" ]]; then # TODO: add r11s support to ExtremeK
         if [ -d "$KERNEL_TMP_DIR/.git" ]; then
             LOG "- Existing git repo found, trying to pull latest changes."
             if ! SAFE_PULL_CHANGES; then
-		            LOGE "ERR: Could not pull latest Kernel changes. If you hold local changes, please rebase to the new base. If not, cleaning the kernel_tmp_dir should suffice."
+		            ABORT "ERR: Could not pull latest Kernel changes. If you hold local changes, please rebase to the new base. If not, cleaning the kernel_tmp_dir should suffice."
 	          fi
         else
             rm -rf "$KERNEL_TMP_DIR"
