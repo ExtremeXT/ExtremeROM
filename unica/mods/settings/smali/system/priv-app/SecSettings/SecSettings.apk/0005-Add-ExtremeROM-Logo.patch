@@ -7,6 +7,7 @@ Subject: [PATCH] Add ExtremeROM Logo
 
 Co-Authored-by: Salvo Giangreco <giangrecosalvo9@gmail.com>
 Co-Authored-by: ShaDisNX255 <rayo_dis_nx@hotmail.com>
+Co-Authored-by: Jesvi Jonathan <jesvi22g@gmail.com>
 Change-Id: I644ff351dc9b2537482271178dd01d503f7366b0
 Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
 ---
@@ -23,7 +24,7 @@ index 00000000..9cc66ebc
 @@ -0,0 +1,4 @@
 +<?xml version="1.0" encoding="utf-8"?>
 +<FrameLayout android:layout_width="fill_parent" android:background="?roundedCornerColor" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_gravity="center" android:src="@drawable/logo" android:scaleType="centerInside" app:tint="?colorPrimary" app:tintMode="src_in" />
++    <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_gravity="center" android:src="@drawable/logo" android:scaleType="centerInside" />
 +</FrameLayout>
 diff --git a/res/xml/sec_software_info_settings.xml b/res/xml/sec_software_info_settings.xml
 index b85d60ec..1e02bc03 100644
