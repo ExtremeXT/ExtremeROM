@@ -145,6 +145,11 @@ DECODE()
     # DEX format version might not be matching minSdkVersion, currently we handle
     # baksmali manually as apktool will by default use minSdkVersion when available
     # instead of the actual DEX format version used in the input apk
+    if [[ "$INPUT_FILE" == *services.jar* ]]; then
+        EVAL "baksmali d -a 36 --ac false --di false -j \"$THREAD_COUNT\" -l -o \"$OUTPUT_PATH/smali\" --sl \"$INPUT_FILE\"/classes.dex" &
+        EVAL "baksmali d -a 36 --ac false --di false -j \"$THREAD_COUNT\" -l -o \"$OUTPUT_PATH/smali_classes2\" --sl \"$INPUT_FILE\"/classes.dex/2" &
+    fi
+
     if [ -f "$OUTPUT_PATH/classes.dex" ]; then
         local DEX_API_LEVEL
         local SMALI_OUT
@@ -192,6 +197,9 @@ DEX_TO_API()
 
     local API
     case "$DEX_VERSION" in
+        "31")
+            API="29"
+            ;;
         "35")
             API="23"
             ;;
