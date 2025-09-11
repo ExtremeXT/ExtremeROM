@@ -2,11 +2,11 @@ SKIPUNZIP=1
 MODEL=$(echo -n "$TARGET_FIRMWARE" | cut -d "/" -f 1)
 REGION=$(echo -n "$TARGET_FIRMWARE" | cut -d "/" -f 2)
 
-# S24 FE OneUI 7 -> SoundBooster 2000
+# S25 FE OneUI 8 -> SoundBooster 2080
 # S10 Series -> SoundBooster 1000
 LOG_STEP_IN "- Replacing SoundBooster"
-DELETE_FROM_WORK_DIR "system" "system/lib64/lib_SoundBooster_ver2000.so"
-DELETE_FROM_WORK_DIR "system" "system/lib64/lib_SAG_EQ_ver2000.so"
+DELETE_FROM_WORK_DIR "system" "system/lib64/lib_SoundBooster_ver2080.so"
+DELETE_FROM_WORK_DIR "system" "system/lib64/lib_SAG_EQ_ver2080.so"
 DELETE_FROM_WORK_DIR "system" "system/lib64/libsoundboostereq_legacy.so"
 ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/lib64/lib_SoundBooster_ver1000.so" 0 0 644 "u:object_r:system_lib_file:s0"
 ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/lib64/libsamsungSoundbooster_plus_legacy.so" 0 0 644 "u:object_r:system_lib_file:s0"
@@ -18,8 +18,8 @@ ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/priv-app/DevGPUDriver-EX9820
 LOG_STEP_OUT
 
 LOG_STEP_IN "- Replacing Hotword"
-DELETE_FROM_WORK_DIR "product" "priv-app/HotwordEnrollmentOKGoogleEx4CORTEXM55"
-DELETE_FROM_WORK_DIR "product" "priv-app/HotwordEnrollmentXGoogleEx4CORTEXM55"
+DELETE_FROM_WORK_DIR "product" "priv-app/HotwordEnrollmentXGoogleEx6_WIDEBAND_LARGE"
+DELETE_FROM_WORK_DIR "product" "priv-app/HotwordEnrollmentYGoogleEx6_WIDEBAND_LARGE"
 mkdir -p "$WORK_DIR/product/priv-app/HotwordEnrollmentOKGoogleExCORTEXM4"
 mkdir -p "$WORK_DIR/product/priv-app/HotwordEnrollmentXGoogleExCORTEXM4"
 cp -a --preserve=all "$FW_DIR/${MODEL}_${REGION}/system/system/priv-app/HotwordEnrollmentOKGoogleExCORTEXM4/HotwordEnrollmentOKGoogleExCORTEXM4.apk" "$WORK_DIR/product/priv-app/HotwordEnrollmentOKGoogleExCORTEXM4/HotwordEnrollmentOKGoogleExCORTEXM4.apk"
@@ -32,7 +32,7 @@ SET_METADATA "product" "priv-app/HotwordEnrollmentXGoogleExCORTEXM4/HotwordEnrol
 LOG_STEP_OUT
 
 LOG_STEP_IN "- Adding 32-Bit S21 (p3sxxx) WFD blobs"
-ADD_TO_WORK_DIR "p3sxxx" "system" "system/bin/remotedisplay" 0 2000 755 "u:object_r:remotedisplay_exec:s0"
+#ADD_TO_WORK_DIR "p3sxxx" "system" "system/bin/remotedisplay" 0 2000 755 "u:object_r:remotedisplay_exec:s0"
 ADD_TO_WORK_DIR "p3sxxx" "system" "system/lib" 0 0 644 "u:object_r:system_lib_file:s0"
 LOG_STEP_OUT
 
