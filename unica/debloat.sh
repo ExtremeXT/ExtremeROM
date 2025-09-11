@@ -128,6 +128,7 @@ system/etc/sysconfig/samsungpassapp.xml
 system/etc/sysconfig/samsungpushservice.xml
 system/hidden/SmartTutor
 system/preload/Facebook_stub_preload
+system/preload/Instagram_stub_preload
 system/priv-app/AppUpdateCenter
 system/priv-app/AREmoji
 system/priv-app/AREmojiEditor
@@ -154,6 +155,8 @@ system/priv-app/SOAgent76
 system/priv-app/SPPPushClient
 system/priv-app/StickerFaceARAvatar
 system/priv-app/YourPhone_P1_5
+system/app/BixbyWakeup
+system/priv-app/Bixby
 "
 
 PRISM_DEBLOAT+="
