@@ -1,6 +1,4 @@
 /system u:object_r:system_file:s0
-/system/app/UwbRROverlayMccMncRegulation u:object_r:system_file:s0
-/system/app/UwbRROverlayMccMncRegulation/UwbRROverlayMccMncRegulation\.apk u:object_r:system_file:s0
 /system/app/UwbTest u:object_r:system_file:s0
 /system/app/UwbTest/oat u:object_r:system_file:s0
 /system/app/UwbTest/oat/arm64 u:object_r:system_file:s0
@@ -13,6 +11,7 @@
 /system/bin/surfaceflinger u:object_r:surfaceflinger_exec:s0
 /system/etc/init/init\.system\.uwb\.rc u:object_r:system_file:s0
 /system/etc/permissions/com\.samsung\.android\.uwb_extras\.xml u:object_r:system_file:s0
+/system/etc/permissions/privapp-permissions-com\.sec\.android\.app\.uwbtest\.xml u:object_r:system_file:s0
 /system/etc/permissions/privapp-permissions-com\.samsung\.android\.sead\.xml u:object_r:system_file:s0
 /system/framework/com\.samsung\.android\.uwb_extras\.jar u:object_r:system_file:s0
 /system/lib64 u:object_r:system_lib_file:s0

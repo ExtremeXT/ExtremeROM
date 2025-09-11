@@ -1,0 +1,8 @@
+ <permissions>
+ <privapp-permissions package="com.sec.android.app.uwbtest">
+     <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+     <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+     <permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+     <permission name="com.samsung.android.uwb.READ_NOTIFICATION" />
+ </privapp-permissions>
+ </permissions>

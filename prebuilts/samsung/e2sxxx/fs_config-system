@@ -1,6 +1,4 @@
 system 0 0 755 capabilities=0x0
-system/app/UwbRROverlayMccMncRegulation 0 0 755 capabilities=0x0
-system/app/UwbRROverlayMccMncRegulation/UwbRROverlayMccMncRegulation.apk 0 0 644 capabilities=0x0
 system/app/UwbTest 0 0 755 capabilities=0x0
 system/app/UwbTest/oat 0 0 755 capabilities=0x0
 system/app/UwbTest/oat/arm64 0 0 755 capabilities=0x0
@@ -13,6 +11,7 @@ system/bin/mafpc_write 0 2000 755 capabilities=0x0
 system/bin/surfaceflinger 0 2000 755 capabilities=0x0
 system/etc/init/init.system.uwb.rc 0 0 644 capabilities=0x0
 system/etc/permissions/com.samsung.android.uwb_extras.xml 0 0 644 capabilities=0x0
+system/etc/permissions/privapp-permissions-com.sec.android.app.uwbtest.xml 0 0 644 capabilities=0x0
 system/framework/com.samsung.android.uwb_extras.jar 0 0 644 capabilities=0x0
 system/lib64 0 0 755 capabilities=0x0
 system/lib64/libandroid_runtime.so 0 0 644 capabilities=0x0
