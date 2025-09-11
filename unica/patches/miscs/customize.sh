@@ -52,3 +52,4 @@ echo -e "\nro.telephony.sim_slots.count      u:object_r:telephony_config_prop:s0
     echo ""
 } >> "$WORK_DIR/vendor/etc/init/init.vendor.rilcommon.rc"
 
+sed -i s/init.svc.vendor.wvkprov_server_hal//g "$WORK_DIR/vendor/etc/selinux/vendor_property_contexts"
