@@ -40,8 +40,6 @@ if [[ -f "$FW_DIR/${MODEL}_${REGION}/vendor/lib64/liblivefocus_capture_engine.so
     fi
 fi
 
-ADD_TO_WORK_DIR "$SOURCE_FIRMWARE" "vendor" "bin/secril_config_svc"
-
 echo -e "\nro.telephony.sim_slots.count      u:object_r:telephony_config_prop:s0 exact int" >> "$WORK_DIR/system/system/etc/selinux/plat_property_contexts"
 
 {
