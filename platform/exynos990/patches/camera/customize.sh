@@ -63,10 +63,10 @@ LOG_STEP_IN "- Adding libc++_shared.so dependency for __cxa_demangle symbol"
 patchelf --add-needed "libc++_shared.so" "$WORK_DIR/system/system/lib64/libMultiFrameProcessing20Core.camera.samsung.so"
 LOG_STEP_OUT
 
-LOG_STEP_IN "- Removing HDR10+ check"
-ADD_TO_WORK_DIR "pa3qxxx" "system" "system/lib64/libstagefright.so" 0 0 644 "u:object_r:system_lib_file:s0"
-HEX_PATCH "$WORK_DIR/system/system/lib64/libstagefright.so" "010140f9cf390594a0500034" "010140f91f2003d51f2003d5"
-LOG_STEP_OUT
+#LOG_STEP_IN "- Removing HDR10+ check"
+#ADD_TO_WORK_DIR "pa3qxxx" "system" "system/lib64/libstagefright.so" 0 0 644 "u:object_r:system_lib_file:s0"
+#HEX_PATCH "$WORK_DIR/system/system/lib64/libstagefright.so" "010140f9cf390594a0500034" "010140f91f2003d51f2003d5"
+#LOG_STEP_OUT
 
 LOG_STEP_IN "- Adding prebuilt libs from other devices"
 BLOBS_LIST="
