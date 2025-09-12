@@ -367,10 +367,10 @@ DECODE_APK "system" "system/framework/semwifi-service.jar"
 #     fi
 # fi
 
-# if $SOURCE_AUDIO_SUPPORT_VIRTUAL_VIBRATION; then
-#     if ! $TARGET_AUDIO_SUPPORT_VIRTUAL_VIBRATION; then
-#         LOG_STEP_IN "Applying virtual vibration patches"
-#         APPLY_PATCH "system" "system/priv-app/SecSettings/SecSettings.apk" "$SRC_DIR/unica/patches/product_feature/audio/SecSettings.apk/0002-Disable-Virtual-Vibration-support.patch"
-#         LOG_STEP_OUT
-#     fi
-# fi
+if $SOURCE_AUDIO_SUPPORT_VIRTUAL_VIBRATION; then
+    if ! $TARGET_AUDIO_SUPPORT_VIRTUAL_VIBRATION; then
+        LOG_STEP_IN "Applying virtual vibration patches"
+        APPLY_PATCH "system" "system/priv-app/SecSettings/SecSettings.apk" "$SRC_DIR/unica/patches/product_feature/audio/SecSettings.apk/0001-Disable-Virtual-Vibration-support.patch"
+        LOG_STEP_OUT
+    fi
+fi
