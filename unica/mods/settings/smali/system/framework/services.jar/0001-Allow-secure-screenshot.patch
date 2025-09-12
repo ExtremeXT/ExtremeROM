@@ -1,4 +1,4 @@
-From 84631a3bdf9d4ab64e26d1f2717fbd17d17ddabc Mon Sep 17 00:00:00 2001
+From 5ab3b2b8a8805f9633c9605f6b5595dd46b8963b Mon Sep 17 00:00:00 2001
 From: Salvo Giangreco <giangrecosalvo9@gmail.com>
 Date: Sun, 20 Apr 2025 19:18:14 +0300
 Subject: [PATCH] Allow secure screenshot
@@ -9,10 +9,10 @@ Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
  1 file changed, 2 insertions(+), 132 deletions(-)
 
 diff --git a/smali_classes2/com/android/server/wm/WindowState.smali b/smali_classes2/com/android/server/wm/WindowState.smali
-index 0930f6aa..c55073f3 100644
+index 25cf0979..3868b2e2 100644
 --- a/smali_classes2/com/android/server/wm/WindowState.smali
 +++ b/smali_classes2/com/android/server/wm/WindowState.smali
-@@ -10973,139 +10973,9 @@
+@@ -11197,139 +11197,9 @@
  .end method
  
  .method public final isSecureLocked()Z
@@ -42,7 +42,7 @@ index 0930f6aa..c55073f3 100644
 -    return v2
 -
 -    :cond_1
--    const-string v0, "Screen Capture is disabled by mdm for user("
+-    const-string/jumbo v0, "Screen Capture is disabled by mdm for user("
 -
 -    :try_start_0
 -    iget-object v3, p0, Lcom/android/server/wm/WindowState;->mRestrictionPolicy:Lcom/samsung/android/knox/localservice/RestrictionPolicyInternal;
@@ -74,7 +74,7 @@ index 0930f6aa..c55073f3 100644
 -
 -    if-nez v3, :cond_3
 -
--    const-string v3, "WindowManager"
+-    const-string/jumbo v3, "WindowManager"
 -
 -    new-instance v4, Ljava/lang/StringBuilder;
 -
@@ -155,5 +155,5 @@ index 0930f6aa..c55073f3 100644
      return p0
  .end method
 -- 
-2.45.2
+2.49.1
 
