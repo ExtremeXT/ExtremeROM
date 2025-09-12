@@ -1,6 +1,6 @@
 # Now Brief
-ADD_TO_WORK_DIR "pa3qxxx" "system" "system/priv-app/SamsungSmartSuggestions/SamsungSmartSuggestions.apk"
-ADD_TO_WORK_DIR "pa3qxxx" "system" "system/priv-app/SamsungSmartSuggestions/oat"
+ADD_TO_WORK_DIR "pa3qzcx" "system" "system/priv-app/SamsungSmartSuggestions/SamsungSmartSuggestions.apk"
+ADD_TO_WORK_DIR "pa3qzcx" "system" "system/priv-app/SamsungSmartSuggestions/oat"
 SET_FLOATING_FEATURE_CONFIG "SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_PERSONALIZED_DATA_CORE" "TRUE"
 
 # AI
@@ -19,5 +19,5 @@ system/media/audio/ui
 for folder in $FOLDER_LIST
 do
     DELETE_FROM_WORK_DIR "system" "$folder"
-    ADD_TO_WORK_DIR "pa3qxxx" "system" "$folder"
+    ADD_TO_WORK_DIR "pa3qzcx" "system" "$folder"
 done
