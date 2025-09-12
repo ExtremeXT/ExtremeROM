@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-# ExtremeROM configuration file for Exynos devices (essi)
+# ExtremeROM configuration file for Exynos devices (essi/essi_64)
 
 # Galaxy S24 FE (One UI 7)
 SOURCE_CODENAME="r12s"
