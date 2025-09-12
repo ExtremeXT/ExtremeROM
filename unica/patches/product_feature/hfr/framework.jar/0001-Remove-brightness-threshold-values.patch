@@ -1,59 +1,58 @@
-From 07c926f8501dc79448de504cc92c21431030261f Mon Sep 17 00:00:00 2001
+From 91cf366ab58c46c90b19029beb94463bd817ce65 Mon Sep 17 00:00:00 2001
 From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
-Date: Wed, 18 Jun 2025 20:17:36 +0300
+Date: Fri, 12 Sep 2025 23:46:04 +0200
 Subject: [PATCH] Remove brightness threshold values
 
+Signed-off-by: dupazlasu <dupazlasu66@gmail.com>
 ---
- .../hardware/display/RefreshRateConfig.smali     | 16 ++++------------
- 1 file changed, 4 insertions(+), 12 deletions(-)
+ .../android/hardware/display/RefreshRateConfig.smali | 12 +++++-------
+ 1 file changed, 5 insertions(+), 7 deletions(-)
 
 diff --git a/smali_classes6/com/samsung/android/hardware/display/RefreshRateConfig.smali b/smali_classes6/com/samsung/android/hardware/display/RefreshRateConfig.smali
-index 695b4810..0dfd3d8b 100644
+index de015f8a..4606043e 100644
 --- a/smali_classes6/com/samsung/android/hardware/display/RefreshRateConfig.smali
 +++ b/smali_classes6/com/samsung/android/hardware/display/RefreshRateConfig.smali
-@@ -527,9 +527,7 @@
+@@ -386,7 +386,7 @@
  
-     move-result-object v0
+     invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
--    const-string v1, "89,91"
--
--    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-+    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-    const-string v0, "SEAMLESS_BRT: 89,91"
++    const-string v0, "SEAMLESS_BRT: "
  
-     move-result-object v0
+     invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
-@@ -604,9 +602,7 @@
+@@ -441,7 +441,7 @@
  
-     move-result-object v0
+     invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
--    const-string v1, "260,2500"
--
--    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-+    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-    const-string v0, "SEAMLESS_LUX: 260,2500"
++    const-string v0, "SEAMLESS_LUX: "
  
-     move-result-object v0
+     invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
  
-@@ -683,7 +679,7 @@
+@@ -584,7 +584,7 @@
  .end method
  
- .method public static blacklist getInstance(Z)Lcom/samsung/android/hardware/display/RefreshRateConfig;
--    .locals 6
+ .method public static blacklist getMainInstance()Lcom/samsung/android/hardware/display/RefreshRateConfig;
+-    .locals 5
 +    .locals 4
  
-     sget-boolean v0, Lcom/samsung/android/rune/CoreRune;->FW_VRR_FOR_SUB_DISPLAY:Z
+     sget-object v0, Lcom/samsung/android/hardware/display/RefreshRateConfig;->sInstance:Lcom/samsung/android/hardware/display/RefreshRateConfig;
  
-@@ -729,11 +725,7 @@
+@@ -596,11 +596,9 @@
  
-     const-string v3, "persist.dm.passive.ambient_brightness"
+     const-string/jumbo v2, "persist.dm.passive.ambient_brightness"
  
--    const-string v4, "89,91"
+-    const-string v3, "89,91"
 -
--    const-string v5, "260,2500"
--
--    invoke-direct {v0, v4, v5, v2, v3}, Lcom/samsung/android/hardware/display/RefreshRateConfig$BrightnessThreshold;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-+    invoke-direct {v0, v1, v1, v2, v3}, Lcom/samsung/android/hardware/display/RefreshRateConfig$BrightnessThreshold;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+-    const-string v4, "260,2500"
++    const-string v3, ""
  
-     const-string v2, "2"
+-    invoke-direct {v0, v3, v4, v1, v2}, Lcom/samsung/android/hardware/display/RefreshRateConfig$BrightnessThreshold;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
++    invoke-direct {v0, v3, v3, v1, v2}, Lcom/samsung/android/hardware/display/RefreshRateConfig$BrightnessThreshold;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ 
+     const-string v1, "2"
  
 -- 
-2.45.2
+2.51.0
+
