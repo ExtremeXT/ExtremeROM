@@ -1,4 +1,4 @@
-From 094c6d8260d5e0f40a1cca2a99e3e13a7375a323 Mon Sep 17 00:00:00 2001
+From d6f1e4535e285fa7292d8b5e8f8a870edf585a69 Mon Sep 17 00:00:00 2001
 From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
 Date: Wed, 18 Jun 2025 12:38:45 +0300
 Subject: [PATCH] Set FP_FEATURE_SENSOR_IS_OPTICAL to false
@@ -8,10 +8,10 @@ Subject: [PATCH] Set FP_FEATURE_SENSOR_IS_OPTICAL to false
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/smali/com/android/server/biometrics/SemBiometricFeature.smali b/smali/com/android/server/biometrics/SemBiometricFeature.smali
-index f67574ad..60b90fcc 100644
+index 76ea90a8..77cd6e39 100644
 --- a/smali/com/android/server/biometrics/SemBiometricFeature.smali
 +++ b/smali/com/android/server/biometrics/SemBiometricFeature.smali
-@@ -161,7 +161,7 @@
+@@ -185,7 +185,7 @@
  
      sput-boolean v2, Lcom/android/server/biometrics/SemBiometricFeature;->FP_FEATURE_SENSOR_IS_IN_DISPLAY_TYPE:Z
  
@@ -21,5 +21,5 @@ index f67574ad..60b90fcc 100644
      invoke-static {}, Lcom/samsung/android/feature/SemFloatingFeature;->getInstance()Lcom/samsung/android/feature/SemFloatingFeature;
  
 -- 
-2.45.2
+2.49.1
 
