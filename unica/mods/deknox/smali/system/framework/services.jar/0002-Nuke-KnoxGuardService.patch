@@ -1,9 +1,8 @@
-From 4f560c88981a90afd76688dfee3fece097b406fd Mon Sep 17 00:00:00 2001
+From f13d54b3964226dbc8e4d01af9b399b7d6851bc2 Mon Sep 17 00:00:00 2001
 From: Louis Poier <lpoier7@proton.me>
-Date: Thu, 11 Sep 2025 19:27:07 +0300
+Date: Sat, 21 Jun 2025 20:18:35 +0200
 Subject: [PATCH] Nuke KnoxGuardService
 
-Change-Id: I1695c1f10d81350e5e4f1512edf6686b5e821399
 Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
 ---
  smali/com/android/server/SystemServer.smali | 6 +-----
@@ -27,5 +26,5 @@ index 32f3cb63..abc3482b 100644
      const-string/jumbo v0, "StartKnoxGuard"
  
 -- 
-2.51.0
+2.49.1
 

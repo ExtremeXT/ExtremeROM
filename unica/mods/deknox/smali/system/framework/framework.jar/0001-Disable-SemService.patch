@@ -1,0 +1,26 @@
+From 8076489740cb99e3151fcd6e1b61fb96c3749986 Mon Sep 17 00:00:00 2001
+From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date: Sat, 21 Jun 2025 20:30:48 +0200
+Subject: [PATCH] Disable SemService
+
+Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+---
+ .../samsung/android/service/SemService/SemServiceManager.smali  | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/smali_classes6/com/samsung/android/service/SemService/SemServiceManager.smali b/smali_classes6/com/samsung/android/service/SemService/SemServiceManager.smali
+index 51490c10..088b1cdb 100644
+--- a/smali_classes6/com/samsung/android/service/SemService/SemServiceManager.smali
++++ b/smali_classes6/com/samsung/android/service/SemService/SemServiceManager.smali
+@@ -121,7 +121,7 @@
+ 
+     sput-object v0, Lcom/samsung/android/service/SemService/SemServiceManager;->HEX_CHARS:[C
+ 
+-    const/4 v0, 0x1
++    const/4 v0, 0x0
+ 
+     sput-boolean v0, Lcom/samsung/android/service/SemService/SemServiceManager;->isSupportSemServiceManager:Z
+ 
+-- 
+2.49.1
+
