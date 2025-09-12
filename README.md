@@ -18,7 +18,7 @@
 
 # What is ExtremeROM Nexus?
 ExtremeROM Nexus is a work-in-progress custom firmware for Samsung Galaxy devices. It's based on the latest and greatest iteration of Samsung's UX and it also includes additional features and tweaks to ensure the best possible experience out of the box.
-It is based on the UN1CA build system which allows automatic downloading/extraction of the firmware, applying the required patches and generating a flashable zip/tar package for the specified target device.
+It is based on the UN1CA build system which allows automatic downloading/extraction of the firmware, applying the required patches and generating a flashable zip package for the specified target device.
 ExtremeROM Nexus supports devices using the Exynos 9820, Exynos 990, Exynos 2100 and Exynos 2200 SoCs
 
 Any form of contribution, suggestions, bug report or feature request for the project will be welcome.
