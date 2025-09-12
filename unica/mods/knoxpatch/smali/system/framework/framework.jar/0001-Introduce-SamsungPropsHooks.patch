@@ -1,44 +1,50 @@
-From 9efe2460dd538db3c46e72a18086a1992cd5d920 Mon Sep 17 00:00:00 2001
+From 1150cb1aa39340b49a9f596f8f800f08b0649640 Mon Sep 17 00:00:00 2001
 From: Salvo Giangreco <giangrecosalvo9@gmail.com>
 Date: Sat, 21 Jun 2025 19:44:23 +0200
 Subject: [PATCH] Introduce SamsungPropsHooks
 
+Change-Id: If30bcc74a856ab2052b058b0a24d338db2140b74
 Signed-off-by: Ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
 ---
- .../smali/android/app/Instrumentation.smali   |   4 +
- .../android/os/SystemProperties.smali         |  14 +
+ smali/android/app/Instrumentation.smali       |   4 +
+ .../android/os/SystemProperties.smali         |  18 +-
  .../android/provider/Settings$Global.smali    |   9 +
  .../ocin4ever/spoof/SamsungPropsHooks.smali   | 826 ++++++++++++++++++
- 4 files changed, 853 insertions(+)
+ 4 files changed, 855 insertions(+), 2 deletions(-)
  create mode 100644 smali_classes6/com/ocin4ever/spoof/SamsungPropsHooks.smali
 
 diff --git a/smali/android/app/Instrumentation.smali b/smali/android/app/Instrumentation.smali
-index 0d935febf0..36c0eed9d2 100644
+index 82c86f26..2cb90f4a 100644
 --- a/smali/android/app/Instrumentation.smali
 +++ b/smali/android/app/Instrumentation.smali
-@@ -780,6 +780,8 @@
+@@ -746,6 +746,8 @@
  
-     invoke-virtual {v0, p1}, Landroid/app/Application;->attach(Landroid/content/Context;)V
+     invoke-virtual {p0, p1}, Landroid/app/Application;->attach(Landroid/content/Context;)V
  
 +    invoke-static {p1}, Lcom/ocin4ever/spoof/SamsungPropsHooks;->init(Landroid/content/Context;)V
 +
-     return-object v0
+     return-object p0
  .end method
  
-@@ -4784,6 +4786,8 @@
+@@ -4336,6 +4338,8 @@
  
-     invoke-virtual {v0, p3}, Landroid/app/Application;->attach(Landroid/content/Context;)V
+     invoke-virtual {p0, p3}, Landroid/app/Application;->attach(Landroid/content/Context;)V
  
 +    invoke-static {p3}, Lcom/ocin4ever/spoof/SamsungPropsHooks;->init(Landroid/content/Context;)V
 +
-     return-object v0
+     return-object p0
  .end method
  
 diff --git a/smali_classes3/android/os/SystemProperties.smali b/smali_classes3/android/os/SystemProperties.smali
-index 63e0dd64c5..6204c0ab39 100644
+index 3af84b7b..5705a0c5 100644
 --- a/smali_classes3/android/os/SystemProperties.smali
 +++ b/smali_classes3/android/os/SystemProperties.smali
-@@ -383,10 +383,17 @@
+@@ -373,26 +373,40 @@
+ .end method
+ 
+ .method public static whitelist get(Ljava/lang/String;)Ljava/lang/String;
+-    .locals 0
++    .locals 1
      .annotation runtime Landroid/annotation/SystemApi;
      .end annotation
  
@@ -50,13 +56,15 @@ index 63e0dd64c5..6204c0ab39 100644
 +
      invoke-static {p0}, Landroid/os/SystemProperties;->native_get(Ljava/lang/String;)Ljava/lang/String;
  
-     move-result-object v0
+     move-result-object p0
  
 +    :cond_0
-     return-object v0
+     return-object p0
  .end method
  
-@@ -395,10 +402,17 @@
+ .method public static whitelist get(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+-    .locals 0
++    .locals 1
      .annotation runtime Landroid/annotation/SystemApi;
      .end annotation
  
@@ -68,27 +76,27 @@ index 63e0dd64c5..6204c0ab39 100644
 +
      invoke-static {p0, p1}, Landroid/os/SystemProperties;->native_get(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
  
-     move-result-object v0
+     move-result-object p0
  
 +    :cond_0
-     return-object v0
+     return-object p0
  .end method
  
 diff --git a/smali_classes3/android/provider/Settings$Global.smali b/smali_classes3/android/provider/Settings$Global.smali
-index ca35db8a77..84a6ae23bb 100644
+index bb96b629..d4fa59f8 100644
 --- a/smali_classes3/android/provider/Settings$Global.smali
 +++ b/smali_classes3/android/provider/Settings$Global.smali
-@@ -4487,6 +4487,15 @@
-     return-object v0
+@@ -4521,6 +4521,15 @@
+     return-object p0
  
      :cond_1
 +    invoke-static {p0, p1}, Lcom/ocin4ever/spoof/SamsungPropsHooks;->onSGGetStringHook(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 +
-+    move-result-object v0
++    move-result-object v1
 +
-+    if-eqz v0, :cond_2
++    if-eqz v1, :cond_2
 +
-+    return-object v0
++    return-object v1
 +
 +    :cond_2
      sget-object v0, Landroid/provider/Settings$Global;->sNameValueCache:Landroid/provider/Settings$NameValueCache;
@@ -96,7 +104,7 @@ index ca35db8a77..84a6ae23bb 100644
      invoke-virtual {v0, p0, p1, p2}, Landroid/provider/Settings$NameValueCache;->getStringForUser(Landroid/content/ContentResolver;Ljava/lang/String;I)Ljava/lang/String;
 diff --git a/smali_classes6/com/ocin4ever/spoof/SamsungPropsHooks.smali b/smali_classes6/com/ocin4ever/spoof/SamsungPropsHooks.smali
 new file mode 100644
-index 0000000000..36bce6bb73
+index 00000000..8997ad3b
 --- /dev/null
 +++ b/smali_classes6/com/ocin4ever/spoof/SamsungPropsHooks.smali
 @@ -0,0 +1,826 @@
@@ -927,5 +935,5 @@ index 0000000000..36bce6bb73
 +    return-void
 +.end method
 -- 
-2.43.0
+2.51.0
 
