@@ -43,8 +43,6 @@ system/priv-app/SsuService
 
 # Recovery restoration script
 VENDOR_DEBLOAT+="
-recovery-from-boot.p
-bin/install-recovery.sh
 etc/init/vendor_flash_recovery.rc
 "
 
