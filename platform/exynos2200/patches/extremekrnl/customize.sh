@@ -1,7 +1,6 @@
 # [
 if [[ "$TARGET_CODENAME" != "r11s" ]]; then # TODO: add r11s support to ExtremeKRNL
     EXTREMEKRNL_REPO="https://github.com/ExtremeXT/android_kernel_samsung_s5e9925"
-    KERNELSU_MANAGER_APK="https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v1.0.9/KernelSU_Next_v1.0.9_12797-release.apk"
 
     BUILD_KERNEL()
     {
@@ -78,32 +77,6 @@ if [[ "$TARGET_CODENAME" != "r11s" ]]; then # TODO: add r11s support to ExtremeK
         # So, keep the kernel temp dir.
     }
 
-    ADD_MANAGER_APK_TO_PRELOAD()
-    {
-        # https://github.com/tiann/KernelSU/issues/886
-        local APK_PATH="system/preload/KernelSU-Next/com.rifsxd.ksunext-mesa==/base.apk"
-
-        LOG "- Adding KernelSU-Next.apk to preload apps"
-        mkdir -p "$WORK_DIR/system/$(dirname "$APK_PATH")"
-        curl -L -s -o "$WORK_DIR/system/$APK_PATH" -z "$WORK_DIR/system/$APK_PATH" "$KERNELSU_MANAGER_APK"
-
-        sed -i "/system\/preload/d" "$WORK_DIR/configs/fs_config-system" \
-            && sed -i "/system\/preload/d" "$WORK_DIR/configs/file_context-system"
-        while read -r i; do
-            FILE="$(echo -n "$i"| sed "s.$WORK_DIR/system/..")"
-            [ -d "$i" ] && echo "$FILE 0 0 755 capabilities=0x0" >> "$WORK_DIR/configs/fs_config-system"
-            [ -f "$i" ] && echo "$FILE 0 0 644 capabilities=0x0" >> "$WORK_DIR/configs/fs_config-system"
-            FILE="$(echo -n "$FILE" | sed 's/\./\\./g')"
-            echo "/$FILE u:object_r:system_file:s0" >> "$WORK_DIR/configs/file_context-system"
-        done <<< "$(find "$WORK_DIR/system/system/preload")"
-
-        rm -f "$WORK_DIR/system/system/etc/vpl_apks_count_list.txt"
-        while read -r i; do
-            FILE="$(echo "$i" | sed "s.$WORK_DIR/system..")"
-            echo "$FILE" >> "$WORK_DIR/system/system/etc/vpl_apks_count_list.txt"
-        done <<< "$(find "$WORK_DIR/system/system/preload" -name "*.apk" | sort)"
-    }
-
     UPDATE_MODULES()
     {
         mv -f "$KERNEL_TMP_DIR-$TARGET_PLATFORM/build/out/$TARGET_CODENAME/modules_dlkm/fingerprint.ko" "$WORK_DIR/vendor_dlkm/lib/modules"
@@ -120,7 +93,6 @@ if [[ "$TARGET_CODENAME" != "r11s" ]]; then # TODO: add r11s support to ExtremeK
 
     REPLACE_KERNEL_BINARIES
     UPDATE_MODULES
-    ADD_MANAGER_APK_TO_PRELOAD
 else
     LOG "- S23 FE (r11s) detected. Skipping."
 fi
