@@ -1,30 +1,34 @@
-From 97d9dc349c3313f4071ff3f29cd58513c6ab337f Mon Sep 17 00:00:00 2001
+From 8be1316a2426bf209c98af5c91f1e7d6aa845d84 Mon Sep 17 00:00:00 2001
 From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
-Date: Mon, 15 Sep 2025 15:54:52 +0300
-Subject: [PATCH] Enable dynamic resolution control
+Date: Wed, 18 Jun 2025 12:32:15 +0300
+Subject: [PATCH] Disable dynamic resolution control
 
-Change-Id: I326eb532057680298f51dead2161139872e53090
-Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
 ---
  smali_classes6/com/samsung/android/rune/CoreRune.smali | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/smali_classes6/com/samsung/android/rune/CoreRune.smali b/smali_classes6/com/samsung/android/rune/CoreRune.smali
-index e17bed3c..88898f3c 100644
+index eeb55082..72e0151d 100644
 --- a/smali_classes6/com/samsung/android/rune/CoreRune.smali
 +++ b/smali_classes6/com/samsung/android/rune/CoreRune.smali
-@@ -2824,9 +2824,9 @@
-     :goto_f
-     sput-boolean v2, Lcom/samsung/android/rune/CoreRune;->FW_TSP_DEADZONE_LARGE_FLIP_COVER:Z
+@@ -2711,7 +2711,7 @@
  
--    sput-boolean v5, Lcom/samsung/android/rune/CoreRune;->FW_SUPPORT_MULTI_RESOLUTION:Z
-+    sput-boolean v4, Lcom/samsung/android/rune/CoreRune;->FW_SUPPORT_MULTI_RESOLUTION:Z
+     if-eqz v1, :cond_11
  
--    sput-boolean v5, Lcom/samsung/android/rune/CoreRune;->FW_MULTI_RESOLUTION_POLICY:Z
-+    sput-boolean v4, Lcom/samsung/android/rune/CoreRune;->FW_MULTI_RESOLUTION_POLICY:Z
+-    invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++    invoke-virtual {v4, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
  
-     sput-boolean v5, Lcom/samsung/android/rune/CoreRune;->FW_DYNAMIC_RESOLUTION_CONTROL:Z
+     move-result v1
+ 
+@@ -3267,7 +3267,7 @@
+ 
+     nop
+ 
+-    invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++    invoke-virtual {v4, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+ 
+     move-result v1
  
 -- 
-2.51.0
+2.45.2
 
