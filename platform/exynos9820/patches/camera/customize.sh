@@ -57,13 +57,13 @@ system/lib64/libsnap_aidl.snap.samsung.so
 "
 for blob in $BLOBS_LIST
 do
-    ADD_TO_WORK_DIR "p3sxxx" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0"
+    ADD_TO_WORK_DIR "r9sxxx" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0"
 done
 LOG_STEP_OUT
 
-LOG_STEP_IN "- Adding S21 (p3sxxx) SWISP models"
+LOG_STEP_IN "- Adding S21 FE (r9sxxx) SWISP models"
 DELETE_FROM_WORK_DIR "vendor" "saiv/swisp_1.0"
-ADD_TO_WORK_DIR "p3sxxx" "vendor" "saiv/swisp_1.0"
+ADD_TO_WORK_DIR "r9sxxx" "vendor" "saiv/swisp_1.0"
 
 BLOBS_LIST="
 system/lib64/libSwIsp_core.camera.samsung.so
@@ -71,7 +71,7 @@ system/lib64/libSwIsp_wrapper_v1.camera.samsung.so
 "
 for blob in $BLOBS_LIST
 do
-    ADD_TO_WORK_DIR "p3sxxx" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0" &
+    ADD_TO_WORK_DIR "r9sxxx" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0" &
 done
 LOG_STEP_OUT
 
@@ -100,9 +100,9 @@ sed -i \
     "$WORK_DIR/system/system/lib64/libPortraitSolution.camera.samsung.so"
 LOG_STEP_OUT
 
-LOG_STEP_IN "- Adding S21 (p3sxxx) SingleTake models"
+LOG_STEP_IN "- Adding S21 FE (r9sxxx) SingleTake models"
 DELETE_FROM_WORK_DIR "vendor" "etc/singletake"
-ADD_TO_WORK_DIR "p3sxxx" "vendor" "etc/singletake"
+ADD_TO_WORK_DIR "r9sxxx" "vendor" "etc/singletake"
 
 BLOBS_LIST="
 system/priv-app/SingleTakeService/SingleTakeService.apk
@@ -110,25 +110,25 @@ system/cameradata/singletake/service-feature.xml
 "
 for blob in $BLOBS_LIST
 do
-    ADD_TO_WORK_DIR "p3sxxx" "system" "$blob" 0 0 644 "u:object_r:system_file:s0" &
+    ADD_TO_WORK_DIR "r9sxxx" "system" "$blob" 0 0 644 "u:object_r:system_file:s0" &
 done
 
 # shellcheck disable=SC2046
 wait $(jobs -p) || exit 1
 
-# LOG "- Decompiling SamsungCamera" # To fool build system into recompiling + signing it at the end
-# DECODE_APK "system" "system/priv-app/SamsungCamera/SamsungCamera.apk"
+LOG "- Decompiling SamsungCamera" # To fool build system into recompiling + signing it at the end
+DECODE_APK "system" "system/priv-app/SamsungCamera/SamsungCamera.apk"
 
-# if [[ "$TARGET_CODENAME" == "beyond2lte" ]]; then
- #   LOG "- Adding stock cutout assets"
- #   cp -a "$MODPATH/assets/lottie_camera_punchcut_timer_b2.json" "$APKTOOL_DIR/system/priv-app/SamsungCamera/SamsungCamera.apk/res/raw/lottie_camera_punchcut_timer_b0.json"
- #   cp -a "$MODPATH/assets/face_unlocking_cutout_ic_b2.json" "$APKTOOL_DIR/system/priv-app/SamsungCamera/SamsungCamera.apk/res/raw/face_unlocking_cutout_ic_b0.json"
-#fi
+if [[ "$TARGET_CODENAME" == "beyond2lte" ]]; then
+   LOG "- Adding stock cutout assets"
+   cp -a "$MODPATH/assets/lottie_camera_punchcut_timer_b2.json" "$APKTOOL_DIR/system/priv-app/SamsungCamera/SamsungCamera.apk/res/raw/lottie_camera_punchcut_timer_b0.json"
+   cp -a "$MODPATH/assets/face_unlocking_cutout_ic_b2.json" "$APKTOOL_DIR/system/priv-app/SamsungCamera/SamsungCamera.apk/res/raw/face_unlocking_cutout_ic_b0.json"
+fi
 
-# if [[ "$TARGET_CODENAME" == "beyondx" ]]; then
- #   LOG "- Adding stock cutout assets"
- #   cp -a "$MODPATH/assets/lottie_camera_punchcut_timer_bx.json" "$APKTOOL_DIR/system/priv-app/SamsungCamera/SamsungCamera.apk/res/raw/lottie_camera_punchcut_timer_b0.json"
- #   cp -a "$MODPATH/assets/face_unlocking_cutout_ic_bx.json" "$APKTOOL_DIR/system/priv-app/SamsungCamera/SamsungCamera.apk/res/raw/face_unlocking_cutout_ic_b0.json"
-# fi
+if [[ "$TARGET_CODENAME" == "beyondx" ]]; then
+   LOG "- Adding stock cutout assets"
+   cp -a "$MODPATH/assets/lottie_camera_punchcut_timer_bx.json" "$APKTOOL_DIR/system/priv-app/SamsungCamera/SamsungCamera.apk/res/raw/lottie_camera_punchcut_timer_b0.json"
+   cp -a "$MODPATH/assets/face_unlocking_cutout_ic_bx.json" "$APKTOOL_DIR/system/priv-app/SamsungCamera/SamsungCamera.apk/res/raw/face_unlocking_cutout_ic_b0.json"
+fi
 
 LOG_STEP_OUT
