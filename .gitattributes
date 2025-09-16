@@ -24,6 +24,7 @@ prebuilts/bootable/deprecated-ota/updater binary
 prebuilts/*/*/*/** binary
 unica/mods/csc/*/** binary
 unica/mods/rezetprop/system/bin/rezetprop binary
+unica/patches/product_feature/resolution/system/system/bin/* binary
 
 # Platform-specific prebuilt blobs
 platform/exynos9820/patches/vendor/vendor/** binary
