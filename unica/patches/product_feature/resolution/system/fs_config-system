@@ -1,0 +1,8 @@
+system 0 0 755 capabilities=0x0
+system/bin 0 0 755 capabilities=0x0
+system/bin/bootanimation 0 2000 755 capabilities=0x0
+system/bin/surfaceflinger 0 2000 755 capabilities=0x0
+system/lib64 0 0 755 capabilities=0x0
+system/lib64/libandroid_runtime.so 0 0 644 capabilities=0x0
+system/lib64/libgui.so 0 0 644 capabilities=0x0
+system/lib64/libui.so 0 0 644 capabilities=0x0
