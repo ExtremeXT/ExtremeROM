@@ -1,4 +1,4 @@
-From 97d9dc349c3313f4071ff3f29cd58513c6ab337f Mon Sep 17 00:00:00 2001
+From 597071b4c4cb47970122eb9db7db85abda4ca7b1 Mon Sep 17 00:00:00 2001
 From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
 Date: Mon, 15 Sep 2025 15:54:52 +0300
 Subject: [PATCH] Enable dynamic resolution control
@@ -6,14 +6,14 @@ Subject: [PATCH] Enable dynamic resolution control
 Change-Id: I326eb532057680298f51dead2161139872e53090
 Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
 ---
- smali_classes6/com/samsung/android/rune/CoreRune.smali | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
+ smali_classes6/com/samsung/android/rune/CoreRune.smali | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
 
 diff --git a/smali_classes6/com/samsung/android/rune/CoreRune.smali b/smali_classes6/com/samsung/android/rune/CoreRune.smali
-index e17bed3c..88898f3c 100644
+index e17bed3c..4b7ee533 100644
 --- a/smali_classes6/com/samsung/android/rune/CoreRune.smali
 +++ b/smali_classes6/com/samsung/android/rune/CoreRune.smali
-@@ -2824,9 +2824,9 @@
+@@ -2824,11 +2824,11 @@
      :goto_f
      sput-boolean v2, Lcom/samsung/android/rune/CoreRune;->FW_TSP_DEADZONE_LARGE_FLIP_COVER:Z
  
@@ -23,7 +23,22 @@ index e17bed3c..88898f3c 100644
 -    sput-boolean v5, Lcom/samsung/android/rune/CoreRune;->FW_MULTI_RESOLUTION_POLICY:Z
 +    sput-boolean v4, Lcom/samsung/android/rune/CoreRune;->FW_MULTI_RESOLUTION_POLICY:Z
  
-     sput-boolean v5, Lcom/samsung/android/rune/CoreRune;->FW_DYNAMIC_RESOLUTION_CONTROL:Z
+-    sput-boolean v5, Lcom/samsung/android/rune/CoreRune;->FW_DYNAMIC_RESOLUTION_CONTROL:Z
++    sput-boolean v4, Lcom/samsung/android/rune/CoreRune;->FW_DYNAMIC_RESOLUTION_CONTROL:Z
+ 
+     const-string v2, "2"
+ 
+@@ -2888,9 +2888,9 @@
+ 
+     sput-boolean v3, Lcom/samsung/android/rune/CoreRune;->FW_VRR_REFRESH_RATE_MODE:Z
+ 
+-    sput-boolean v5, Lcom/samsung/android/rune/CoreRune;->FW_VRR_RESOLUTION_POLICY:Z
++    sput-boolean v3, Lcom/samsung/android/rune/CoreRune;->FW_VRR_RESOLUTION_POLICY:Z
+ 
+-    sput-boolean v5, Lcom/samsung/android/rune/CoreRune;->FW_VRR_RESOLUTION_POLICY_FOR_SHELL_TRANSITION:Z
++    sput-boolean v3, Lcom/samsung/android/rune/CoreRune;->FW_VRR_RESOLUTION_POLICY_FOR_SHELL_TRANSITION:Z
+ 
+     sput-boolean v3, Lcom/samsung/android/rune/CoreRune;->FW_VRR_FIXED_REFRESH_RATE_PACKAGE:Z
  
 -- 
 2.51.0
