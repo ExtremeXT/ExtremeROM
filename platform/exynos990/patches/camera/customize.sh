@@ -66,8 +66,8 @@ LOG_STEP_OUT
 LOG_STEP_IN
 LOG "- Patching Video SVC Check"
 # Early jump after the log and abort functions when configureSVC fails
-# cbz this,LAB_001ddbe0 -> b LAB_001ddc24
-HEX_PATCH "$WORK_DIR/system/system/lib64/libstagefright.so" "20020034fa03002a21fcffd0" "200200342100001421fcffd0"
+# cbz this,LAB_001ddbe0 -> cbz this,LAB_001ddc24
+HEX_PATCH "$WORK_DIR/system/system/lib64/libstagefright.so" "20020034fa03002a21fcffd0" "40040034fa03002a21fcffd0"
 
 
 LOG "- Patching HDR10+ Check"
