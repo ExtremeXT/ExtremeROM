@@ -40,3 +40,6 @@
 /system/priv-app/PhotoRemasterService/PhotoRemasterService\.apk u:object_r:system_file:s0
 /system/priv-app/SingleTakeService u:object_r:system_file:s0
 /system/priv-app/SingleTakeService/SingleTakeService\.apk u:object_r:system_file:s0
+/system/system_ext u:object_r:system_file:s0
+/system/system_ext/apex u:object_r:system_file:s0
+/system/system_ext/apex/com\.android\.vndk\.v30\.apex u:object_r:system_file:s0
