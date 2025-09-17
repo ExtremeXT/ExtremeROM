@@ -349,26 +349,30 @@ DECODE_APK "system" "system/framework/semwifi-service.jar"
 #     fi
 # fi
 
-# if ! $SOURCE_AUDIO_SUPPORT_ACH_RINGTONE; then
-#     if $TARGET_AUDIO_SUPPORT_ACH_RINGTONE; then
-#         LOG_STEP_IN "- Applying ACH ringtone patches"
-#         APPLY_PATCH "system" "system/framework/framework.jar" "$SRC_DIR/unica/patches/product_feature/audio/framework.jar/0001-Enable-ACH-ringtone-support.patch"
-#FOLDER_LIST="
-#system/media/audio/ringtones
-#"
-#for folder in $FOLDER_LIST
-#do
-#    DELETE_FROM_WORK_DIR "system" "$folder"
-#    ADD_TO_WORK_DIR "q7qzcx" "system" "$folder"
-#done
-#         LOG_STEP_OUT
-#     fi
-# fi
+if ! $SOURCE_AUDIO_SUPPORT_ACH_RINGTONE; then
+    if $TARGET_AUDIO_SUPPORT_ACH_RINGTONE; then
+        LOG_STEP_IN "- Applying ACH ringtone patches"
+        APPLY_PATCH "system" "system/framework/framework.jar" "$SRC_DIR/unica/patches/product_feature/audio/framework.jar/0001-Enable-ACH-ringtone-support.patch"
+
+        LOG "- Extracting ACH ringtone assets"
+        DELETE_FROM_WORK_DIR "system" "system/media/audio/ringtones"
+        DELETE_FROM_WORK_DIR "system" "system/media/audio/notifications"
+        ADD_TO_WORK_DIR "q7qzcx" "system" "system/media/audio/ringtones"
+        ADD_TO_WORK_DIR "q7qzcx" "system" "system/media/audio/notifications"
+        SET_PROP "vendor" "ro.config.ringtone" "ACH_Galaxy_Bells.ogg"
+        SET_PROP "vendor" "ro.config.notification_sound" "ACH_Brightline.ogg"
+        SET_PROP "vendor" "ro.config.alarm_alert" "ACH_Morning_Xylophone.ogg"
+        SET_PROP "vendor" "ro.config.ringtone_2" "ACH_Atomic_Bell.ogg"
+        SET_PROP "vendor" "ro.config.notification_sound_2" "ACH_Three_Star.ogg"
+        LOG_STEP_OUT
+    fi
+fi
 
 if $SOURCE_AUDIO_SUPPORT_VIRTUAL_VIBRATION; then
     if ! $TARGET_AUDIO_SUPPORT_VIRTUAL_VIBRATION; then
         LOG_STEP_IN "Applying virtual vibration patches"
         APPLY_PATCH "system" "system/priv-app/SecSettings/SecSettings.apk" "$SRC_DIR/unica/patches/product_feature/audio/SecSettings.apk/0001-Disable-Virtual-Vibration-support.patch"
+        APPLY_PATCH "system" "system/priv-app/SecSoundPicker/SecSoundPicker.apk" "$SRC_DIR/unica/patches/product_feature/audio/SecSoundPicker.apk/0001-Disable-Virtual-Vibration-support.patch"
         LOG_STEP_OUT
     fi
 fi

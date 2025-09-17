@@ -1,0 +1,67 @@
+From bed9bf56956ab414296d2f2f237556c55526f60b Mon Sep 17 00:00:00 2001
+From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date: Wed, 17 Sep 2025 17:00:31 +0300
+Subject: [PATCH] Disable Virtual Vibration support
+
+Change-Id: I9691f62666342a112bc1f3fcbc13bfed8ff3b9d9
+Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+---
+ .../android/secsoundpicker/util/Utils.smali   | 39 +------------------
+ 1 file changed, 1 insertion(+), 38 deletions(-)
+
+diff --git a/smali/com/samsung/android/secsoundpicker/util/Utils.smali b/smali/com/samsung/android/secsoundpicker/util/Utils.smali
+index f37e33d..a139582 100644
+--- a/smali/com/samsung/android/secsoundpicker/util/Utils.smali
++++ b/smali/com/samsung/android/secsoundpicker/util/Utils.smali
+@@ -1547,47 +1547,10 @@
+ .end method
+ 
+ .method public static isShowVibrateWhileRingingView(Ljava/lang/String;)Z
+-    .locals 1
+-
+-    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+-
+-    move-result v0
+-
+-    if-nez v0, :cond_1
+-
+-    const-string v0, "com.android.settings"
+-
+-    invoke-static {p0, v0}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+-
+-    move-result v0
+-
+-    if-nez v0, :cond_0
+-
+-    const-string v0, "call_setting_ringtones"
+-
+-    invoke-static {p0, v0}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+-
+-    move-result v0
+-
+-    if-nez v0, :cond_0
+-
+-    const-string v0, "call_setting"
+-
+-    invoke-static {p0, v0}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+-
+-    move-result p0
+-
+-    if-eqz p0, :cond_1
+-
+-    :cond_0
+-    const/4 p0, 0x1
+-
+-    goto :goto_0
++    .locals 0
+ 
+-    :cond_1
+     const/4 p0, 0x0
+ 
+-    :goto_0
+     return p0
+ .end method
+ 
+-- 
+2.51.0
+

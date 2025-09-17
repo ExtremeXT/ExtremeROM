@@ -1,45 +1,41 @@
-From 7b2e4eeff4ba6a98d9778e9dcd7f4037e2aaf6c7 Mon Sep 17 00:00:00 2001
-From: dupazlasu <dupazlasu66@gmail.com>
-Date: Tue, 24 Jun 2025 18:41:44 +0200
+From a6ea6cb160b05cca918711179eb13bb5ef8245cc Mon Sep 17 00:00:00 2001
+From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date: Wed, 17 Sep 2025 17:02:34 +0300
 Subject: [PATCH] Enable ACH ringtone support
 
-Co-authored-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
-Signed-off-by: dupazlasu <dupazlasu66@gmail.com>
+Change-Id: Ifb3857abaeb419699df682d1eb804e00e0009ba5
+Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
 ---
- smali_classes5/com/samsung/android/audio/Rune.smali       | 4 +---
+ smali_classes6/com/samsung/android/audio/Rune.smali       | 2 +-
  smali_classes6/com/samsung/android/vibrator/VibRune.smali | 2 +-
- 2 files changed, 2 insertions(+), 4 deletions(-)
+ 2 files changed, 2 insertions(+), 2 deletions(-)
 
-diff --git a/smali_classes5/com/samsung/android/audio/Rune.smali b/smali_classes5/com/samsung/android/audio/Rune.smali
-index 3a6cc21a..42582fde 100644
---- a/smali_classes5/com/samsung/android/audio/Rune.smali
-+++ b/smali_classes5/com/samsung/android/audio/Rune.smali
-@@ -455,11 +455,9 @@
+diff --git a/smali_classes6/com/samsung/android/audio/Rune.smali b/smali_classes6/com/samsung/android/audio/Rune.smali
+index dcbb682a..07c314ae 100644
+--- a/smali_classes6/com/samsung/android/audio/Rune.smali
++++ b/smali_classes6/com/samsung/android/audio/Rune.smali
+@@ -435,7 +435,7 @@
  
      sput-boolean v2, Lcom/samsung/android/audio/Rune;->SEC_AUDIO_SUPPORT_SOUND_THEME:Z
  
--    const-string v0, ""
--
-     const-string v3, "ACH"
+-    sput-boolean v1, Lcom/samsung/android/audio/Rune;->SEC_AUDIO_SUPPORT_ACH_RINGTONE:Z
++    sput-boolean v2, Lcom/samsung/android/audio/Rune;->SEC_AUDIO_SUPPORT_ACH_RINGTONE:Z
  
--    invoke-virtual {v0, v3}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
-+    invoke-virtual {v3, v3}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
- 
-     move-result v0
+     invoke-static {}, Lcom/samsung/android/feature/SemFloatingFeature;->getInstance()Lcom/samsung/android/feature/SemFloatingFeature;
  
 diff --git a/smali_classes6/com/samsung/android/vibrator/VibRune.smali b/smali_classes6/com/samsung/android/vibrator/VibRune.smali
-index 9bfc42ad..7471fcd2 100644
+index cf1c264f..9c2b5121 100644
 --- a/smali_classes6/com/samsung/android/vibrator/VibRune.smali
 +++ b/smali_classes6/com/samsung/android/vibrator/VibRune.smali
-@@ -81,7 +81,7 @@
+@@ -8,7 +8,7 @@
  
-     const-string v2, ""
+ .field public static final blacklist SUPPORT_4D_VIBRATION:Z = true
  
--    invoke-virtual {v2, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
-+    invoke-virtual {v2, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+-.field public static final blacklist SUPPORT_ACH:Z = false
++.field public static final blacklist SUPPORT_ACH:Z = true
  
-     move-result v1
+ .field public static final blacklist SUPPORT_ALWAYS_VIBRATE:Z
  
 -- 
-2.43.0
+2.51.0
 

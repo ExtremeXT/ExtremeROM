@@ -1,56 +1,58 @@
-From 1afc14b7032da17b91ae1314004d2d0d3569e891 Mon Sep 17 00:00:00 2001
+From 1983b2d28adcf5fe7a48d601bd2d6494f4f7366c Mon Sep 17 00:00:00 2001
 From: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
-Date: Wed, 4 Jun 2025 21:29:08 +0300
+Date: Wed, 17 Sep 2025 17:01:12 +0300
 Subject: [PATCH] Disable Virtual Vibration support
 
+Change-Id: Icb70421b0a4951297d71e9dd7966bcad3a141531
 Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
 ---
- ...ationIntensityIncomingCallController.smali | 30 ++-----------------
- 1 file changed, 3 insertions(+), 27 deletions(-)
+ .../settings/asbase/utils/VibUtils.smali      | 32 +------------------
+ 1 file changed, 1 insertion(+), 31 deletions(-)
 
-diff --git a/smali_classes4/com/samsung/android/settings/asbase/vibration/SecVibrationIntensityIncomingCallController.smali b/smali_classes4/com/samsung/android/settings/asbase/vibration/SecVibrationIntensityIncomingCallController.smali
-index 736aba5b..8cfa4a16 100644
---- a/smali_classes4/com/samsung/android/settings/asbase/vibration/SecVibrationIntensityIncomingCallController.smali
-+++ b/smali_classes4/com/samsung/android/settings/asbase/vibration/SecVibrationIntensityIncomingCallController.smali
-@@ -81,35 +81,11 @@
+diff --git a/smali_classes4/com/samsung/android/settings/asbase/utils/VibUtils.smali b/smali_classes4/com/samsung/android/settings/asbase/utils/VibUtils.smali
+index 941253cf..736e56a9 100644
+--- a/smali_classes4/com/samsung/android/settings/asbase/utils/VibUtils.smali
++++ b/smali_classes4/com/samsung/android/settings/asbase/utils/VibUtils.smali
+@@ -137,38 +137,8 @@
+ .end method
  
- # virtual methods
- .method public getAvailabilityStatus()I
--    .locals 2
+ .method public static isSupportVibrateWhenRing(Landroid/content/Context;)Z
+-    .locals 1
 -
--    iget-object v0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
--
--    invoke-static {v0}, Lcom/samsung/android/settings/asbase/utils/VibUtils;->isSupportDcHaptic(Landroid/content/Context;)Z
+-    invoke-static {p0}, Lcom/samsung/android/settings/asbase/utils/VibUtils;->hasVibrator(Landroid/content/Context;)Z
 -
 -    move-result v0
 -
--    const/4 v1, 0x3
--
--    if-eqz v0, :cond_0
--
--    return v1
--
--    :cond_0
--    iget-object p0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
+-    if-eqz v0, :cond_1
 -
 -    invoke-static {p0}, Lcom/android/settings/Utils;->isVoiceCapable(Landroid/content/Context;)Z
+-
+-    move-result v0
+-
+-    if-nez v0, :cond_0
+-
+-    invoke-static {}, Lcom/samsung/android/settings/Rune;->supportSoftphone()Z
+-
+-    move-result v0
+-
+-    if-nez v0, :cond_0
+-
+-    invoke-static {p0}, Lcom/android/settings/Utils;->isCMCAvailable(Landroid/content/Context;)Z
 -
 -    move-result p0
 -
 -    if-eqz p0, :cond_1
-+    .locals 1
++    .locals 0
  
--    const/4 p0, 0x0
-+    const/4 v0, 0x3
- 
+-    :cond_0
+-    const/4 p0, 0x1
+-
 -    return p0
 -
 -    :cond_1
--    return v1
-+    return v0
- .end method
+     const/4 p0, 0x0
  
- .method public bridge synthetic getBackgroundWorkerClass()Ljava/lang/Class;
+     return p0
 -- 
-2.49.1
+2.51.0
 
