@@ -1,9 +1,10 @@
-# S24 FE + S23 FE -> SoundBooster 2000
+# S25 FE -> SoundBooster 2000
+# S23 FE -> Soundbooster 2080
 # S22 Series -> SoundBooster 1100
 if [[ "$TARGET_CODENAME" != "r11s" ]]; then
     LOG_STEP_IN "- Replacing SoundBooster"
-    DELETE_FROM_WORK_DIR "system" "system/lib64/lib_SoundBooster_ver2000.so"
-    DELETE_FROM_WORK_DIR "system" "system/lib64/lib_SAG_EQ_ver2000.so"
+    DELETE_FROM_WORK_DIR "system" "system/lib64/lib_SoundBooster_ver2080.so"
+    DELETE_FROM_WORK_DIR "system" "system/lib64/lib_SAG_EQ_ver2080.so"
     DELETE_FROM_WORK_DIR "system" "system/lib64/libsoundboostereq_legacy.so"
     ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/lib64/lib_SoundBooster_ver1100.so" 0 0 644 "u:object_r:system_lib_file:s0"
     ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/lib64/libsamsungSoundbooster_plus_legacy.so" 0 0 644 "u:object_r:system_lib_file:s0"
