@@ -17,11 +17,6 @@ for f in $FTP; do
 done
 LOG_STEP_OUT
 
-LOG_STEP_IN "- Adding Multi-User Support"
-SET_PROP "system" "fw.max_users" "8"
-SET_PROP "system" "fw.show_multiuserui" "1"
-LOG_STEP_OUT
-
 LOG_STEP_IN "- Enabling Cached App Freezer"
 SET_PROP "system" "persist.device_config.activity_manager_native_boot.use_freezer" "true"
 LOG_STEP_OUT

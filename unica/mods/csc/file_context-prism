@@ -239,6 +239,7 @@
 /prism/etc/carriers/single/CAC/default_application_order\.xml u:object_r:vendor_configs_file:s0
 /prism/etc/carriers/single/CAC/enforcedeletepackage\.txt u:object_r:vendor_configs_file:s0
 /prism/etc/carriers/single/CAC/sales_code\.dat u:object_r:vendor_configs_file:s0
+/prism/etc/carriers/single/CAC/spotify\.preload u:object_r:vendor_configs_file:s0
 /prism/etc/carriers/single/CAC/cid u:object_r:vendor_configs_file:s0
 /prism/etc/carriers/single/CAC/cid/sysconfig u:object_r:vendor_configs_file:s0
 /prism/etc/carriers/single/CAC/cid/sysconfig/eea_v2_search_chrome\.xml u:object_r:vendor_configs_file:s0
@@ -1547,6 +1548,7 @@
 /prism/sipdb/SwiftKey/en_us_tf/swiftkey\.lm3 u:object_r:system_file:s0
 /prism/sipdb/SwiftKey/en_us_tf/charactermap\.json u:object_r:system_file:s0
 /prism/sipdb/SwiftKey/en_us_tf/ime\.json u:object_r:system_file:s0
+/prism/sipdb/SwiftKey/en_us_tf/lex_2025-05-22-10\.56\.22\.lm u:object_r:system_file:s0
 /prism/sipdb/SwiftKey/en_us_tf/emoji_coefficients\.zlib u:object_r:system_file:s0
 /prism/sipdb/SwiftKey/en_us_tf/emoji_search u:object_r:system_file:s0
 /prism/sipdb/SwiftKey/en_us_tf/emoji_search/punctuation\.json u:object_r:system_file:s0
