@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0003</CSCEdition>
     <Country>Chile</Country>
     <CountryISO>CL</CountryISO>
     <Region>LA</Region>
@@ -110,13 +110,14 @@
     <Connections>
       <NbProfileHandle>1</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>movistar_CH</NetworkName>
         <ProfBrowser>Movistar INTERNET</ProfBrowser>
         <ProfIMS>Movistar IMS</ProfIMS>
         <ProfXCAP>Movistar INTERNET</ProfXCAP>
+        <ProfEmergencyIMSCall>movistar</ProfEmergencyIMSCall>
       </ProfileHandle>
-      <NbProfile>2</NbProfile>
+      <NbProfile>3</NbProfile>
       <Profile>
         <NetworkName>movistar_CH</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
@@ -140,6 +141,15 @@
         <ProfileName>Movistar IMS</ProfileName>
         <PSparam>
           <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>movistar_CH</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>movistar</ProfileName>
+        <PSparam>
+          <APN>emergency</APN>
         </PSparam>
       </Profile>
     </Connections>

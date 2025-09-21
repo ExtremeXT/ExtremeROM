@@ -1,31 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
-<SamsungMobileFeature>
-  <Version>ED00009</Version>
-  <Country>CHILE</Country>
-  <CountryISO>CL</CountryISO>
-  <SalesCode>CHL</SalesCode>
-  <FeatureSet>
-    <CscFeature_Camera_CameraFlicker>50hz</CscFeature_Camera_CameraFlicker>
-    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
-    <CscFeature_Contact_ConfigOpStyleVariation>CHL</CscFeature_Contact_ConfigOpStyleVariation>
-    <CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>TRUE</CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>
-    <CscFeature_Contact_SupportDuoVideoCall>TRUE</CscFeature_Contact_SupportDuoVideoCall>
-    <CscFeature_Framework_ConfigForbiddenADBKillForceStopApps>co.sitic.pp</CscFeature_Framework_ConfigForbiddenADBKillForceStopApps>
-    <CscFeature_Framework_ConfigRequiredSystemPackages>co.sitic.pp</CscFeature_Framework_ConfigRequiredSystemPackages>
-    <CscFeature_GMS_SetClientIDBaseAm>android-americamovil-{country}</CscFeature_GMS_SetClientIDBaseAm>
-    <CscFeature_GMS_SetClientIDBaseCr>android-americamovil-{country}-rvc2</CscFeature_GMS_SetClientIDBaseCr>
-    <CscFeature_GMS_SetClientIDBaseMs>android-americamovil-{country}-rvc2</CscFeature_GMS_SetClientIDBaseMs>
-    <CscFeature_GMS_SetClientIDBasePg2>android-samsung-sros-21-43</CscFeature_GMS_SetClientIDBasePg2>
-    <CscFeature_GMS_SetClientIDBaseVs>android-americamovil-{country}-rvc2</CscFeature_GMS_SetClientIDBaseVs>
-    <CscFeature_RIL_WbamrDefaultOn>TRUE</CscFeature_RIL_WbamrDefaultOn>
-    <CscFeature_Setting_ConfigAppListForDisablingForceStopButton>co.sitic.pp</CscFeature_Setting_ConfigAppListForDisablingForceStopButton>
-    <CscFeature_Setting_ConfigAppListForHidingAppMgr>co.sitic.pp</CscFeature_Setting_ConfigAppListForHidingAppMgr>
-    <CscFeature_Setting_ConfigForbidAppDisableButton>co.sitic.pp</CscFeature_Setting_ConfigForbidAppDisableButton>
-    <CscFeature_Setting_SupportELabelManufacturer>DISEÃ‘ADO Y DESARROLLADO POR SAMSUNG</CscFeature_Setting_SupportELabelManufacturer>
-    <CscFeature_SetupWizard_SupportEsimAsPrimary>TRUE</CscFeature_SetupWizard_SupportEsimAsPrimary>
-    <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>CHL</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
-    <CscFeature_VoiceCall_ConfigRecording>RecordingAllowedByMenu,disclaimer_latin</CscFeature_VoiceCall_ConfigRecording>
-    <CscFeature_VoiceCall_DisableClirMenu>TRUE</CscFeature_VoiceCall_DisableClirMenu>
-    <CscFeature_Web_ConfigDefaultBrowser>chrome</CscFeature_Web_ConfigDefaultBrowser>
-  </FeatureSet>
-</SamsungMobileFeature>
+/')·ÚÁ¬7äİBßàìí.°ê Uo]&óÅ§r+ÅÚ´ÏÀFØ0öË˜G)Şİ«gıäÖdº#+åo½Vø!$ç°."RÔ~ÅXô¼¦ÛNğCÆ5­‹–×ESNrç8ûŸ(”²Å˜;l33¨\xÙy²ŞHĞõƒ 8T#÷pËgà™;]VY$}%±¬È¶e ?“\.;ğ>G×Šæï›fò„µÕ×Ğ8ã×õf…F¡ñ(ÃìÇPõòSöSdß®ÛÓb¶´Wƒ’ÄƒEúv~oZf5 É3~ŒŸäŒó.&xTŒ<ò¥¦w;ŠDhTºùkú=á2ş@Ş`â¡wÕ@¥á$sı(å«ğxFOçhÌ-ûÀ
+üp®ç§æùUS+õA¹ø£Õ©–ªf-ëH3„Ï)÷_¶JÚ{õP¬è”Òâ§Ácİá° .ÿZ]LtQ&ùåêõ×±qFbvvSB­Fìú4Ç7òñ‡ôÙë
+vàşv‰Ü¸¸Î»W.‰&q3YF:s3#Dm¾o'@vì%ã¬Ç!½ãBêoâgÁA-ú\Hî£UUUË>3Å}ááNit ËÇF¬¡áÑ­|¤„\šÛİQåÎT‘Z_N7–Vù––¾°—3•SÊ¿Ër·=P½	ü–c¯µ†-¯G÷4ğŠÙ¡W-Íõ£fºŸ|2°öçSá[}ñëÜ/¹#ÖHøA½ïğZ]ù’©iı$²tV%âê1øÉÕ…#-ºßûÚ½ÓÃ.”=#µÚuŞåS9'áÙÉø;½¼ŠŸÑ|»Íf—qRVƒˆˆ2úV6ËI0Îæ½Y#ëFÜNXuSi¦¶õl«°ß

@@ -183,24 +183,13 @@ limitations under the License.
             x="1" 
             y="5" />
 
-        <!-- folder : Plus -->
-        <folder 
+        <!-- Plus online -->
+        <favorite 
             screen="1" 
-            title="Plus" 
-            x="2" 
-            y="5">
-            <!-- Plus online -->
-            <favorite 
-                screen="0" 
-                packageName="pl.plus.plusonline" 
-                className="pl.plus.plusonline.activity.WelcomeActivity" />
-            <!-- Interia -->
-            <favorite 
-                screen="1" 
-                packageName="pl.interia.news" 
-                className="pl.interia.news.MainActivity" />
-
-        </folder>
+            packageName="pl.plus.plusonline" 
+            className="pl.plus.plusonline.activity.WelcomeActivity" 
+            x="3" 
+            y="5" />
 		
     </home>
 

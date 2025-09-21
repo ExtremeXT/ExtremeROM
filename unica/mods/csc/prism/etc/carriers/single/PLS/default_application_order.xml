@@ -21,26 +21,21 @@ limitations under the License.
     <folder 
         screen="0" 
         title="Plus">
-        <!-- IPlus -->
+    	<!-- Polsat Box Go -->
         <favorite 
             screen="0" 
+            packageName="pl.cyfrowypolsat.cpgo" 
+            className="pl.cyfrowypolsat.cplauncher.GUI.MainActivity" />		
+        <!-- IPlus -->
+        <favorite 
+            screen="1" 
             packageName="pl.plus.plusonline" 
             className="pl.plus.plusonline.activity.WelcomeActivity" />
         <!-- Polsat News -->
         <favorite 
-            screen="1" 
+            screen="2" 
             packageName="pl.cyfrowypolsat.polsatnews" 
             className="pl.cyfrowypolsat.polsatsport.activity.SplashActivity" />
-		<!-- Interia -->
-        <favorite 
-            screen="2" 
-            packageName="pl.interia.news" 
-            className="pl.interia.news.MainActivity" />
-    	<!-- Polsat Box Go -->
-        <favorite 
-            screen="3" 
-            packageName="pl.cyfrowypolsat.cpgo" 
-            className="pl.cyfrowypolsat.cplauncher.GUI.MainActivity" />
     </folder>
     <!-- folder : Samsung -->
     <folder 

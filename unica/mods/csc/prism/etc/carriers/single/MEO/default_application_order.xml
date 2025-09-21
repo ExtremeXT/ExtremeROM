@@ -149,11 +149,6 @@ limitations under the License.
             packageName="com.microsoft.office.outlook" 
             className="com.microsoft.office.outlook.MainActivity" />
     </folder>
-    <!-- My Apps -->
-    <favorite 
-        screen="0" 
-        packageName="com.altice.android.myapps.samsung" 
-        className="com.altice.android.myapps.MainActivity"/>
     <!-- Samsung Pay -->
     <favorite
         screen="0"

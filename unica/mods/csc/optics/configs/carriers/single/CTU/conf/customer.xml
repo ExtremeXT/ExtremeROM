@@ -47,37 +47,26 @@
           <DateFormat>ddmmyyyy</DateFormat>
           <TimeFormat>24h</TimeFormat>
         </DateTimeFormat>
-        <Shortcut>
-          <LeftKey>
-            <ShortcutItem>create sms</ShortcutItem>
-          </LeftKey>
-          <RightKey>
-            <ShortcutItem>sim at</ShortcutItem>
-          </RightKey>
-          <RightSoftKey>
-            <ShortcutItem>phonebook</ShortcutItem>
-          </RightSoftKey>
-        </Shortcut>
       </Phone>
       <Display>
         <NbWallpaper>5</NbWallpaper>
-        <Wallpaper src="/Customer/CTU/Wallpaper/ClaroWallpaper_w-01.png" width="1024" height="600">
+        <Wallpaper src="/Customer/CTU/Wallpaper/ClaroWallpaper_w-01.png" width="1440" height="3200">
           <Position>1</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/CTU/Wallpaper/ClaroWallpaper_w-14.png" width="1024" height="600">
+        <Wallpaper src="/Customer/CTU/Wallpaper/ClaroWallpaper_w-14.png" width="1440" height="3200">
           <Position>2</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/CTU/Wallpaper/ClaroWallpaper_w-15.png" width="1024" height="600">
+        <Wallpaper src="/Customer/CTU/Wallpaper/ClaroWallpaper_w-15.png" width="1440" height="3200">
           <Position>3</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/CTU/Wallpaper/ClaroWallpaper_w-17.png" width="1024" height="600">
+        <Wallpaper src="/Customer/CTU/Wallpaper/ClaroWallpaper_w-17.png" width="1440" height="3200">
           <Position>4</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/CTU/Wallpaper/default_wallpaper.png" width="1024" height="600" usedWithLockScreen="true" default="true">
+        <Wallpaper src="/Customer/CTU/Wallpaper/default_wallpaper.png" width="1440" height="3200" usedWithLockScreen="true" default="true">
           <Position>5</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
@@ -138,13 +127,14 @@
     <Connections>
       <NbProfileHandle>1</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Claro UY</NetworkName>
         <ProfBrowser>Claro UY</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
         <ProfXCAP>Claro UY</ProfXCAP>
+        <ProfEmergencyIMSCall>sos</ProfEmergencyIMSCall>
       </ProfileHandle>
-      <NbProfile>2</NbProfile>
+      <NbProfile>3</NbProfile>
       <Profile>
         <NetworkName>Claro UY</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
@@ -167,6 +157,17 @@
         <ProfileName>IMS</ProfileName>
         <PSparam>
           <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro UY</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>sos</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
         </PSparam>
       </Profile>
     </Connections>

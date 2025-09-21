@@ -73,6 +73,7 @@
       <NbVoicemail>1</NbVoicemail>
       <Voicemail>
         <NetworkName>A1 HR</NetworkName>
+        <VoicemailName>Govorna pošta</VoicemailName>
         <TelNum>+385917000</TelNum>
       </Voicemail>
       <PushMsg>

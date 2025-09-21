@@ -203,20 +203,12 @@ limitations under the License.
    
         </folder>
 
-        <!-- My Apps -->
-        <favorite 
-            screen="1" 
-            packageName="com.altice.android.myapps.samsung" 
-            className="com.altice.android.myapps.MainActivity" 
-            x="0" 
-            y="5" />
-
         <!-- My Games -->
         <favorite 
             screen="1" 
             packageName="com.sfr.android.sfrjeux.samsung" 
             className="com.sfr.android.sfrjeux.SFRJeuxMain" 
-            x="1" 
+            x="0" 
             y="5" />
 
         <!-- Clock -->
@@ -224,7 +216,7 @@ limitations under the License.
             screen="1" 
             packageName="com.sec.android.app.clockpackage" 
             className="com.sec.android.app.clockpackage.ClockPackage" 
-            x="2" 
+            x="1" 
             y="5" />
 
         <!-- Calendar -->
@@ -232,7 +224,7 @@ limitations under the License.
             screen="1" 
             packageName="com.samsung.android.calendar" 
             className="com.samsung.android.app.calendar.activity.MainActivity" 
-            x="3" 
+            x="2" 
             y="5" />
 
     </home>

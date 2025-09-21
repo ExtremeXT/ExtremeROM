@@ -94,7 +94,8 @@ limitations under the License.
     <!--Google-->
     <folder
       screen="0"
-      title="Google">
+      title="Google"
+      postPosition="true">
         <!--Google-->
         <favorite
           screen="0"
@@ -176,7 +177,7 @@ limitations under the License.
       screen="0"
       packageName="com.google.android.apps.bard"
       className="com.google.android.apps.bard.shellapp.BardEntryPointActivity"/>
-    <!--Samsung Members-->
+    <!--Members-->
     <favorite
       screen="0"
       packageName="com.samsung.android.voc"

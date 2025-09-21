@@ -1,7 +1,7 @@
 {
     "modelName": "SM-S938B",
     "oemKey": "ORS",
-    "version": "1002",
+    "version": "1004",
     "app": [
         {
             "appId": "com.sec.android.app.popupcalculator",
@@ -55,7 +55,7 @@
         },
         {
             "appId": "com.samsung.android.game.gamehome",
-            "appName": "Game Launcher",
+            "appName": "Gaming Hub",
             "supportSubUser": "true"
         },
         {

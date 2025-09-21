@@ -156,11 +156,6 @@ limitations under the License.
             className="com.microsoft.office.outlook.MainActivity" />
     </folder>
     <!-- Telekom HR -->
-    <!-- Moj T -->
-    <favorite 
-        screen="0" 
-        packageName="com.hrvatskitelekom.m.mojT" 
-        className="com.telekom.oneapp.launcher.components.launcher.LauncherActivity"/>
     <!-- Samsung Members -->
     <favorite 
         screen="0" 

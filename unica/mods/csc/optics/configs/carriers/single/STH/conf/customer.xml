@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>SINGAPORE</Country>
     <CountryISO>SG</CountryISO>
     <Region>SEA</Region>
@@ -467,7 +467,7 @@
         <Bearer>ps</Bearer>
         <Protocol>other</Protocol>
         <PSparam>
-          <APN>TPG</APN>
+          <APN>internet</APN>
         </PSparam>
       </Profile>
       <Profile>

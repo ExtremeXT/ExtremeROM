@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0003</CSCEdition>
     <Country>Brazil</Country>
     <CountryISO>BR</CountryISO>
     <Region>LA</Region>
@@ -79,21 +79,11 @@
       <Signature>Enviado do meu Samsung Mobile da Claro</Signature>
     </ActiveSync>
     <Browser>
-      <NbBookmark>4</NbBookmark>
-      <Bookmark>
-        <NetworkName>default</NetworkName>
-        <BookmarkName>Homepage</BookmarkName>
-        <URL>http://www.clarosva.com/br</URL>
-      </Bookmark>
+      <NbBookmark>2</NbBookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <BookmarkName>Minha Claro</BookmarkName>
         <URL>https://auth.netcombo.com.br/</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>default</NetworkName>
-        <BookmarkName>Claro gaming</BookmarkName>
-        <URL>https://www.claro.com.br/claro-gaming</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
@@ -104,40 +94,21 @@
     <Connections>
       <NbProfileHandle>1</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>4</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Claro</NetworkName>
-        <ProfBrowser>Java Session</ProfBrowser>
-        <ProfMMS>Claro Foto</ProfMMS>
+        <ProfBrowser>Internet</ProfBrowser>
         <ProfIMS>Claro IMS</ProfIMS>
         <ProfXCAP>Claro XCAP</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>4</NbProfile>
-      <Profile>
-        <NetworkName>Claro</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Claro Foto</ProfileName>
-        <URL>http://mms.claro.com.br</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>200.169.126.10</ServAddr>
-          <Port>8799</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.claro.com.br</APN>
-          <UserId>claro</UserId>
-          <Password>claro</Password>
-        </PSparam>
-      </Profile>
+      <NbProfile>3</NbProfile>
       <Profile>
         <NetworkName>Claro</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Java Session</ProfileName>
+        <ProfileName>Internet</ProfileName>
         <URL>http://www.clarosva.com/br</URL>
-        <Auth>normal</Auth>
+        <Auth>normalorsecure</Auth>
         <Protocol>http</Protocol>
         <PSparam>
           <APN>java.claro.com.br</APN>

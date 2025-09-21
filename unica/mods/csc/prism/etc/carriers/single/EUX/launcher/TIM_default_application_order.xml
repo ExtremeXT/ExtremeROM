@@ -20,7 +20,8 @@ limitations under the License.
 
     <!-- folder : TIM -->
     <folder 
-        screen="0" 
+        screen="0"
+        postPosition="true"
         title="TIM">        
         <!-- MyTIM-->
         <favorite 
@@ -42,8 +43,12 @@ limitations under the License.
             screen="3" 
             packageName="com.amazon.mShop.android.shopping" 
             className="com.amazon.mShop.home.HomeActivity" />
-			
-    </folder>	
+        <!-- Rainews -->
+        <favorite
+            screen="4"
+            packageName="it.rainet.android.rainews"
+            className="com.rainewspoc.MainActivity" />
+		</folder>	
     <!-- folder : Samsung -->
     <folder 
         screen="0" 

@@ -77,9 +77,9 @@ limitations under the License.
 
         <!-- folder : Google -->
         <folder
-			screen="0"
-			postPosition="true"
-			title="Google" 
+	    screen="0"
+	    postPosition="true"
+	    title="Google" 
             x="2" 
             y="5">
             <!-- Google -->
@@ -166,24 +166,7 @@ limitations under the License.
                 packageName="com.microsoft.office.outlook" 
                 className="com.microsoft.office.outlook.MainActivity" />
         </folder>
-   
-        <!-- Facebook -->
-        <favorite
-            screen="1"
-            packageName="com.facebook.katana"
-            className="com.facebook.katana.LoginActivity"
-            x="0"
-            y="5" />
 
-        <!-- Magio TV -->
-        <favorite
-            screen="1"
-            packageName="com.telekom.magiogo"
-            className="com.telekom.magiogo.SplashActivity"
-            x="1"
-            y="5" 
-            postPosition="true" />
-   	    
     </home>
 
 

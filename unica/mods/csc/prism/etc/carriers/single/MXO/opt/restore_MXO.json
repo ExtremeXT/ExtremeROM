@@ -1,7 +1,7 @@
 {
     "modelName": "SM-S938B",
     "oemKey": "MXO",
-    "version": "1003",
+    "version": "1009",
     "app": [
         {
             "appId": "com.sec.android.app.popupcalculator",
@@ -54,11 +54,6 @@
             "supportSubUser": "true"
         },
         {
-            "appId": "com.samsung.android.game.gamehome",
-            "appName": "Game Launcher",
-            "supportSubUser": "true"
-        },
-        {
             "appId": "com.samsung.android.voc",
             "appName": "Samsung Members",
             "supportSubUser": "true"
@@ -104,13 +99,8 @@
             "supportSubUser": "true"
         },
         {
-            "appId": "com.samsung.SMT.lang_en_us_l03",
-            "appName": "Samsung TTS US English Voice 1",
-            "supportSubUser": "true"
-        },
-        {
-            "appId": "com.samsung.ecomm.global.gbr",
-            "appName": "Samsung Shop",
+            "appId": "com.sec.penup",
+            "appName": "PENUP",
             "supportSubUser": "true"
         },
         {
@@ -119,23 +109,23 @@
             "supportSubUser": "true"
         },
         {
-            "appId": "com.samsung.SMT.lang_es_mx_f00",
-            "appName": "Samsung TTS Mexican Spanish Voice 1",
-            "supportSubUser": "true"
-        },
-        {
             "appId": "com.samsung.android.nmt.apps.t2t.languagepack.enesmx",
             "appName": "En-Esmx Language Pack",
             "supportSubUser": "true"
         },
         {
-            "appId": "com.sec.penup",
-            "appName": "PENUP",
+            "appId": "com.samsung.android.spay",
+            "appName": "Samsung Wallet",
             "supportSubUser": "true"
         },
         {
-            "appId": "com.samsung.android.spay",
-            "appName": "Samsung Wallet",
+            "appId": "com.samsung.ecomm.global.gbr",
+            "appName": "Samsung Shop",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.game.gamehome",
+            "appName": "Gaming Hub",
             "supportSubUser": "true"
         }
     ]

@@ -6,7 +6,7 @@
     <CountryISO>KZ</CountryISO>
     <Region>CIS</Region>
     <SalesCode>SKZ</SalesCode>
-    <NbNetworkInfo>24</NbNetworkInfo>
+    <NbNetworkInfo>25</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>40101</MCCMNC>
       <NetworkName>Beeline</NetworkName>
@@ -85,6 +85,12 @@
       <MCCMNC>43602</MCCMNC>
       <NetworkName>Tcell</NetworkName>
       <NWID>NW01211</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43615</MCCMNC>
+      <NetworkName>Omobile</NetworkName>
+      <NWID>NW02393</NWID>
       <SkipCscSelection>true</SkipCscSelection>
     </NetworkInfo>
     <NetworkInfo>
@@ -256,13 +262,14 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>23</NbProfileHandle>
+      <NbProfileHandle>24</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>ALTEL</NetworkName>
         <ProfBrowser>ALTEL</ProfBrowser>
         <ProfEmail>ALTEL</ProfEmail>
         <ProfIMS>ALTEL IMS</ProfIMS>
+        <ProfXCAP>ALTEL XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>
@@ -279,11 +286,12 @@
         <ProfEmail>Kcell Internet</ProfEmail>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Tele2</NetworkName>
         <ProfBrowser>Tele2 Internet</ProfBrowser>
         <ProfEmail>Tele2 Internet</ProfEmail>
         <ProfIMS>Tele2 IMS</ProfIMS>
+        <ProfXCAP>Tele2 XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>
@@ -422,9 +430,16 @@
         <ProfIMS>ONDO IMS</ProfIMS>
         <ProfXCAP>ONDO XCAP</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>58</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Omobile</NetworkName>
+        <ProfBrowser>Omobile Internet</ProfBrowser>
+      </ProfileHandle>
+      <NbProfile>61</NbProfile>
       <Profile>
         <NetworkName>ALTEL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <ProfileName>ALTEL</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -434,11 +449,24 @@
       </Profile>
       <Profile>
         <NetworkName>ALTEL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <ProfileName>ALTEL IMS</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <PSparam>
           <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ALTEL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <ProfileName>ALTEL XCAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>XCAP</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -479,6 +507,8 @@
       </Profile>
       <Profile>
         <NetworkName>Tele2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <ProfileName>Tele2 Internet</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -488,11 +518,24 @@
       </Profile>
       <Profile>
         <NetworkName>Tele2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <ProfileName>Tele2 IMS</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
         <PSparam>
           <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tele2</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <ProfileName>Tele2 XCAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>XCAP</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -767,6 +810,15 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Omobile</NetworkName>
+        <ProfileName>Omobile Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Omobile</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Beeline TJ</NetworkName>
         <ProfileName>Beeline Internet</ProfileName>
         <Auth>normal</Auth>
@@ -866,6 +918,8 @@
       </Profile>
       <Profile>
         <NetworkName>Unitel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <ProfileName>Unitel Internet</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>

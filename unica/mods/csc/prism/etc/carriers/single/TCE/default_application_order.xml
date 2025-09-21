@@ -54,15 +54,9 @@ limitations under the License.
           packageName="com.globalhitss.claro.pay"
           className="com.globalhitss.claro.pay.ui.activities.SplashScreen"
           postPosition="true"/>
-        <!--Claro Shop-->
-        <favorite
-          screen="6"
-          packageName="com.americamovil.claroshop"
-          className="com.americamovil.claroshop.ui.SplashActivity"
-          postPosition="true"/>
         <!--Claro Juegos-->
         <favorite
-          screen="7"
+          screen="6"
           packageName="com.gameloft.android.gdc"
           className="com.gameloft.android.gdc.MainActivity"/>
     </folder>
@@ -124,7 +118,8 @@ limitations under the License.
     <!--Google-->
     <folder
       screen="0"
-      title="Google">
+      title="Google"
+      postPosition="true">
         <!--Google-->
         <favorite
           screen="0"
@@ -291,6 +286,12 @@ limitations under the License.
       screen="0"
       packageName="com.samsung.android.app.spage"
       className="com.samsung.android.app.spage.main.LauncherActivity"/>
+    <!--Iniicio-->
+    <favorite
+      screen="0"
+      packageName="com.telcelam.lockscreen"
+      className="com.airfind.MainChild"
+      postPosition="true"/>
     <!--Messenger-->
     <favorite
       screen="0"
@@ -309,11 +310,11 @@ limitations under the License.
       packageName="com.handmark.expressweather"
       className="com.oneweather.app.MainActivity"
       postPosition="true"/>
-    <!--Iniicio-->
+    <!--Amazon Shopping-->
     <favorite
       screen="0"
-      packageName="com.telcelam.lockscreen"
-      className="com.airfind.MainChild"
+      packageName="com.amazon.mShop.android.shopping"
+      className="com.amazon.mShop.home.HomeActivity"
       postPosition="true"/>
     <!--Google-->
     <favorite

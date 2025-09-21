@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>Brazil</Country>
     <CountryISO>BR</CountryISO>
     <Region>LA</Region>
@@ -193,6 +193,7 @@
       <Profile>
         <NetworkName>VIVO</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
         <Editable>no</Editable>
         <ProfileName>Vivo IMS</ProfileName>
         <PSparam>
@@ -202,6 +203,7 @@
       <Profile>
         <NetworkName>VIVO</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
         <Editable>no</Editable>
         <ProfileName>Vivo Xcap</ProfileName>
         <PSparam>
@@ -211,6 +213,7 @@
       <Profile>
         <NetworkName>VIVO</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
         <ProfileName>Vivo Emergency</ProfileName>
         <PSparam>

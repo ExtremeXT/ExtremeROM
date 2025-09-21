@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>Uruguay</Country>
     <CountryISO>UY</CountryISO>
     <Region>LA</Region>
@@ -63,7 +63,7 @@
       </Phone>
       <Display>
         <NbWallpaper>1</NbWallpaper>
-        <Wallpaper src="/Customer/UFU/Wallpaper/default_wallpaper.png" width="1440" height="3200" default="true">
+        <Wallpaper src="/Customer/UFU/Wallpaper/default_wallpaper.png" width="2280" height="2280" default="true">
           <Position>1</Position>
           <FileType>PNG</FileType>
         </Wallpaper>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0005</CSCEdition>
     <Country>Paraguay</Country>
     <CountryISO>PY</CountryISO>
     <Region>LA</Region>
@@ -96,14 +96,15 @@
     <Connections>
       <NbProfileHandle>1</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>4</NbNetProfile>
+        <NbNetProfile>5</NbNetProfile>
         <NetworkName>Tigo</NetworkName>
         <ProfBrowser>TIGO PY</ProfBrowser>
         <ProfMMS>MMS Tigo</ProfMMS>
         <ProfIMS>IMS TIGO PY</ProfIMS>
+        <ProfXCAP>IMS XCAP</ProfXCAP>
         <ProfEmergencyIMSCall>EMERGENCY TIGO PY</ProfEmergencyIMSCall>
       </ProfileHandle>
-      <NbProfile>4</NbProfile>
+      <NbProfile>5</NbProfile>
       <Profile>
         <NetworkName>Tigo</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
@@ -141,7 +142,7 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
-        <HiddenStatus>hidden</HiddenStatus>
+        <HiddenStatus>show</HiddenStatus>
         <ProfileName>IMS TIGO PY</ProfileName>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -153,11 +154,23 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
-        <HiddenStatus>hidden</HiddenStatus>
+        <HiddenStatus>show</HiddenStatus>
         <ProfileName>EMERGENCY TIGO PY</ProfileName>
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tigo</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS XCAP</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>xcap</APN>
         </PSparam>
       </Profile>
     </Connections>

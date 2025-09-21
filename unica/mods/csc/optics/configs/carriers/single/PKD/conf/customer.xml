@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>PAKISTAN</Country>
     <CountryISO>PK</CountryISO>
     <Region>MEA</Region>
     <SalesCode>PKD</SalesCode>
-    <NbNetworkInfo>7</NbNetworkInfo>
+    <NbNetworkInfo>8</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>41001</MCCMNC>
       <NetworkName>Jazz</NetworkName>
@@ -42,6 +42,11 @@
       <NetworkName>ONIC</NetworkName>
       <NWID>NW02379</NWID>
       <SPName>ONIC</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>410092</MCCMNC>
+      <NetworkName>MOD</NetworkName>
+      <NWID>NW02276</NWID>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -134,7 +139,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>5</NbProfileHandle>
+      <NbProfileHandle>6</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>
         <NetworkName>Jazz</NetworkName>
@@ -172,7 +177,14 @@
         <ProfIMS>IMS</ProfIMS>
         <ProfXCAP>XCAP</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>17</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>MOD</NetworkName>
+        <ProfBrowser>paf</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+      </ProfileHandle>
+      <NbProfile>20</NbProfile>
       <Profile>
         <NetworkName>Jazz</NetworkName>
         <ProfileName>Jazz MMS</ProfileName>
@@ -375,6 +387,32 @@
         <ProfileName>XCAP</ProfileName>
         <Auth>none</Auth>
         <Protocol>http</Protocol>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MOD</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <ProfileName>paf</ProfileName>
+        <PSparam>
+          <APN>paflte.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MOD</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MOD</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <ProfileName>XCAP</ProfileName>
         <PSparam>
           <APN>XCAP</APN>
         </PSparam>

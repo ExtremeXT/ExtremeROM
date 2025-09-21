@@ -21,27 +21,16 @@ limitations under the License.
     <folder 
         screen="0" 
         title="Cosmote"> 
-        <!-- Box -->
-        <favorite 
-            screen="0" 
-            packageName="gr.cosmote.box" 
-            className="gr.cosmote.box.boxCode.activities.SplashScreenActivity" />  		
         <!-- 11888 -->
-        <favorite 
-            screen="1" 
-            packageName="gr.ote_11888" 
+        <favorite
+            screen="0"
+            packageName="gr.ote_11888"
             className="gr.ote_11888.MainActivity" />
-		 <!-- COSMOTE What's UP -->	
-		 <favorite 
-            screen="2" 
-            packageName="gr.cosmote.whatsup" 
-            className="gr.cosmote.whatsup.activities.SplashScreenActivity" />
-		<!-- Payzy -->	
-		<favorite 
-            screen="3" 
-            packageName="gr.payzy" 
-            className="gr.payzy.community.view.auth.AuthenticationActivity" />	
-			
+        <!-- BOX -->
+        <favorite
+            screen="1"
+            packageName="gr.cosmote.box"
+            className="gr.cosmote.box.boxCode.activities.SplashScreenActivity" />			
     </folder>
     <!-- folder : Samsung -->
     <folder 
@@ -185,12 +174,6 @@ limitations under the License.
             packageName="com.microsoft.office.outlook" 
             className="com.microsoft.office.outlook.MainActivity" />
     </folder>
-    <!-- Telekom GR -->
-    <!-- My COSMOTE -->
-    <favorite 
-        screen="0" 
-        packageName="gr.cosmote.myaccount.widget" 
-        className="gr.cosmote.myaccount.widget.Activities.SplashScreenActivity"/>
     <!--Samsung  Wallet-->
     <favorite
         screen="0" 

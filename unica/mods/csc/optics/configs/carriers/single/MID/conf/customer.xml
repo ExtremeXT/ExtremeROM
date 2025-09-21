@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>Iraq</Country>
     <CountryISO>IQ</CountryISO>
     <Region>MEA</Region>
@@ -123,6 +123,11 @@
           <Roaming>manual</Roaming>
         </MmsReceiving>
       </MMS>
+      <Email>
+        <EmailSending>
+          <Signature>TEST</Signature>
+        </EmailSending>
+      </Email>
     </Messages>
     <Browser>
       <NbBookmark>3</NbBookmark>
@@ -149,8 +154,15 @@
         <URL>http://www.samsung.com/m-manual/common</URL>
       </eManual>
     </Browser>
+    <NbWifiProfile>1</NbWifiProfile>
+    <WifiProfile>
+      <NetworkName>na</NetworkName>
+      <WifiSSID>na</WifiSSID>
+      <WifiKeyMgmt>na</WifiKeyMgmt>
+      <WifiPriority>1</WifiPriority>
+    </WifiProfile>
     <Connections>
-      <NbProfileHandle>11</NbProfileHandle>
+      <NbProfileHandle>13</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Umniah</NetworkName>
@@ -223,7 +235,18 @@
         <NetworkName>Fastlink</NetworkName>
         <ProfBrowser>Fastlink</ProfBrowser>
       </ProfileHandle>
-      <NbProfile>28</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Syriatel</NetworkName>
+        <ProfBrowser>Syriatel Net</ProfBrowser>
+        <ProfMMS>Syriatel MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>MTN</NetworkName>
+        <ProfBrowser>MTN INTERNET</ProfBrowser>
+      </ProfileHandle>
+      <NbProfile>31</NbProfile>
       <Profile>
         <NetworkName>Zain JO</NetworkName>
         <Editable>yes</Editable>
@@ -546,6 +569,40 @@
         <ProfileName>Fastlink</ProfileName>
         <PSparam>
           <APN>Fastlink</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Syriatel</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Syriatel Net</ProfileName>
+        <PSparam>
+          <APN>net.syriatel.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Syriatel</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <ProfileName>Syriatel MMS</ProfileName>
+        <URL>http://mymms.syriatel.com/</URL>
+        <Proxy>
+          <ServAddr>172.20.5.6</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.syriatel.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>MTN INTERNET</ProfileName>
+        <PSparam>
+          <APN>internet</APN>
         </PSparam>
       </Profile>
     </Connections>

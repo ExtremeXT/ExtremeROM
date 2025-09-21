@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>Central Asia</Country>
     <CountryISO>KG</CountryISO>
     <Region>CIS</Region>
     <SalesCode>CAC</SalesCode>
-    <NbNetworkInfo>20</NbNetworkInfo>
+    <NbNetworkInfo>21</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>43405</MCCMNC>
       <NetworkName>UCELL</NetworkName>
@@ -127,6 +127,12 @@
       <NWID>NW02233</NWID>
       <SkipCscSelection>true</SkipCscSelection>
     </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>43407</MCCMNC>
+      <NetworkName>Mobiuz</NetworkName>
+      <NWID>NW02233</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
@@ -221,7 +227,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>19</NbProfileHandle>
+      <NbProfileHandle>20</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>
         <NetworkName>UCELL</NetworkName>
@@ -359,7 +365,12 @@
         <ProfIMS>ONDO IMS</ProfIMS>
         <ProfXCAP>ONDO XCAP</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>50</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Omobile</NetworkName>
+        <ProfBrowser>Omobile Internet</ProfBrowser>
+      </ProfileHandle>
+      <NbProfile>51</NbProfile>
       <Profile>
         <NetworkName>UCELL</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
@@ -898,6 +909,15 @@
         </Proxy>
         <PSparam>
           <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ONDO</NetworkName>
+        <ProfileName>ONDO XCAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>XCAP</APN>
         </PSparam>
       </Profile>
       <Profile>

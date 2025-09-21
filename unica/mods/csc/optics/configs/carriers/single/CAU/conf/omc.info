@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <omcInfo>
   <contentType>0</contentType>
-  <version>SAOMC_SM-S938B_OXM_CAU_15_0002</version>
+  <version>SAOMC_SM-S938B_OXM_CAU_16_0004</version>
   <model>
     <name>SM-S938B</name>
   </model>
   <catalog>
     <customer>yes</customer>
-    <customerEdition>ED0001</customerEdition>
-    <carrierListVersion>150026</carrierListVersion>
+    <customerEdition>ED0002</customerEdition>
+    <carrierListVersion>160025</carrierListVersion>
     <cscfeature>yes</cscfeature>
+    <cscfeatureVersion>ED00005</cscfeatureVersion>
     <carrierfeature>yes</carrierfeature>
+    <carrierfeatureVersion>5</carrierfeatureVersion>
     <cp>no</cp>
     <imsupdate>no</imsupdate>
   </catalog>

@@ -1,7 +1,7 @@
 {
     "modelName": "SM-S938B",
     "oemKey": "ATL",
-    "version": "1003",
+    "version": "1005",
     "app": [
         {
             "appId": "com.samsung.android.app.find",
@@ -50,7 +50,7 @@
         },
         {
             "appId": "com.samsung.android.game.gamehome",
-            "appName": "Game Launcher",
+            "appName": "Gaming Hub",
             "supportSubUser": "true"
         },
         {

@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <omcInfo>
   <contentType>0</contentType>
-  <version>SAOMC_SM-S938B_OXM_ACR_15_0006</version>
+  <version>SAOMC_SM-S938B_OXM_ACR_16_0003</version>
   <model>
     <name>SM-S938B</name>
   </model>
   <catalog>
     <customer>yes</customer>
-    <customerEdition>ED0001</customerEdition>
-    <carrierListVersion>150038</carrierListVersion>
+    <customerEdition>ED0003</customerEdition>
+    <carrierListVersion>160027</carrierListVersion>
     <cscfeature>yes</cscfeature>
+    <cscfeatureVersion>ED00001</cscfeatureVersion>
     <carrierfeature>yes</carrierfeature>
+    <carrierfeatureVersion>1</carrierfeatureVersion>
     <cp>no</cp>
     <imsupdate>no</imsupdate>
   </catalog>
   <carrierList>
-    <carrierCount>15</carrierCount>
+    <carrierCount>16</carrierCount>
     <carrier>
       <mcc>612</mcc>
       <mnc>02</mnc>
@@ -50,6 +52,11 @@
       <mcc>619</mcc>
       <mnc>05</mnc>
       <networkName>Africell SierraLeone</networkName>
+    </carrier>
+    <carrier>
+      <mcc>619</mcc>
+      <mnc>08</mnc>
+      <networkName>Smart Telecom</networkName>
     </carrier>
     <carrier>
       <mcc>620</mcc>

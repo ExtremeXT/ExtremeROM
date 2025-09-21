@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>Paraguay</Country>
     <CountryISO>PY</CountryISO>
     <Region>LA</Region>
@@ -165,21 +165,23 @@
         <ProfMMS>VOX MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Claro PY</NetworkName>
         <ProfBrowser>Claro PY</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
         <ProfXCAP>Claro PY</ProfXCAP>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>4</NbNetProfile>
+        <NbNetProfile>5</NbNetProfile>
         <NetworkName>Tigo PY</NetworkName>
         <ProfBrowser>TIGO PY</ProfBrowser>
         <ProfMMS>MMS Tigo</ProfMMS>
         <ProfIMS>IMS TIGO PY</ProfIMS>
+        <ProfXCAP>IMS XCAP</ProfXCAP>
         <ProfEmergencyIMSCall>EMERGENCY TIGO PY</ProfEmergencyIMSCall>
       </ProfileHandle>
-      <NbProfile>13</NbProfile>
+      <NbProfile>15</NbProfile>
       <Profile>
         <NetworkName>Claro PY</NetworkName>
         <IpVersion>ipv6</IpVersion>
@@ -234,6 +236,16 @@
         <Protocol>http</Protocol>
         <PSparam>
           <APN>igprs.claro.com.py</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro PY</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -324,7 +336,7 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
-        <HiddenStatus>hidden</HiddenStatus>
+        <HiddenStatus>show</HiddenStatus>
         <ProfileName>IMS TIGO PY</ProfileName>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -336,7 +348,7 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
-        <HiddenStatus>hidden</HiddenStatus>
+        <HiddenStatus>show</HiddenStatus>
         <ProfileName>EMERGENCY TIGO PY</ProfileName>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -351,6 +363,18 @@
         <ProfileName>Personal UT</ProfileName>
         <PSparam>
           <APN>ut</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tigo PY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS XCAP</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>xcap</APN>
         </PSparam>
       </Profile>
     </Connections>

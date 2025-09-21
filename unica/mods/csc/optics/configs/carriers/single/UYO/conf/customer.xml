@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0003</CSCEdition>
     <Country>Uruguay</Country>
     <CountryISO>UY</CountryISO>
     <Region>LA</Region>
@@ -138,11 +138,12 @@
         <ProfEmergencyIMSCall>sos</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Claro UY</NetworkName>
         <ProfBrowser>Claro UY</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
         <ProfXCAP>Claro UY</ProfXCAP>
+        <ProfEmergencyIMSCall>sos</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -150,7 +151,7 @@
         <ProfBrowser>movistar internet uy</ProfBrowser>
         <ProfIMS>IMS APN</ProfIMS>
       </ProfileHandle>
-      <NbProfile>9</NbProfile>
+      <NbProfile>10</NbProfile>
       <Profile>
         <NetworkName>Ancel UY</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
@@ -216,6 +217,17 @@
           <APN>webapn.movistar.com.uy</APN>
           <UserId>movistar</UserId>
           <Password>movistar</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro UY</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>sos</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
         </PSparam>
       </Profile>
       <Profile>

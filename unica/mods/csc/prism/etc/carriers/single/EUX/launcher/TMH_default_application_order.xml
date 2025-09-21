@@ -18,25 +18,10 @@ limitations under the License.
 <appOrder xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
     <appsGridInfo default="4x6" /> 
     <!-- folder : Telekom HU -->
-    <folder 
-        screen="0" 
-        title="Telekom" 
-        postPosition="true">        
-        <!-- Mobilvásárlás -->
-        <favorite
-            screen="0"
-            packageName="telekom.hu.android.mobilvasarlas"
-            className="hu.telekom.shopping.activities.SplashActivity" />
-        <!-- Telekom HU -->
-        <favorite
-            screen="1"
-            packageName="hu.telekom.telekomapp"
-            className="com.telekom.oneapp.launcher.components.launcher.LauncherActivity" />
-    </folder>    	
     <!-- folder : Samsung -->
-    <folder 
-        screen="0" 
-        title="Samsung">        
+    <folder
+        screen="0"
+        title="Samsung">
         <!-- Galaxy Shop -->
         <favorite 
             screen="0" 
@@ -103,7 +88,7 @@ limitations under the License.
     <folder 
         screen="0" 
         postPosition="true"
-		title="Google">        
+	title="Google">        
         <!-- Google -->
         <favorite 
             screen="0" 

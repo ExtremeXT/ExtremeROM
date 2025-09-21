@@ -68,11 +68,11 @@ limitations under the License.
             screen="6" 
             packageName="com.samsung.android.app.watchmanager" 
             className="com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity" />
-        <!-- Samsung  Members -->
+        <!-- Samsung Pay -->
         <favorite 
             screen="7" 
-            packageName="com.samsung.android.voc"
-            className="com.samsung.android.voc.LauncherActivity" />
+            packageName="com.samsung.android.spay" 
+            className="com.samsung.android.spay.ui.SpayMainActivity" />
        <!-- PENUP -->
         <favorite 
             screen="8" 
@@ -177,11 +177,11 @@ limitations under the License.
         packageName="ie.three.threeplus" 
         className="ie.three.threeplus.MainActivity" 
         postPosition="true"/>
-    <!-- Samsung  Wallet -->
+    <!-- Samsung Members -->
     <favorite 
         screen="0" 
-        packageName="com.samsung.android.spay"
-        className="com.samsung.android.spay.ui.SpayMainActivity" />
+        packageName="com.samsung.android.voc" 
+        className="com.samsung.android.voc.LauncherActivity" />
     <!-- Galaxy Store -->
     <favorite 
         screen="0" 

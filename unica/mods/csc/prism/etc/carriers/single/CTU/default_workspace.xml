@@ -81,17 +81,17 @@ limitations under the License.
               packageName="com.clarodrive.android"
               className="com.owncloud.android.ui.splash.SplashActivity"
               postPosition="true"/>
-            <!--Packs Ya-->
+            <!--Claro Juegos-->
             <favorite
               screen="4"
+              packageName="com.gameloft.android.gdc"
+              className="com.gameloft.android.gdc.MainActivity"/>
+            <!--Packs Ya-->
+            <favorite
+              screen="5"
               packageName="com.claro.packsya.uy"
               className="com.claro.packsya.LauncherActivity"
               postPosition="true"/>
-            <!--Claro Juegos-->
-            <favorite
-              screen="5"
-              packageName="com.gameloft.android.gdc"
-              className="com.gameloft.android.gdc.MainActivity"/>
         </folder>
         <!--Galaxy Store-->
         <favorite
@@ -111,6 +111,7 @@ limitations under the License.
         <folder
           screen="0"
           title="Google"
+          postPosition="true"
           x="3"
           y="5">
             <!--Google-->
@@ -189,6 +190,14 @@ limitations under the License.
           postPosition="true"
           x="1"
           y="5"/>
+        <!--1Weather-->
+        <favorite
+          screen="1"
+          packageName="com.handmark.expressweather"
+          className="com.oneweather.app.MainActivity"
+          postPosition="true"
+          x="2"
+          y="5"/>
         <!--Microsoft-->
         <folder
           screen="1"
@@ -219,15 +228,15 @@ limitations under the License.
           packageName="com.claroColombia.contenedor"
           className="com.speedymovil.contenedor.gui.activities.AppsContainerActivity"
           postPosition="true"/>
-        <!--(Android) Messages-->
-        <favorite
-          screen="2"
-          packageName="com.google.android.apps.messaging"
-          className="com.google.android.apps.messaging.ui.ConversationListActivity"/>
         <!--Chrome-->
         <favorite
-          screen="3"
+          screen="2"
           packageName="com.android.chrome"
           className="com.google.android.apps.chrome.Main"/>
+        <!--(Android) Messages-->
+        <favorite
+          screen="3"
+          packageName="com.google.android.apps.messaging"
+          className="com.google.android.apps.messaging.ui.ConversationListActivity"/>
     </hotseat>
 </favorites>

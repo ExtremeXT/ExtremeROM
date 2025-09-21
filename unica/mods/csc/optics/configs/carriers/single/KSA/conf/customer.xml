@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>KSA</Country>
     <CountryISO>SA</CountryISO>
     <Region>MEA</Region>
@@ -161,9 +161,11 @@
         <ProfXCAP>XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>1</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Virgin</NetworkName>
         <ProfBrowser>Virgin Internet</ProfBrowser>
+        <ProfIMS>ims</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
@@ -184,7 +186,7 @@
         <ProfIMS>ims</ProfIMS>
         <ProfXCAP>xcap</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>23</NbProfile>
+      <NbProfile>25</NbProfile>
       <Profile>
         <NetworkName>STC</NetworkName>
         <IpVersion>ipv4</IpVersion>
@@ -335,6 +337,7 @@
       </Profile>
       <Profile>
         <NetworkName>Virgin</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
         <Editable>yes</Editable>
         <ProfileName>Virgin Internet</ProfileName>
         <Auth>normal</Auth>
@@ -342,6 +345,26 @@
         <PSparam>
           <APN>internet</APN>
           <Password>0000</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Virgin</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>ims</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Virgin</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>none</Auth>
+        <PSparam>
+          <APN>XCAP</APN>
         </PSparam>
       </Profile>
       <Profile>

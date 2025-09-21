@@ -7,8 +7,8 @@
     <MultiCode>OXM</MultiCode>
     <CustomerDataSet>
         <CSCName>S938BOXM</CSCName>
-        <CSCVersion>3AYDA</CSCVersion>
-        <NbCustomer>108</NbCustomer>
+        <CSCVersion>5BYI3</CSCVersion>
+        <NbCustomer>107</NbCustomer>
         <CustomerData src="/Customer/ACR/customer.xml" />
         <CustomerData src="/Customer/AFG/customer.xml" />
         <CustomerData src="/Customer/AFR/customer.xml" />
@@ -85,7 +85,6 @@
         <CustomerData src="/Customer/COL/customer.xml" />
         <CustomerData src="/Customer/COM/customer.xml" />
         <CustomerData src="/Customer/COO/customer.xml" />
-        <CustomerData src="/Customer/CPW/customer.xml" />
         <CustomerData src="/Customer/CRC/customer.xml" />
         <CustomerData src="/Customer/CTI/customer.xml" />
         <CustomerData src="/Customer/CTP/customer.xml" />
@@ -121,22 +120,22 @@
     <OmcInfo>
         <OmcCode>
             <CustomerCode>ACR</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_ACR_15_0006</Version>
-            <CustomerEdition>ED0001</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_ACR_16_0003</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>AFG</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_AFG_15_0002</Version>
+            <Version>SAOMC_SM-S938B_OXM_AFG_16_0001</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>AFR</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_AFR_15_0006</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_AFR_16_0001</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>BKD</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_BKD_15_0006</Version>
+            <Version>SAOMC_SM-S938B_OXM_BKD_16_0003</Version>
             <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
@@ -144,26 +143,26 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>BNG</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_BNG_15_0004</Version>
-            <CustomerEdition>ED0001</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_BNG_16_0003</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>BOG</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_BOG_15_0008</Version>
+            <Version>SAOMC_SM-S938B_OXM_BOG_16_0001</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>CAC</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_CAC_15_0004</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_CAC_16_0002</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>CAU</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_CAU_15_0002</Version>
-            <CustomerEdition>ED0001</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_CAU_16_0004</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>CPW</CustomerCode>
@@ -172,38 +171,38 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>DKR</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_DKR_15_0007</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
-        </OmcCode>
-        <OmcCode>
-            <CustomerCode>ECT</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_ECT_15_0006</Version>
+            <Version>SAOMC_SM-S938B_OXM_DKR_16_0001</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
+            <CustomerCode>ECT</CustomerCode>
+            <Version>SAOMC_SM-S938B_OXM_ECT_16_0002</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
             <CustomerCode>EGY</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_EGY_15_0003</Version>
+            <Version>SAOMC_SM-S938B_OXM_EGY_16_0001</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>EUX</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_EUX_15_0085</Version>
+            <Version>SAOMC_SM-S938B_OXM_EUX_16_0040</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>EUY</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_EUY_15_0013</Version>
+            <Version>SAOMC_SM-S938B_OXM_EUY_16_0009</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>FWD</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_FWD_15_0002</Version>
+            <Version>SAOMC_SM-S938B_OXM_FWD_16_0001</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>GLB</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_GLB_15_0005</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_GLB_16_0003</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
                 <package name="com.srph.emergency321" />
@@ -211,54 +210,54 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>ILO</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_ILO_15_0004</Version>
-            <CustomerEdition>ED0001</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_ILO_16_0004</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>ILP</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_ILP_15_0002</Version>
+            <Version>SAOMC_SM-S938B_OXM_ILP_16_0001</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>INS</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_INS_15_0010</Version>
-            <CustomerEdition>ED0005</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_INS_16_0002</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>KSA</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_KSA_15_0005</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_KSA_16_0007</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>LYS</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_LYS_15_0002</Version>
+            <Version>SAOMC_SM-S938B_OXM_LYS_16_0001</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>MEO</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_MEO_15_0007</Version>
+            <Version>SAOMC_SM-S938B_OXM_MEO_16_0002</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>MET</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_MET_15_0004</Version>
+            <Version>SAOMC_SM-S938B_OXM_MET_16_0002</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>MID</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_MID_15_0002</Version>
-            <CustomerEdition>ED0001</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_MID_16_0003</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>MM1</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_MM1_15_0005</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_MM1_16_0005</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
                 <package name="com.ministryofhomeaffairs.sgsecure.mhasg" />
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
@@ -266,12 +265,12 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>MOB</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_MOB_15_0005</Version>
+            <Version>SAOMC_SM-S938B_OXM_MOB_16_0002</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>MOT</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_MOT_15_0005</Version>
+            <Version>SAOMC_SM-S938B_OXM_MOT_16_0001</Version>
             <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
                 <package name="si.telekom.selfcare.web" />
@@ -286,7 +285,7 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>MSR</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_MSR_15_0004</Version>
+            <Version>SAOMC_SM-S938B_OXM_MSR_16_0002</Version>
             <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
                 <package name="deezer.android.app" />
@@ -295,20 +294,20 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>MWD</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_MWD_15_0003</Version>
+            <Version>SAOMC_SM-S938B_OXM_MWD_16_0001</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>NPB</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_NPB_15_0005</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_NPB_16_0001</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>OPS</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_OPS_15_0008</Version>
+            <Version>SAOMC_SM-S938B_OXM_OPS_16_0003</Version>
             <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
                 <package name="au.com.optus.selfservice" />
@@ -317,51 +316,45 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>PAK</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_PAK_15_0003</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_PAK_16_0001</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>PKD</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_PKD_15_0003</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_PKD_16_0002</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>PLS</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_PLS_15_0004</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_PLS_16_0001</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
-                <package name="com.fsecure.ms.plus" />
-                <package name="com.naviexpert.NaviExpert_Plus" />
                 <package name="pl.plus.plusonline" />
-                <package name="pl.locon.gjd_plus" />
-                <package name="com.aspiro.tidal" />
                 <package name="pl.cyfrowypolsat.polsatnews" />
-                <package name="pl.interia.news" />
                 <package name="pl.cyfrowypolsat.cpgo" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>PRT</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_PRT_15_0003</Version>
+            <Version>SAOMC_SM-S938B_OXM_PRT_16_0001</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>SER</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_SER_15_0007</Version>
-            <CustomerEdition>ED0006</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_SER_16_0002</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
-                <package name="ru.samsung.catalog" />
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>SFR</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_SFR_15_0010</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_SFR_16_0003</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>SIM</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_SIM_15_0005</Version>
+            <Version>SAOMC_SM-S938B_OXM_SIM_16_0005</Version>
             <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
                 <package name="si.nkbm.bnk.android" />
@@ -370,8 +363,8 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>SIN</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_SIN_15_0005</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_SIN_16_0005</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
                 <package name="com.ministryofhomeaffairs.sgsecure.mhasg" />
                 <package name="com.singtel.play" />
@@ -383,26 +376,26 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>SKZ</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_SKZ_15_0003</Version>
+            <Version>SAOMC_SM-S938B_OXM_SKZ_16_0003</Version>
             <CustomerEdition>ED0002</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>SLK</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_SLK_15_0006</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_SLK_16_0001</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>SOZ</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_SOZ_15_0004</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_SOZ_16_0002</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>STH</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_STH_15_0005</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_STH_16_0005</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
                 <package name="com.ministryofhomeaffairs.sgsecure.mhasg" />
                 <package name="com.starhub.csselfhelp" />
@@ -412,39 +405,40 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>SWC</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_SWC_15_0009</Version>
-            <CustomerEdition>ED0001</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_SWC_16_0004</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>TEL</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_TEL_15_0009</Version>
-            <CustomerEdition>ED0001</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_TEL_16_0004</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
                 <package name="com.telstra.mobile.android.mytelstra" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>THL</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_THL_15_0004</Version>
+            <Version>SAOMC_SM-S938B_OXM_THL_16_0004</Version>
             <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
+                <package name="com.samsung.android.carriermatching" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>TOP</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_TOP_15_0004</Version>
+            <Version>SAOMC_SM-S938B_OXM_TOP_16_0003</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>TUN</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_TUN_15_0004</Version>
+            <Version>SAOMC_SM-S938B_OXM_TUN_16_0001</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>TUR</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_TUR_15_0006</Version>
-            <CustomerEdition>ED0001</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_TUR_16_0007</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
                 <package name="com.galaxyfirsatlari" />
                 <package name="com.setk.widget" />
@@ -454,7 +448,7 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>VAU</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_VAU_15_0008</Version>
+            <Version>SAOMC_SM-S938B_OXM_VAU_16_0002</Version>
             <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
                 <package name="au.com.vodafone.mobile.gss" />
@@ -463,7 +457,7 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>VIP</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_VIP_15_0005</Version>
+            <Version>SAOMC_SM-S938B_OXM_VIP_16_0005</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
@@ -483,16 +477,16 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>XFA</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_XFA_15_0011</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_XFA_16_0004</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>XFV</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_XFV_15_0010</Version>
-            <CustomerEdition>ED0001</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_XFV_16_0004</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
                 <package name="za.co.vodacom.vodapay" />
                 <package name="za.co.thefuse.android" />
@@ -502,7 +496,7 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>XID</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_XID_15_0001</Version>
+            <Version>SAOMC_SM-S938B_OXM_XID_16_0002</Version>
             <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
                 <package name="com.srin.garut" />
@@ -512,7 +506,7 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>XME</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_XME_15_0004</Version>
+            <Version>SAOMC_SM-S938B_OXM_XME_16_0003</Version>
             <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
@@ -520,17 +514,17 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>XNZ</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_XNZ_15_0009</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_XNZ_16_0003</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>XSA</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_XSA_15_0009</Version>
+            <Version>SAOMC_SM-S938B_OXM_XSA_16_0002</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>XSG</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_XSG_15_0004</Version>
+            <Version>SAOMC_SM-S938B_OXM_XSG_16_0005</Version>
             <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
@@ -538,8 +532,8 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>XSP</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_XSP_15_0006</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_XSP_16_0005</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
                 <package name="com.ministryofhomeaffairs.sgsecure.mhasg" />
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
@@ -547,7 +541,7 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>XTC</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_XTC_15_0003</Version>
+            <Version>SAOMC_SM-S938B_OXM_XTC_16_0002</Version>
             <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
@@ -556,49 +550,49 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>XXV</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_XXV_15_0004</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_XXV_16_0003</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>ARO</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_ARO_15_0009</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_ARO_16_0009</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
             <Packages>
                 <package name="com.samsungar.shop" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>BVO</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_BVO_15_0009</Version>
+            <Version>SAOMC_SM-S938B_OXM_BVO_16_0006</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>CDR</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_CDR_15_0013</Version>
+            <Version>SAOMC_SM-S938B_OXM_CDR_16_0008</Version>
             <CustomerEdition>ED0004</CustomerEdition>
             <Packages>
-                <package name="com.telcelam.lockscreen" />
-                <package name="com.claro.claromusica.latam" />
-                <package name="com.dla.android" />
-                <package name="com.clarord.miclaro" />
-                <package name="com.facebook.orca" />
                 <package name="com.instagram.android" />
                 <package name="com.clarodrive.android" />
+                <package name="com.clarord.miclaro" />
+                <package name="com.claro.claromusica.latam" />
                 <package name="com.handmark.expressweather" />
+                <package name="com.facebook.orca" />
+                <package name="com.telcelam.lockscreen" />
+                <package name="com.dla.android" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>CGU</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_CGU_15_0011</Version>
+            <Version>SAOMC_SM-S938B_OXM_CGU_16_0007</Version>
             <CustomerEdition>ED0003</CustomerEdition>
             <Packages />
         </OmcCode>
         <OmcCode>
             <CustomerCode>CHE</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_CHE_15_0024</Version>
+            <Version>SAOMC_SM-S938B_OXM_CHE_16_0012</Version>
             <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
                 <package name="cl.entel.appswlsdesa" />
@@ -606,153 +600,153 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>CHL</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_CHL_15_0012</Version>
+            <Version>SAOMC_SM-S938B_OXM_CHL_16_0006</Version>
             <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
-                <package name="com.miclaro.app" />
-                <package name="com.dla.android" />
-                <package name="com.claro.claromusica.latam" />
-                <package name="com.facebook.orca" />
                 <package name="com.claroColombia.contenedor" />
                 <package name="com.instagram.android" />
                 <package name="com.clarodrive.android" />
+                <package name="com.miclaro.app" />
+                <package name="com.claro.claromusica.latam" />
                 <package name="com.handmark.expressweather" />
+                <package name="com.facebook.orca" />
+                <package name="com.dla.android" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>CHO</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_CHO_15_0012</Version>
+            <Version>SAOMC_SM-S938B_OXM_CHO_16_0012</Version>
             <CustomerEdition>ED0003</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>CHT</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_CHT_15_0011</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_CHT_16_0007</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
-                <package name="com.amazon.mShop.android.shopping" />
                 <package name="cl.movistarplay" />
                 <package name="cl.movistar.android" />
+                <package name="com.amazon.mShop.android.shopping" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>COB</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_COB_15_0014</Version>
+            <Version>SAOMC_SM-S938B_OXM_COB_16_0008</Version>
             <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
                 <package name="movistar.android.app" />
-                <package name="com.movistar.musica" />
                 <package name="com.amazon.mShop.android.shopping" />
                 <package name="co.movistar.cloud" />
+                <package name="com.movistar.arenamusic" />
                 <package name="co.movistar.go" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>COL</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_COL_15_0011</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_COL_16_0005</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
             <Packages />
         </OmcCode>
         <OmcCode>
             <CustomerCode>COM</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_COM_15_0016</Version>
-            <CustomerEdition>ED0005</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_COM_16_0007</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
-                <package name="com.telcelam.lockscreen" />
-                <package name="com.clarocolombia.miclaro" />
-                <package name="com.claro.claromusica.latam" />
-                <package name="com.dla.android" />
-                <package name="com.facebook.orca" />
                 <package name="com.instagram.android" />
                 <package name="com.clarodrive.android" />
+                <package name="com.clarocolombia.miclaro" />
                 <package name="com.claropayco.aplicacion" />
+                <package name="com.claro.claromusica.latam" />
                 <package name="com.handmark.expressweather" />
+                <package name="com.facebook.orca" />
+                <package name="com.telcelam.lockscreen" />
+                <package name="com.dla.android" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>COO</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_COO_15_0012</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
-        </OmcCode>
-        <OmcCode>
-            <CustomerCode>CPW</CustomerCode>
-            <Version>SAOMC_SM-S928B_OXM_CPW_14_0003</Version>
+            <Version>SAOMC_SM-S938B_OXM_COO_16_0005</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>CRC</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_CRC_15_0013</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_CRC_16_0007</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
             <Packages>
-                <package name="com.dla.android" />
-                <package name="com.claro.claromusica.latam" />
-                <package name="com.claro.miclaro" />
-                <package name="com.facebook.orca" />
                 <package name="com.claroColombia.contenedor" />
                 <package name="com.instagram.android" />
                 <package name="com.clarodrive.android" />
+                <package name="com.claro.miclaro" />
+                <package name="com.claro.claromusica.latam" />
                 <package name="com.handmark.expressweather" />
+                <package name="com.facebook.orca" />
+                <package name="com.telcelam.lockscreen" />
+                <package name="com.dla.android" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>CTI</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_CTI_15_0013</Version>
-            <CustomerEdition>ED0004</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_CTI_16_0006</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
-                <package name="com.ar.claropay.app" />
-                <package name="ar.com.claro.android" />
-                <package name="com.dla.android" />
-                <package name="com.claro.claromusica.latam" />
-                <package name="com.facebook.orca" />
                 <package name="com.claroColombia.contenedor" />
                 <package name="com.instagram.android" />
                 <package name="com.clarodrive.android" />
+                <package name="ar.com.claro.android" />
+                <package name="com.ar.claropay.app" />
+                <package name="com.claro.claromusica.latam" />
                 <package name="com.handmark.expressweather" />
+                <package name="com.facebook.orca" />
                 <package name="com.claro.packsya.ar" />
+                <package name="com.telcelam.lockscreen" />
+                <package name="com.dla.android" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>CTP</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_CTP_15_0015</Version>
-            <CustomerEdition>ED0005</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_CTP_16_0007</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
             <Packages>
-                <package name="com.dla.android" />
-                <package name="com.claro.claromusica.latam" />
-                <package name="com.facebook.orca" />
-                <package name="py.com.claro.android" />
+                <package name="com.telcelam.lockscreen" />
                 <package name="com.claroColombia.contenedor" />
                 <package name="com.instagram.android" />
                 <package name="com.clarodrive.android" />
+                <package name="py.com.claro.android" />
+                <package name="com.claro.claromusica.latam" />
+                <package name="com.handmark.expressweather" />
+                <package name="com.facebook.orca" />
                 <package name="com.claro.packsya.py" />
+                <package name="com.dla.android" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>CTU</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_CTU_15_0013</Version>
+            <Version>SAOMC_SM-S938B_OXM_CTU_16_0007</Version>
             <CustomerEdition>ED0004</CustomerEdition>
             <Packages>
-                <package name="com.dla.android" />
-                <package name="com.claro.claromusica.latam" />
-                <package name="com.facebook.orca" />
-                <package name="uy.com.claro.android" />
                 <package name="com.claroColombia.contenedor" />
                 <package name="com.instagram.android" />
                 <package name="com.clarodrive.android" />
+                <package name="uy.com.claro.android" />
+                <package name="com.claro.claromusica.latam" />
+                <package name="com.handmark.expressweather" />
+                <package name="com.facebook.orca" />
                 <package name="com.claro.packsya.uy" />
+                <package name="com.dla.android" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>DOR</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_DOR_15_0011</Version>
+            <Version>SAOMC_SM-S938B_OXM_DOR_16_0007</Version>
             <CustomerEdition>ED0004</CustomerEdition>
             <Packages>
                 <package name="com.orange.mobile.ecare" />
-                <package name="com.kuackmedia.orange" />
                 <package name="com.hottricom.tricom.tricom" />
+                <package name="com.kuackmedia.orange" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>EBE</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_EBE_15_0011</Version>
+            <Version>SAOMC_SM-S938B_OXM_EBE_16_0006</Version>
             <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
                 <package name="com.amazon.mShop.android.shopping" />
@@ -762,42 +756,43 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>ECO</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_ECO_15_0015</Version>
-            <CustomerEdition>ED0005</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_ECO_16_0007</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
-                <package name="com.claroecuador.miclaro" />
-                <package name="com.dla.android" />
-                <package name="com.claro.claromusica.latam" />
-                <package name="com.facebook.orca" />
                 <package name="com.claroColombia.contenedor" />
                 <package name="com.instagram.android" />
                 <package name="com.clarodrive.android" />
+                <package name="com.claroecuador.miclaro" />
+                <package name="com.claro.claromusica.latam" />
                 <package name="com.handmark.expressweather" />
+                <package name="com.facebook.orca" />
+                <package name="com.telcelam.lockscreen" />
+                <package name="com.dla.android" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>EON</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_EON_15_0011</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_EON_16_0006</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>EUY</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_EUY_15_0010</Version>
+            <Version>SAOMC_SM-S938B_OXM_EUY_16_0009</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>GLO</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_GLO_15_0009</Version>
+            <Version>SAOMC_SM-S938B_OXM_GLO_16_0006</Version>
             <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>GTO</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_GTO_15_0020</Version>
-            <CustomerEdition>ED0004</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_GTO_16_0014</Version>
+            <CustomerEdition>ED0006</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>IUS</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_IUS_15_0021</Version>
+            <Version>SAOMC_SM-S938B_OXM_IUS_16_0008</Version>
             <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
                 <package name="com.att.miatt" />
@@ -806,48 +801,49 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>MXO</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_MXO_15_0010</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_MXO_16_0005</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>PEO</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_PEO_15_0011</Version>
+            <Version>SAOMC_SM-S938B_OXM_PEO_16_0008</Version>
             <CustomerEdition>ED0002</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>PET</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_PET_15_0016</Version>
+            <Version>SAOMC_SM-S938B_OXM_PET_16_0009</Version>
             <CustomerEdition>ED0004</CustomerEdition>
             <Packages>
-                <package name="com.telcelam.lockscreen" />
-                <package name="com.claro.pe.miclaro" />
-                <package name="com.claro.claromusica.latam" />
-                <package name="com.dla.android" />
-                <package name="com.facebook.orca" />
                 <package name="com.claroColombia.contenedor" />
                 <package name="com.instagram.android" />
                 <package name="com.clarodrive.android" />
+                <package name="com.claro.pe.miclaro" />
+                <package name="com.claro.claromusica.latam" />
                 <package name="com.handmark.expressweather" />
+                <package name="com.facebook.orca" />
+                <package name="com.telcelam.lockscreen" />
+                <package name="com.dla.android" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>PGU</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_PGU_15_0013</Version>
-            <CustomerEdition>ED0004</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_PGU_16_0008</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
             <Packages>
-                <package name="com.dla.android" />
-                <package name="com.claro.claromusica.latam" />
-                <package name="com.claro.miclaro" />
-                <package name="com.facebook.orca" />
                 <package name="com.claroColombia.contenedor" />
                 <package name="com.instagram.android" />
                 <package name="com.clarodrive.android" />
+                <package name="com.claro.miclaro" />
+                <package name="com.claro.claromusica.latam" />
                 <package name="com.handmark.expressweather" />
+                <package name="com.facebook.orca" />
+                <package name="com.telcelam.lockscreen" />
+                <package name="com.dla.android" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>PNT</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_PNT_15_0013</Version>
+            <Version>SAOMC_SM-S938B_OXM_PNT_16_0011</Version>
             <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
                 <package name="com.sec.android.app.latin.launcher.entel.play" />
@@ -856,18 +852,17 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>PSN</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_PSN_15_0009</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_PSN_16_0004</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
                 <package name="ar.com.personal" />
-                <package name="com.sec.android.app.latin.launcher.personal.tienda" />
                 <package name="ar.com.personalpay" />
                 <package name="ar.com.cablevision.attv.android.myminerva" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>PSP</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_PSP_15_0011</Version>
+            <Version>SAOMC_SM-S938B_OXM_PSP_16_0006</Version>
             <CustomerEdition>ED0004</CustomerEdition>
             <Packages>
                 <package name="py.com.personal.tiendapersonal" />
@@ -875,7 +870,7 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>SAM</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_SAM_15_0012</Version>
+            <Version>SAOMC_SM-S938B_OXM_SAM_16_0009</Version>
             <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
                 <package name="tdp.app.col" />
@@ -885,97 +880,95 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>TCE</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_TCE_15_0012</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_TCE_16_0007</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
             <Packages>
-                <package name="com.telcelam.lockscreen" />
-                <package name="com.telcel.imk" />
-                <package name="com.dla.android" />
-                <package name="com.speedymovil.wire" />
-                <package name="com.facebook.orca" />
+                <package name="com.amazon.mShop.android.shopping" />
                 <package name="com.telcel.contenedor" />
                 <package name="com.instagram.android" />
                 <package name="com.clarodrive.android" />
+                <package name="com.speedymovil.wire" />
                 <package name="com.globalhitss.claro.pay" />
-                <package name="com.americamovil.claroshop" />
+                <package name="com.telcel.imk" />
                 <package name="com.handmark.expressweather" />
+                <package name="com.facebook.orca" />
+                <package name="com.telcelam.lockscreen" />
+                <package name="com.dla.android" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>TGP</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_TGP_15_0011</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_TGP_16_0009</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
             <Packages />
         </OmcCode>
         <OmcCode>
             <CustomerCode>TMM</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_TMM_15_0011</Version>
-            <CustomerEdition>ED0005</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_TMM_16_0006</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
-                <package name="com.movistarmx.mx.app" />
                 <package name="com.amazon.mShop.android.shopping" />
+                <package name="com.movistarmx.mx.app" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>TPA</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_TPA_15_0014</Version>
-            <CustomerEdition>ED0004</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_TPA_16_0011</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>UFN</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_UFN_15_0011</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_UFN_16_0008</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
         </OmcCode>
         <OmcCode>
             <CustomerCode>UFU</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_UFU_15_0013</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_UFU_16_0006</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
-                <package name="tpc.mobile.parkingmovistar" />
                 <package name="com.movistar.mimovistar" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>UPO</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_UPO_15_0011</Version>
-            <CustomerEdition>ED0003</CustomerEdition>
-        </OmcCode>
-        <OmcCode>
-            <CustomerCode>UYO</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_UYO_15_0011</Version>
+            <Version>SAOMC_SM-S938B_OXM_UPO_16_0008</Version>
             <CustomerEdition>ED0004</CustomerEdition>
         </OmcCode>
         <OmcCode>
+            <CustomerCode>UYO</CustomerCode>
+            <Version>SAOMC_SM-S938B_OXM_UYO_16_0006</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
             <CustomerCode>ZTA</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_ZTA_15_0014</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_ZTA_16_0006</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
-                <package name="com.claro.claromusica.br" />
-                <package name="com.dla.android" />
-                <package name="com.nvt.cs" />
-                <package name="com.facebook.orca" />
+                <package name="br.com.netcombo.now" />
                 <package name="com.claroColombia.contenedor" />
                 <package name="com.instagram.android" />
                 <package name="com.clarodrive.android" />
                 <package name="br.com.claropay.claropay" />
+                <package name="com.claro.claromusica.br" />
                 <package name="com.handmark.expressweather" />
+                <package name="com.facebook.orca" />
+                <package name="com.nvt.cs" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>ZTM</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_ZTM_15_0011</Version>
+            <Version>SAOMC_SM-S938B_OXM_ZTM_16_0005</Version>
             <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
-                <package name="br.com.tim.timprotectbackup" />
-                <package name="com.ideastek.esporteinterativo3" />
-                <package name="deezer.android.app" />
                 <package name="br.com.timbrasil.meutim" />
+                <package name="br.com.tim.timprotectbackup" />
+                <package name="deezer.android.app" />
             </Packages>
         </OmcCode>
         <OmcCode>
             <CustomerCode>ZTO</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_ZTO_15_0015</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_ZTO_16_0008</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
             <Packages>
                 <package name="com.rsupport.rs.activity.rsupport.aas2" />
                 <package name="com.samsung.shop" />
@@ -983,19 +976,19 @@
         </OmcCode>
         <OmcCode>
             <CustomerCode>ZVV</CustomerCode>
-            <Version>SAOMC_SM-S938B_OXM_ZVV_15_0015</Version>
-            <CustomerEdition>ED0002</CustomerEdition>
+            <Version>SAOMC_SM-S938B_OXM_ZVV_16_0009</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
             <Packages>
-                <package name="br.com.vivo.meuvivoempresas" />
-                <package name="com.movile.android.appsvivo" />
-                <package name="com.movile.meditation.vivo" />
                 <package name="com.amazon.mShop.android.shopping" />
                 <package name="br.com.goread.android" />
-                <package name="com.tid.enjoy" />
-                <package name="terra.neo.terralauncher" />
                 <package name="br.com.gold360.skeelo" />
                 <package name="br.com.vivae" />
                 <package name="cliente.valesaudesempre.com.br" />
+                <package name="br.com.vivo.meuvivoempresas" />
+                <package name="com.movile.android.appsvivo" />
+                <package name="com.movile.meditation.vivo" />
+                <package name="terra.neo.terralauncher" />
+                <package name="com.tid.enjoy" />
                 <package name="br.com.vivo" />
             </Packages>
         </OmcCode>

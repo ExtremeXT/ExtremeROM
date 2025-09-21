@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>Switzerland</Country>
     <CountryISO>CH</CountryISO>
     <Region>EUR</Region>
@@ -172,6 +172,8 @@
       <NbProfile>6</NbProfile>
       <Profile>
         <NetworkName>Swisscom</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
         <ProfileName>Swisscom Services</ProfileName>
         <URL>http://mob.bluewin.ch</URL>
@@ -188,6 +190,8 @@
       </Profile>
       <Profile>
         <NetworkName>Swisscom FL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
         <ProfileName>Swisscom Services</ProfileName>
         <URL>http://mob.bluewin.ch</URL>
@@ -203,7 +207,7 @@
       </Profile>
       <Profile>
         <NetworkName>Swisscom</NetworkName>
-        <IpVersion>ipv6</IpVersion>
+        <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
         <HiddenStatus>hidden</HiddenStatus>
@@ -231,8 +235,8 @@
       </Profile>
       <Profile>
         <NetworkName>Swisscom FL</NetworkName>
-        <IpVersion>ipv6</IpVersion>
-        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
         <HiddenStatus>hidden</HiddenStatus>
         <ProfileName>Swisscom IMS</ProfileName>

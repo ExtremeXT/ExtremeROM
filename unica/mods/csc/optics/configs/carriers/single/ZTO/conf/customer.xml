@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>Brazil</Country>
     <CountryISO>BR</CountryISO>
     <Region>LA</Region>
@@ -311,10 +311,9 @@
         <ProfEmergencyIMSCall>Vivo Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>4</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Claro</NetworkName>
-        <ProfBrowser>Java Session</ProfBrowser>
-        <ProfMMS>Claro Foto</ProfMMS>
+        <ProfBrowser>Internet</ProfBrowser>
         <ProfIMS>Claro IMS</ProfIMS>
         <ProfXCAP>Claro XCAP</ProfXCAP>
       </ProfileHandle>
@@ -356,11 +355,12 @@
         <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Algar</NetworkName>
         <ProfBrowser>algar.br</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
         <ProfXCAP>IMS XCAP</ProfXCAP>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>
@@ -473,29 +473,11 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Java Session</ProfileName>
-        <Auth>normal</Auth>
+        <ProfileName>Internet</ProfileName>
+        <Auth>normalorsecure</Auth>
         <Protocol>http</Protocol>
         <PSparam>
           <APN>java.claro.com.br</APN>
-          <UserId>claro</UserId>
-          <Password>claro</Password>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Claro</NetworkName>
-        <Editable>yes</Editable>
-        <ProfileName>Claro Foto</ProfileName>
-        <URL>http://mms.claro.com.br</URL>
-        <Auth>normal</Auth>
-        <Protocol>http</Protocol>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>200.169.126.10</ServAddr>
-          <Port>8799</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms.claro.com.br</APN>
           <UserId>claro</UserId>
           <Password>claro</Password>
         </PSparam>
@@ -557,6 +539,7 @@
       <Profile>
         <NetworkName>VIVO</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
         <Editable>no</Editable>
         <ProfileName>Vivo IMS</ProfileName>
         <PSparam>
@@ -566,6 +549,7 @@
       <Profile>
         <NetworkName>VIVO</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
         <Editable>no</Editable>
         <ProfileName>Vivo Xcap</ProfileName>
         <PSparam>
@@ -739,6 +723,7 @@
       <Profile>
         <NetworkName>VIVO</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
         <ProfileName>Vivo Emergency</ProfileName>
         <PSparam>
@@ -764,6 +749,15 @@
         <ProfileName>IMS</ProfileName>
         <PSparam>
           <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Algar</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
         </PSparam>
       </Profile>
     </Connections>

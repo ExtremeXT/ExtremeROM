@@ -6,7 +6,7 @@
     <CountryISO>TH</CountryISO>
     <Region>SEA</Region>
     <SalesCode>THL</SalesCode>
-    <NbNetworkInfo>25</NbNetworkInfo>
+    <NbNetworkInfo>26</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>52001</MCCMNC>
       <NetworkName>AIS</NetworkName>
@@ -151,6 +151,12 @@
       <NWID>NW01638</NWID>
       <SkipCscSelection>true</SkipCscSelection>
     </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>41403</MCCMNC>
+      <NetworkName>MECTEL</NetworkName>
+      <NWID>NW00721</NWID>
+      <SkipCscSelection>true</SkipCscSelection>
+    </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
@@ -281,7 +287,7 @@
       </Hs20Profile>
     </Wifi>
     <Connections>
-      <NbProfileHandle>23</NbProfileHandle>
+      <NbProfileHandle>24</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>AIS</NetworkName>
@@ -411,11 +417,12 @@
         <ProfXCAP>xcap</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>1</NbNetProfile>
+        <NbNetProfile>2</NbNetProfile>
         <NetworkName>MPT</NetworkName>
         <ProfBrowser>mptnet</ProfBrowser>
         <ProfEmail>mptnet</ProfEmail>
         <ProfStreaming>mptnet</ProfStreaming>
+        <ProfIMS>ims</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -438,7 +445,13 @@
         <ProfXCAP>MYTEL XCAP</ProfXCAP>
         <ProfEpdg>MYTEL IMS</ProfEpdg>
       </ProfileHandle>
-      <NbProfile>56</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>MECTEL</NetworkName>
+        <ProfBrowser>dos</ProfBrowser>
+        <ProfIMS>ims</ProfIMS>
+      </ProfileHandle>
+      <NbProfile>59</NbProfile>
       <Profile>
         <NetworkName>AIS</NetworkName>
         <Editable>yes</Editable>
@@ -1109,6 +1122,19 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>MPT</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>ims</ProfileName>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>ATOM</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
@@ -1204,6 +1230,24 @@
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>mytel-xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MECTEL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>dos</ProfileName>
+        <PSparam>
+          <APN>dos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MECTEL</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>ims</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
         </PSparam>
       </Profile>
       <Profile>

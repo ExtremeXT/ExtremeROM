@@ -124,101 +124,26 @@
           <DateFormat>ddmmyyyy</DateFormat>
           <TimeFormat>12h</TimeFormat>
         </DateTimeFormat>
-        <Shortcut>
-          <UpKey>
-            <ShortcutItem>create message</ShortcutItem>
-          </UpKey>
-          <DownKey>
-            <ShortcutItem>sim at</ShortcutItem>
-          </DownKey>
-          <LeftKey>
-            <ShortcutItem>phonebook</ShortcutItem>
-          </LeftKey>
-          <RightKey>
-            <ShortcutItem>games</ShortcutItem>
-          </RightKey>
-          <CenterKey>
-            <ShortcutItem>url_link</ShortcutItem>
-            <ShortcutUrlName>Claro</ShortcutUrlName>
-            <ShortcutUrl>http://wap.claro.com.pe</ShortcutUrl>
-          </CenterKey>
-          <LeftSoftkey>
-            <ShortcutItem>main_menu</ShortcutItem>
-          </LeftSoftkey>
-          <RightSoftKey>
-            <ShortcutItem>call log</ShortcutItem>
-          </RightSoftKey>
-        </Shortcut>
-        <Shortcut>
-          <UpKey>
-            <ShortcutItem>create message</ShortcutItem>
-          </UpKey>
-          <DownKey>
-            <ShortcutItem>sim at</ShortcutItem>
-          </DownKey>
-          <LeftKey>
-            <ShortcutItem>phonebook</ShortcutItem>
-          </LeftKey>
-          <RightKey>
-            <ShortcutItem>games</ShortcutItem>
-          </RightKey>
-          <CenterKey>
-            <ShortcutItem>url_link</ShortcutItem>
-            <ShortcutUrlName>Claro</ShortcutUrlName>
-            <ShortcutUrl>http://wap.claro.com.pe</ShortcutUrl>
-          </CenterKey>
-          <LeftSoftkey>
-            <ShortcutItem>main_menu</ShortcutItem>
-          </LeftSoftkey>
-          <RightSoftKey>
-            <ShortcutItem>call log</ShortcutItem>
-          </RightSoftKey>
-        </Shortcut>
-        <Shortcut>
-          <UpKey>
-            <ShortcutItem>create message</ShortcutItem>
-          </UpKey>
-          <DownKey>
-            <ShortcutItem>sim at</ShortcutItem>
-          </DownKey>
-          <LeftKey>
-            <ShortcutItem>phonebook</ShortcutItem>
-          </LeftKey>
-          <RightKey>
-            <ShortcutItem>games</ShortcutItem>
-          </RightKey>
-          <CenterKey>
-            <ShortcutItem>url_link</ShortcutItem>
-            <ShortcutUrlName>Claro</ShortcutUrlName>
-            <ShortcutUrl>http://3g.claro.com.pe</ShortcutUrl>
-          </CenterKey>
-          <LeftSoftkey>
-            <ShortcutItem>main_menu</ShortcutItem>
-          </LeftSoftkey>
-          <RightSoftKey>
-            <ShortcutItem>call log</ShortcutItem>
-          </RightSoftKey>
-        </Shortcut>
       </Phone>
       <Display>
         <NbWallpaper>5</NbWallpaper>
-        <Wallpaper src="/Customer/PET/Wallpaper/ClaroWallpaper_w-01.png" width="1024" height="600">
+        <Wallpaper src="/Customer/PET/Wallpaper/ClaroWallpaper_w-01.png" width="1440" height="3200">
           <Position>1</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/PET/Wallpaper/ClaroWallpaper_w-14.png" width="1024" height="600">
+        <Wallpaper src="/Customer/PET/Wallpaper/ClaroWallpaper_w-14.png" width="1440" height="3200">
           <Position>2</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/PET/Wallpaper/ClaroWallpaper_w-15.png" width="1024" height="600">
+        <Wallpaper src="/Customer/PET/Wallpaper/ClaroWallpaper_w-15.png" width="1440" height="3200">
           <Position>3</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/PET/Wallpaper/ClaroWallpaper_w-17.png" width="1024" height="600">
+        <Wallpaper src="/Customer/PET/Wallpaper/ClaroWallpaper_w-17.png" width="1440" height="3200">
           <Position>4</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/PET/Wallpaper/default_wallpaper.png" width="1024" height="600" usedWithLockScreen="true" default="true">
+        <Wallpaper src="/Customer/PET/Wallpaper/default_wallpaper.png" width="1440" height="3200" usedWithLockScreen="true" default="true">
           <Position>5</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
@@ -306,6 +231,7 @@
         <ProfBrowser>Entel PE</ProfBrowser>
         <ProfIntSharing>Entel PE</ProfIntSharing>
         <ProfIMS>Entel IMS</ProfIMS>
+        <ProfXCAP>Entel PE</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>

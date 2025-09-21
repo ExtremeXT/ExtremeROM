@@ -61,7 +61,7 @@ limitations under the License.
             <favorite
               screen="0"
               packageName="com.clarocolombia.miclaro"
-              className="com.clarocolombia.miclaro.activities.Splash"
+              className="com.claro.superapp.SplashActivity"
               postPosition="true"/>
             <!--Claro Musica-->
             <favorite
@@ -111,6 +111,7 @@ limitations under the License.
         <folder
           screen="0"
           title="Google"
+          postPosition="true"
           x="3"
           y="5">
             <!--Google-->
@@ -225,15 +226,15 @@ limitations under the License.
           screen="1"
           packageName="com.claroColombia.contenedor"
           className="com.speedymovil.contenedor.gui.activities.AppsContainerActivity"/>
-        <!--(Android) Messages-->
-        <favorite
-          screen="2"
-          packageName="com.google.android.apps.messaging"
-          className="com.google.android.apps.messaging.ui.ConversationListActivity"/>
         <!--Chrome-->
         <favorite
-          screen="3"
+          screen="2"
           packageName="com.android.chrome"
           className="com.google.android.apps.chrome.Main"/>
+        <!--(Android) Messages-->
+        <favorite
+          screen="3"
+          packageName="com.google.android.apps.messaging"
+          className="com.google.android.apps.messaging.ui.ConversationListActivity"/>
     </hotseat>
 </favorites>

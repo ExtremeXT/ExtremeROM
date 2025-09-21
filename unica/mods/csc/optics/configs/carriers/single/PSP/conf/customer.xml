@@ -51,7 +51,7 @@
       </Phone>
       <Display>
         <NbWallpaper>1</NbWallpaper>
-        <Wallpaper src="/Customer/PSP/Wallpaper/default_wallpaper.png" width="1440" height="3088" usedWithLockScreen="true" default="true">
+        <Wallpaper src="/Customer/PSP/Wallpaper/default_wallpaper.png" width="1440" height="3200" usedWithLockScreen="true" default="true">
           <Position>1</Position>
           <FileType>PNG</FileType>
         </Wallpaper>

@@ -14,23 +14,6 @@ limitations under the License.
 <appOrder>
     <appsGridInfo
       default="4x6"/>
-    <!--Movistar-->
-    <folder
-      screen="0"
-      title="Movistar">
-        <!--Mi Movistar-->
-        <favorite
-          screen="0"
-          packageName="com.movistar.mimovistar"
-          className="com.movistar.mimovistar.MainActivity"
-          postPosition="true"/>
-        <!--Estacionamiento Tarifado-->
-        <favorite
-          screen="1"
-          packageName="tpc.mobile.parkingmovistar"
-          className="tpc.mobile.parkingmovistar.Parking2StartActivity"
-          postPosition="true"/>
-    </folder>
     <!--Samsung-->
     <folder
       screen="0"
@@ -89,7 +72,8 @@ limitations under the License.
     <!--Google-->
     <folder
       screen="0"
-      title="Google">
+      title="Google"
+      postPosition="true">
         <!--Google-->
         <favorite
           screen="0"
@@ -161,6 +145,12 @@ limitations under the License.
           packageName="com.microsoft.office.outlook"
           className="com.microsoft.office.outlook.MainActivity"/>
     </folder>
+    <!--Mi Movistar-->
+    <favorite
+      screen="0"
+      packageName="com.movistar.mimovistar"
+      className="com.movistar.mimovistar.MainActivity"
+      postPosition="true"/>
     <!--Members-->
     <favorite
       screen="0"

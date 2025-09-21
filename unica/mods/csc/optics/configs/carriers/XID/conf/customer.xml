@@ -258,6 +258,9 @@
         <PSparam>
           <APN>internet</APN>
         </PSparam>
+        <CSparam>
+          <TelNum>366</TelNum>
+        </CSparam>
       </Profile>
       <Profile>
         <NetworkName>Indosat M3</NetworkName>
@@ -312,7 +315,7 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <HiddenStatus>hidden</HiddenStatus>
+        <HiddenStatus>show</HiddenStatus>
         <ProfileName>IMS</ProfileName>
         <Auth>normal</Auth>
         <Protocol>http</Protocol>
@@ -346,10 +349,6 @@
         <PSparam>
           <APN>internet</APN>
         </PSparam>
-        <CSparam>
-          <TelNum>8789</TelNum>
-          <CallType>isdn</CallType>
-        </CSparam>
       </Profile>
       <Profile>
         <NetworkName>Telkomsel</NetworkName>

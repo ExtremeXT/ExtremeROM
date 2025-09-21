@@ -69,6 +69,7 @@ limitations under the License.
         <folder
           screen="0"
           title="Google"
+          postPosition="true"
           x="2"
           y="5">
             <!--Google-->
@@ -154,14 +155,6 @@ limitations under the License.
               packageName="com.microsoft.office.outlook"
               className="com.microsoft.office.outlook.MainActivity"/>
         </folder>
-        <!--Estacionamiento Tarifado-->
-        <favorite
-          screen="1"
-          packageName="tpc.mobile.parkingmovistar"
-          className="tpc.mobile.parkingmovistar.Parking2StartActivity"
-          postPosition="true"
-          x="1"
-          y="5"/>
         <!--Facebook-->
         <favorite
           screen="1"

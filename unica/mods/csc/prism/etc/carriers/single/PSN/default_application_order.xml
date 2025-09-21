@@ -30,15 +30,9 @@ limitations under the License.
           packageName="ar.com.personal"
           className="ar.com.telecom.autogestion.view.SplashActivity"
           postPosition="true"/>
-        <!--Tienda-->
-        <favorite
-          screen="2"
-          packageName="com.sec.android.app.latin.launcher.personal.tienda"
-          className="com.sec.android.app.latin.launcher.personal.tienda.Launcher"
-          postPosition="true"/>
         <!--Flow-->
         <favorite
-          screen="3"
+          screen="2"
           packageName="ar.com.cablevision.attv.android.myminerva"
           className="ar.com.cablevision.attv.android.myminerva.view.ui.SplashActivity"
           postPosition="true"/>
@@ -106,7 +100,8 @@ limitations under the License.
     <!--Google-->
     <folder
       screen="0"
-      title="Google">
+      title="Google"
+      postPosition="true">
         <!--Google-->
         <favorite
           screen="0"

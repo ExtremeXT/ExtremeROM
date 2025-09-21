@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>Paraguay</Country>
     <CountryISO>PY</CountryISO>
     <Region>LA</Region>
@@ -47,40 +47,26 @@
           <DateFormat>ddmmyyyy</DateFormat>
           <TimeFormat>24h</TimeFormat>
         </DateTimeFormat>
-        <Shortcut>
-          <LeftKey>
-            <ShortcutItem>create sms</ShortcutItem>
-          </LeftKey>
-          <RightKey>
-            <ShortcutItem>sim at</ShortcutItem>
-          </RightKey>
-          <CenterKey>
-            <ShortcutItem>internet</ShortcutItem>
-          </CenterKey>
-          <RightSoftKey>
-            <ShortcutItem>phonebook</ShortcutItem>
-          </RightSoftKey>
-        </Shortcut>
       </Phone>
       <Display>
         <NbWallpaper>5</NbWallpaper>
-        <Wallpaper src="/Customer/CTP/Wallpaper/ClaroWallpaper_w-01.png" width="1024" height="600">
+        <Wallpaper src="/Customer/CTP/Wallpaper/ClaroWallpaper_w-01.png" width="1440" height="3200">
           <Position>1</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/CTP/Wallpaper/ClaroWallpaper_w-14.png" width="1024" height="600">
+        <Wallpaper src="/Customer/CTP/Wallpaper/ClaroWallpaper_w-14.png" width="1440" height="3200">
           <Position>2</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/CTP/Wallpaper/ClaroWallpaper_w-15.png" width="1024" height="600">
+        <Wallpaper src="/Customer/CTP/Wallpaper/ClaroWallpaper_w-15.png" width="1440" height="3200">
           <Position>3</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/CTP/Wallpaper/ClaroWallpaper_w-17.png" width="1024" height="600">
+        <Wallpaper src="/Customer/CTP/Wallpaper/ClaroWallpaper_w-17.png" width="1440" height="3200">
           <Position>4</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/CTP/Wallpaper/default_wallpaper.png" width="1024" height="600" usedWithLockScreen="true" default="true">
+        <Wallpaper src="/Customer/CTP/Wallpaper/default_wallpaper.png" width="1440" height="3200" usedWithLockScreen="true" default="true">
           <Position>5</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
@@ -115,7 +101,7 @@
       <Signature>Enviado desde mi Samsung Mobile de Claro</Signature>
     </ActiveSync>
     <Browser>
-      <NbBookmark>4</NbBookmark>
+      <NbBookmark>3</NbBookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
@@ -131,12 +117,6 @@
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
-        <BookmarkName>Claro gaming</BookmarkName>
-        <URL>https://clarogaming.com.py/</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>default</NetworkName>
-        <Editable>yes</Editable>
         <BookmarkName>Claro sports</BookmarkName>
         <URL>https://la.clarosports.com</URL>
       </Bookmark>
@@ -147,13 +127,14 @@
     <Connections>
       <NbProfileHandle>1</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Claro PY</NetworkName>
         <ProfBrowser>Claro PY</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
         <ProfXCAP>Claro PY</ProfXCAP>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
-      <NbProfile>2</NbProfile>
+      <NbProfile>3</NbProfile>
       <Profile>
         <NetworkName>Claro PY</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
@@ -166,6 +147,16 @@
         <Protocol>http</Protocol>
         <PSparam>
           <APN>igprs.claro.com.py</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro PY</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
         </PSparam>
       </Profile>
       <Profile>

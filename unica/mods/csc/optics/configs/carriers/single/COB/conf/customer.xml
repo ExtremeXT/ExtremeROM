@@ -6,7 +6,7 @@
     <CountryISO>CO</CountryISO>
     <Region>LA</Region>
     <SalesCode>COB</SalesCode>
-    <NbNetworkInfo>22</NbNetworkInfo>
+    <NbNetworkInfo>25</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>732123</MCCMNC>
       <NetworkName>movistar_CO</NetworkName>
@@ -35,6 +35,24 @@
       <NetworkName>movistar_tgs</NetworkName>
       <NWID>NW02354</NWID>
       <SPCode>212</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>732123</MCCMNC>
+      <NetworkName>movistar_tgs</NetworkName>
+      <NWID>NW02354</NWID>
+      <SPCode>213</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>732123</MCCMNC>
+      <NetworkName>movistar_tgs</NetworkName>
+      <NWID>NW02354</NWID>
+      <SPCode>214</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>732123</MCCMNC>
+      <NetworkName>movistar_tgs</NetworkName>
+      <NWID>NW02354</NWID>
+      <SPCode>215</SPCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>732101</MCCMNC>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>Georgia</Country>
     <CountryISO>GE</CountryISO>
     <Region>CIS</Region>
@@ -203,10 +203,12 @@
         <ProfXCAP>Cellfie Mobile XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>UCOM</NetworkName>
         <ProfBrowser>UCOM Internet</ProfBrowser>
         <ProfMMS>UCOM MMS</ProfMMS>
+        <ProfIMS>UCOM IMS</ProfIMS>
+        <ProfXCAP>UCOM XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
@@ -217,12 +219,14 @@
         <ProfXCAP>VIVA Armenia XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Team</NetworkName>
         <ProfBrowser>Team Internet</ProfBrowser>
         <ProfMMS>Team MMS</ProfMMS>
+        <ProfIMS>Team IMS</ProfIMS>
+        <ProfXCAP>Team XCAP</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>29</NbProfile>
+      <NbProfile>33</NbProfile>
       <Profile>
         <NetworkName>AZERCELL</NetworkName>
         <Editable>yes</Editable>
@@ -545,6 +549,38 @@
         </Proxy>
         <PSparam>
           <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>UCOM</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>UCOM XCAP</ProfileName>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>UCOM</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>UCOM IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Team</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Team XCAP</ProfileName>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Team</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Team IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
         </PSparam>
       </Profile>
     </Connections>

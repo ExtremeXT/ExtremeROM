@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0006</CSCEdition>
     <Country>GUATEMALA</Country>
     <CountryISO>GT</CountryISO>
     <Region>LA</Region>
     <SalesCode>GTO</SalesCode>
-    <NbNetworkInfo>91</NbNetworkInfo>
+    <NbNetworkInfo>97</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>71201</MCCMNC>
       <NetworkName>TPA_PA</NetworkName>
@@ -273,12 +273,25 @@
       <MCCMNC>36269</MCCMNC>
       <NetworkName>Digicel Curacao</NetworkName>
       <NWID>NW00402</NWID>
+      <SPCode>00</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>36269</MCCMNC>
+      <NetworkName>Digicel Curacao</NetworkName>
+      <NWID>NW00402</NWID>
+      <SPCode>08</SPCode>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>36269</MCCMNC>
+      <NetworkName>Digicel Curacao</NetworkName>
+      <NWID>NW00402</NWID>
+      <SPCode>5</SPCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>338050</MCCMNC>
       <NetworkName>Digicel Dominica</NetworkName>
       <NWID>NW00362</NWID>
-      <SPCode>3</SPCode>
+      <SPCode>832</SPCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>33805</MCCMNC>
@@ -489,6 +502,27 @@
       <MCCMNC>34403</MCCMNC>
       <NetworkName>APUA inet</NetworkName>
       <NWID>NW02383</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>348570</MCCMNC>
+      <NetworkName>CCT BVI</NetworkName>
+      <NWID>NW02441</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>74001</MCCMNC>
+      <NetworkName>CLARO_EC</NetworkName>
+      <NWID>NW02442</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>74002</MCCMNC>
+      <NetworkName>ALE_EC</NetworkName>
+      <NWID>NW00144</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>36269</MCCMNC>
+      <NetworkName>Digicel Bonaire</NetworkName>
+      <NWID>NW00393</NWID>
+      <SPCode>26</SPCode>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -1000,12 +1034,14 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>61</NbProfileHandle>
+      <NbProfileHandle>65</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>TPA_PA</NetworkName>
         <ProfBrowser>Internet</ProfBrowser>
         <ProfMMS>MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>IMS XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -1049,9 +1085,11 @@
         <ProfEmergencyIMSCall>EMERGENCY TIGO SV</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>1</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>LIBERTY</NetworkName>
         <ProfBrowser>Movistar INTERNET</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfEmergencyIMSCall>SOS</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>5</NbNetProfile>
@@ -1086,25 +1124,25 @@
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Claro_GT</NetworkName>
-        <ProfBrowser>INTERNET CLARO</ProfBrowser>
+        <ProfBrowser>Internet</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Claro_SV</NetworkName>
-        <ProfBrowser>INTERNET CLARO</ProfBrowser>
+        <ProfBrowser>Internet</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Claro_NI_NEN</NetworkName>
-        <ProfBrowser>INTERNET CLARO</ProfBrowser>
+        <ProfBrowser>Internet</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Claro_HN</NetworkName>
-        <ProfBrowser>Internet Claro</ProfBrowser>
+        <ProfBrowser>Internet</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
@@ -1116,7 +1154,7 @@
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Claro_CR</NetworkName>
-        <ProfBrowser>INTERNET CLARO</ProfBrowser>
+        <ProfBrowser>Internet</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
@@ -1125,12 +1163,13 @@
         <ProfBrowser>Movistar INTERNET</ProfBrowser>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Claro_PR</NetworkName>
         <ProfBrowser>Internet Claro</ProfBrowser>
         <ProfMMS>MMS CLARO</ProfMMS>
         <ProfIMS>IMS</ProfIMS>
         <ProfXCAP>Internet Claro</ProfXCAP>
+        <ProfEmergencyIMSCall>SOS</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
@@ -1207,22 +1246,28 @@
         <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Digicel Anguilla</NetworkName>
         <ProfBrowser>DIGICEL</ProfBrowser>
         <ProfMMS>Digicel MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Digicel Antigua</NetworkName>
         <ProfBrowser>DIGICEL</ProfBrowser>
         <ProfMMS>Digicel MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Digicel Aruba</NetworkName>
         <ProfBrowser>DIGICEL</ProfBrowser>
         <ProfMMS>Digicel MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
@@ -1230,10 +1275,19 @@
         <ProfBrowser>DIGICEL</ProfBrowser>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Digicel Bermuda</NetworkName>
         <ProfBrowser>DIGICEL</ProfBrowser>
         <ProfMMS>Digicel MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Digicel Bonaire</NetworkName>
+        <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -1242,26 +1296,34 @@
         <ProfMMS>Digicel MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Digicel Cayman</NetworkName>
         <ProfBrowser>DIGICEL</ProfBrowser>
         <ProfMMS>Digicel MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Digicel Curacao</NetworkName>
         <ProfBrowser>DIGICEL</ProfBrowser>
         <ProfMMS>Digicel MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>1</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Digicel Dominica</NetworkName>
         <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>1</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Digicel Grenada</NetworkName>
         <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -1299,15 +1361,19 @@
         <ProfMMS>Digicel MMS</ProfMMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>1</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Digicel St.Lucia</NetworkName>
         <ProfBrowser>DIGICEL</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Digicel St.Vincent</NetworkName>
         <ProfBrowser>DIGICEL</ProfBrowser>
         <ProfMMS>Digicel MMS</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
@@ -1326,18 +1392,18 @@
         <ProfBrowser>DIGICEL</ProfBrowser>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>5</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>BMobile_TT</NetworkName>
-        <ProfBrowser>bmobile internet</ProfBrowser>
-        <ProfMMS>bmobile mms</ProfMMS>
+        <ProfBrowser>bmobile LTE</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
         <ProfXCAP>XCAP</ProfXCAP>
         <ProfEmergencyIMSCall>SOS</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>1</NbNetProfile>
+        <NbNetProfile>2</NbNetProfile>
         <NetworkName>Telesur</NetworkName>
         <ProfBrowser>Prepaid</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -1392,7 +1458,25 @@
         <ProfBrowser>Internet</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
-      <NbProfile>138</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>CCT BVI</NetworkName>
+        <ProfBrowser>internet</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>CLARO_EC</NetworkName>
+        <ProfBrowser>Claro Internet</ProfBrowser>
+        <ProfEmergencyIMSCall>Emergency</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>ALE_EC</NetworkName>
+        <ProfBrowser>CNT Internet</ProfBrowser>
+        <ProfEmergencyIMSCall>CNT Emergency</ProfEmergencyIMSCall>
+      </ProfileHandle>
+      <NbProfile>170</NbProfile>
       <Profile>
         <NetworkName>TPA_PA</NetworkName>
         <Editable>yes</Editable>
@@ -1419,6 +1503,28 @@
         </Proxy>
         <PSparam>
           <APN>kolbimundo</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TPA_PA</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TPA_PA</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS XCAP</ProfileName>
+        <PSparam>
+          <APN>xcap</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -1699,8 +1805,8 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>INTERNET CLARO</ProfileName>
-        <Auth>normal</Auth>
+        <ProfileName>Internet</ProfileName>
+        <Auth>normalorsecure</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <PSparam>
@@ -1712,8 +1818,8 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>INTERNET CLARO</ProfileName>
-        <Auth>normal</Auth>
+        <ProfileName>Internet</ProfileName>
+        <Auth>normalorsecure</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <PSparam>
@@ -1725,8 +1831,8 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>INTERNET CLARO</ProfileName>
-        <Auth>normal</Auth>
+        <ProfileName>Internet</ProfileName>
+        <Auth>normalorsecure</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <PSparam>
@@ -1738,8 +1844,8 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Internet Claro</ProfileName>
-        <Auth>normal</Auth>
+        <ProfileName>Internet</ProfileName>
+        <Auth>normalorsecure</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <PSparam>
@@ -1816,8 +1922,8 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>INTERNET CLARO</ProfileName>
-        <Auth>normal</Auth>
+        <ProfileName>Internet</ProfileName>
+        <Auth>normalorsecure</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <PSparam>
@@ -2001,6 +2107,17 @@
         <ProfileName>IMS</ProfileName>
         <PSparam>
           <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Claro_PR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>SOS</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -2280,6 +2397,22 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Digicel Anguilla</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Anguilla</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Digicel Antigua</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>DIGICEL</ProfileName>
@@ -2305,6 +2438,22 @@
         </Proxy>
         <PSparam>
           <APN>wap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Antigua</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Antigua</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -2335,6 +2484,22 @@
           <APN>wap</APN>
           <UserId>waparuba</UserId>
           <Password>wap03aruba</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Aruba</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Aruba</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -2374,6 +2539,22 @@
         </Proxy>
         <PSparam>
           <APN>wap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Bermuda</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Bermuda</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -2433,6 +2614,22 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Digicel Cayman</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Cayman</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Digicel Curacao</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>DIGICEL</ProfileName>
@@ -2463,6 +2660,49 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Digicel Curacao</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Curacao</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Bonaire</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>DIGICEL</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>web.digicelcuracao.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Bonaire</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Bonaire</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Digicel Dominica</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>DIGICEL</ProfileName>
@@ -2474,6 +2714,22 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Digicel Dominica</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Dominica</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Digicel Grenada</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>DIGICEL</ProfileName>
@@ -2482,6 +2738,22 @@
         <Protocol>http</Protocol>
         <PSparam>
           <APN>internet.oecs</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Grenada</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel Grenada</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -2626,6 +2898,22 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>Digicel St.Lucia</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel St.Lucia</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>Digicel St.Vincent</NetworkName>
         <Editable>yes</Editable>
         <ProfileName>DIGICEL</ProfileName>
@@ -2651,6 +2939,22 @@
         </Proxy>
         <PSparam>
           <APN>wap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel St.Vincent</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel St.Vincent</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -2708,44 +3012,10 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>bmobile internet</ProfileName>
-        <PSparam>
-          <APN>internet</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>BMobile_TT</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
-        <Editable>yes</Editable>
-        <ProfileName>bmobile prepaid</ProfileName>
-        <PSparam>
-          <APN>bconnected</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>BMobile_TT</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
-        <Editable>yes</Editable>
+        <HiddenStatus>show</HiddenStatus>
         <ProfileName>bmobile LTE</ProfileName>
         <PSparam>
           <APN>bmobile</APN>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>BMobile_TT</NetworkName>
-        <IpVersion>ipv4v6</IpVersion>
-        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
-        <ProfileName>bmobile mms</ProfileName>
-        <URL>http://192.168.210.104/mmrelay.app</URL>
-        <Proxy>
-          <EnableFlag>on</EnableFlag>
-          <ServAddr>192.168.210.104</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -2762,14 +3032,14 @@
       </Profile>
       <Profile>
         <NetworkName>BMobile_TT</NetworkName>
-        <IpVersion>ipv4</IpVersion>
-        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
         <HiddenStatus>hidden</HiddenStatus>
         <ProfileName>SOS</ProfileName>
         <MTUSize>1500</MTUSize>
         <PSparam>
-          <APN>SOS</APN>
+          <APN>sos</APN>
         </PSparam>
       </Profile>
       <Profile>
@@ -2777,7 +3047,7 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
-        <HiddenStatus>show</HiddenStatus>
+        <HiddenStatus>hidden</HiddenStatus>
         <ProfileName>XCAP</ProfileName>
         <MTUSize>1500</MTUSize>
         <PSparam>
@@ -3105,6 +3375,106 @@
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Telesur</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CCT BVI</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>internet</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>cctmobilenet.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CCT BVI</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CLARO_EC</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Claro Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.claro.com.ec</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CLARO_EC</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ALE_EC</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>CNT Emergency</ProfileName>
+        <PSparam>
+          <APN>emergency.volte.ims.cnt.net.ec</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ALE_EC</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>CNT Internet</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.cnt.net.ec</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LIBERTY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LIBERTY</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>SOS</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
         </PSparam>
       </Profile>
     </Connections>

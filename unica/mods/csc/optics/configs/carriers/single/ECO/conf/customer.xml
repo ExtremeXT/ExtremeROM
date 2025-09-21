@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0003</CSCEdition>
     <Country>ECUADOR</Country>
     <CountryISO>EC</CountryISO>
     <Region>LA</Region>
@@ -50,23 +50,23 @@
       </Phone>
       <Display>
         <NbWallpaper>5</NbWallpaper>
-        <Wallpaper src="/Customer/ECO/Wallpaper/ClaroWallpaper_w-01.png" width="1024" height="600">
+        <Wallpaper src="/Customer/ECO/Wallpaper/ClaroWallpaper_w-01.png" width="1440" height="3200">
           <Position>1</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/ECO/Wallpaper/ClaroWallpaper_w-14.png" width="1024" height="600">
+        <Wallpaper src="/Customer/ECO/Wallpaper/ClaroWallpaper_w-14.png" width="1440" height="3200">
           <Position>2</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/ECO/Wallpaper/ClaroWallpaper_w-15.png" width="1024" height="600">
+        <Wallpaper src="/Customer/ECO/Wallpaper/ClaroWallpaper_w-15.png" width="1440" height="3200">
           <Position>3</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/ECO/Wallpaper/ClaroWallpaper_w-17.png" width="1024" height="600">
+        <Wallpaper src="/Customer/ECO/Wallpaper/ClaroWallpaper_w-17.png" width="1440" height="3200">
           <Position>4</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/ECO/Wallpaper/default_wallpaper.png" width="1024" height="600" usedWithLockScreen="true" default="true">
+        <Wallpaper src="/Customer/ECO/Wallpaper/default_wallpaper.png" width="1440" height="3200" usedWithLockScreen="true" default="true">
           <Position>5</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
@@ -114,7 +114,7 @@
       <Signature>Enviado desde mi Samsung Mobile de Claro</Signature>
     </ActiveSync>
     <Browser>
-      <NbBookmark>4</NbBookmark>
+      <NbBookmark>3</NbBookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>
         <Editable>yes</Editable>
@@ -126,12 +126,6 @@
         <Editable>yes</Editable>
         <BookmarkName>Mi Claro</BookmarkName>
         <URL>https://miclaro.com.ec/personas/web/app_dev.php/home/</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>default</NetworkName>
-        <Editable>yes</Editable>
-        <BookmarkName>Claro gaming</BookmarkName>
-        <URL>https://clarogaming.com.ec/</URL>
       </Bookmark>
       <Bookmark>
         <NetworkName>default</NetworkName>

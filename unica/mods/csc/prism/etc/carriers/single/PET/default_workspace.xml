@@ -105,6 +105,7 @@ limitations under the License.
         <folder
           screen="0"
           title="Google"
+          postPosition="true"
           x="3"
           y="5">
             <!--Google-->
@@ -221,15 +222,15 @@ limitations under the License.
           packageName="com.claroColombia.contenedor"
           className="com.speedymovil.contenedor.gui.activities.AppsContainerActivity"
           postPosition="true"/>
-        <!--(Android) Messages-->
-        <favorite
-          screen="2"
-          packageName="com.google.android.apps.messaging"
-          className="com.google.android.apps.messaging.ui.ConversationListActivity"/>
         <!--Chrome-->
         <favorite
-          screen="3"
+          screen="2"
           packageName="com.android.chrome"
           className="com.google.android.apps.chrome.Main"/>
+        <!--(Android) Messages-->
+        <favorite
+          screen="3"
+          packageName="com.google.android.apps.messaging"
+          className="com.google.android.apps.messaging.ui.ConversationListActivity"/>
     </hotseat>
 </favorites>

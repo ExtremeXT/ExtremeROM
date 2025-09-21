@@ -29,7 +29,7 @@ limitations under the License.
             spanX="2" 
             spanY="2" />			
 			
-		<!--appwidget:Smart  suggestions-->
+	<!--appwidget:Smart  suggestions-->
         <appwidget
             screen="0"
             packageName="com.samsung.android.smartsuggestions"
@@ -77,9 +77,9 @@ limitations under the License.
 
         <!-- folder : Google -->
         <folder
-			screen="0"
-			postPosition="true"
-			title="Google" 
+	    screen="0"
+	    postPosition="true"
+	    title="Google" 
             x="2" 
             y="5">
             <!-- Google -->
@@ -173,76 +173,41 @@ limitations under the License.
             packageName="com.amazon.mShop.android.shopping" 
             className="com.amazon.mShop.appgrade.ui.AppgradeKillSwitchActivity" 
             x="0" 
-            y="3" 
+            y="4" 
             postPosition="true" />
-
-        <!-- Facebook -->
-        <favorite
-            screen="1"
-            packageName="com.facebook.katana"
-            className="com.facebook.katana.LoginActivity"
-            x="1"
-            y="3" />
-			
-		<!--Freizeichentöne-->
+	
+	<!--Freizeichentöne-->
         <favorite
             screen="1"
             packageName="de.tmobile.android.app.rbt"
             className="com.real.mobile.android.rbtplus.ui.activity.SplashActivity" 
-			x="2"
-			y="3"
-			postPosition="true" />			
-			
-        <!-- MagentaCLOUD -->
-        <favorite
-            screen="1"
-            packageName="com.t_systems.android.webdav"
-            className="com.nmc.android.ui.LauncherActivity"
-            x="3"
-            y="3" 
-            postPosition="true" />
+	    x="1"
+	    y="4"
+	    postPosition="true" />
 
         <!-- congstar -->
         <favorite 
             screen="1" 
             packageName="de.congstar.meincongstar" 
             className="de.congstar.meincongstar.ui.login.LoginActivity" 
-            x="2" 
-            y="3" 
+            x="1" 
+            y="4" 
             postPosition="true" />
 
+        <!-- MagentaCLOUD -->
+        <favorite
+            screen="1"
+            packageName="com.t_systems.android.webdav"
+            className="com.nmc.android.ui.LauncherActivity"
+            x="2"
+            y="4" 
+            postPosition="true" />
+	    
         <!-- MagentaSport -->
         <favorite
             screen="1"
             packageName="de.telekom.basketball"
             className="de.telekom.sport.ui.activities.MainActivity"
-            x="0"
-            y="4" 
-            postPosition="true" />
-			
-		<!--MagentaTV-->
-        <favorite
-            screen="1"
-            packageName="de.telekom.magentatv.mobile"
-            className="de.telekom.magentatv.androidtv.ApplicationMainActivity" 
-			x="1"
-			y="4"
-			postPosition="true" />			
-
-        <!-- MeinMagenta -->
-        <favorite
-            screen="1"
-            packageName="de.telekom.android.customercenter"
-            className="com.telekom.oneapp.launcher.components.launcher.LauncherActivity"
-            x="2"
-            y="4" 
-            postPosition="true" />
-
-        <!-- Norton Mobile Security-->
-        <favorite
-            screen="1"
-            packageName="com.telekom.internet.nortonsecurity"
-            className="com.telekom.internet.MainActivity"
             x="3"
             y="4" 
             postPosition="true" />
@@ -254,31 +219,8 @@ limitations under the License.
             className="de.telekom.mail.MainActivity"
             x="0"
             y="5" 
-            postPosition="true" />
-
-        <!-- Voicemail -->
-        <favorite
-            screen="1"
-            packageName="de.telekom.mds.mbp"
-            className="de.telekom.tpd.fmc.MainActivity"
-            x="1"
-            y="5" 
-            postPosition="true" />
-     
-        <!-- Zuhause -->
-        <favorite
-            screen="1"
-            packageName="de.telekom.magentazuhause"
-            className="de.telekom.ciot.internal.daedalus.MainActivity"
-            x="2"
-            y="5" 
-            postPosition="true" />		
-			
-        		
-			
-		
-			
-         			
+            postPosition="true" />	
+    
     </home>
 
 

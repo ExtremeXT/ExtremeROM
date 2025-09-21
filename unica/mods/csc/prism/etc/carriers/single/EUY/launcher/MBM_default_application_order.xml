@@ -82,7 +82,7 @@ limitations under the License.
     <folder 
         screen="0" 
         postPosition="true"
-		title="Google">        
+	title="Google">        
         <!-- Google -->
         <favorite 
             screen="0" 
@@ -154,11 +154,6 @@ limitations under the License.
             packageName="com.microsoft.office.outlook" 
             className="com.microsoft.office.outlook.MainActivity" />
     </folder>
-    <!-- Telekom MK -->
-    <favorite 
-        screen="0" 
-        packageName="com.telekom.telekommk" 
-        className="com.telekom.oneapp.launcher.components.launcher.LauncherActivity" />    
     <!-- Samsung Members -->
     <favorite 
         screen="0" 

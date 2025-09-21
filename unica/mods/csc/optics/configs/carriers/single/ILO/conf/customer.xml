@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0003</CSCEdition>
     <Country>ISRAEL</Country>
     <CountryISO>IL</CountryISO>
     <Region>MEA</Region>
     <SalesCode>ILO</SalesCode>
-    <NbNetworkInfo>16</NbNetworkInfo>
+    <NbNetworkInfo>18</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>42525</MCCMNC>
       <NetworkName>CLO</NetworkName>
@@ -62,6 +62,8 @@
       <MCCMNC>20809</MCCMNC>
       <NetworkName>HOT MOBILE</NetworkName>
       <NWID>NW00569</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>39</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>42514</MCCMNC>
@@ -87,6 +89,16 @@
       <MCCMNC>42521</MCCMNC>
       <NetworkName>xfone 018</NetworkName>
       <NWID>NW02349</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>42526</MCCMNC>
+      <NetworkName>Annatel</NetworkName>
+      <NWID>NW02331</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>42524</MCCMNC>
+      <NetworkName>Partner</NetworkName>
+      <NWID>NW00966</NWID>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -143,7 +155,6 @@
         </MsgTypeThreshold>
         <MaxRecipient>30</MaxRecipient>
         <CharSupport>automatic</CharSupport>
-        <CellBroadcast>on</CellBroadcast>
       </SMS>
       <MMS>
         <MmsSending>
@@ -192,7 +203,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>11</NbProfileHandle>
+      <NbProfileHandle>12</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
         <NetworkName>Partner</NetworkName>
@@ -271,7 +282,14 @@
         <ProfIMS>ims</ProfIMS>
         <ProfXCAP>xcap</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>33</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Annatel</NetworkName>
+        <ProfBrowser>internet</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+      </ProfileHandle>
+      <NbProfile>36</NbProfile>
       <Profile>
         <NetworkName>Partner</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
@@ -616,6 +634,32 @@
         <ProfileName>XPhone</ProfileName>
         <PSparam>
           <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Annatel</NetworkName>
+        <ProfileName>internet</ProfileName>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Annatel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>XCAP</ProfileName>
+        <PSparam>
+          <APN>XCAP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Annatel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>IMS</APN>
         </PSparam>
       </Profile>
     </Connections>

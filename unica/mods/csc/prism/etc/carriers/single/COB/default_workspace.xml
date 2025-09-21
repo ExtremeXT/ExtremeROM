@@ -69,6 +69,7 @@ limitations under the License.
         <folder
           screen="0"
           title="Google"
+          postPosition="true"
           x="2"
           y="5">
             <!--Google-->
@@ -191,11 +192,11 @@ limitations under the License.
               packageName="com.amazon.mShop.android.shopping"
               className="com.amazon.mShop.home.HomeActivity"
               postPosition="true"/>
-            <!--Movistar Musica-->
+            <!--Movistar Arena Music-->
             <favorite
               screen="4"
-              packageName="com.movistar.musica"
-              className="com.movistar.musica.MainActivity"
+              packageName="com.movistar.arenamusic"
+              className="com.movistar.arenamusic.MainActivity"
               postPosition="true"/>
         </folder>
     </home>

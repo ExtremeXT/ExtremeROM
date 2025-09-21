@@ -1,7 +1,7 @@
 {
     "modelName": "SM-S938B",
     "oemKey": "PNT",
-    "version": "1003",
+    "version": "1008",
     "app": [
         {
             "appId": "com.sec.android.app.popupcalculator",
@@ -54,11 +54,6 @@
             "supportSubUser": "true"
         },
         {
-            "appId": "com.samsung.android.game.gamehome",
-            "appName": "Game Launcher",
-            "supportSubUser": "true"
-        },
-        {
             "appId": "com.samsung.android.voc",
             "appName": "Samsung Members",
             "supportSubUser": "true"
@@ -104,13 +99,8 @@
             "supportSubUser": "true"
         },
         {
-            "appId": "com.samsung.SMT.lang_en_us_l03",
-            "appName": "Samsung TTS US English Voice 1",
-            "supportSubUser": "true"
-        },
-        {
-            "appId": "com.samsung.android.bixby.ondevice.esus",
-            "appName": "Samsung on-device Resource Español (Estados Unidos)",
+            "appId": "com.sec.penup",
+            "appName": "PENUP",
             "supportSubUser": "true"
         },
         {
@@ -119,18 +109,23 @@
             "supportSubUser": "true"
         },
         {
+            "appId": "com.samsung.android.bixby.ondevice.esus",
+            "appName": "Samsung on-device Resource Español (Estados Unidos)",
+            "supportSubUser": "true"
+        },
+        {
             "appId": "com.samsung.android.nmt.apps.t2t.languagepack.enesus",
             "appName": "En-Esus Language Pack",
             "supportSubUser": "true"
         },
         {
-            "appId": "com.sec.penup",
-            "appName": "PENUP",
+            "appId": "com.samsung.android.spay",
+            "appName": "Samsung Wallet",
             "supportSubUser": "true"
         },
         {
-            "appId": "com.samsung.android.spay",
-            "appName": "Samsung Wallet",
+            "appId": "com.samsung.android.game.gamehome",
+            "appName": "Gaming Hub",
             "supportSubUser": "true"
         }
     ]

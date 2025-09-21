@@ -123,6 +123,11 @@
           <Roaming>manual</Roaming>
         </MmsReceiving>
       </MMS>
+      <Email>
+        <EmailSending>
+          <Signature>TEST</Signature>
+        </EmailSending>
+      </Email>
     </Messages>
     <Browser>
       <NbBookmark>3</NbBookmark>
@@ -149,6 +154,13 @@
         <URL>http://www.samsung.com/m-manual/common</URL>
       </eManual>
     </Browser>
+    <NbWifiProfile>1</NbWifiProfile>
+    <WifiProfile>
+      <NetworkName>na</NetworkName>
+      <WifiSSID>na</WifiSSID>
+      <WifiKeyMgmt>na</WifiKeyMgmt>
+      <WifiPriority>1</WifiPriority>
+    </WifiProfile>
     <Connections>
       <NbProfileHandle>11</NbProfileHandle>
       <ProfileHandle>

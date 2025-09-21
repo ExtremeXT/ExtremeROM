@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>India</Country>
     <CountryISO>IN</CountryISO>
     <Region>SWA</Region>
     <SalesCode>INS</SalesCode>
-    <NbNetworkInfo>257</NbNetworkInfo>
+    <NbNetworkInfo>259</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>405884</MCCMNC>
       <NetworkName>STEL</NetworkName>
@@ -1263,6 +1263,11 @@
       <NWID>NW00214</NWID>
     </NetworkInfo>
     <NetworkInfo>
+      <MCCMNC>40439</MCCMNC>
+      <NetworkName>Cellone_North</NetworkName>
+      <NWID>NW00214</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
       <MCCMNC>40457</MCCMNC>
       <NetworkName>Cellone_West</NetworkName>
       <NWID>NW00216</NWID>
@@ -1274,6 +1279,11 @@
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>40458</MCCMNC>
+      <NetworkName>Cellone_West</NetworkName>
+      <NWID>NW00216</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>40465</MCCMNC>
       <NetworkName>Cellone_West</NetworkName>
       <NWID>NW00216</NWID>
     </NetworkInfo>
@@ -1351,16 +1361,7 @@
         <NbDetailDesc>1</NbDetailDesc>
         <DetailDesc>
           <CertTag>SAR Level</CertTag>
-          <CertValue>&gt;This product meets India`s national SAR Limits.
-
-Your mobile device is designed not to exceed the limits for exposure to radio frequency energy adopted by the Government.
-
-The exposure limits use a unit of measurement known as the Specific Absorption Rate, or SAR. 
-The SAR limit for mobile devices is 1.6 W/kg.
-
-Tests for SAR are conducted against the head with the device transmitting at its highest certified power level in all tested frequency bands although during normal use, the actual SAR values are usually well below those stated below.
-
-The maximum SAR for this model as per the compliance standard and the conditions under which it was recorded were -  Head SAR = 1.190 W/Kg</CertValue>
+          <CertValue>&gt;This product meets India`s national SAR Limits.Your mobile device is designed not to exceed the limits for exposure to radio frequency energy adopted by the Government.  The exposure limits use a unit of measurement known as the Specific Absorption Rate, or SAR.  The SAR limit for mobile devices is 1.6 W/kg.  Tests for SAR are conducted against the head with the device transmitting at its highest certified power level in all tested frequency bands although during normal use, the actual SAR values are usually well below those stated below.  The maximum SAR for this model as per the compliance standard and the conditions under which it was recorded were -  Head SAR = 1.190 W/kg</CertValue>
         </DetailDesc>
       </CountryCert>
     </Main>
@@ -1514,40 +1515,40 @@ The maximum SAR for this model as per the compliance standard and the conditions
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>
         <NetworkName>Vodafone IN</NetworkName>
-        <ProfBrowser>Vodafone Mobile connect</ProfBrowser>
-        <ProfMMS>Vodafone MMS</ProfMMS>
-        <ProfIMS>Vodafone IMS</ProfIMS>
+        <ProfBrowser>Vodafone Idea Mobile connect</ProfBrowser>
+        <ProfMMS>Vodafone Idea MMS</ProfMMS>
+        <ProfIMS>Vodafone Idea IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>
         <NetworkName>Vodafone Jammu</NetworkName>
-        <ProfBrowser>Vodafone Mobile connect</ProfBrowser>
-        <ProfMMS>Vodafone MMS</ProfMMS>
-        <ProfIMS>Vodafone IMS</ProfIMS>
+        <ProfBrowser>Vodafone Idea Mobile connect</ProfBrowser>
+        <ProfMMS>Vodafone Idea MMS</ProfMMS>
+        <ProfIMS>Vodafone Idea IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
         <NetworkName>IDEA</NetworkName>
-        <ProfBrowser>Idea gprs</ProfBrowser>
-        <ProfMMS>Idea_mms</ProfMMS>
-        <ProfIMS>IDEA IMS</ProfIMS>
-        <ProfXCAP>IDEA XCAP</ProfXCAP>
+        <ProfBrowser>Vodafone Idea gprs</ProfBrowser>
+        <ProfMMS>Vodafone Idea_mms</ProfMMS>
+        <ProfIMS>Vodafone Idea IMS</ProfIMS>
+        <ProfXCAP>Vodafone Idea XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
         <NetworkName>IDEA Karnataka</NetworkName>
-        <ProfBrowser>Idea_Karnataka gprs</ProfBrowser>
-        <ProfMMS>Idea_Karnataka_mms</ProfMMS>
-        <ProfIMS>IDEA IMS</ProfIMS>
-        <ProfXCAP>IDEA XCAP</ProfXCAP>
+        <ProfBrowser>Vodafone Idea_Karnataka gprs</ProfBrowser>
+        <ProfMMS>Vodafone Idea_Karnataka_mms</ProfMMS>
+        <ProfIMS>Vodafone Idea IMS</ProfIMS>
+        <ProfXCAP>Vodafone Idea XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
         <NetworkName>IDEA Punjab</NetworkName>
-        <ProfBrowser>Idea_Punjab gprs</ProfBrowser>
-        <ProfMMS>Idea_Punjab_mms</ProfMMS>
-        <ProfIMS>IDEA IMS</ProfIMS>
-        <ProfXCAP>IDEA XCAP</ProfXCAP>
+        <ProfBrowser>Vodafone Idea_Punjab gprs</ProfBrowser>
+        <ProfMMS>Vodafone Idea_Punjab_mms</ProfMMS>
+        <ProfIMS>Vodafone Idea IMS</ProfIMS>
+        <ProfXCAP>Vodafone Idea XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -1831,7 +1832,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Vodafone MMS</ProfileName>
+        <ProfileName>Vodafone Idea MMS</ProfileName>
         <URL>http://mms1.live.vodafone.in/mms/</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
@@ -1850,7 +1851,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Vodafone Mobile connect</ProfileName>
+        <ProfileName>Vodafone Idea Mobile connect</ProfileName>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -1863,7 +1864,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Vodafone MMS</ProfileName>
+        <ProfileName>Vodafone Idea MMS</ProfileName>
         <URL>http://mms1.live.vodafone.in/mms/</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
@@ -1882,7 +1883,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Vodafone Mobile connect</ProfileName>
+        <ProfileName>Vodafone Idea Mobile connect</ProfileName>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -1895,7 +1896,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Idea_mms</ProfileName>
+        <ProfileName>Vodafone Idea_mms</ProfileName>
         <URL>http://10.4.42.21:8002/</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
@@ -1914,7 +1915,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Idea gprs</ProfileName>
+        <ProfileName>Vodafone Idea gprs</ProfileName>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -1927,7 +1928,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Idea_Karnataka_mms</ProfileName>
+        <ProfileName>Vodafone Idea_Karnataka_mms</ProfileName>
         <URL>http://10.4.42.21:8002</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
@@ -1946,7 +1947,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Idea_Karnataka gprs</ProfileName>
+        <ProfileName>Vodafone Idea_Karnataka gprs</ProfileName>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -1959,7 +1960,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Idea_Punjab_mms</ProfileName>
+        <ProfileName>Vodafone Idea_Punjab_mms</ProfileName>
         <URL>http://10.11.12.180/</URL>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
@@ -1978,7 +1979,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Idea_Punjab gprs</ProfileName>
+        <ProfileName>Vodafone Idea_Punjab gprs</ProfileName>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -2398,7 +2399,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <HiddenStatus>hidden</HiddenStatus>
-        <ProfileName>IDEA IMS</ProfileName>
+        <ProfileName>Vodafone Idea IMS</ProfileName>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -2412,7 +2413,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <HiddenStatus>hidden</HiddenStatus>
-        <ProfileName>IDEA XCAP</ProfileName>
+        <ProfileName>Vodafone Idea XCAP</ProfileName>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -2426,7 +2427,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <HiddenStatus>hidden</HiddenStatus>
-        <ProfileName>IDEA IMS</ProfileName>
+        <ProfileName>Vodafone Idea IMS</ProfileName>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -2440,7 +2441,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <HiddenStatus>hidden</HiddenStatus>
-        <ProfileName>IDEA XCAP</ProfileName>
+        <ProfileName>Vodafone Idea XCAP</ProfileName>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -2454,7 +2455,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <HiddenStatus>hidden</HiddenStatus>
-        <ProfileName>IDEA IMS</ProfileName>
+        <ProfileName>Vodafone Idea IMS</ProfileName>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -2468,7 +2469,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <HiddenStatus>hidden</HiddenStatus>
-        <ProfileName>IDEA XCAP</ProfileName>
+        <ProfileName>Vodafone Idea XCAP</ProfileName>
         <Auth>none</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
@@ -2482,7 +2483,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <HiddenStatus>hidden</HiddenStatus>
-        <ProfileName>Vodafone IMS</ProfileName>
+        <ProfileName>Vodafone Idea IMS</ProfileName>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>
@@ -2495,7 +2496,7 @@ The maximum SAR for this model as per the compliance standard and the conditions
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <HiddenStatus>hidden</HiddenStatus>
-        <ProfileName>Vodafone IMS</ProfileName>
+        <ProfileName>Vodafone Idea IMS</ProfileName>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <MTUSize>1500</MTUSize>

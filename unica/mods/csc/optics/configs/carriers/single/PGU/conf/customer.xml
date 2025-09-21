@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0004</CSCEdition>
+    <CSCEdition>ED0005</CSCEdition>
     <Country>Guatemala</Country>
     <CountryISO>GT</CountryISO>
     <Region>LA</Region>
@@ -101,23 +101,23 @@
       </Phone>
       <Display>
         <NbWallpaper>5</NbWallpaper>
-        <Wallpaper src="/Customer/PGU/Wallpaper/ClaroWallpaper_w-01.png" width="1024" height="600">
+        <Wallpaper src="/Customer/PGU/Wallpaper/ClaroWallpaper_w-01.png" width="1440" height="3200">
           <Position>1</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/PGU/Wallpaper/ClaroWallpaper_w-14.png" width="1024" height="600">
+        <Wallpaper src="/Customer/PGU/Wallpaper/ClaroWallpaper_w-14.png" width="1440" height="3200">
           <Position>2</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/PGU/Wallpaper/ClaroWallpaper_w-15.png" width="1024" height="600">
+        <Wallpaper src="/Customer/PGU/Wallpaper/ClaroWallpaper_w-15.png" width="1440" height="3200">
           <Position>3</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/PGU/Wallpaper/ClaroWallpaper_w-17.png" width="1024" height="600">
+        <Wallpaper src="/Customer/PGU/Wallpaper/ClaroWallpaper_w-17.png" width="1440" height="3200">
           <Position>4</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
-        <Wallpaper src="/Customer/PGU/Wallpaper/default_wallpaper.png" width="1024" height="600" usedWithLockScreen="true" default="true">
+        <Wallpaper src="/Customer/PGU/Wallpaper/default_wallpaper.png" width="1440" height="3200" usedWithLockScreen="true" default="true">
           <Position>5</Position>
           <FileType>PNG</FileType>
         </Wallpaper>
@@ -164,7 +164,7 @@
       <Signature>Enviado desde mi Samsung Mobile de Claro</Signature>
     </ActiveSync>
     <Browser>
-      <NbBookmark>16</NbBookmark>
+      <NbBookmark>12</NbBookmark>
       <Bookmark>
         <NetworkName>Claro_GT</NetworkName>
         <Editable>yes</Editable>
@@ -216,30 +216,6 @@
       <Bookmark>
         <NetworkName>Claro_GT</NetworkName>
         <Editable>yes</Editable>
-        <BookmarkName>Claro gaming</BookmarkName>
-        <URL>https://clarogaming.com.gt/</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>Claro_SV</NetworkName>
-        <Editable>yes</Editable>
-        <BookmarkName>Claro gaming</BookmarkName>
-        <URL>https://clarogaming.com.sv/</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>Claro_HN</NetworkName>
-        <Editable>yes</Editable>
-        <BookmarkName>Claro gaming</BookmarkName>
-        <URL>https://clarogaming.com.hn/</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>Claro_NI_NEN</NetworkName>
-        <Editable>yes</Editable>
-        <BookmarkName>Claro gaming</BookmarkName>
-        <URL>https://clarogaming.com.ni/</URL>
-      </Bookmark>
-      <Bookmark>
-        <NetworkName>Claro_GT</NetworkName>
-        <Editable>yes</Editable>
         <BookmarkName>Claro sports</BookmarkName>
         <URL>https://la.clarosports.com</URL>
       </Bookmark>
@@ -270,25 +246,25 @@
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Claro_GT</NetworkName>
-        <ProfBrowser>INTERNET CLARO</ProfBrowser>
+        <ProfBrowser>Internet</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Claro_SV</NetworkName>
-        <ProfBrowser>INTERNET CLARO</ProfBrowser>
+        <ProfBrowser>Internet</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Claro_NI_NEN</NetworkName>
-        <ProfBrowser>INTERNET CLARO</ProfBrowser>
+        <ProfBrowser>Internet</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Claro_HN</NetworkName>
-        <ProfBrowser>Internet Claro</ProfBrowser>
+        <ProfBrowser>Internet</ProfBrowser>
         <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <NbProfile>8</NbProfile>
@@ -297,9 +273,9 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>INTERNET CLARO</ProfileName>
+        <ProfileName>Internet</ProfileName>
         <URL>http://www.clarosva.com/gt</URL>
-        <Auth>normal</Auth>
+        <Auth>normalorsecure</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <PSparam>
@@ -311,9 +287,9 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>INTERNET CLARO</ProfileName>
+        <ProfileName>Internet</ProfileName>
         <URL>http://www.clarosva.com/sv</URL>
-        <Auth>normal</Auth>
+        <Auth>normalorsecure</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <PSparam>
@@ -325,9 +301,9 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>INTERNET CLARO</ProfileName>
+        <ProfileName>Internet</ProfileName>
         <URL>http://www.clarosva.com/ni</URL>
-        <Auth>normal</Auth>
+        <Auth>normalorsecure</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <PSparam>
@@ -339,9 +315,9 @@
         <IpVersion>ipv4v6</IpVersion>
         <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Internet Claro</ProfileName>
+        <ProfileName>Internet</ProfileName>
         <URL>http://www.clarosva.com/hn</URL>
-        <Auth>normal</Auth>
+        <Auth>normalorsecure</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
         <PSparam>

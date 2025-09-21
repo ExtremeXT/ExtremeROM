@@ -24,7 +24,7 @@ limitations under the License.
           y="0"
           spanX="2"
           spanY="1"/>
-        <!--Google Search Box Widget-->
+        <!--Google Widget-->
         <appwidget
           screen="0"
           packageName="com.google.android.googlequicksearchbox"
@@ -33,7 +33,7 @@ limitations under the License.
           y="1"
           spanX="4"
           spanY="1"/>
-        <!--appwidget:Smart  suggestions-->
+        <!--AI Brief Widget-->
         <appwidget
           screen="0"
           packageName="com.samsung.android.smartsuggestions"
@@ -42,7 +42,7 @@ limitations under the License.
           y="2"
           spanX="2"
           spanY="1"/>
-        <!--appwidget:Samsung  Health-->
+        <!--Health Widget-->
         <appwidget
           screen="0"
           packageName="com.sec.android.app.shealth"
@@ -69,6 +69,7 @@ limitations under the License.
         <folder
           screen="0"
           title="Google"
+          postPosition="true"
           x="2"
           y="5">
             <!--Google-->

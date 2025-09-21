@@ -29,7 +29,7 @@ limitations under the License.
             spanX="2" 
             spanY="2" />			
 			
-		<!--appwidget:Smart  suggestions-->
+	<!--appwidget:Smart  suggestions-->
         <appwidget
             screen="0"
             packageName="com.samsung.android.smartsuggestions"
@@ -77,9 +77,9 @@ limitations under the License.
 
         <!-- folder : Google -->
         <folder
-			screen="0"
-			postPosition="true"
-			title="Google" 
+	    screen="0"
+	    postPosition="true"
+	    title="Google" 
             x="2" 
             y="5">
             <!-- Google -->
@@ -166,33 +166,7 @@ limitations under the License.
                 packageName="com.microsoft.office.outlook" 
                 className="com.microsoft.office.outlook.MainActivity" />
         </folder>
-   
-        <!-- Facebook -->
-        <favorite
-            screen="1"
-            packageName="com.facebook.katana"
-            className="com.facebook.katana.LoginActivity"
-            x="0"
-            y="5" />
 
-        <!-- Nawigacja T-Mobile -->
-        <favorite
-            screen="1"
-            packageName="com.naviexpert.NaviExpert"
-            className="org.microemu.android.MicroEmulator"
-            x="1"
-            y="5" 
-            postPosition="true" />     			
-			
-        <!-- Cinkciarz -->
-        <favorite
-            screen="1"
-            packageName="pl.cinkciarz"
-            className="pl.cinkciarz.mt.app.LauncherActivity"
-            x="2"
-            y="5" 
-            postPosition="true" />   			
-	    
     </home>
 
 

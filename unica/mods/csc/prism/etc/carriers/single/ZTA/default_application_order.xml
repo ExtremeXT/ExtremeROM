@@ -36,23 +36,23 @@ limitations under the License.
           packageName="com.claro.claromusica.br"
           className="com.amco.activities.NewSplashActivity"
           postPosition="true"/>
-        <!--Claro Video-->
-        <favorite
-          screen="3"
-          packageName="com.dla.android"
-          className="com.clarovideo.app.ui.activities.SplashActivity"
-          postPosition="true"/>
         <!--Claro Drive-->
         <favorite
-          screen="4"
+          screen="3"
           packageName="com.clarodrive.android"
           className="com.owncloud.android.ui.splash.SplashActivity"
           postPosition="true"/>
         <!--Claro Pay-->
         <favorite
-          screen="5"
+          screen="4"
           packageName="br.com.claropay.claropay"
           className="com.diletta.claropay.MainActivity"
+          postPosition="true"/>
+        <!--Claro TV+-->
+        <favorite
+          screen="5"
+          packageName="br.com.netcombo.now"
+          className="br.com.netcombo.now.ui.splashScreen.SplashScreenActivity"
           postPosition="true"/>
     </folder>
     <!--Samsung-->
@@ -118,7 +118,8 @@ limitations under the License.
     <!--Google-->
     <folder
       screen="0"
-      title="Google">
+      title="Google"
+      postPosition="true">
         <!--Google-->
         <favorite
           screen="0"

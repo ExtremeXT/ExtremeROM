@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>Nigeria</Country>
     <CountryISO>NG</CountryISO>
     <Region>MEA</Region>
     <SalesCode>ECT</SalesCode>
-    <NbNetworkInfo>8</NbNetworkInfo>
+    <NbNetworkInfo>9</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>62130</MCCMNC>
       <NetworkName>MTN Nigeria</NetworkName>
@@ -47,6 +47,11 @@
       <NetworkName>MTN Benin</NetworkName>
       <NWID>NW02316</NWID>
     </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>62124</MCCMNC>
+      <NetworkName>Spectranet Nigeria</NetworkName>
+      <NWID>NW02439</NWID>
+    </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
@@ -78,12 +83,6 @@
         </DateTimeFormat>
       </Phone>
     </Main>
-    <Messages>
-      <SMS>
-        <NbCellBroadcastChannel>1</NbCellBroadcastChannel>
-        <CellBroadcastChannel>0</CellBroadcastChannel>
-      </SMS>
-    </Messages>
     <Browser>
       <NbBookmark>3</NbBookmark>
       <Bookmark>
@@ -111,7 +110,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>8</NbProfileHandle>
+      <NbProfileHandle>9</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
         <NetworkName>MTN Nigeria</NetworkName>
@@ -160,7 +159,14 @@
         <NetworkName>MTN Benin</NetworkName>
         <ProfBrowser>MTN</ProfBrowser>
       </ProfileHandle>
-      <NbProfile>15</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Spectranet Nigeria</NetworkName>
+        <ProfBrowser>Spectranet</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Spectranet</ProfXCAP>
+      </ProfileHandle>
+      <NbProfile>17</NbProfile>
       <Profile>
         <NetworkName>MTN Nigeria</NetworkName>
         <Editable>yes</Editable>
@@ -342,6 +348,41 @@
         <ProfileName>MTN</ProfileName>
         <PSparam>
           <APN>internet.mtn.bj</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Spectranet Nigeria</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Spectranet</ProfileName>
+        <URL>https://spectranet.com.ng</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>Spectranet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Spectranet Nigeria</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>IMS</APN>
         </PSparam>
       </Profile>
     </Connections>

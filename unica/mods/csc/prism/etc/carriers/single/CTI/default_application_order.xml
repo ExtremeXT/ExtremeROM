@@ -54,17 +54,17 @@ limitations under the License.
           packageName="com.ar.claropay.app"
           className="com.ar.claropay.app.MainActivity"
           postPosition="true"/>
-        <!--Packs Ya-->
+        <!--Claro Juegos-->
         <favorite
           screen="6"
+          packageName="com.gameloft.android.gdc"
+          className="com.gameloft.android.gdc.MainActivity"/>
+        <!--Packs Ya-->
+        <favorite
+          screen="7"
           packageName="com.claro.packsya.ar"
           className="com.claro.packsya.LauncherActivity"
           postPosition="true"/>
-        <!--Claro Juegos-->
-        <favorite
-          screen="7"
-          packageName="com.gameloft.android.gdc"
-          className="com.gameloft.android.gdc.MainActivity"/>
     </folder>
     <!--Samsung-->
     <folder
@@ -124,7 +124,8 @@ limitations under the License.
     <!--Google-->
     <folder
       screen="0"
-      title="Google">
+      title="Google"
+      postPosition="true">
         <!--Google-->
         <favorite
           screen="0"
@@ -291,6 +292,12 @@ limitations under the License.
       screen="0"
       packageName="com.samsung.android.app.spage"
       className="com.samsung.android.app.spage.main.LauncherActivity"/>
+    <!--Iniicio-->
+    <favorite
+      screen="0"
+      packageName="com.telcelam.lockscreen"
+      className="com.airfind.MainChild"
+      postPosition="true"/>
     <!--Messenger-->
     <favorite
       screen="0"

@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <omcInfo>
   <contentType>0</contentType>
-  <version>SAOMC_SM-S938B_OXM_INS_15_0010</version>
+  <version>SAOMC_SM-S938B_OXM_INS_16_0002</version>
   <model>
     <name>SM-S938B</name>
   </model>
   <catalog>
     <customer>yes</customer>
-    <customerEdition>ED0005</customerEdition>
-    <carrierListVersion>150025</carrierListVersion>
+    <customerEdition>ED0002</customerEdition>
+    <carrierListVersion>160021</carrierListVersion>
     <cscfeature>yes</cscfeature>
+    <cscfeatureVersion>ED00002</cscfeatureVersion>
     <carrierfeature>yes</carrierfeature>
+    <carrierfeatureVersion>2</carrierfeatureVersion>
     <cp>no</cp>
     <imsupdate>no</imsupdate>
   </catalog>
   <carrierList>
-    <carrierCount>257</carrierCount>
+    <carrierCount>259</carrierCount>
     <carrier>
       <mcc>402</mcc>
       <mnc>11</mnc>
@@ -198,6 +200,11 @@
     </carrier>
     <carrier>
       <mcc>404</mcc>
+      <mnc>39</mnc>
+      <networkName>Cellone_North</networkName>
+    </carrier>
+    <carrier>
+      <mcc>404</mcc>
       <mnc>40</mnc>
       <networkName>Airtel</networkName>
     </carrier>
@@ -300,6 +307,11 @@
       <mcc>404</mcc>
       <mnc>64</mnc>
       <networkName>CellOne_South</networkName>
+    </carrier>
+    <carrier>
+      <mcc>404</mcc>
+      <mnc>65</mnc>
+      <networkName>Cellone_West</networkName>
     </carrier>
     <carrier>
       <mcc>404</mcc>

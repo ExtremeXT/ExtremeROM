@@ -6,7 +6,7 @@
     <CountryISO>LY</CountryISO>
     <Region>MEA</Region>
     <SalesCode>LYS</SalesCode>
-    <NbNetworkInfo>2</NbNetworkInfo>
+    <NbNetworkInfo>3</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>60601</MCCMNC>
       <NetworkName>Almadar</NetworkName>
@@ -16,6 +16,11 @@
       <MCCMNC>60600</MCCMNC>
       <NetworkName>Libyana</NetworkName>
       <NWID>NW00663</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>60603</MCCMNC>
+      <NetworkName>LTT Libya</NetworkName>
+      <NWID>NW02373</NWID>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -64,7 +69,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>2</NbProfileHandle>
+      <NbProfileHandle>3</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
         <NetworkName>Libyana</NetworkName>
@@ -77,15 +82,24 @@
         <ProfXCAP>web</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Almadar</NetworkName>
         <ProfBrowser>almadar internet</ProfBrowser>
         <ProfMMS>almadar MMS</ProfMMS>
         <ProfEmail>almadar internet</ProfEmail>
         <ProfSyncDS>almadar internet</ProfSyncDS>
         <ProfActiveSync>almadar internet</ProfActiveSync>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>HOS</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>6</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>LTT Libya</NetworkName>
+        <ProfBrowser>LTT4G</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>xcap</ProfXCAP>
+      </ProfileHandle>
+      <NbProfile>11</NbProfile>
       <Profile>
         <NetworkName>Libyana</NetworkName>
         <ProfileName>libyanaweb</ProfileName>
@@ -149,6 +163,54 @@
         </Proxy>
         <PSparam>
           <APN>almadar.mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Almadar</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Almadar</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <ProfileName>HOS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LTT Libya</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <ProfileName>LTT4G</ProfileName>
+        <PSparam>
+          <APN>ltt4g</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LTT Libya</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>lttims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>LTT Libya</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>xcap</ProfileName>
+        <PSparam>
+          <APN>xcap</APN>
         </PSparam>
       </Profile>
     </Connections>

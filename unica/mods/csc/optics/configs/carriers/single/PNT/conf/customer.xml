@@ -206,6 +206,7 @@
         <ProfAGPS>Location</ProfAGPS>
         <ProfIntSharing>Entel PE</ProfIntSharing>
         <ProfIMS>Entel IMS</ProfIMS>
+        <ProfXCAP>Entel PE</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>

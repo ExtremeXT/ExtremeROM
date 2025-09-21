@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>Argentina</Country>
     <CountryISO>AR</CountryISO>
     <Region>LA</Region>
@@ -153,20 +153,22 @@
     <Connections>
       <NbProfileHandle>2</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>movistar_AR</NetworkName>
         <ProfBrowser>Movistar INTERNET</ProfBrowser>
         <ProfMMS>Movistar MMS</ProfMMS>
         <ProfIMS>Movistar IMS</ProfIMS>
         <ProfXCAP>Movistar INTERNET</ProfXCAP>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>tuenti_AR</NetworkName>
-        <RoamingEnableStatus>enable</RoamingEnableStatus>
-        <ProfBrowser>Servicio_WEB</ProfBrowser>
+        <ProfBrowser>Internet_TUENTI</ProfBrowser>
+        <ProfIMS>Tuenti IMS</ProfIMS>
+        <ProfXCAP>Internet_TUENTI</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>4</NbProfile>
+      <NbProfile>6</NbProfile>
       <Profile>
         <NetworkName>movistar_AR</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
@@ -219,21 +221,37 @@
         </PSparam>
       </Profile>
       <Profile>
+        <NetworkName>movistar_AR</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
         <NetworkName>tuenti_AR</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
         <Editable>yes</Editable>
-        <ProfileName>Servicio_WEB</ProfileName>
+        <ProfileName>Internet_TUENTI</ProfileName>
         <URL>https://www.tuenti.com.ar/</URL>
         <Auth>normal</Auth>
         <Bearer>ps</Bearer>
         <Protocol>http</Protocol>
-        <Proxy>
-          <EnableFlag>off</EnableFlag>
-        </Proxy>
         <PSparam>
-          <APN>internet.movil</APN>
-          <UserId>internet</UserId>
-          <Password>internet</Password>
+          <APN>internet.tuenti</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>tuenti_AR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Tuenti IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
         </PSparam>
       </Profile>
     </Connections>

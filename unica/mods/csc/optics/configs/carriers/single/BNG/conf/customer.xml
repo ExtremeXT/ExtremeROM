@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0003</CSCEdition>
     <Country>Bangladesh</Country>
     <CountryISO>BD</CountryISO>
     <Region>SWA</Region>
@@ -243,6 +243,8 @@
       </Profile>
       <Profile>
         <NetworkName>Robi</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Robi-INTERNET</ProfileName>
         <Bearer>ps</Bearer>
@@ -270,6 +272,8 @@
       </Profile>
       <Profile>
         <NetworkName>Airtel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>yes</Editable>
         <ProfileName>Airtel-INTERNET</ProfileName>
         <Auth>secure</Auth>
@@ -281,6 +285,8 @@
       </Profile>
       <Profile>
         <NetworkName>Robi</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
         <HiddenStatus>hidden</HiddenStatus>
         <ProfileName>IMS</ProfileName>
@@ -290,6 +296,8 @@
       </Profile>
       <Profile>
         <NetworkName>Airtel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
         <Editable>no</Editable>
         <HiddenStatus>hidden</HiddenStatus>
         <ProfileName>IMS</ProfileName>

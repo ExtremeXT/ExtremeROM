@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0004</CSCEdition>
     <Country>Argentina</Country>
     <CountryISO>AR</CountryISO>
     <Region>LA</Region>
     <SalesCode>ARO</SalesCode>
-    <NbNetworkInfo>6</NbNetworkInfo>
+    <NbNetworkInfo>8</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>72234</MCCMNC>
       <NetworkName>Personal AR</NetworkName>
@@ -21,6 +21,18 @@
       <MCCMNC>72207</MCCMNC>
       <NetworkName>Movistar AR</NetworkName>
       <NWID>NW00789</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>722010</MCCMNC>
+      <NetworkName>tuenti_AR</NetworkName>
+      <NWID>NW01967</NWID>
+      <SPName>Tuenti</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>72201</MCCMNC>
+      <NetworkName>tuenti_AR</NetworkName>
+      <NWID>NW01967</NWID>
+      <SPName>Tuenti</SPName>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>722341</MCCMNC>
@@ -45,7 +57,7 @@
         <SeparateLock>none</SeparateLock>
       </Security>
       <Network>
-        <NbFastDormancy>8</NbFastDormancy>
+        <NbFastDormancy>12</NbFastDormancy>
         <FastDormancy>
           <NetworkName>Personal AR</NetworkName>
           <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
@@ -89,6 +101,30 @@
         </FastDormancy>
         <FastDormancy>
           <NetworkName>Movistar AR</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>off</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>tuenti_AR</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>on</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>tuenti_AR</NetworkName>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+          <LCDStatus>off</LCDStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>tuenti_AR</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+          <TimeoutValue>5</TimeoutValue>
+          <LCDStatus>on</LCDStatus>
+          <Version>rel8</Version>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>tuenti_AR</NetworkName>
           <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
           <TimeoutValue>5</TimeoutValue>
           <LCDStatus>off</LCDStatus>
@@ -111,7 +147,7 @@
       </Phone>
     </Main>
     <Messages>
-      <NbVoicemail>3</NbVoicemail>
+      <NbVoicemail>4</NbVoicemail>
       <Voicemail>
         <NetworkName>Personal AR</NetworkName>
         <TelNum>*555</TelNum>
@@ -122,6 +158,10 @@
       </Voicemail>
       <Voicemail>
         <NetworkName>Movistar AR</NetworkName>
+        <TelNum>555</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>tuenti_AR</NetworkName>
         <TelNum>555</TelNum>
       </Voicemail>
       <PushMsg>
@@ -169,7 +209,7 @@
       <WifiPriority>1</WifiPriority>
     </WifiProfile>
     <Connections>
-      <NbProfileHandle>3</NbProfileHandle>
+      <NbProfileHandle>4</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>
         <NetworkName>Personal AR</NetworkName>
@@ -185,14 +225,22 @@
         <ProfXCAP>Claro AR</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>Movistar AR</NetworkName>
         <ProfBrowser>Movistar WAP</ProfBrowser>
         <ProfMMS>Movistar MMS ar</ProfMMS>
         <ProfIMS>Movistar IMS</ProfIMS>
         <ProfXCAP>Movistar WAP</ProfXCAP>
+        <ProfEmergencyIMSCall>IMS Emergency</ProfEmergencyIMSCall>
       </ProfileHandle>
-      <NbProfile>8</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>tuenti_AR</NetworkName>
+        <ProfBrowser>Internet_TUENTI</ProfBrowser>
+        <ProfIMS>Tuenti IMS</ProfIMS>
+        <ProfXCAP>Internet_TUENTI</ProfXCAP>
+      </ProfileHandle>
+      <NbProfile>11</NbProfile>
       <Profile>
         <NetworkName>Personal AR</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
@@ -301,6 +349,40 @@
         <RoamingIpVersion>ipv6</RoamingIpVersion>
         <Editable>no</Editable>
         <ProfileName>IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Movistar AR</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS Emergency</ProfileName>
+        <PSparam>
+          <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>tuenti_AR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Internet_TUENTI</ProfileName>
+        <URL>https://www.tuenti.com.ar/</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet.tuenti</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>tuenti_AR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Tuenti IMS</ProfileName>
         <PSparam>
           <APN>ims</APN>
         </PSparam>

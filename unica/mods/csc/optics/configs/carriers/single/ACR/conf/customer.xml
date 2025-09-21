@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0003</CSCEdition>
     <Country>GHANA</Country>
     <CountryISO>GH</CountryISO>
     <Region>MEA</Region>
     <SalesCode>ACR</SalesCode>
-    <NbNetworkInfo>15</NbNetworkInfo>
+    <NbNetworkInfo>16</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>62001</MCCMNC>
       <NetworkName>MTN GH</NetworkName>
@@ -82,6 +82,11 @@
       <NetworkName>Unitel</NetworkName>
       <NWID>NW01402</NWID>
       <SkipCscSelection>false</SkipCscSelection>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>61908</MCCMNC>
+      <NetworkName>Smart Telecom</NetworkName>
+      <NWID>NW02409</NWID>
     </NetworkInfo>
   </GeneralInfo>
   <Settings>
@@ -228,10 +233,11 @@
         <ProfBrowser>Orange</ProfBrowser>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>ORANGE CI</NetworkName>
         <ProfBrowser>oweb</ProfBrowser>
         <ProfMMS>Omms CI</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
@@ -272,7 +278,7 @@
         <ProfIMS>ims.unitel.co.ao</ProfIMS>
         <ProfXCAP>xcap.unitel.co.ao</ProfXCAP>
       </ProfileHandle>
-      <NbProfile>28</NbProfile>
+      <NbProfile>29</NbProfile>
       <Profile>
         <NetworkName>MTN GH</NetworkName>
         <ProfileName>MTN Ghana MMS</ProfileName>
@@ -599,6 +605,23 @@
         </Proxy>
         <PSparam>
           <APN>xcap.unitel.co.ao</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ORANGE CI</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>IMS</APN>
         </PSparam>
       </Profile>
     </Connections>

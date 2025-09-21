@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0003</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>Argentina</Country>
     <CountryISO>AR</CountryISO>
     <Region>LA</Region>
@@ -47,7 +47,6 @@
       <Phone>
         <DefLanguage>spanish_latin</DefLanguage>
         <DefLanguageNoSIM>spanish_latin</DefLanguageNoSIM>
-        <T9Enabling>enable</T9Enabling>
         <DateTimeFormat>
           <DateFormat>ddmmyyyy</DateFormat>
           <TimeFormat>24h</TimeFormat>

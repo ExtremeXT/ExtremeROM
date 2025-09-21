@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>Kenya</Country>
     <CountryISO>AE</CountryISO>
     <Region>MEA</Region>
     <SalesCode>AFR</SalesCode>
-    <NbNetworkInfo>23</NbNetworkInfo>
+    <NbNetworkInfo>29</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>63902</MCCMNC>
       <NetworkName>Safaricom</NetworkName>
@@ -123,6 +123,36 @@
       <NetworkName>Jambotel</NetworkName>
       <NWID>NW02378</NWID>
     </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>64009</MCCMNC>
+      <NetworkName>Halotel</NetworkName>
+      <NWID>NW02387</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>64101</MCCMNC>
+      <NetworkName>Airtel Uganda</NetworkName>
+      <NWID>NW02282</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>64122</MCCMNC>
+      <NetworkName>Airtel Uganda</NetworkName>
+      <NWID>NW02282</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63513</MCCMNC>
+      <NetworkName>AIRTEL-RW</NetworkName>
+      <NWID>NW02389</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63514</MCCMNC>
+      <NetworkName>AIRTEL-RW</NetworkName>
+      <NWID>NW02389</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>63801</MCCMNC>
+      <NetworkName>Djibouti Telecom</NetworkName>
+      <NWID>NW02398</NWID>
+    </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
@@ -166,7 +196,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>22</NbProfileHandle>
+      <NbProfileHandle>25</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Telkom</NetworkName>
@@ -299,12 +329,29 @@
         <ProfXCAP>XCAP</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>1</NbNetProfile>
         <NetworkName>Jambotel</NetworkName>
         <ProfBrowser>Jambotel</ProfBrowser>
-        <ProfIMS>IMS</ProfIMS>
       </ProfileHandle>
-      <NbProfile>43</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>Halotel</NetworkName>
+        <ProfBrowser>halotel</ProfBrowser>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Airtel Uganda</NetworkName>
+        <ProfBrowser>Internet</ProfBrowser>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>Internet</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>AIRTEL-RW</NetworkName>
+        <ProfBrowser>Internet</ProfBrowser>
+        <ProfIMS>ims</ProfIMS>
+      </ProfileHandle>
+      <NbProfile>48</NbProfile>
       <Profile>
         <NetworkName>Airtel</NetworkName>
         <ProfileName>Airtel</ProfileName>
@@ -834,6 +881,71 @@
         <MTUSize>1500</MTUSize>
         <PSparam>
           <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Halotel</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>halotel</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>halotel</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Airtel Uganda</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Internet</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Airtel Uganda</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>AIRTEL-RW</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>Internet</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>AIRTEL-RW</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>ims</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
         </PSparam>
       </Profile>
     </Connections>

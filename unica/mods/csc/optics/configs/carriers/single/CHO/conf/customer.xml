@@ -296,11 +296,12 @@
     <Connections>
       <NbProfileHandle>10</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Movistar</NetworkName>
         <ProfBrowser>Movistar INTERNET</ProfBrowser>
         <ProfIMS>Movistar IMS</ProfIMS>
         <ProfXCAP>Movistar INTERNET</ProfXCAP>
+        <ProfEmergencyIMSCall>movistar</ProfEmergencyIMSCall>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>4</NbNetProfile>
@@ -357,7 +358,7 @@
         <ProfBrowser>Internet Móvil Falabella</ProfBrowser>
         <ProfMMS>Falabella Chile MMS</ProfMMS>
       </ProfileHandle>
-      <NbProfile>20</NbProfile>
+      <NbProfile>21</NbProfile>
       <Profile>
         <NetworkName>Movistar</NetworkName>
         <IpVersion>ipv4v6</IpVersion>
@@ -602,6 +603,15 @@
         <ProfileName>Emergency</ProfileName>
         <PSparam>
           <APN>sos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Movistar</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>movistar</ProfileName>
+        <PSparam>
+          <APN>emergency</APN>
         </PSparam>
       </Profile>
     </Connections>

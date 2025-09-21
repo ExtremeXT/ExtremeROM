@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0002</CSCEdition>
+    <CSCEdition>ED0001</CSCEdition>
     <Country>Senegal</Country>
     <CountryISO>SN</CountryISO>
     <Region>MEA</Region>
@@ -71,10 +71,11 @@
     <Connections>
       <NbProfileHandle>6</NbProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>2</NbNetProfile>
+        <NbNetProfile>3</NbNetProfile>
         <NetworkName>Orange SN</NetworkName>
-        <ProfBrowser>Orange Web SN</ProfBrowser>
-        <ProfMMS>Orange MMS SN</ProfMMS>
+        <ProfBrowser>Orange Internet</ProfBrowser>
+        <ProfIMS>ims</ProfIMS>
+        <ProfXCAP>xcap</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>1</NbNetProfile>
@@ -105,30 +106,17 @@
         <ProfBrowser>Promobile</ProfBrowser>
         <ProfMMS>Promobile</ProfMMS>
       </ProfileHandle>
-      <NbProfile>7</NbProfile>
+      <NbProfile>8</NbProfile>
       <Profile>
         <NetworkName>Orange SN</NetworkName>
-        <ProfileName>Orange Web SN</ProfileName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Orange Internet</ProfileName>
         <Protocol>http</Protocol>
         <PSparam>
           <APN>internet</APN>
-          <UserId>internet</UserId>
-          <Password>internet</Password>
-        </PSparam>
-      </Profile>
-      <Profile>
-        <NetworkName>Orange SN</NetworkName>
-        <ProfileName>Orange MMS SN</ProfileName>
-        <URL>http://mmsalize/servlets/mms</URL>
-        <Protocol>http</Protocol>
-        <Proxy>
-          <ServAddr>172.16.30.9</ServAddr>
-          <Port>8080</Port>
-        </Proxy>
-        <PSparam>
-          <APN>mms</APN>
-          <UserId>mms</UserId>
-          <Password>mms</Password>
         </PSparam>
       </Profile>
       <Profile>
@@ -187,6 +175,32 @@
         <Protocol>http</Protocol>
         <PSparam>
           <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange SN</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>ims</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange SN</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>xcap</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>xcap</APN>
         </PSparam>
       </Profile>
     </Connections>

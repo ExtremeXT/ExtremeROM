@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>TÜRKİYE</Country>
     <CountryISO>TR</CountryISO>
     <Region>MEA</Region>
@@ -143,12 +143,13 @@
         <ProfIMS>TURKCELL-IMS</ProfIMS>
       </ProfileHandle>
       <ProfileHandle>
-        <NbNetProfile>3</NbNetProfile>
+        <NbNetProfile>4</NbNetProfile>
         <NetworkName>VODAFONE TR</NetworkName>
         <ProfBrowser>Vodafone Internet</ProfBrowser>
         <ProfMMS>Vodafone MMS</ProfMMS>
         <ProfEmail>Vodafone Internet</ProfEmail>
         <ProfIMS>VODAFONE IMS</ProfIMS>
+        <ProfXCAP>HOS</ProfXCAP>
       </ProfileHandle>
       <ProfileHandle>
         <NbNetProfile>3</NbNetProfile>
@@ -166,7 +167,7 @@
         <ProfEmail>CEPTEN KKTCELL</ProfEmail>
         <ProfIMS>KKTCELL-IMS</ProfIMS>
       </ProfileHandle>
-      <NbProfile>12</NbProfile>
+      <NbProfile>13</NbProfile>
       <Profile>
         <NetworkName>TR Turkcell</NetworkName>
         <Editable>yes</Editable>
@@ -345,6 +346,19 @@
         <Protocol>http</Protocol>
         <PSparam>
           <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>VODAFONE TR</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>HOS</ProfileName>
+        <Auth>secure</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>hos</APN>
         </PSparam>
       </Profile>
     </Connections>

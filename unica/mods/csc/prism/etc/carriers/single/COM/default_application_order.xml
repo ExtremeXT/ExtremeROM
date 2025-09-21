@@ -27,7 +27,7 @@ limitations under the License.
         <favorite
           screen="1"
           packageName="com.clarocolombia.miclaro"
-          className="com.clarocolombia.miclaro.activities.Splash"
+          className="com.claro.superapp.SplashActivity"
           postPosition="true"/>
         <!--Claro Musica-->
         <favorite
@@ -122,7 +122,8 @@ limitations under the License.
     <!--Google-->
     <folder
       screen="0"
-      title="Google">
+      title="Google"
+      postPosition="true">
         <!--Google-->
         <favorite
           screen="0"
@@ -289,6 +290,12 @@ limitations under the License.
       screen="0"
       packageName="com.samsung.android.app.spage"
       className="com.samsung.android.app.spage.main.LauncherActivity"/>
+    <!--Iniicio-->
+    <favorite
+      screen="0"
+      packageName="com.telcelam.lockscreen"
+      className="com.airfind.MainChild"
+      postPosition="true"/>
     <!--Messenger-->
     <favorite
       screen="0"
@@ -306,12 +313,6 @@ limitations under the License.
       screen="0"
       packageName="com.handmark.expressweather"
       className="com.oneweather.app.MainActivity"
-      postPosition="true"/>
-    <!--Iniicio-->
-    <favorite
-      screen="0"
-      packageName="com.telcelam.lockscreen"
-      className="com.airfind.MainChild"
       postPosition="true"/>
     <!--Google-->
     <favorite

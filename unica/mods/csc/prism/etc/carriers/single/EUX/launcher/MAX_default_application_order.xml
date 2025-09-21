@@ -160,11 +160,6 @@ limitations under the License.
             packageName="com.microsoft.office.outlook" 
             className="com.microsoft.office.outlook.MainActivity" />
     </folder>
-    <!-- Mein Magenta -->
-    <favorite
-        screen="0"
-        packageName="at.tmobile.android.myt"
-        className="com.telekom.oneapp.launcher.components.launcher.LauncherActivity" />	
     <!--Samsung  Wallet-->
     <favorite 
         screen="0" 

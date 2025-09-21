@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <omcInfo>
   <contentType>0</contentType>
-  <version>SAOMC_SM-S938B_OXM_ILO_15_0004</version>
+  <version>SAOMC_SM-S938B_OXM_ILO_16_0004</version>
   <model>
     <name>SM-S938B</name>
   </model>
   <catalog>
     <customer>yes</customer>
-    <customerEdition>ED0001</customerEdition>
-    <carrierListVersion>150038</carrierListVersion>
+    <customerEdition>ED0003</customerEdition>
+    <carrierListVersion>160021</carrierListVersion>
     <cscfeature>yes</cscfeature>
+    <cscfeatureVersion>ED00002</cscfeatureVersion>
     <carrierfeature>yes</carrierfeature>
+    <carrierfeatureVersion>2</carrierfeatureVersion>
     <cp>no</cp>
     <imsupdate>no</imsupdate>
   </catalog>
   <carrierList>
-    <carrierCount>16</carrierCount>
+    <carrierCount>18</carrierCount>
     <carrier>
       <mcc>208</mcc>
       <mnc>09</mnc>
+      <codeType>HEX</codeType>
+      <gid>39</gid>
       <networkName>HOT MOBILE</networkName>
     </carrier>
     <carrier>
@@ -79,8 +83,18 @@
     </carrier>
     <carrier>
       <mcc>425</mcc>
+      <mnc>24</mnc>
+      <networkName>Partner</networkName>
+    </carrier>
+    <carrier>
+      <mcc>425</mcc>
       <mnc>25</mnc>
       <networkName>CLO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>425</mcc>
+      <mnc>26</mnc>
+      <networkName>Annatel</networkName>
     </carrier>
     <carrier>
       <mcc>425</mcc>

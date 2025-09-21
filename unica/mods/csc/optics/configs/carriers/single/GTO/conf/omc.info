@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <omcInfo>
   <contentType>0</contentType>
-  <version>SAOMC_SM-S938B_OXM_GTO_15_0020</version>
+  <version>SAOMC_SM-S938B_OXM_GTO_16_0014</version>
   <model>
     <name>SM-S938B</name>
   </model>
   <catalog>
     <customer>yes</customer>
-    <customerEdition>ED0004</customerEdition>
-    <carrierListVersion>150032</carrierListVersion>
+    <customerEdition>ED0006</customerEdition>
+    <carrierListVersion>160037</carrierListVersion>
     <cscfeature>yes</cscfeature>
+    <cscfeatureVersion>ED00009</cscfeatureVersion>
     <carrierfeature>yes</carrierfeature>
+    <carrierfeatureVersion>9</carrierfeatureVersion>
     <cp>no</cp>
     <imsupdate>no</imsupdate>
   </catalog>
   <carrierList>
-    <carrierCount>91</carrierCount>
+    <carrierCount>97</carrierCount>
     <carrier>
       <mcc>208</mcc>
       <mnc>09</mnc>
@@ -41,32 +43,8 @@
     <carrier>
       <mcc>338</mcc>
       <mnc>05</mnc>
-      <subsetCode>0831</subsetCode>
-      <networkName>Digicel St.Kitts &amp; Nevis</networkName>
-    </carrier>
-    <carrier>
-      <mcc>338</mcc>
-      <mnc>05</mnc>
       <subsetCode>02</subsetCode>
       <networkName>Digicel St.Vincent</networkName>
-    </carrier>
-    <carrier>
-      <mcc>338</mcc>
-      <mnc>05</mnc>
-      <subsetCode>0842</subsetCode>
-      <networkName>Digicel British Virgin Islands</networkName>
-    </carrier>
-    <carrier>
-      <mcc>338</mcc>
-      <mnc>05</mnc>
-      <subsetCode>03</subsetCode>
-      <networkName>Digicel Grenada</networkName>
-    </carrier>
-    <carrier>
-      <mcc>338</mcc>
-      <mnc>05</mnc>
-      <subsetCode>0830</subsetCode>
-      <networkName>Digicel Anguilla</networkName>
     </carrier>
     <carrier>
       <mcc>338</mcc>
@@ -79,12 +57,6 @@
       <mnc>05</mnc>
       <subsetCode>05</subsetCode>
       <networkName>Digicel Barbados</networkName>
-    </carrier>
-    <carrier>
-      <mcc>338</mcc>
-      <mnc>05</mnc>
-      <subsetCode>00</subsetCode>
-      <networkName>Digicel Jamaica</networkName>
     </carrier>
     <carrier>
       <mcc>338</mcc>
@@ -107,6 +79,36 @@
     <carrier>
       <mcc>338</mcc>
       <mnc>05</mnc>
+      <subsetCode>0831</subsetCode>
+      <networkName>Digicel St.Kitts &amp; Nevis</networkName>
+    </carrier>
+    <carrier>
+      <mcc>338</mcc>
+      <mnc>05</mnc>
+      <subsetCode>0842</subsetCode>
+      <networkName>Digicel British Virgin Islands</networkName>
+    </carrier>
+    <carrier>
+      <mcc>338</mcc>
+      <mnc>05</mnc>
+      <subsetCode>03</subsetCode>
+      <networkName>Digicel Grenada</networkName>
+    </carrier>
+    <carrier>
+      <mcc>338</mcc>
+      <mnc>05</mnc>
+      <subsetCode>0830</subsetCode>
+      <networkName>Digicel Anguilla</networkName>
+    </carrier>
+    <carrier>
+      <mcc>338</mcc>
+      <mnc>05</mnc>
+      <subsetCode>00</subsetCode>
+      <networkName>Digicel Jamaica</networkName>
+    </carrier>
+    <carrier>
+      <mcc>338</mcc>
+      <mnc>05</mnc>
       <subsetCode>0837</subsetCode>
       <networkName>Digicel Turks &amp; Caicos</networkName>
     </carrier>
@@ -119,20 +121,8 @@
     <carrier>
       <mcc>338</mcc>
       <mnc>050</mnc>
-      <subsetCode>831</subsetCode>
-      <networkName>Digicel St.Kitts &amp; Nevis</networkName>
-    </carrier>
-    <carrier>
-      <mcc>338</mcc>
-      <mnc>050</mnc>
       <subsetCode>2</subsetCode>
       <networkName>Digicel St.Vincent</networkName>
-    </carrier>
-    <carrier>
-      <mcc>338</mcc>
-      <mnc>050</mnc>
-      <subsetCode>842</subsetCode>
-      <networkName>Digicel British Virgin Islands</networkName>
     </carrier>
     <carrier>
       <mcc>338</mcc>
@@ -155,20 +145,14 @@
     <carrier>
       <mcc>338</mcc>
       <mnc>050</mnc>
-      <subsetCode>3</subsetCode>
-      <networkName>Digicel Dominica</networkName>
-    </carrier>
-    <carrier>
-      <mcc>338</mcc>
-      <mnc>050</mnc>
       <subsetCode>6</subsetCode>
       <networkName>Digicel Cayman</networkName>
     </carrier>
     <carrier>
       <mcc>338</mcc>
       <mnc>050</mnc>
-      <subsetCode>830</subsetCode>
-      <networkName>Digicel Anguilla</networkName>
+      <subsetCode>832</subsetCode>
+      <networkName>Digicel Dominica</networkName>
     </carrier>
     <carrier>
       <mcc>338</mcc>
@@ -184,6 +168,24 @@
     </carrier>
     <carrier>
       <mcc>338</mcc>
+      <mnc>050</mnc>
+      <subsetCode>831</subsetCode>
+      <networkName>Digicel St.Kitts &amp; Nevis</networkName>
+    </carrier>
+    <carrier>
+      <mcc>338</mcc>
+      <mnc>050</mnc>
+      <subsetCode>842</subsetCode>
+      <networkName>Digicel British Virgin Islands</networkName>
+    </carrier>
+    <carrier>
+      <mcc>338</mcc>
+      <mnc>050</mnc>
+      <subsetCode>830</subsetCode>
+      <networkName>Digicel Anguilla</networkName>
+    </carrier>
+    <carrier>
+      <mcc>338</mcc>
       <mnc>180</mnc>
       <networkName>CWW_JM</networkName>
     </carrier>
@@ -195,14 +197,14 @@
     <carrier>
       <mcc>340</mcc>
       <mnc>20</mnc>
-      <subsetCode>01</subsetCode>
-      <networkName>Digicel French West Indies</networkName>
+      <subsetCode>02</subsetCode>
+      <networkName>Wizzee FWI</networkName>
     </carrier>
     <carrier>
       <mcc>340</mcc>
       <mnc>20</mnc>
-      <subsetCode>02</subsetCode>
-      <networkName>Wizzee FWI</networkName>
+      <subsetCode>01</subsetCode>
+      <networkName>Digicel French West Indies</networkName>
     </carrier>
     <carrier>
       <mcc>342</mcc>
@@ -228,6 +230,11 @@
       <mcc>348</mcc>
       <mnc>170</mnc>
       <networkName>CWW_ETC</networkName>
+    </carrier>
+    <carrier>
+      <mcc>348</mcc>
+      <mnc>570</mnc>
+      <networkName>CCT BVI</networkName>
     </carrier>
     <carrier>
       <mcc>348</mcc>
@@ -272,6 +279,25 @@
     <carrier>
       <mcc>362</mcc>
       <mnc>69</mnc>
+      <subsetCode>26</subsetCode>
+      <networkName>Digicel Bonaire</networkName>
+    </carrier>
+    <carrier>
+      <mcc>362</mcc>
+      <mnc>69</mnc>
+      <subsetCode>5</subsetCode>
+      <networkName>Digicel Curacao</networkName>
+    </carrier>
+    <carrier>
+      <mcc>362</mcc>
+      <mnc>69</mnc>
+      <subsetCode>00</subsetCode>
+      <networkName>Digicel Curacao</networkName>
+    </carrier>
+    <carrier>
+      <mcc>362</mcc>
+      <mnc>69</mnc>
+      <subsetCode>08</subsetCode>
       <networkName>Digicel Curacao</networkName>
     </carrier>
     <carrier>
@@ -488,6 +514,16 @@
       <mcc>738</mcc>
       <mnc>040</mnc>
       <networkName>ENet_GY</networkName>
+    </carrier>
+    <carrier>
+      <mcc>740</mcc>
+      <mnc>01</mnc>
+      <networkName>CLARO_EC</networkName>
+    </carrier>
+    <carrier>
+      <mcc>740</mcc>
+      <mnc>02</mnc>
+      <networkName>ALE_EC</networkName>
     </carrier>
     <carrier>
       <mcc>746</mcc>

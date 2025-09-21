@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <omcInfo>
   <contentType>0</contentType>
-  <version>SAOMC_SM-S938B_OXM_TPA_15_0014</version>
+  <version>SAOMC_SM-S938B_OXM_TPA_16_0011</version>
   <model>
     <name>SM-S938B</name>
   </model>
   <catalog>
     <customer>yes</customer>
-    <customerEdition>ED0004</customerEdition>
-    <carrierListVersion>150032</carrierListVersion>
+    <customerEdition>ED0005</customerEdition>
+    <carrierListVersion>160037</carrierListVersion>
     <cscfeature>yes</cscfeature>
+    <cscfeatureVersion>ED00007</cscfeatureVersion>
     <carrierfeature>yes</carrierfeature>
+    <carrierfeatureVersion>7</carrierfeatureVersion>
     <cp>no</cp>
     <imsupdate>no</imsupdate>
   </catalog>
   <carrierList>
-    <carrierCount>88</carrierCount>
+    <carrierCount>92</carrierCount>
     <carrier>
       <mcc>208</mcc>
       <mnc>09</mnc>
@@ -155,12 +157,6 @@
     <carrier>
       <mcc>338</mcc>
       <mnc>050</mnc>
-      <subsetCode>3</subsetCode>
-      <networkName>Digicel Dominica</networkName>
-    </carrier>
-    <carrier>
-      <mcc>338</mcc>
-      <mnc>050</mnc>
       <subsetCode>6</subsetCode>
       <networkName>Digicel Cayman</networkName>
     </carrier>
@@ -169,6 +165,12 @@
       <mnc>050</mnc>
       <subsetCode>830</subsetCode>
       <networkName>Digicel Anguilla</networkName>
+    </carrier>
+    <carrier>
+      <mcc>338</mcc>
+      <mnc>050</mnc>
+      <subsetCode>832</subsetCode>
+      <networkName>Digicel Dominica</networkName>
     </carrier>
     <carrier>
       <mcc>338</mcc>
@@ -231,6 +233,11 @@
     </carrier>
     <carrier>
       <mcc>348</mcc>
+      <mnc>570</mnc>
+      <networkName>CCT BVI</networkName>
+    </carrier>
+    <carrier>
+      <mcc>348</mcc>
       <mnc>770</mnc>
       <networkName>Digicel British Virgin Islands</networkName>
     </carrier>
@@ -272,6 +279,25 @@
     <carrier>
       <mcc>362</mcc>
       <mnc>69</mnc>
+      <subsetCode>00</subsetCode>
+      <networkName>Digicel Curacao</networkName>
+    </carrier>
+    <carrier>
+      <mcc>362</mcc>
+      <mnc>69</mnc>
+      <subsetCode>26</subsetCode>
+      <networkName>Digicel Bonaire</networkName>
+    </carrier>
+    <carrier>
+      <mcc>362</mcc>
+      <mnc>69</mnc>
+      <subsetCode>08</subsetCode>
+      <networkName>Digicel Curacao</networkName>
+    </carrier>
+    <carrier>
+      <mcc>362</mcc>
+      <mnc>69</mnc>
+      <subsetCode>5</subsetCode>
       <networkName>Digicel Curacao</networkName>
     </carrier>
     <carrier>
@@ -437,7 +463,7 @@
     <carrier>
       <mcc>712</mcc>
       <mnc>04</mnc>
-      <networkName>movistar_CR</networkName>
+      <networkName>LIBERTY</networkName>
     </carrier>
     <carrier>
       <mcc>714</mcc>

@@ -1,7 +1,7 @@
 {
     "modelName": "SM-S938B",
     "oemKey": "TMM",
-    "version": "1004",
+    "version": "1008",
     "app": [
         {
             "appId": "com.sec.android.app.popupcalculator",
@@ -55,7 +55,7 @@
         },
         {
             "appId": "com.samsung.android.game.gamehome",
-            "appName": "Game Launcher",
+            "appName": "Gaming Hub",
             "supportSubUser": "true"
         },
         {
@@ -104,18 +104,8 @@
             "supportSubUser": "true"
         },
         {
-            "appId": "com.samsung.SMT.lang_en_us_l03",
-            "appName": "Samsung TTS US English Voice 1",
-            "supportSubUser": "true"
-        },
-        {
             "appId": "com.samsung.android.bixby.ondevice.esmx",
             "appName": "Samsung on-device Resource Español (México)",
-            "supportSubUser": "true"
-        },
-        {
-            "appId": "com.samsung.SMT.lang_es_mx_f00",
-            "appName": "Samsung TTS Mexican Spanish Voice 1",
             "supportSubUser": "true"
         },
         {

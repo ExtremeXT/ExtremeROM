@@ -76,6 +76,7 @@ limitations under the License.
         <folder
           screen="0"
           title="Google"
+          postPosition="true"
           x="3"
           y="5">
             <!--Google-->

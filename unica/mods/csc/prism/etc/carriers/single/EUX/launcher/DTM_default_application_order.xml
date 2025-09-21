@@ -21,43 +21,27 @@ limitations under the License.
     <folder 
         screen="0" 
         title="Telekom" 
-        postPosition="true">      		
-		
-        <!-- MagentaCLOUD -->
+        postPosition="true">
+        <!--Freizeichentöne-->
         <favorite
             screen="0"
+            packageName="de.tmobile.android.app.rbt"
+            className="com.real.mobile.android.rbtplus.ui.activity.SplashActivity" />	
+        <!-- MagentaCLOUD -->
+        <favorite
+            screen="1"
             packageName="com.t_systems.android.webdav"
             className="com.nmc.android.ui.LauncherActivity" />
         <!-- MagentaSport -->
         <favorite
-            screen="1"
+            screen="2"
             packageName="de.telekom.basketball"
             className="de.telekom.sport.ui.activities.MainActivity" />
-        <!-- MagentaTV -->
-    	<favorite 
-            screen="2" 
-            packageName="de.telekom.magentatv.mobile"
-            className="de.telekom.magentatv.androidtv.ApplicationMainActivity" />		
-        <!-- Norton Mobile Security-->
-        <favorite
-            screen="3"
-            packageName="com.telekom.internet.nortonsecurity"
-            className="com.telekom.internet.MainActivity"   />
         <!-- Telekom Mail -->
         <favorite
-            screen="4"
+            screen="3"
             packageName="de.telekom.mail"
             className="de.telekom.mail.MainActivity"   />
-    	<!-- Zuhause -->
-    	<favorite 
-            screen="5" 
-            packageName="de.telekom.magentazuhause"
-            className="de.telekom.ciot.internal.daedalus.MainActivity" />	
-        <!--Freizeichentöne-->
-        <favorite
-            screen="6"
-            packageName="de.tmobile.android.app.rbt"
-            className="com.real.mobile.android.rbtplus.ui.activity.SplashActivity" />
 			
     </folder>    
     <!-- folder : Samsung -->
@@ -135,7 +119,7 @@ limitations under the License.
     <folder 
         screen="0" 
         postPosition="true"
-		title="Google">        
+	title="Google">        
         <!-- Google -->
         <favorite 
             screen="0" 
@@ -207,11 +191,6 @@ limitations under the License.
             packageName="com.microsoft.office.outlook" 
             className="com.microsoft.office.outlook.MainActivity" />
     </folder>
-    <!--  MeinMagenta-->
-    <favorite 
-        screen="0" 
-        packageName="de.telekom.android.customercenter" 
-        className="com.telekom.oneapp.launcher.components.launcher.LauncherActivity" />
     <!-- congstar -->
     <favorite 
         screen="0" 
@@ -332,9 +311,4 @@ limitations under the License.
         screen="0" 
         packageName="com.amazon.mShop.android.shopping" 
         className="com.amazon.mShop.appgrade.ui.AppgradeKillSwitchActivity" />
-    <!-- Voicemail -->
-    <favorite 
-        screen="0" 
-        packageName="de.telekom.mds.mbp" 
-        className="de.telekom.tpd.fmc.MainActivity"/>
 </appOrder>

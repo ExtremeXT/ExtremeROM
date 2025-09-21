@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <omcInfo>
   <contentType>0</contentType>
-  <version>SAOMC_SM-S938B_OXM_SKZ_15_0003</version>
+  <version>SAOMC_SM-S938B_OXM_SKZ_16_0003</version>
   <model>
     <name>SM-S938B</name>
   </model>
   <catalog>
     <customer>yes</customer>
     <customerEdition>ED0002</customerEdition>
-    <carrierListVersion>150026</carrierListVersion>
+    <carrierListVersion>160021</carrierListVersion>
     <cscfeature>yes</cscfeature>
     <carrierfeature>yes</carrierfeature>
     <cp>no</cp>
     <imsupdate>no</imsupdate>
   </catalog>
   <carrierList>
-    <carrierCount>24</carrierCount>
+    <carrierCount>25</carrierCount>
     <carrier>
       <mcc>401</mcc>
       <mnc>01</mnc>
@@ -105,6 +105,11 @@
       <mcc>436</mcc>
       <mnc>05</mnc>
       <networkName>Beeline TJ</networkName>
+    </carrier>
+    <carrier>
+      <mcc>436</mcc>
+      <mnc>15</mnc>
+      <networkName>Omobile</networkName>
     </carrier>
     <carrier>
       <mcc>437</mcc>

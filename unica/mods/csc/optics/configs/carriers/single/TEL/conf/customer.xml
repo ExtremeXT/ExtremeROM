@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0001</CSCEdition>
+    <CSCEdition>ED0002</CSCEdition>
     <Country>Australia</Country>
     <CountryISO>AU</CountryISO>
     <Region>SEA</Region>
@@ -78,20 +78,10 @@
       </Phone>
     </Main>
     <Contact>
-      <NbSpeedDial>1</NbSpeedDial>
-      <SpeedDial>
-        <DialPosition>3</DialPosition>
-        <TelName>International MessageBank</TelName>
-        <TelNum>#101#</TelNum>
-      </SpeedDial>
-      <NbPreInstalledContact>2</NbPreInstalledContact>
+      <NbPreInstalledContact>1</NbPreInstalledContact>
       <PreInstalledContact>
         <TelName>MessageBank</TelName>
         <TelNum>+61101</TelNum>
-      </PreInstalledContact>
-      <PreInstalledContact>
-        <TelName>Call 1234</TelName>
-        <TelNum>1234</TelNum>
       </PreInstalledContact>
     </Contact>
     <Messages>
@@ -293,7 +283,7 @@
       <Profile>
         <NetworkName>Telstra</NetworkName>
         <IpVersion>ipv6</IpVersion>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Telstra Internet</ProfileName>
         <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
         <Auth>none</Auth>
@@ -308,7 +298,7 @@
       </Profile>
       <Profile>
         <NetworkName>Telstra</NetworkName>
-        <Editable>no</Editable>
+        <Editable>yes</Editable>
         <ProfileName>Telstra MMS</ProfileName>
         <URL>http://mmsc.telstra.com:8002</URL>
         <Auth>none</Auth>

@@ -40,7 +40,7 @@ limitations under the License.
         <favorite
           screen="3"
           packageName="br.com.goread.android"
-          className="br.com.goread.android.SplashActivity"
+          className="br.com.goread.android.MainActivity"
           postPosition="true"/>
         <!--Vivo Meditação-->
         <favorite
@@ -64,7 +64,7 @@ limitations under the License.
         <favorite
           screen="7"
           packageName="br.com.gold360.skeelo"
-          className="br.com.gold360.goldebooks.ui.SplashActivity"
+          className="br.com.gold360.goldebooks.SplashActivity"
           postPosition="true"/>
         <!--Vivae-->
         <favorite
@@ -147,7 +147,8 @@ limitations under the License.
     <!--Google-->
     <folder
       screen="0"
-      title="Google">
+      title="Google"
+      postPosition="true">
         <!--Google-->
         <favorite
           screen="0"

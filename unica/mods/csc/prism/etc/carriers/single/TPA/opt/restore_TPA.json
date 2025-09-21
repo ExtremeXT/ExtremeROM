@@ -1,7 +1,7 @@
 {
     "modelName": "SM-S938B",
     "oemKey": "TPA",
-    "version": "1005",
+    "version": "1009",
     "app": [
         {
             "appId": "com.sec.android.app.popupcalculator",
@@ -54,11 +54,6 @@
             "supportSubUser": "true"
         },
         {
-            "appId": "com.samsung.android.game.gamehome",
-            "appName": "Game Launcher",
-            "supportSubUser": "true"
-        },
-        {
             "appId": "com.samsung.android.voc",
             "appName": "Samsung Members",
             "supportSubUser": "true"
@@ -99,28 +94,23 @@
             "supportSubUser": "true"
         },
         {
-            "appId": "com.sec.penup",
-            "appName": "PENUP",
-            "supportSubUser": "true"
-        },
-        {
             "appId": "com.samsung.android.bixby.ondevice.enus",
             "appName": "Samsung on-device Resource English (United states)",
             "supportSubUser": "true"
         },
         {
-            "appId": "com.samsung.SMT.lang_en_us_l03",
-            "appName": "Samsung TTS US English Voice 1",
-            "supportSubUser": "true"
-        },
-        {
-            "appId": "com.samsung.android.bixby.ondevice.esus",
-            "appName": "Samsung on-device Resource Español (Estados Unidos)",
+            "appId": "com.sec.penup",
+            "appName": "PENUP",
             "supportSubUser": "true"
         },
         {
             "appId": "com.samsung.SMT.lang_es_us_l01",
             "appName": "Samsung TTS US Español Voz 1",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.bixby.ondevice.esus",
+            "appName": "Samsung on-device Resource Español (Estados Unidos)",
             "supportSubUser": "true"
         },
         {
@@ -131,6 +121,11 @@
         {
             "appId": "com.samsung.android.galaxy",
             "appName": "Galaxy Shop",
+            "supportSubUser": "true"
+        },
+        {
+            "appId": "com.samsung.android.game.gamehome",
+            "appName": "Gaming Hub",
             "supportSubUser": "true"
         }
     ]

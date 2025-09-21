@@ -1,5 +1,3 @@
-4
-DigitalKey.apk
+2
 MdecService.apk
-SamsungCarKeyFw.apk
 SamsungPayStub.apk

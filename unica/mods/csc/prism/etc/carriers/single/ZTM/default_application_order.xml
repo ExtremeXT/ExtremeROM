@@ -30,20 +30,14 @@ limitations under the License.
           packageName="br.com.tim.timprotectbackup"
           className="br.com.tim.timprotectbackup.MainActivity"
           postPosition="true"/>
-        <!--Estadio TNT Sports-->
-        <favorite
-          screen="2"
-          packageName="com.ideastek.esporteinterativo3"
-          className="com.ideastek.esporteinterativo3.activity.SplashScreenActivity"
-          postPosition="true"/>
         <!--Instagram-->
         <favorite
-          screen="3"
+          screen="2"
           packageName="com.instagram.android"
           className="com.instagram.android.activity.MainTabActivity"/>
         <!--Messenger-->
         <favorite
-          screen="4"
+          screen="3"
           packageName="com.facebook.orca"
           className="com.facebook.orca.auth.StartScreenActivity"/>
     </folder>
@@ -115,7 +109,8 @@ limitations under the License.
     <!--Google-->
     <folder
       screen="0"
-      title="Google">
+      title="Google"
+      postPosition="true">
         <!--Google-->
         <favorite
           screen="0"
@@ -191,7 +186,7 @@ limitations under the License.
     <favorite
       screen="0"
       packageName="br.com.timbrasil.meutim"
-      className="com.accenture.meutim.activities.SplashScreenActivity"
+      className="io.flutter.embedding.android.FlutterFragmentActivity"
       postPosition="true"/>
     <!--Samsung Pay-->
     <favorite
