@@ -1,6 +1,7 @@
 # ExtremeROM Nexus changelog
 
 # 2.6.2
+- Fixed FOD animation for SideFP
 - Fixed camera filters
 - Updated Exy2100/Exy2200 bootloader versions
 - Updated KernelSU
