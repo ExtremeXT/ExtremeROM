@@ -19,7 +19,7 @@ if [[ "$TARGET_NFC_CHIP_VENDOR" == "NXP" && "$SOURCE_NFC_CHIP_VENDOR" == "SLSI" 
     "
     for blob in $BLOBS_LIST
     do
-        ADD_TO_WORK_DIR "pa3qxxx" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0"
+        ADD_TO_WORK_DIR "pa3qzcx" "system" "$blob" 0 0 644 "u:object_r:system_lib_file:s0"
     done
 
     ln -sf "/system/lib64/libnfc_nxpsn_jni.so" "$WORK_DIR/system/system/priv-app/NfcNci/lib/arm64/libnfc_nxpsn_jni.so"
